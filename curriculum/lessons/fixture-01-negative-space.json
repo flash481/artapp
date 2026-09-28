@@ -1,0 +1,55 @@
+{
+  "id": "fixture-01-negative-space",
+  "title": "Look at the gaps",
+  "durationMinutes": 20,
+  "difficulty": "beginner",
+  "medium": ["graphite"],
+  "materials": ["Sketchbook", "HB pencil", "Eraser"],
+  "lessonType": "observation-practice",
+  "fundamentals": {
+    "primary": ["negative space", "shape"],
+    "secondary": ["observation", "line"]
+  },
+  "concepts": [
+    { "id": "negative-space", "name": "Negative space", "stage": "introduced" },
+    { "id": "shape", "name": "Shape", "stage": "introduced" }
+  ],
+  "prerequisites": [],
+  "objective": "Notice and draw the spaces around two simple objects, as well as the objects themselves.",
+  "warmup": {
+    "durationMinutes": 3,
+    "instructions": "Draw four loose rectangles. In each one, sketch a different opening or gap you can see around your pencil case, hand, or another nearby object. Keep your pencil moving lightly."
+  },
+  "explanation": [
+    "The empty spaces between and around objects have shapes too. Looking at those shapes can make it easier to judge the edges of the objects.",
+    "For this short study, compare the outline of each object with the little windows of empty space around it. Keep the drawing simple and light."
+  ],
+  "visuals": [
+    {
+      "src": "assets/diagrams/negative-space.svg",
+      "alt": "Two simple desk objects with pale blue negative spaces marked between and around them.",
+      "caption": "The blue areas are shapes you can observe and compare.",
+      "provenance": {
+        "kind": "original-diagram",
+        "creator": "Personal art course fixture",
+        "license": "project-created",
+        "notes": "Deterministic teaching diagram made for app testing."
+      }
+    }
+  ],
+  "exercise": {
+    "durationMinutes": 12,
+    "instructions": "Place a mug beside a book or another pair of simple objects. Spend a minute looking before drawing. Make one light contour study, then lightly shade only the three largest gaps around and between the objects. Compare the gap shapes with the object edges as you work.",
+    "source": "from-life",
+    "subjectType": "household objects"
+  },
+  "artistReferences": [],
+  "bookReferences": [],
+  "reflection": [
+    "Which empty shape was easiest to compare with its neighbours?",
+    "Did looking at a gap change one of the object edges you first drew?"
+  ],
+  "extension": "Turn the sketch upside down and check whether the spaces still read clearly.",
+  "status": "development-fixture",
+  "label": "DEVELOPMENT FIXTURE — NOT FINAL CURRICULUM"
+}

@@ -1,0 +1,55 @@
+{
+  "id": "fixture-03-three-values",
+  "title": "Group light and shadow",
+  "durationMinutes": 25,
+  "difficulty": "beginner",
+  "medium": ["graphite"],
+  "materials": ["Sketchbook", "HB pencil", "Soft pencil such as 2B"],
+  "lessonType": "observation-practice",
+  "fundamentals": {
+    "primary": ["value", "light and shadow"],
+    "secondary": ["shape", "edges"]
+  },
+  "concepts": [
+    { "id": "value", "name": "Value", "stage": "introduced" },
+    { "id": "shape", "name": "Shape", "stage": "revisited" }
+  ],
+  "prerequisites": ["fixture-01-negative-space"],
+  "objective": "Simplify a small observed subject into light, middle, and dark value groups.",
+  "warmup": {
+    "durationMinutes": 5,
+    "instructions": "Make a row of three small boxes. Leave one white, shade one lightly, and shade one darkly. Keep the difference between each box clear."
+  },
+  "explanation": [
+    "Value means how light or dark an area appears. A first study is easier to read when several small variations are grouped into a few broad families.",
+    "Look for the light family, the shadow family, and one middle group. Preserve the paper for the brightest area instead of trying to make every tone equally smooth."
+  ],
+  "visuals": [
+    {
+      "src": "assets/diagrams/three-value-groups.svg",
+      "alt": "A round fruit form simplified into a light face, a middle band, and a darker shadow side with a cast shadow.",
+      "caption": "A few clear groups can describe the form before small details are added.",
+      "provenance": {
+        "kind": "original-diagram",
+        "creator": "Personal art course fixture",
+        "license": "project-created",
+        "notes": "Deterministic teaching diagram made for app testing."
+      }
+    }
+  ],
+  "exercise": {
+    "durationMinutes": 15,
+    "instructions": "Place one piece of fruit under a desk lamp or beside a window. Draw its outer shape and the cast shadow lightly. Squint once to simplify what you see, then shade only three broad value groups. Keep the brightest patch as paper and make the shadow family noticeably darker.",
+    "source": "from-life",
+    "subjectType": "single piece of fruit"
+  },
+  "artistReferences": [],
+  "bookReferences": [],
+  "reflection": [
+    "Can you tell which side faces the light without adding outlines?",
+    "Are the light and shadow groups distinct enough to read from a few steps away?"
+  ],
+  "extension": "Add one smaller shadow shape only if the main three groups already read clearly.",
+  "status": "development-fixture",
+  "label": "DEVELOPMENT FIXTURE — NOT FINAL CURRICULUM"
+}

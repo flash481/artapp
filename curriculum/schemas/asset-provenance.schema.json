@@ -1,0 +1,71 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://art-course.local/schemas/asset-provenance.schema.json",
+  "title": "Art course asset provenance",
+  "description": "Provenance, rights basis, and distribution record for an instructional visual asset.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "asset_id", "file", "category", "alt_text", "provenance", "distribution"],
+  "properties": {
+    "schema_version": { "const": "1.0" },
+    "asset_id": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
+    "file": { "type": "string", "minLength": 1, "description": "Repository-relative path; source files must not point into deployable public assets." },
+    "category": {
+      "type": "string",
+      "enum": ["diagram", "generated_reference", "generated_example", "public_domain_master", "selected_source_illustration"]
+    },
+    "title": { "type": "string" },
+    "alt_text": { "type": "string", "minLength": 1 },
+    "caption": { "type": "string" },
+    "created_on": { "type": "string", "format": "date" },
+    "provenance": { "$ref": "#/$defs/provenance" },
+    "distribution": { "type": "string", "enum": ["personal_only", "deployable_after_review"] },
+    "review_notes": { "type": "string" }
+  },
+  "$defs": {
+    "provenance": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["origin", "rights_basis"],
+      "properties": {
+        "origin": { "type": "string", "enum": ["original", "generated", "public_domain_work", "source_book", "other"] },
+        "creator_or_model": { "type": "string" },
+        "work_title": { "type": "string" },
+        "creation_date_or_period": { "type": "string" },
+        "collection_or_publisher": { "type": "string" },
+        "source_url": { "type": "string", "format": "uri" },
+        "accessed_on": { "type": "string", "format": "date" },
+        "book_id": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
+        "page_or_figure": { "type": "string" },
+        "rights_basis": { "type": "string", "enum": ["original", "generated", "public_domain_verified", "licensed", "permission", "personal_study_only", "unknown"] },
+        "license_or_attribution": { "type": "string" },
+        "public_domain_rationale": { "type": "string" }
+      }
+    }
+  },
+  "allOf": [
+    {
+      "if": { "properties": { "category": { "const": "selected_source_illustration" } }, "required": ["category"] },
+      "then": {
+        "properties": {
+          "distribution": { "const": "personal_only" },
+          "provenance": {
+            "required": ["book_id", "page_or_figure"],
+            "properties": { "origin": { "const": "source_book" } }
+          }
+        }
+      }
+    },
+    {
+      "if": { "properties": { "category": { "const": "public_domain_master" } }, "required": ["category"] },
+      "then": {
+        "properties": {
+          "provenance": {
+            "required": ["work_title", "source_url", "rights_basis", "public_domain_rationale"],
+            "properties": { "origin": { "const": "public_domain_work" }, "rights_basis": { "const": "public_domain_verified" } }
+          }
+        }
+      }
+    }
+  ]
+}

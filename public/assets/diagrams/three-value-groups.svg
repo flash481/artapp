@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 360" role="img" aria-labelledby="title desc">
+  <title id="title">Three value groups on a round fruit</title>
+  <desc id="desc">A simplified apple with a light side, middle tone, dark shadow side, and cast shadow.</desc>
+  <rect width="680" height="360" rx="20" fill="#fbf8f0"/>
+  <ellipse cx="350" cy="276" rx="181" ry="25" fill="#d9d2c5"/>
+  <path d="M351 101c-34-31-58-22-58-22 10 22 27 32 58 32 30 0 49-10 59-32 0 0-24-9-59 22z" fill="#697765"/>
+  <path d="M350 108c-93-62-184 7-168 102 10 62 62 77 168 67 106 10 157-5 168-67 16-95-75-164-168-102z" fill="#e9ddc5" stroke="#38463f" stroke-width="4"/>
+  <path d="M350 110c-31-16-68-20-100-9-55 19-82 66-69 109 11 35 51 60 169 67z" fill="#c19b68"/>
+  <path d="M350 110c31-16 68-20 100-9 55 19 82 66 69 109-11 35-51 60-169 67z" fill="#665748"/>
+  <path d="M350 110v167" stroke="#38463f" stroke-width="2" opacity=".35"/>
+  <circle cx="238" cy="151" r="13" fill="#fbf8f0" opacity=".85"/>
+  <text x="121" y="144" fill="#59645b" font-family="system-ui,sans-serif" font-size="17" text-anchor="end">light</text>
+  <text x="350" y="307" fill="#59645b" font-family="system-ui,sans-serif" font-size="17" text-anchor="middle">middle</text>
+  <text x="543" y="144" fill="#59645b" font-family="system-ui,sans-serif" font-size="17">shadow</text>
+  <text x="340" y="340" fill="#59645b" font-family="system-ui,sans-serif" font-size="18" text-anchor="middle">Start with broad value families</text>
+</svg>

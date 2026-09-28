@@ -1,0 +1,48 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://art-course.local/schemas/coverage-audit.schema.json",
+  "title": "Curriculum fundamental coverage audit",
+  "description": "Generated counts of lesson appearances per fundamental and spiral stage, with lesson IDs retained for review.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "generated_on", "curriculum_version", "fundamentals"],
+  "properties": {
+    "schema_version": { "const": "1.0" },
+    "generated_on": { "type": "string", "format": "date-time" },
+    "curriculum_version": { "type": "string", "minLength": 1 },
+    "fundamentals": { "type": "array", "items": { "$ref": "#/$defs/fundamentalCoverage" } },
+    "audit_notes": { "type": "array", "items": { "type": "string" } }
+  },
+  "$defs": {
+    "stageCoverage": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["count", "lesson_ids"],
+      "properties": {
+        "count": { "type": "integer", "minimum": 0 },
+        "lesson_ids": { "type": "array", "uniqueItems": true, "items": { "type": "string" } }
+      }
+    },
+    "fundamentalCoverage": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["fundamental_id", "stages", "missing_prerequisites"],
+      "properties": {
+        "fundamental_id": { "type": "string" },
+        "stages": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["introduced", "practised", "revisited", "combined", "independent"],
+          "properties": {
+            "introduced": { "$ref": "#/$defs/stageCoverage" },
+            "practised": { "$ref": "#/$defs/stageCoverage" },
+            "revisited": { "$ref": "#/$defs/stageCoverage" },
+            "combined": { "$ref": "#/$defs/stageCoverage" },
+            "independent": { "$ref": "#/$defs/stageCoverage" }
+          }
+        },
+        "missing_prerequisites": { "type": "array", "items": { "type": "string" } }
+      }
+    }
+  }
+}

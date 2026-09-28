@@ -1,0 +1,55 @@
+{
+  "id": "fixture-02-measure-by-comparison",
+  "title": "Compare before you commit",
+  "durationMinutes": 20,
+  "difficulty": "beginner",
+  "medium": ["graphite"],
+  "materials": ["Sketchbook", "HB pencil", "Eraser"],
+  "lessonType": "observation-practice",
+  "fundamentals": {
+    "primary": ["comparative measurement", "proportion"],
+    "secondary": ["shape", "observation"]
+  },
+  "concepts": [
+    { "id": "comparative-measurement", "name": "Comparative measurement", "stage": "introduced" },
+    { "id": "negative-space", "name": "Negative space", "stage": "practised" }
+  ],
+  "prerequisites": ["fixture-01-negative-space"],
+  "objective": "Use one visible width as a simple unit for comparing the proportions of an object.",
+  "warmup": {
+    "durationMinutes": 4,
+    "instructions": "Draw three pairs of short lines. In each pair, make one line about twice as long as the other, then check by sight rather than counting marks."
+  },
+  "explanation": [
+    "A proportion describes how one part compares with another. Choosing a small width as a temporary unit gives your eye a steady question to answer: how many of these widths fit across the next part?",
+    "The pencil can help you compare directions and lengths, but keep it at arm's length and use the same viewing distance each time."
+  ],
+  "visuals": [
+    {
+      "src": "assets/diagrams/comparative-measurement.svg",
+      "alt": "A simple mug outline with a vertical pencil-width unit and horizontal comparison marks.",
+      "caption": "Pick one part, then compare the other parts against it.",
+      "provenance": {
+        "kind": "original-diagram",
+        "creator": "Personal art course fixture",
+        "license": "project-created",
+        "notes": "Deterministic teaching diagram made for app testing."
+      }
+    }
+  ],
+  "exercise": {
+    "durationMinutes": 12,
+    "instructions": "Choose a mug, jar, or small box. Before drawing, decide which visible width will be your unit. Lightly mark its height, overall width, and one important opening or handle using comparisons such as 'a little less than two units'. Draw one construction sketch, then check the largest surrounding gaps.",
+    "source": "from-life",
+    "subjectType": "single household object"
+  },
+  "artistReferences": [],
+  "bookReferences": [],
+  "reflection": [
+    "Which comparison helped you most: overall width, height, or a smaller feature?",
+    "Where would another measurement check have prevented a guess?"
+  ],
+  "extension": "Repeat the sketch from a different viewing angle and choose a new comparison unit.",
+  "status": "development-fixture",
+  "label": "DEVELOPMENT FIXTURE — NOT FINAL CURRICULUM"
+}

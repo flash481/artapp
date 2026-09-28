@@ -1,0 +1,34 @@
+node_modules/
+dist/
+coverage/
+.vite/
+.DS_Store
+Thumbs.db
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+
+# Keep source books and working material private and out of version control.
+sources/books/**
+sources/extracted/**
+sources/analyses/**
+sources/inventories/**
+sources/research/**
+sources/notes/**
+sources/scratch/**
+!sources/books/.gitkeep
+!sources/extracted/.gitkeep
+!sources/analyses/.gitkeep
+!sources/inventories/.gitkeep
+!sources/research/.gitkeep
+!sources/notes/.gitkeep
+
+# Never check in book files, scans, or raw extraction formats from anywhere.
+*.pdf
+*.epub
+*.mobi
+*.djvu
+*.ocr.txt
+*.raw.txt

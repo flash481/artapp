@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 360" role="img" aria-labelledby="title desc">
+  <title id="title">Notice the negative spaces</title>
+  <desc id="desc">A mug and a book with blue empty spaces shown between and around the objects.</desc>
+  <rect width="680" height="360" rx="20" fill="#fbf8f0"/>
+  <path d="M72 255h516" fill="none" stroke="#8b8172" stroke-width="3"/>
+  <path d="M132 106h170v149H132z" fill="#f4f0e6" stroke="#38463f" stroke-width="5"/>
+  <path d="M302 137h65c30 0 30 74 0 74h-65" fill="none" stroke="#38463f" stroke-width="5"/>
+  <path d="M417 112l137 17v126H417z" fill="#eee5d5" stroke="#38463f" stroke-width="5"/>
+  <path d="M302 118h115v119H302zM88 106h44v149H88zM367 137h50v74h-50zM554 129h22v126h-22z" fill="#cfe2e3" opacity=".85"/>
+  <path d="M315 178h89" stroke="#527b7c" stroke-width="3" stroke-dasharray="7 7"/>
+  <text x="330" y="164" fill="#385f61" font-family="system-ui,sans-serif" font-size="18" text-anchor="middle">gap shapes</text>
+  <text x="340" y="316" fill="#59645b" font-family="system-ui,sans-serif" font-size="20" text-anchor="middle">Observe the spaces as carefully as the objects</text>
+</svg>

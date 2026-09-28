@@ -1,0 +1,99 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://art-course.local/schemas/curriculum.schema.json",
+  "title": "Art curriculum metadata",
+  "description": "Course metadata, canonical fundamentals and concept tags, and a lesson index for future coverage audits.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "course", "fundamentals", "concept_tags", "lesson_map"],
+  "properties": {
+    "schema_version": { "const": "1.0" },
+    "course": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "title", "description", "sequence_policy"],
+      "properties": {
+        "id": { "$ref": "#/$defs/id" },
+        "title": { "type": "string", "minLength": 1 },
+        "description": { "type": "string", "minLength": 1 },
+        "sequence_policy": { "type": "string", "enum": ["spiral"] },
+        "target_lesson_count": { "type": "integer", "minimum": 1 },
+        "materials_progression": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "fundamentals": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/fundamental" }
+    },
+    "concept_tags": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/conceptTag" }
+    },
+    "lesson_map": {
+      "type": "array",
+      "description": "Index lesson IDs and their learning metadata; detailed content stays in independent lesson files.",
+      "items": { "$ref": "#/$defs/lessonMapEntry" }
+    }
+  },
+  "$defs": {
+    "id": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$", "minLength": 1 },
+    "fundamental": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "name", "description", "domain", "prerequisites", "concept_tags"],
+      "properties": {
+        "id": { "$ref": "#/$defs/id" },
+        "name": { "type": "string", "minLength": 1 },
+        "description": { "type": "string", "minLength": 1 },
+        "domain": { "type": "string", "minLength": 1 },
+        "prerequisites": { "type": "array", "uniqueItems": true, "items": { "$ref": "#/$defs/id" } },
+        "concept_tags": { "type": "array", "uniqueItems": true, "items": { "$ref": "#/$defs/id" } },
+        "source_book_ids": { "type": "array", "uniqueItems": true, "items": { "$ref": "#/$defs/id" } }
+      }
+    },
+    "conceptTag": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "label", "description", "fundamental_id"],
+      "properties": {
+        "id": { "$ref": "#/$defs/id" },
+        "label": { "type": "string", "minLength": 1 },
+        "description": { "type": "string", "minLength": 1 },
+        "fundamental_id": { "$ref": "#/$defs/id" },
+        "parent_id": { "$ref": "#/$defs/id" }
+      }
+    },
+    "lessonMapEntry": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["lesson_id", "status", "fundamentals", "concepts", "prerequisites", "subject_types"],
+      "properties": {
+        "lesson_id": { "$ref": "#/$defs/id" },
+        "status": { "type": "string", "enum": ["development-fixture", "planned", "draft", "reviewed", "ready"] },
+        "sequence_hint": { "type": "integer", "minimum": 1 },
+        "fundamentals": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["primary", "secondary"],
+          "properties": {
+            "primary": { "type": "array", "items": { "$ref": "#/$defs/id" } },
+            "secondary": { "type": "array", "items": { "$ref": "#/$defs/id" } }
+          }
+        },
+        "concepts": { "type": "array", "items": { "$ref": "#/$defs/lessonConcept" } },
+        "prerequisites": { "type": "array", "uniqueItems": true, "items": { "$ref": "#/$defs/id" } },
+        "subject_types": { "type": "array", "uniqueItems": true, "items": { "type": "string" } }
+      }
+    },
+    "lessonConcept": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "name", "stage"],
+      "properties": {
+        "id": { "$ref": "#/$defs/id" },
+        "name": { "type": "string", "minLength": 1 },
+        "stage": { "type": "string", "enum": ["introduced", "practised", "revisited", "combined", "independent"] }
+      }
+    }
+  }
+}

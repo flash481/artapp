@@ -1,0 +1,154 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://art-course.local/schemas/book-analysis.schema.json",
+  "title": "Private art book analysis",
+  "description": "A concise, source-located, paraphrased analysis of one book for later synthesis. Store privately under sources/analyses/.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "book",
+    "teaching_philosophy",
+    "concepts",
+    "distinctive_methods",
+    "overlaps",
+    "useful_exercises",
+    "useful_illustrations",
+    "questionable_or_outdated_material",
+    "potential_course_applications"
+  ],
+  "properties": {
+    "schema_version": { "const": "1.0" },
+    "book": { "$ref": "#/$defs/bookMetadata" },
+    "teaching_philosophy": { "type": "string", "minLength": 1 },
+    "concepts": { "type": "array", "items": { "$ref": "#/$defs/concept" } },
+    "distinctive_methods": { "type": "array", "items": { "$ref": "#/$defs/method" } },
+    "overlaps": { "type": "array", "items": { "$ref": "#/$defs/overlap" } },
+    "useful_exercises": { "type": "array", "items": { "$ref": "#/$defs/exercise" } },
+    "useful_illustrations": { "type": "array", "items": { "$ref": "#/$defs/illustration" } },
+    "questionable_or_outdated_material": { "type": "array", "items": { "$ref": "#/$defs/criticalNote" } },
+    "potential_course_applications": { "type": "array", "items": { "$ref": "#/$defs/application" } },
+    "analysis_notes": { "type": "string" }
+  },
+  "$defs": {
+    "bookMetadata": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["book_id", "title", "author", "format"],
+      "properties": {
+        "book_id": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
+        "title": { "type": "string", "minLength": 1 },
+        "author": { "type": "string", "minLength": 1 },
+        "edition": { "type": "string" },
+        "year": { "type": ["integer", "string"] },
+        "publisher": { "type": "string" },
+        "isbn": { "type": "string" },
+        "format": { "type": "string", "enum": ["pdf", "epub"] },
+        "page_count": { "type": "integer", "minimum": 1 },
+        "is_scan": { "type": "boolean" },
+        "ocr_used": { "type": "boolean" }
+      }
+    },
+    "locator": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["location"],
+      "properties": {
+        "location": { "type": "string", "minLength": 1, "description": "Page, chapter, figure, or other exact source location." },
+        "page_start": { "type": "integer", "minimum": 1 },
+        "page_end": { "type": "integer", "minimum": 1 },
+        "chapter": { "type": "string" },
+        "figure": { "type": "string" }
+      }
+    },
+    "evidence": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["summary", "locators"],
+      "properties": {
+        "summary": { "type": "string", "minLength": 1, "description": "Paraphrased summary; do not copy lengthy source passages." },
+        "locators": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/locator" } }
+      }
+    },
+    "concept": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["concept", "evidence", "prerequisites", "importance", "exercises", "useful_illustrations", "likely_difficulty", "curriculum_relevance"],
+      "properties": {
+        "concept": { "type": "string", "minLength": 1 },
+        "evidence": { "$ref": "#/$defs/evidence" },
+        "prerequisites": { "type": "array", "items": { "type": "string" } },
+        "importance": { "type": "string", "minLength": 1 },
+        "exercises": { "type": "array", "items": { "$ref": "#/$defs/exercise" } },
+        "useful_illustrations": { "type": "array", "items": { "$ref": "#/$defs/illustration" } },
+        "likely_difficulty": { "type": "string", "enum": ["introductory", "moderate", "advanced", "varies", "unknown"] },
+        "curriculum_relevance": { "type": "string", "minLength": 1 }
+      }
+    },
+    "method": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["name", "evidence"],
+      "properties": {
+        "name": { "type": "string", "minLength": 1 },
+        "evidence": { "$ref": "#/$defs/evidence" },
+        "why_distinctive": { "type": "string" }
+      }
+    },
+    "overlap": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["topic", "evidence"],
+      "properties": {
+        "topic": { "type": "string", "minLength": 1 },
+        "evidence": { "$ref": "#/$defs/evidence" },
+        "compare_with_book_ids": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "exercise": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["summary", "evidence"],
+      "properties": {
+        "summary": { "type": "string", "minLength": 1, "description": "Paraphrase and analyse the exercise; do not transcribe full instructions." },
+        "evidence": { "$ref": "#/$defs/evidence" },
+        "materials": { "type": "array", "items": { "type": "string" } },
+        "concept_tags": { "type": "array", "items": { "type": "string" } },
+        "adaptation_ideas": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "illustration": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["description", "evidence", "potential_use", "handling"],
+      "properties": {
+        "description": { "type": "string", "minLength": 1 },
+        "evidence": { "$ref": "#/$defs/evidence" },
+        "potential_use": { "type": "string", "minLength": 1 },
+        "handling": { "type": "string", "enum": ["reference_only", "private_study_candidate", "replacement_diagram_preferred", "public_domain_check_required"] }
+      }
+    },
+    "criticalNote": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["issue", "evidence"],
+      "properties": {
+        "issue": { "type": "string", "minLength": 1 },
+        "evidence": { "$ref": "#/$defs/evidence" },
+        "assessment": { "type": "string" },
+        "needs_verification": { "type": "boolean" }
+      }
+    },
+    "application": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["idea", "evidence"],
+      "properties": {
+        "idea": { "type": "string", "minLength": 1 },
+        "evidence": { "$ref": "#/$defs/evidence" },
+        "candidate_fundamentals": { "type": "array", "items": { "type": "string" } },
+        "candidate_subjects": { "type": "array", "items": { "type": "string" } }
+      }
+    }
+  }
+}
