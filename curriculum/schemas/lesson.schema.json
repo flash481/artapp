@@ -1,8 +1,8 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://art-course.local/schemas/lesson.schema.json",
+  "$id": "https://art-course.local/schemas/lesson.v2.schema.json",
   "title": "Art course lesson record",
-  "description": "Phase 1 app data contract. The status and label are deliberately fixed to make the three development fixtures unmistakable; expand the lifecycle contract before Phase 2 authoring.",
+  "description": "Version 2 lesson data contract. Finished lessons and the three explicitly labelled development fixtures share the rendering fields.",
   "type": "object",
   "additionalProperties": false,
   "required": [
@@ -48,9 +48,19 @@
     "reflection": { "type": "array", "minItems": 1, "items": { "type": "string", "minLength": 1 } },
     "extension": { "type": "string" },
     "scaffoldingLevel": { "type": "string" },
-    "status": { "const": "development-fixture" },
-    "label": { "const": "DEVELOPMENT FIXTURE — NOT FINAL CURRICULUM" }
+    "status": { "enum": ["development-fixture", "published"] },
+    "label": { "type": "string" }
   },
+  "allOf": [
+    {
+      "if": { "properties": { "status": { "const": "development-fixture" } }, "required": ["status"] },
+      "then": { "properties": { "label": { "const": "DEVELOPMENT FIXTURE — NOT FINAL CURRICULUM" } } }
+    },
+    {
+      "if": { "properties": { "status": { "const": "published" } }, "required": ["status"] },
+      "then": { "properties": { "label": { "const": "" } } }
+    }
+  ],
   "$defs": {
     "id": {
       "type": "string",

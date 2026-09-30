@@ -45,16 +45,20 @@ export interface Lesson {
   reflection: string[];
   extension?: string;
   scaffoldingLevel?: string;
-  status: "development-fixture";
-  label: "DEVELOPMENT FIXTURE — NOT FINAL CURRICULUM";
+  status: "development-fixture" | "published";
+  label: string;
 }
 
-const lessonModules = import.meta.glob<Lesson>("/curriculum/lessons/*.json", {
+const lessonModules = import.meta.glob<Lesson>("/curriculum/lessons/lesson-*.json", {
   eager: true,
   import: "default",
 });
 
-export const lessons = Object.values(lessonModules).sort((a, b) => a.id.localeCompare(b.id));
+export const lessons = Object.values(lessonModules)
+  .filter((lesson) => lesson.status === "published")
+  .sort((a, b) => a.id.localeCompare(b.id));
+
+export const plannedLessonCount = 72;
 
 export function lessonAssetUrl(src: string): string {
   if (/^https?:\/\//i.test(src)) return src;

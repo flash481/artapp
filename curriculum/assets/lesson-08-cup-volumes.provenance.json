@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0",
+  "asset_id": "lesson-08-cup-volumes",
+  "file": "public/assets/diagrams/lesson-08-cup-volumes.svg",
+  "category": "diagram",
+  "title": "Build a cup from simple volumes",
+  "alt_text": "A cylindrical cup construction with a top rim ellipse, a vertical center axis, a lightly shown bottom ellipse, and a separate loop handle attached to the body.",
+  "caption": "Use simple volumes as a first guess, then check every shape against the cup.",
+  "created_on": "2026-09-30",
+  "provenance": {
+    "origin": "original",
+    "creator_or_model": "Codex; deterministic SVG paths authored for this course",
+    "work_title": "Build a cup from simple volumes",
+    "creation_date_or_period": "2026-09-30",
+    "rights_basis": "original",
+    "license_or_attribution": "Original course asset. No source-book illustration was used."
+  },
+  "distribution": "deployable_after_review",
+  "review_notes": "Narrow portrait SVG with large labels for phone viewing; review the rendered asset in the app before release."
+}

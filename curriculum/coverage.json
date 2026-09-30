@@ -1,0 +1,978 @@
+{
+  "schema_version": "1.0",
+  "generated_on": "2026-09-30T14:52:34.820Z",
+  "curriculum_version": "2b-1",
+  "fundamentals": [
+    {
+      "fundamental_id": "observation",
+      "stages": {
+        "introduced": {
+          "count": 2,
+          "lesson_ids": [
+            "lesson-01",
+            "lesson-03"
+          ]
+        },
+        "practised": {
+          "count": 2,
+          "lesson_ids": [
+            "lesson-02",
+            "lesson-04"
+          ]
+        },
+        "revisited": {
+          "count": 4,
+          "lesson_ids": [
+            "lesson-03",
+            "lesson-06",
+            "lesson-13",
+            "lesson-16"
+          ]
+        },
+        "combined": {
+          "count": 5,
+          "lesson_ids": [
+            "lesson-24",
+            "lesson-27",
+            "lesson-37",
+            "lesson-40",
+            "lesson-47"
+          ]
+        },
+        "independent": {
+          "count": 1,
+          "lesson_ids": [
+            "lesson-62"
+          ]
+        }
+      },
+      "missing_prerequisites": []
+    },
+    {
+      "fundamental_id": "line-shape",
+      "stages": {
+        "introduced": {
+          "count": 2,
+          "lesson_ids": [
+            "lesson-02",
+            "lesson-05"
+          ]
+        },
+        "practised": {
+          "count": 2,
+          "lesson_ids": [
+            "lesson-05",
+            "lesson-19"
+          ]
+        },
+        "revisited": {
+          "count": 3,
+          "lesson_ids": [
+            "lesson-10",
+            "lesson-15",
+            "lesson-33"
+          ]
+        },
+        "combined": {
+          "count": 5,
+          "lesson_ids": [
+            "lesson-27",
+            "lesson-33",
+            "lesson-49",
+            "lesson-54",
+            "lesson-56"
+          ]
+        },
+        "independent": {
+          "count": 4,
+          "lesson_ids": [
+            "lesson-63",
+            "lesson-65",
+            "lesson-67",
+            "lesson-70"
+          ]
+        }
+      },
+      "missing_prerequisites": []
+    },
+    {
+      "fundamental_id": "measurement",
+      "stages": {
+        "introduced": {
+          "count": 1,
+          "lesson_ids": [
+            "lesson-04"
+          ]
+        },
+        "practised": {
+          "count": 1,
+          "lesson_ids": [
+            "lesson-09"
+          ]
+        },
+        "revisited": {
+          "count": 2,
+          "lesson_ids": [
+            "lesson-13",
+            "lesson-17"
+          ]
+        },
+        "combined": {
+          "count": 4,
+          "lesson_ids": [
+            "lesson-24",
+            "lesson-39",
+            "lesson-48",
+            "lesson-59"
+          ]
+        },
+        "independent": {
+          "count": 2,
+          "lesson_ids": [
+            "lesson-62",
+            "lesson-69"
+          ]
+        }
+      },
+      "missing_prerequisites": []
+    },
+    {
+      "fundamental_id": "form",
+      "stages": {
+        "introduced": {
+          "count": 3,
+          "lesson_ids": [
+            "lesson-08",
+            "lesson-38",
+            "lesson-41"
+          ]
+        },
+        "practised": {
+          "count": 3,
+          "lesson_ids": [
+            "lesson-10",
+            "lesson-39",
+            "lesson-50"
+          ]
+        },
+        "revisited": {
+          "count": 8,
+          "lesson_ids": [
+            "lesson-12",
+            "lesson-14",
+            "lesson-15",
+            "lesson-16",
+            "lesson-18",
+            "lesson-19",
+            "lesson-22",
+            "lesson-40"
+          ]
+        },
+        "combined": {
+          "count": 9,
+          "lesson_ids": [
+            "lesson-25",
+            "lesson-31",
+            "lesson-34",
+            "lesson-38",
+            "lesson-45",
+            "lesson-47",
+            "lesson-48",
+            "lesson-58",
+            "lesson-59"
+          ]
+        },
+        "independent": {
+          "count": 3,
+          "lesson_ids": [
+            "lesson-63",
+            "lesson-69",
+            "lesson-70"
+          ]
+        }
+      },
+      "missing_prerequisites": []
+    },
+    {
+      "fundamental_id": "space",
+      "stages": {
+        "introduced": {
+          "count": 3,
+          "lesson_ids": [
+            "lesson-08",
+            "lesson-11",
+            "lesson-26"
+          ]
+        },
+        "practised": {
+          "count": 3,
+          "lesson_ids": [
+            "lesson-09",
+            "lesson-17",
+            "lesson-35"
+          ]
+        },
+        "revisited": {
+          "count": 4,
+          "lesson_ids": [
+            "lesson-18",
+            "lesson-22",
+            "lesson-31",
+            "lesson-36"
+          ]
+        },
+        "combined": {
+          "count": 8,
+          "lesson_ids": [
+            "lesson-28",
+            "lesson-32",
+            "lesson-43",
+            "lesson-44",
+            "lesson-46",
+            "lesson-51",
+            "lesson-56",
+            "lesson-60"
+          ]
+        },
+        "independent": {
+          "count": 3,
+          "lesson_ids": [
+            "lesson-63",
+            "lesson-66",
+            "lesson-67"
+          ]
+        }
+      },
+      "missing_prerequisites": []
+    },
+    {
+      "fundamental_id": "value",
+      "stages": {
+        "introduced": {
+          "count": 1,
+          "lesson_ids": [
+            "lesson-07"
+          ]
+        },
+        "practised": {
+          "count": 1,
+          "lesson_ids": [
+            "lesson-14"
+          ]
+        },
+        "revisited": {
+          "count": 2,
+          "lesson_ids": [
+            "lesson-20",
+            "lesson-21"
+          ]
+        },
+        "combined": {
+          "count": 9,
+          "lesson_ids": [
+            "lesson-24",
+            "lesson-26",
+            "lesson-30",
+            "lesson-34",
+            "lesson-44",
+            "lesson-45",
+            "lesson-48",
+            "lesson-54",
+            "lesson-59"
+          ]
+        },
+        "independent": {
+          "count": 2,
+          "lesson_ids": [
+            "lesson-65",
+            "lesson-72"
+          ]
+        }
+      },
+      "missing_prerequisites": []
+    },
+    {
+      "fundamental_id": "surface-edges",
+      "stages": {
+        "introduced": {
+          "count": 1,
+          "lesson_ids": [
+            "lesson-20"
+          ]
+        },
+        "practised": {
+          "count": 1,
+          "lesson_ids": [
+            "lesson-33"
+          ]
+        },
+        "revisited": {
+          "count": 1,
+          "lesson_ids": [
+            "lesson-54"
+          ]
+        },
+        "combined": {
+          "count": 1,
+          "lesson_ids": [
+            "lesson-56"
+          ]
+        },
+        "independent": {
+          "count": 2,
+          "lesson_ids": [
+            "lesson-65",
+            "lesson-66"
+          ]
+        }
+      },
+      "missing_prerequisites": []
+    },
+    {
+      "fundamental_id": "gesture",
+      "stages": {
+        "introduced": {
+          "count": 3,
+          "lesson_ids": [
+            "lesson-10",
+            "lesson-42",
+            "lesson-50"
+          ]
+        },
+        "practised": {
+          "count": 2,
+          "lesson_ids": [
+            "lesson-25",
+            "lesson-48"
+          ]
+        },
+        "revisited": {
+          "count": 2,
+          "lesson_ids": [
+            "lesson-31",
+            "lesson-50"
+          ]
+        },
+        "combined": {
+          "count": 6,
+          "lesson_ids": [
+            "lesson-37",
+            "lesson-41",
+            "lesson-42",
+            "lesson-51",
+            "lesson-52",
+            "lesson-53"
+          ]
+        },
+        "independent": {
+          "count": 1,
+          "lesson_ids": [
+            "lesson-69"
+          ]
+        }
+      },
+      "missing_prerequisites": []
+    },
+    {
+      "fundamental_id": "composition",
+      "stages": {
+        "introduced": {
+          "count": 4,
+          "lesson_ids": [
+            "lesson-06",
+            "lesson-23",
+            "lesson-43",
+            "lesson-57"
+          ]
+        },
+        "practised": {
+          "count": 4,
+          "lesson_ids": [
+            "lesson-07",
+            "lesson-29",
+            "lesson-66",
+            "lesson-68"
+          ]
+        },
+        "revisited": {
+          "count": 4,
+          "lesson_ids": [
+            "lesson-11",
+            "lesson-21",
+            "lesson-23",
+            "lesson-33"
+          ]
+        },
+        "combined": {
+          "count": 11,
+          "lesson_ids": [
+            "lesson-24",
+            "lesson-27",
+            "lesson-29",
+            "lesson-32",
+            "lesson-36",
+            "lesson-43",
+            "lesson-46",
+            "lesson-55",
+            "lesson-57",
+            "lesson-59",
+            "lesson-60"
+          ]
+        },
+        "independent": {
+          "count": 9,
+          "lesson_ids": [
+            "lesson-61",
+            "lesson-65",
+            "lesson-66",
+            "lesson-67",
+            "lesson-68",
+            "lesson-69",
+            "lesson-70",
+            "lesson-71",
+            "lesson-72"
+          ]
+        }
+      },
+      "missing_prerequisites": []
+    },
+    {
+      "fundamental_id": "materials",
+      "stages": {
+        "introduced": {
+          "count": 1,
+          "lesson_ids": [
+            "lesson-30"
+          ]
+        },
+        "practised": {
+          "count": 1,
+          "lesson_ids": [
+            "lesson-35"
+          ]
+        },
+        "revisited": {
+          "count": 1,
+          "lesson_ids": [
+            "lesson-52"
+          ]
+        },
+        "combined": {
+          "count": 1,
+          "lesson_ids": [
+            "lesson-58"
+          ]
+        },
+        "independent": {
+          "count": 2,
+          "lesson_ids": [
+            "lesson-68",
+            "lesson-71"
+          ]
+        }
+      },
+      "missing_prerequisites": []
+    },
+    {
+      "fundamental_id": "invention",
+      "stages": {
+        "introduced": {
+          "count": 1,
+          "lesson_ids": [
+            "lesson-12"
+          ]
+        },
+        "practised": {
+          "count": 1,
+          "lesson_ids": [
+            "lesson-28"
+          ]
+        },
+        "revisited": {
+          "count": 2,
+          "lesson_ids": [
+            "lesson-36",
+            "lesson-53"
+          ]
+        },
+        "combined": {
+          "count": 3,
+          "lesson_ids": [
+            "lesson-53",
+            "lesson-57",
+            "lesson-60"
+          ]
+        },
+        "independent": {
+          "count": 5,
+          "lesson_ids": [
+            "lesson-61",
+            "lesson-64",
+            "lesson-68",
+            "lesson-70",
+            "lesson-72"
+          ]
+        }
+      },
+      "missing_prerequisites": []
+    },
+    {
+      "fundamental_id": "reflection",
+      "stages": {
+        "introduced": {
+          "count": 2,
+          "lesson_ids": [
+            "lesson-01",
+            "lesson-49"
+          ]
+        },
+        "practised": {
+          "count": 2,
+          "lesson_ids": [
+            "lesson-24",
+            "lesson-55"
+          ]
+        },
+        "revisited": {
+          "count": 1,
+          "lesson_ids": [
+            "lesson-36"
+          ]
+        },
+        "combined": {
+          "count": 1,
+          "lesson_ids": [
+            "lesson-48"
+          ]
+        },
+        "independent": {
+          "count": 2,
+          "lesson_ids": [
+            "lesson-62",
+            "lesson-71"
+          ]
+        }
+      },
+      "missing_prerequisites": []
+    }
+  ],
+  "concepts": [
+    {
+      "concept_id": "observation-perception",
+      "first_lesson": "lesson-01",
+      "lesson_ids": [
+        "lesson-01",
+        "lesson-02",
+        "lesson-03",
+        "lesson-13",
+        "lesson-24",
+        "lesson-37",
+        "lesson-47",
+        "lesson-62"
+      ],
+      "max_sequence_gap": 15,
+      "missing_stages": []
+    },
+    {
+      "concept_id": "edges-contour",
+      "first_lesson": "lesson-02",
+      "lesson_ids": [
+        "lesson-02",
+        "lesson-05",
+        "lesson-10",
+        "lesson-15",
+        "lesson-27",
+        "lesson-33",
+        "lesson-54",
+        "lesson-63",
+        "lesson-65"
+      ],
+      "max_sequence_gap": 21,
+      "missing_stages": []
+    },
+    {
+      "concept_id": "mark-making-line-quality",
+      "first_lesson": "lesson-05",
+      "lesson_ids": [
+        "lesson-05",
+        "lesson-19",
+        "lesson-33",
+        "lesson-49",
+        "lesson-56",
+        "lesson-67",
+        "lesson-70"
+      ],
+      "max_sequence_gap": 16,
+      "missing_stages": []
+    },
+    {
+      "concept_id": "proportion-measurement",
+      "first_lesson": "lesson-04",
+      "lesson_ids": [
+        "lesson-04",
+        "lesson-09",
+        "lesson-13",
+        "lesson-17",
+        "lesson-24",
+        "lesson-39",
+        "lesson-48",
+        "lesson-59",
+        "lesson-62",
+        "lesson-69"
+      ],
+      "max_sequence_gap": 15,
+      "missing_stages": []
+    },
+    {
+      "concept_id": "negative-space",
+      "first_lesson": "lesson-03",
+      "lesson_ids": [
+        "lesson-03",
+        "lesson-04",
+        "lesson-06",
+        "lesson-16",
+        "lesson-27",
+        "lesson-40"
+      ],
+      "max_sequence_gap": 13,
+      "missing_stages": [
+        "independent"
+      ]
+    },
+    {
+      "concept_id": "gesture-action",
+      "first_lesson": "lesson-10",
+      "lesson_ids": [
+        "lesson-10",
+        "lesson-25",
+        "lesson-31",
+        "lesson-37",
+        "lesson-41",
+        "lesson-42",
+        "lesson-52",
+        "lesson-53",
+        "lesson-69"
+      ],
+      "max_sequence_gap": 16,
+      "missing_stages": []
+    },
+    {
+      "concept_id": "figure-structure-anatomy",
+      "first_lesson": "lesson-42",
+      "lesson_ids": [
+        "lesson-42",
+        "lesson-48",
+        "lesson-50",
+        "lesson-51"
+      ],
+      "max_sequence_gap": 6,
+      "missing_stages": [
+        "independent"
+      ]
+    },
+    {
+      "concept_id": "head-portrait-construction",
+      "first_lesson": "lesson-38",
+      "lesson_ids": [
+        "lesson-38",
+        "lesson-39",
+        "lesson-40",
+        "lesson-45",
+        "lesson-47",
+        "lesson-48",
+        "lesson-58"
+      ],
+      "max_sequence_gap": 10,
+      "missing_stages": [
+        "independent"
+      ]
+    },
+    {
+      "concept_id": "hands-extremities",
+      "first_lesson": "lesson-41",
+      "lesson_ids": [
+        "lesson-41",
+        "lesson-50",
+        "lesson-69"
+      ],
+      "max_sequence_gap": 19,
+      "missing_stages": [
+        "revisited",
+        "combined"
+      ]
+    },
+    {
+      "concept_id": "form-volume",
+      "first_lesson": "lesson-08",
+      "lesson_ids": [
+        "lesson-08",
+        "lesson-10",
+        "lesson-12",
+        "lesson-14",
+        "lesson-15",
+        "lesson-16",
+        "lesson-18",
+        "lesson-19",
+        "lesson-22",
+        "lesson-25",
+        "lesson-31",
+        "lesson-34",
+        "lesson-38",
+        "lesson-59",
+        "lesson-63",
+        "lesson-70"
+      ],
+      "max_sequence_gap": 21,
+      "missing_stages": []
+    },
+    {
+      "concept_id": "perspective-space",
+      "first_lesson": "lesson-11",
+      "lesson_ids": [
+        "lesson-11",
+        "lesson-17",
+        "lesson-18",
+        "lesson-22",
+        "lesson-28",
+        "lesson-32",
+        "lesson-46",
+        "lesson-51",
+        "lesson-63"
+      ],
+      "max_sequence_gap": 14,
+      "missing_stages": []
+    },
+    {
+      "concept_id": "ellipse-cylinder-construction",
+      "first_lesson": "lesson-08",
+      "lesson_ids": [
+        "lesson-08",
+        "lesson-09",
+        "lesson-31",
+        "lesson-43",
+        "lesson-63",
+        "lesson-66"
+      ],
+      "max_sequence_gap": 22,
+      "missing_stages": []
+    },
+    {
+      "concept_id": "drapery-clothing",
+      "first_lesson": "lesson-50",
+      "lesson_ids": [
+        "lesson-50"
+      ],
+      "max_sequence_gap": 0,
+      "missing_stages": [
+        "practised",
+        "revisited",
+        "combined",
+        "independent"
+      ]
+    },
+    {
+      "concept_id": "value-light-shadow",
+      "first_lesson": "lesson-07",
+      "lesson_ids": [
+        "lesson-07",
+        "lesson-14",
+        "lesson-20",
+        "lesson-21",
+        "lesson-24",
+        "lesson-26",
+        "lesson-30",
+        "lesson-34",
+        "lesson-44",
+        "lesson-45",
+        "lesson-48",
+        "lesson-54",
+        "lesson-59",
+        "lesson-65",
+        "lesson-72"
+      ],
+      "max_sequence_gap": 10,
+      "missing_stages": []
+    },
+    {
+      "concept_id": "depth-atmosphere",
+      "first_lesson": "lesson-26",
+      "lesson_ids": [
+        "lesson-26",
+        "lesson-35",
+        "lesson-36",
+        "lesson-44",
+        "lesson-56",
+        "lesson-60",
+        "lesson-67"
+      ],
+      "max_sequence_gap": 12,
+      "missing_stages": []
+    },
+    {
+      "concept_id": "texture-surface",
+      "first_lesson": "lesson-20",
+      "lesson_ids": [
+        "lesson-20",
+        "lesson-33",
+        "lesson-54",
+        "lesson-56",
+        "lesson-65",
+        "lesson-66"
+      ],
+      "max_sequence_gap": 21,
+      "missing_stages": []
+    },
+    {
+      "concept_id": "color-media",
+      "first_lesson": "lesson-30",
+      "lesson_ids": [
+        "lesson-30",
+        "lesson-35",
+        "lesson-52",
+        "lesson-58",
+        "lesson-68",
+        "lesson-71"
+      ],
+      "max_sequence_gap": 17,
+      "missing_stages": []
+    },
+    {
+      "concept_id": "composition-framing",
+      "first_lesson": "lesson-06",
+      "lesson_ids": [
+        "lesson-06",
+        "lesson-07",
+        "lesson-11",
+        "lesson-21",
+        "lesson-23",
+        "lesson-24",
+        "lesson-27",
+        "lesson-29",
+        "lesson-32",
+        "lesson-36",
+        "lesson-43",
+        "lesson-57",
+        "lesson-59",
+        "lesson-60",
+        "lesson-61",
+        "lesson-66",
+        "lesson-67",
+        "lesson-68",
+        "lesson-70",
+        "lesson-71",
+        "lesson-72"
+      ],
+      "max_sequence_gap": 14,
+      "missing_stages": []
+    },
+    {
+      "concept_id": "visual-hierarchy-focal-path",
+      "first_lesson": "lesson-23",
+      "lesson_ids": [
+        "lesson-23",
+        "lesson-29",
+        "lesson-33",
+        "lesson-36",
+        "lesson-46",
+        "lesson-55",
+        "lesson-65",
+        "lesson-69",
+        "lesson-71"
+      ],
+      "max_sequence_gap": 10,
+      "missing_stages": []
+    },
+    {
+      "concept_id": "design-rhythm-pattern",
+      "first_lesson": "lesson-43",
+      "lesson_ids": [
+        "lesson-43",
+        "lesson-66"
+      ],
+      "max_sequence_gap": 23,
+      "missing_stages": [
+        "revisited",
+        "combined",
+        "independent"
+      ]
+    },
+    {
+      "concept_id": "narrative-staging",
+      "first_lesson": "lesson-57",
+      "lesson_ids": [
+        "lesson-57",
+        "lesson-68"
+      ],
+      "max_sequence_gap": 11,
+      "missing_stages": [
+        "revisited",
+        "combined",
+        "independent"
+      ]
+    },
+    {
+      "concept_id": "creative-invention",
+      "first_lesson": "lesson-12",
+      "lesson_ids": [
+        "lesson-12",
+        "lesson-28",
+        "lesson-36",
+        "lesson-53",
+        "lesson-57",
+        "lesson-60",
+        "lesson-61",
+        "lesson-64",
+        "lesson-68",
+        "lesson-70",
+        "lesson-72"
+      ],
+      "max_sequence_gap": 17,
+      "missing_stages": []
+    },
+    {
+      "concept_id": "practice-reflection",
+      "first_lesson": "lesson-01",
+      "lesson_ids": [
+        "lesson-01",
+        "lesson-24",
+        "lesson-36",
+        "lesson-48",
+        "lesson-62",
+        "lesson-71"
+      ],
+      "max_sequence_gap": 23,
+      "missing_stages": []
+    },
+    {
+      "concept_id": "master-study-copying",
+      "first_lesson": "lesson-49",
+      "lesson_ids": [
+        "lesson-49",
+        "lesson-55"
+      ],
+      "max_sequence_gap": 6,
+      "missing_stages": [
+        "revisited",
+        "combined",
+        "independent"
+      ]
+    },
+    {
+      "concept_id": "stylized-character-construction",
+      "first_lesson": "lesson-12",
+      "lesson_ids": [
+        "lesson-12",
+        "lesson-28",
+        "lesson-53",
+        "lesson-64"
+      ],
+      "max_sequence_gap": 25,
+      "missing_stages": [
+        "combined"
+      ]
+    }
+  ],
+  "audit_notes": [
+    "Stage tags describe designed activities, not mastery. Inspect both fundamental rollups and canonical concept gaps; specialist concepts may deliberately lack all five stages."
+  ]
+}

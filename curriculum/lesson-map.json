@@ -1,0 +1,5638 @@
+{
+  "schema_version": "2b-1",
+  "course_id": "personal-drawing-education",
+  "sequence_policy": "self-paced-spiral",
+  "lesson_count": 72,
+  "lessons": [
+    {
+      "id": "lesson-01",
+      "sequence": 1,
+      "section": "Look and draw",
+      "title": "Your first drawing",
+      "purpose": "Keep a baseline and learn to compare what is seen with what was drawn",
+      "durationMinutes": 45,
+      "lessonType": "lesson",
+      "difficulty": "beginner",
+      "medium": [
+        "graphite"
+      ],
+      "requiredMaterials": [
+        "graphite pencil",
+        "eraser",
+        "sketchbook"
+      ],
+      "subject": "mug from life",
+      "exerciseSourceType": "from-life",
+      "fundamentals": {
+        "primary": [
+          "observation",
+          "reflection"
+        ],
+        "secondary": [
+          "line-shape"
+        ]
+      },
+      "concepts": [
+        {
+          "id": "observation-perception",
+          "name": "Observation and perception",
+          "stage": "introduced"
+        },
+        {
+          "id": "practice-reflection",
+          "name": "Practice process and reflection",
+          "stage": "introduced"
+        }
+      ],
+      "newConcepts": [
+        "observation-perception",
+        "practice-reflection"
+      ],
+      "revisitedConcepts": [],
+      "prerequisites": [],
+      "warmupIntent": "5–10 minutes: make two tiny observation sketches and name one changed relationship, using mug from life.",
+      "conceptTeachingIntent": "Keep a baseline and learn to compare what is seen with what was drawn",
+      "mainDrawingExerciseIntent": "Draw a mug twice, noting one specific relationship to improve in the second attempt",
+      "learnerDecisions": "Choose viewpoint",
+      "scaffoldingLevel": "high",
+      "sourceConceptReferences": [
+        {
+          "book_id": "dodson-keys-to-drawing",
+          "source_concept_id": "dodson-keys-to-drawing-concept-01",
+          "locator": "Printed pp. 10–39, chapter 1; the first project and line examples are on pp. 10–15"
+        }
+      ],
+      "sourceExerciseReferences": [
+        "dodson-keys-to-drawing-exercise-02"
+      ],
+      "visualRequirements": [
+        "from-life"
+      ],
+      "potentialSourceIllustrations": [],
+      "optionalExtensionIntent": "Repeat with a changed viewpoint, lighting, or subject while keeping the same observation and perception question."
+    },
+    {
+      "id": "lesson-02",
+      "sequence": 2,
+      "section": "Look and draw",
+      "title": "Follow an edge",
+      "purpose": "Observe changing contour rather than a remembered outline",
+      "durationMinutes": 45,
+      "lessonType": "lesson",
+      "difficulty": "beginner",
+      "medium": [
+        "graphite"
+      ],
+      "requiredMaterials": [
+        "graphite pencil",
+        "eraser",
+        "sketchbook"
+      ],
+      "subject": "shoe from life",
+      "exerciseSourceType": "from-life",
+      "fundamentals": {
+        "primary": [
+          "line-shape",
+          "observation"
+        ],
+        "secondary": []
+      },
+      "concepts": [
+        {
+          "id": "edges-contour",
+          "name": "Edges and contour",
+          "stage": "introduced"
+        },
+        {
+          "id": "observation-perception",
+          "name": "Observation and perception",
+          "stage": "practised"
+        }
+      ],
+      "newConcepts": [
+        "edges-contour"
+      ],
+      "revisitedConcepts": [
+        "observation-perception"
+      ],
+      "prerequisites": [
+        "lesson-01"
+      ],
+      "warmupIntent": "5–10 minutes: trace two short observed contours without naming the object, using shoe from life.",
+      "conceptTeachingIntent": "Observe changing contour rather than a remembered outline",
+      "mainDrawingExerciseIntent": "Make a slow contour shoe drawing and a second clearer pass",
+      "learnerDecisions": "Choose the shoe and viewpoint",
+      "scaffoldingLevel": "high",
+      "sourceConceptReferences": [
+        {
+          "book_id": "aristides-classical-atelier",
+          "source_concept_id": "aristides-classical-atelier-concept-02",
+          "locator": "EPUB, Chapter Three, “Types and Uses of Lines”"
+        },
+        {
+          "book_id": "dodson-keys-to-drawing",
+          "source_concept_id": "dodson-keys-to-drawing-concept-01",
+          "locator": "Printed pp. 10–39, chapter 1; the first project and line examples are on pp. 10–15"
+        }
+      ],
+      "sourceExerciseReferences": [
+        "dodson-keys-to-drawing-exercise-01"
+      ],
+      "visualRequirements": [
+        "from-life"
+      ],
+      "potentialSourceIllustrations": [],
+      "optionalExtensionIntent": "Repeat with a changed viewpoint, lighting, or subject while keeping the same edges and contour question."
+    },
+    {
+      "id": "lesson-03",
+      "sequence": 3,
+      "section": "Look and draw",
+      "title": "Shapes around a plant",
+      "purpose": "Use negative spaces to check an organic silhouette",
+      "durationMinutes": 45,
+      "lessonType": "lesson",
+      "difficulty": "beginner",
+      "medium": [
+        "graphite"
+      ],
+      "requiredMaterials": [
+        "graphite pencil",
+        "eraser",
+        "sketchbook"
+      ],
+      "subject": "potted plant from life",
+      "exerciseSourceType": "from-life",
+      "fundamentals": {
+        "primary": [
+          "observation"
+        ],
+        "secondary": []
+      },
+      "concepts": [
+        {
+          "id": "negative-space",
+          "name": "Negative space and surrounding shapes",
+          "stage": "introduced"
+        },
+        {
+          "id": "observation-perception",
+          "name": "Observation and perception",
+          "stage": "revisited"
+        }
+      ],
+      "newConcepts": [
+        "negative-space"
+      ],
+      "revisitedConcepts": [
+        "observation-perception"
+      ],
+      "prerequisites": [
+        "lesson-02"
+      ],
+      "warmupIntent": "5–10 minutes: sketch two gaps around the subject as shapes, using potted plant from life.",
+      "conceptTeachingIntent": "Use negative spaces to check an organic silhouette",
+      "mainDrawingExerciseIntent": "Draw a plant through gaps between leaves and pot before the positive shapes",
+      "learnerDecisions": "Choose one gap to correct",
+      "scaffoldingLevel": "high",
+      "sourceConceptReferences": [
+        {
+          "book_id": "edwards-right-side-brain",
+          "source_concept_id": "edwards-right-side-brain-concept-03",
+          "locator": "PDF pp. 155–179"
+        },
+        {
+          "book_id": "dodson-keys-to-drawing",
+          "source_concept_id": "dodson-keys-to-drawing-concept-01",
+          "locator": "Printed pp. 10–39, chapter 1; the first project and line examples are on pp. 10–15"
+        }
+      ],
+      "sourceExerciseReferences": [],
+      "visualRequirements": [
+        "from-life"
+      ],
+      "potentialSourceIllustrations": [],
+      "optionalExtensionIntent": "Repeat with a changed viewpoint, lighting, or subject while keeping the same negative space and surrounding shapes question."
+    },
+    {
+      "id": "lesson-04",
+      "sequence": 4,
+      "section": "Look and draw",
+      "title": "Measure a flower",
+      "purpose": "Compare angles and relative lengths in a simple flower",
+      "durationMinutes": 45,
+      "lessonType": "lesson",
+      "difficulty": "beginner",
+      "medium": [
+        "graphite"
+      ],
+      "requiredMaterials": [
+        "graphite pencil",
+        "eraser",
+        "sketchbook"
+      ],
+      "subject": "flower or leafy stem from life",
+      "exerciseSourceType": "from-life",
+      "fundamentals": {
+        "primary": [
+          "measurement",
+          "observation"
+        ],
+        "secondary": []
+      },
+      "concepts": [
+        {
+          "id": "proportion-measurement",
+          "name": "Proportion and comparative measurement",
+          "stage": "introduced"
+        },
+        {
+          "id": "negative-space",
+          "name": "Negative space and surrounding shapes",
+          "stage": "practised"
+        }
+      ],
+      "newConcepts": [
+        "proportion-measurement"
+      ],
+      "revisitedConcepts": [
+        "negative-space"
+      ],
+      "prerequisites": [
+        "lesson-03"
+      ],
+      "warmupIntent": "5–10 minutes: compare one length, one angle, and one alignment, using flower or leafy stem from life.",
+      "conceptTeachingIntent": "Compare angles and relative lengths in a simple flower",
+      "mainDrawingExerciseIntent": "Mark the bloom-to-stem ratio and major angles, then draw a single stem",
+      "learnerDecisions": "Choose bloom or leafy stem",
+      "scaffoldingLevel": "high",
+      "sourceConceptReferences": [
+        {
+          "book_id": "aristides-classical-atelier",
+          "source_concept_id": "aristides-classical-atelier-concept-01",
+          "locator": "EPUB, Chapter Two, “The Golden Ratio” and “The Golden Ratio in Nature”"
+        },
+        {
+          "book_id": "edwards-right-side-brain",
+          "source_concept_id": "edwards-right-side-brain-concept-03",
+          "locator": "PDF pp. 155–179"
+        }
+      ],
+      "sourceExerciseReferences": [],
+      "visualRequirements": [
+        "from-life"
+      ],
+      "potentialSourceIllustrations": [],
+      "optionalExtensionIntent": "Repeat with a changed viewpoint, lighting, or subject while keeping the same proportion and comparative measurement question."
+    },
+    {
+      "id": "lesson-05",
+      "sequence": 5,
+      "section": "Look and draw",
+      "title": "Confident lines, familiar object",
+      "purpose": "Choose line pressure and direction to clarify a simple object",
+      "durationMinutes": 45,
+      "lessonType": "lesson",
+      "difficulty": "beginner",
+      "medium": [
+        "graphite"
+      ],
+      "requiredMaterials": [
+        "graphite pencil",
+        "eraser",
+        "sketchbook"
+      ],
+      "subject": "book or key from life",
+      "exerciseSourceType": "from-life",
+      "fundamentals": {
+        "primary": [
+          "line-shape"
+        ],
+        "secondary": []
+      },
+      "concepts": [
+        {
+          "id": "mark-making-line-quality",
+          "name": "Mark-making and line quality",
+          "stage": "introduced"
+        },
+        {
+          "id": "edges-contour",
+          "name": "Edges and contour",
+          "stage": "practised"
+        }
+      ],
+      "newConcepts": [
+        "mark-making-line-quality"
+      ],
+      "revisitedConcepts": [
+        "edges-contour"
+      ],
+      "prerequisites": [
+        "lesson-02"
+      ],
+      "warmupIntent": "5–10 minutes: try light, medium, and decisive strokes on a small shape, using book or key from life.",
+      "conceptTeachingIntent": "Choose line pressure and direction to clarify a simple object",
+      "mainDrawingExerciseIntent": "Draw one object with light searching lines and selected final lines",
+      "learnerDecisions": "Choose which edges to strengthen",
+      "scaffoldingLevel": "high",
+      "sourceConceptReferences": [
+        {
+          "book_id": "dodson-keys-to-drawing",
+          "source_concept_id": "dodson-keys-to-drawing-concept-02",
+          "locator": "Printed pp. 40–69, chapter 2"
+        },
+        {
+          "book_id": "aristides-classical-atelier",
+          "source_concept_id": "aristides-classical-atelier-concept-02",
+          "locator": "EPUB, Chapter Three, “Types and Uses of Lines”"
+        }
+      ],
+      "sourceExerciseReferences": [],
+      "visualRequirements": [
+        "from-life"
+      ],
+      "potentialSourceIllustrations": [],
+      "optionalExtensionIntent": "Repeat with a changed viewpoint, lighting, or subject while keeping the same mark-making and line quality question."
+    },
+    {
+      "id": "lesson-06",
+      "sequence": 6,
+      "section": "Look and draw",
+      "title": "Three crops of one subject",
+      "purpose": "Discover that framing changes emphasis before detail is added",
+      "durationMinutes": 45,
+      "lessonType": "lesson",
+      "difficulty": "beginner",
+      "medium": [
+        "graphite"
+      ],
+      "requiredMaterials": [
+        "graphite pencil",
+        "eraser",
+        "sketchbook"
+      ],
+      "subject": "mug and book from life",
+      "exerciseSourceType": "from-life",
+      "fundamentals": {
+        "primary": [
+          "composition",
+          "observation"
+        ],
+        "secondary": []
+      },
+      "concepts": [
+        {
+          "id": "composition-framing",
+          "name": "Composition and framing",
+          "stage": "introduced"
+        },
+        {
+          "id": "negative-space",
+          "name": "Negative space and surrounding shapes",
+          "stage": "revisited"
+        }
+      ],
+      "newConcepts": [
+        "composition-framing"
+      ],
+      "revisitedConcepts": [
+        "negative-space"
+      ],
+      "prerequisites": [
+        "lesson-03"
+      ],
+      "warmupIntent": "5–10 minutes: make two thumbnail crops with different margins, using mug and book from life.",
+      "conceptTeachingIntent": "Discover that framing changes emphasis before detail is added",
+      "mainDrawingExerciseIntent": "Make three thumbnail crops, then develop the clearest arrangement",
+      "learnerDecisions": "Choose crop and viewpoint",
+      "scaffoldingLevel": "high",
+      "sourceConceptReferences": [
+        {
+          "book_id": "picard-beginning-drawing",
+          "source_concept_id": "picard-beginning-drawing-concept-03",
+          "locator": "printed p. 29 (PDF p. 31)"
+        },
+        {
+          "book_id": "edwards-right-side-brain",
+          "source_concept_id": "edwards-right-side-brain-concept-03",
+          "locator": "PDF pp. 155–179"
+        }
+      ],
+      "sourceExerciseReferences": [
+        "dodson-keys-to-drawing-exercise-08"
+      ],
+      "visualRequirements": [
+        "from-life"
+      ],
+      "potentialSourceIllustrations": [],
+      "optionalExtensionIntent": "Repeat with a changed viewpoint, lighting, or subject while keeping the same composition and framing question."
+    },
+    {
+      "id": "lesson-07",
+      "sequence": 7,
+      "section": "Look and draw",
+      "title": "Three simple values",
+      "purpose": "Separate light, middle, and dark in a recognisable subject",
+      "durationMinutes": 45,
+      "lessonType": "lesson",
+      "difficulty": "beginner",
+      "medium": [
+        "graphite"
+      ],
+      "requiredMaterials": [
+        "graphite pencil",
+        "eraser",
+        "sketchbook"
+      ],
+      "subject": "fruit under a lamp",
+      "exerciseSourceType": "from-life",
+      "fundamentals": {
+        "primary": [
+          "value",
+          "composition"
+        ],
+        "secondary": [
+          "form"
+        ]
+      },
+      "concepts": [
+        {
+          "id": "value-light-shadow",
+          "name": "Value, light, and shadow",
+          "stage": "introduced"
+        },
+        {
+          "id": "composition-framing",
+          "name": "Composition and framing",
+          "stage": "practised"
+        }
+      ],
+      "newConcepts": [
+        "value-light-shadow"
+      ],
+      "revisitedConcepts": [
+        "composition-framing"
+      ],
+      "prerequisites": [
+        "lesson-06"
+      ],
+      "warmupIntent": "5–10 minutes: reduce a small view to light, middle, and dark masses, using fruit under a lamp.",
+      "conceptTeachingIntent": "Separate light, middle, and dark in a recognisable subject",
+      "mainDrawingExerciseIntent": "Draw fruit as three large value groups with a cast shadow",
+      "learnerDecisions": "Choose the light position",
+      "scaffoldingLevel": "high",
+      "sourceConceptReferences": [
+        {
+          "book_id": "dodson-keys-to-drawing",
+          "source_concept_id": "dodson-keys-to-drawing-concept-04",
+          "locator": "Printed pp. 102–127, chapter 4; light-source example on p. 110"
+        },
+        {
+          "book_id": "picard-beginning-drawing",
+          "source_concept_id": "picard-beginning-drawing-concept-03",
+          "locator": "printed p. 29 (PDF p. 31)"
+        }
+      ],
+      "sourceExerciseReferences": [
+        "dodson-keys-to-drawing-exercise-05"
+      ],
+      "visualRequirements": [
+        "from-life"
+      ],
+      "potentialSourceIllustrations": [],
+      "optionalExtensionIntent": "Repeat with a changed viewpoint, lighting, or subject while keeping the same value, light, and shadow question."
+    },
+    {
+      "id": "lesson-08",
+      "sequence": 8,
+      "section": "Look and draw",
+      "title": "Build a cup from volumes",
+      "purpose": "Use simple volumes to organise a familiar object",
+      "durationMinutes": 45,
+      "lessonType": "lesson",
+      "difficulty": "beginner",
+      "medium": [
+        "graphite"
+      ],
+      "requiredMaterials": [
+        "graphite pencil",
+        "eraser",
+        "sketchbook"
+      ],
+      "subject": "cup from life",
+      "exerciseSourceType": "from-life",
+      "fundamentals": {
+        "primary": [
+          "form",
+          "space"
+        ],
+        "secondary": [
+          "observation"
+        ]
+      },
+      "concepts": [
+        {
+          "id": "form-volume",
+          "name": "Shape, form, and volume",
+          "stage": "introduced"
+        },
+        {
+          "id": "ellipse-cylinder-construction",
+          "name": "Ellipses and cylinders in space",
+          "stage": "introduced"
+        }
+      ],
+      "newConcepts": [
+        "form-volume",
+        "ellipse-cylinder-construction"
+      ],
+      "revisitedConcepts": [],
+      "prerequisites": [
+        "lesson-04"
+      ],
+      "warmupIntent": "5–10 minutes: block one subject part as a simple turning volume, using cup from life.",
+      "conceptTeachingIntent": "Use simple volumes to organise a familiar object",
+      "mainDrawingExerciseIntent": "Construct a cup from cylinder and handle masses, then compare to observation",
+      "learnerDecisions": "Choose cup angle",
+      "scaffoldingLevel": "high",
+      "sourceConceptReferences": [
+        {
+          "book_id": "picard-beginning-drawing",
+          "source_concept_id": "picard-beginning-drawing-concept-05",
+          "locator": "printed pp. 57–63 (PDF pp. 59–65)"
+        },
+        {
+          "book_id": "dodson-keys-to-drawing",
+          "source_concept_id": "dodson-keys-to-drawing-concept-05",
+          "locator": "Printed pp. 128–147, chapter 5; construction example on p. 135"
+        }
+      ],
+      "sourceExerciseReferences": [],
+      "visualRequirements": [
+        "svg-diagram"
+      ],
+      "potentialSourceIllustrations": [],
+      "optionalExtensionIntent": "Repeat with a changed viewpoint, lighting, or subject while keeping the same shape, form, and volume question."
+    },
+    {
+      "id": "lesson-09",
+      "sequence": 9,
+      "section": "Look and draw",
+      "title": "Ellipse and rim",
+      "purpose": "Check ellipse width against eye level in a real vessel",
+      "durationMinutes": 45,
+      "lessonType": "lesson",
+      "difficulty": "beginner",
+      "medium": [
+        "graphite"
+      ],
+      "requiredMaterials": [
+        "graphite pencil",
+        "eraser",
+        "sketchbook"
+      ],
+      "subject": "bowl from life",
+      "exerciseSourceType": "from-life",
+      "fundamentals": {
+        "primary": [
+          "space",
+          "measurement"
+        ],
+        "secondary": []
+      },
+      "concepts": [
+        {
+          "id": "ellipse-cylinder-construction",
+          "name": "Ellipses and cylinders in space",
+          "stage": "practised"
+        },
+        {
+          "id": "proportion-measurement",
+          "name": "Proportion and comparative measurement",
+          "stage": "practised"
+        }
+      ],
+      "newConcepts": [],
+      "revisitedConcepts": [
+        "ellipse-cylinder-construction",
+        "proportion-measurement"
+      ],
+      "prerequisites": [
+        "lesson-08"
+      ],
+      "warmupIntent": "5–10 minutes: draw three observed openings from different heights, using bowl from life.",
+      "conceptTeachingIntent": "Check ellipse width against eye level in a real vessel",
+      "mainDrawingExerciseIntent": "Draw bowls from two viewpoints, comparing rims and side walls",
+      "learnerDecisions": "Choose viewpoints",
+      "scaffoldingLevel": "high",
+      "sourceConceptReferences": [
+        {
+          "book_id": "dodson-keys-to-drawing",
+          "source_concept_id": "dodson-keys-to-drawing-concept-05",
+          "locator": "Printed pp. 128–147, chapter 5; construction example on p. 135"
+        },
+        {
+          "book_id": "aristides-classical-atelier",
+          "source_concept_id": "aristides-classical-atelier-concept-01",
+          "locator": "EPUB, Chapter Two, “The Golden Ratio” and “The Golden Ratio in Nature”"
+        }
+      ],
+      "sourceExerciseReferences": [],
+      "visualRequirements": [
+        "svg-diagram"
+      ],
+      "potentialSourceIllustrations": [],
+      "optionalExtensionIntent": "Repeat with a changed viewpoint, lighting, or subject while keeping the same ellipses and cylinders in space question."
+    },
+    {
+      "id": "lesson-10",
+      "sequence": 10,
+      "section": "Look and draw",
+      "title": "Leaves as volumes",
+      "purpose": "Turn flat leaf outlines into bent, overlapping forms",
+      "durationMinutes": 45,
+      "lessonType": "lesson",
+      "difficulty": "beginner",
+      "medium": [
+        "graphite"
+      ],
+      "requiredMaterials": [
+        "graphite pencil",
+        "eraser",
+        "sketchbook"
+      ],
+      "subject": "leafy branch from life",
+      "exerciseSourceType": "from-life",
+      "fundamentals": {
+        "primary": [
+          "form",
+          "line-shape",
+          "gesture"
+        ],
+        "secondary": []
+      },
+      "concepts": [
+        {
+          "id": "form-volume",
+          "name": "Shape, form, and volume",
+          "stage": "practised"
+        },
+        {
+          "id": "edges-contour",
+          "name": "Edges and contour",
+          "stage": "revisited"
+        },
+        {
+          "id": "gesture-action",
+          "name": "Gesture and action",
+          "stage": "introduced"
+        }
+      ],
+      "newConcepts": [
+        "gesture-action"
+      ],
+      "revisitedConcepts": [
+        "form-volume",
+        "edges-contour"
+      ],
+      "prerequisites": [
+        "lesson-08"
+      ],
+      "warmupIntent": "5–10 minutes: block one subject part as a simple turning volume, using leafy branch from life.",
+      "conceptTeachingIntent": "Turn flat leaf outlines into bent, overlapping forms",
+      "mainDrawingExerciseIntent": "Draw a branch with a directional gesture, folded leaf masses, and selective contours",
+      "learnerDecisions": "Choose branch orientation",
+      "scaffoldingLevel": "high",
+      "sourceConceptReferences": [
+        {
+          "book_id": "picard-beginning-drawing",
+          "source_concept_id": "picard-beginning-drawing-concept-05",
+          "locator": "printed pp. 57–63 (PDF pp. 59–65)"
+        },
+        {
+          "book_id": "aristides-classical-atelier",
+          "source_concept_id": "aristides-classical-atelier-concept-02",
+          "locator": "EPUB, Chapter Three, “Types and Uses of Lines”"
+        },
+        {
+          "book_id": "hampton-figure-drawing",
+          "source_concept_id": "hampton-figure-drawing-concept-01",
+          "locator": "Printed p. 3; PDF p. 11, Gesture Drawing opening"
+        }
+      ],
+      "sourceExerciseReferences": [],
+      "visualRequirements": [
+        "from-life"
+      ],
+      "potentialSourceIllustrations": [],
+      "optionalExtensionIntent": "Repeat with a changed viewpoint, lighting, or subject while keeping the same shape, form, and volume question."
+    },
+    {
+      "id": "lesson-11",
+      "sequence": 11,
+      "section": "Look and draw",
+      "title": "Near, middle, far",
+      "purpose": "Suggest depth before formal projection",
+      "durationMinutes": 45,
+      "lessonType": "lesson",
+      "difficulty": "beginner",
+      "medium": [
+        "graphite"
+      ],
+      "requiredMaterials": [
+        "graphite pencil",
+        "eraser",
+        "sketchbook"
+      ],
+      "subject": "view through a window",
+      "exerciseSourceType": "from-life",
+      "fundamentals": {
+        "primary": [
+          "space",
+          "composition"
+        ],
+        "secondary": []
+      },
+      "concepts": [
+        {
+          "id": "perspective-space",
+          "name": "Perspective and spatial construction",
+          "stage": "introduced"
+        },
+        {
+          "id": "composition-framing",
+          "name": "Composition and framing",
+          "stage": "revisited"
+        }
+      ],
+      "newConcepts": [
+        "perspective-space"
+      ],
+      "revisitedConcepts": [
+        "composition-framing"
+      ],
+      "prerequisites": [
+        "lesson-06"
+      ],
+      "warmupIntent": "5–10 minutes: locate eye level and two receding edge directions, using view through a window.",
+      "conceptTeachingIntent": "Suggest depth before formal projection",
+      "mainDrawingExerciseIntent": "Make a small landscape with overlap, scale changes, and foreground framing",
+      "learnerDecisions": "Choose the view and crop",
+      "scaffoldingLevel": "high",
+      "sourceConceptReferences": [
+        {
+          "book_id": "norling-perspective-made-easy",
+          "source_concept_id": "norling-perspective-made-easy-concept-01",
+          "locator": "Printed pp. 1–10, Step One: The Horizon, The Vanishing Point, The Eye-Level"
+        },
+        {
+          "book_id": "picard-beginning-drawing",
+          "source_concept_id": "picard-beginning-drawing-concept-03",
+          "locator": "printed p. 29 (PDF p. 31)"
+        }
+      ],
+      "sourceExerciseReferences": [],
+      "visualRequirements": [
+        "from-life"
+      ],
+      "potentialSourceIllustrations": [],
+      "optionalExtensionIntent": "Repeat with a changed viewpoint, lighting, or subject while keeping the same perspective and spatial construction question."
+    },
+    {
+      "id": "lesson-12",
+      "sequence": 12,
+      "section": "Look and draw",
+      "title": "Playful shape translation",
+      "purpose": "Apply shape comparison to a stylised character without replacing observation",
+      "durationMinutes": 45,
+      "lessonType": "lesson",
+      "difficulty": "beginner",
+      "medium": [
+        "graphite"
+      ],
+      "requiredMaterials": [
+        "graphite pencil",
+        "eraser",
+        "sketchbook"
+      ],
+      "subject": "chosen Pokémon or original simple creature",
+      "exerciseSourceType": "learner-selected-reference",
+      "fundamentals": {
+        "primary": [
+          "invention",
+          "form"
+        ],
+        "secondary": []
+      },
+      "concepts": [
+        {
+          "id": "stylized-character-construction",
+          "name": "Stylized character construction",
+          "stage": "introduced"
+        },
+        {
+          "id": "form-volume",
+          "name": "Shape, form, and volume",
+          "stage": "revisited"
+        },
+        {
+          "id": "creative-invention",
+          "name": "Creative invention and interpretation",
+          "stage": "introduced"
+        }
+      ],
+      "newConcepts": [
+        "stylized-character-construction",
+        "creative-invention"
+      ],
+      "revisitedConcepts": [
+        "form-volume"
+      ],
+      "prerequisites": [
+        "lesson-08"
+      ],
+      "warmupIntent": "5–10 minutes: draw one action guide and three large shapes, using chosen Pokémon or original simple creature.",
+      "conceptTeachingIntent": "Apply shape comparison to a stylised character without replacing observation",
+      "mainDrawingExerciseIntent": "Reduce a character to large shapes, then redraw it from memory with one proportion check",
+      "learnerDecisions": "Choose character and correction",
+      "scaffoldingLevel": "high",
+      "sourceConceptReferences": [
+        {
+          "book_id": "pokemon-how-to-draw",
+          "source_concept_id": "pokemon-how-to-draw-concept-02",
+          "locator": "Printed pp. 8–9; PDF pp. 10–11, Pikachu steps"
+        },
+        {
+          "book_id": "picard-beginning-drawing",
+          "source_concept_id": "picard-beginning-drawing-concept-05",
+          "locator": "printed pp. 57–63 (PDF pp. 59–65)"
+        },
+        {
+          "book_id": "dodson-keys-to-drawing",
+          "source_concept_id": "dodson-keys-to-drawing-concept-08",
+          "locator": "Printed pp. 198–221, chapter 8; creative examples on pp. 198–206"
+        }
+      ],
+      "sourceExerciseReferences": [
+        "pokemon-how-to-draw-exercise-01"
+      ],
+      "visualRequirements": [
+        "learner-reference"
+      ],
+      "potentialSourceIllustrations": [],
+      "optionalExtensionIntent": "Repeat with a changed viewpoint, lighting, or subject while keeping the same stylized character construction question."
+    },
+    {
+      "id": "lesson-13",
+      "sequence": 13,
+      "section": "Build form and light",
+      "title": "Angle and alignment",
+      "purpose": "Check placement using two visible landmarks",
+      "durationMinutes": 45,
+      "lessonType": "lesson",
+      "difficulty": "beginner",
+      "medium": [
+        "graphite"
+      ],
+      "requiredMaterials": [
+        "graphite pencil",
+        "eraser",
+        "sketchbook"
+      ],
+      "subject": "shoe and bottle from life",
+      "exerciseSourceType": "from-life",
+      "fundamentals": {
+        "primary": [
+          "measurement",
+          "observation"
+        ],
+        "secondary": []
+      },
+      "concepts": [
+        {
+          "id": "proportion-measurement",
+          "name": "Proportion and comparative measurement",
+          "stage": "revisited"
+        },
+        {
+          "id": "observation-perception",
+          "name": "Observation and perception",
+          "stage": "revisited"
+        }
+      ],
+      "newConcepts": [],
+      "revisitedConcepts": [
+        "proportion-measurement",
+        "observation-perception"
+      ],
+      "prerequisites": [
+        "lesson-04"
+      ],
+      "warmupIntent": "5–10 minutes: compare one length, one angle, and one alignment, using shoe and bottle from life.",
+      "conceptTeachingIntent": "Check placement using two visible landmarks",
+      "mainDrawingExerciseIntent": "Draw the pair after marking relative heights, slopes, and alignments",
+      "learnerDecisions": "Choose two checks to repeat",
+      "scaffoldingLevel": "high",
+      "sourceConceptReferences": [
+        {
+          "book_id": "aristides-classical-atelier",
+          "source_concept_id": "aristides-classical-atelier-concept-01",
+          "locator": "EPUB, Chapter Two, “The Golden Ratio” and “The Golden Ratio in Nature”"
+        },
+        {
+          "book_id": "dodson-keys-to-drawing",
+          "source_concept_id": "dodson-keys-to-drawing-concept-01",
+          "locator": "Printed pp. 10–39, chapter 1; the first project and line examples are on pp. 10–15"
+        }
+      ],
+      "sourceExerciseReferences": [],
+      "visualRequirements": [
+        "from-life"
+      ],
+      "potentialSourceIllustrations": [],
+      "optionalExtensionIntent": "Repeat with a changed viewpoint, lighting, or subject while keeping the same proportion and comparative measurement question."
+    },
+    {
+      "id": "lesson-14",
+      "sequence": 14,
+      "section": "Build form and light",
+      "title": "Light family, shadow family",
+      "purpose": "See connected light and shadow shapes before shading detail",
+      "durationMinutes": 45,
+      "lessonType": "lesson",
+      "difficulty": "beginner",
+      "medium": [
+        "graphite"
+      ],
+      "requiredMaterials": [
+        "graphite pencil",
+        "eraser",
+        "sketchbook"
+      ],
+      "subject": "egg or ball under one lamp",
+      "exerciseSourceType": "from-life",
+      "fundamentals": {
+        "primary": [
+          "value",
+          "form"
+        ],
+        "secondary": [
+          "observation"
+        ]
+      },
+      "concepts": [
+        {
+          "id": "value-light-shadow",
+          "name": "Value, light, and shadow",
+          "stage": "practised"
+        },
+        {
+          "id": "form-volume",
+          "name": "Shape, form, and volume",
+          "stage": "revisited"
+        }
+      ],
+      "newConcepts": [],
+      "revisitedConcepts": [
+        "value-light-shadow",
+        "form-volume"
+      ],
+      "prerequisites": [
+        "lesson-07"
+      ],
+      "warmupIntent": "5–10 minutes: reduce a small view to light, middle, and dark masses, using egg or ball under one lamp.",
+      "conceptTeachingIntent": "See connected light and shadow shapes before shading detail",
+      "mainDrawingExerciseIntent": "Draw a lit rounded object with two families and a cast shadow",
+      "learnerDecisions": "Choose the light direction",
+      "scaffoldingLevel": "high",
+      "sourceConceptReferences": [
+        {
+          "book_id": "dodson-keys-to-drawing",
+          "source_concept_id": "dodson-keys-to-drawing-concept-04",
+          "locator": "Printed pp. 102–127, chapter 4; light-source example on p. 110"
+        },
+        {
+          "book_id": "picard-beginning-drawing",
+          "source_concept_id": "picard-beginning-drawing-concept-05",
+          "locator": "printed pp. 57–63 (PDF pp. 59–65)"
+        }
+      ],
+      "sourceExerciseReferences": [
+        "aristides-classical-atelier-exercise-01"
+      ],
+      "visualRequirements": [
+        "svg-diagram"
+      ],
+      "potentialSourceIllustrations": [],
+      "optionalExtensionIntent": "Repeat with a changed viewpoint, lighting, or subject while keeping the same value, light, and shadow question."
+    },
+    {
+      "id": "lesson-15",
+      "sequence": 15,
+      "section": "Build form and light",
+      "title": "Draw through a form",
+      "purpose": "Use light construction to understand overlapping objects",
+      "durationMinutes": 45,
+      "lessonType": "lesson",
+      "difficulty": "beginner",
+      "medium": [
+        "graphite"
+      ],
+      "requiredMaterials": [
+        "graphite pencil",
+        "eraser",
+        "sketchbook"
+      ],
+      "subject": "cup behind book from life",
+      "exerciseSourceType": "from-life",
+      "fundamentals": {
+        "primary": [
+          "form",
+          "line-shape"
+        ],
+        "secondary": []
+      },
+      "concepts": [
+        {
+          "id": "form-volume",
+          "name": "Shape, form, and volume",
+          "stage": "revisited"
+        },
+        {
+          "id": "edges-contour",
+          "name": "Edges and contour",
+          "stage": "revisited"
+        }
+      ],
+      "newConcepts": [],
+      "revisitedConcepts": [
+        "form-volume",
+        "edges-contour"
+      ],
+      "prerequisites": [
+        "lesson-08"
+      ],
+      "warmupIntent": "5–10 minutes: block one subject part as a simple turning volume, using cup behind book from life.",
+      "conceptTeachingIntent": "Use light construction to understand overlapping objects",
+      "mainDrawingExerciseIntent": "Draw through hidden parts lightly, then select visible contours",
+      "learnerDecisions": "Choose overlap",
+      "scaffoldingLevel": "high",
+      "sourceConceptReferences": [
+        {
+          "book_id": "picard-beginning-drawing",
+          "source_concept_id": "picard-beginning-drawing-concept-05",
+          "locator": "printed pp. 57–63 (PDF pp. 59–65)"
+        },
+        {
+          "book_id": "aristides-classical-atelier",
+          "source_concept_id": "aristides-classical-atelier-concept-02",
+          "locator": "EPUB, Chapter Three, “Types and Uses of Lines”"
+        }
+      ],
+      "sourceExerciseReferences": [
+        "dodson-keys-to-drawing-exercise-06"
+      ],
+      "visualRequirements": [
+        "from-life"
+      ],
+      "potentialSourceIllustrations": [],
+      "optionalExtensionIntent": "Repeat with a changed viewpoint, lighting, or subject while keeping the same shape, form, and volume question."
+    },
+    {
+      "id": "lesson-16",
+      "sequence": 16,
+      "section": "Build form and light",
+      "title": "Petal layers",
+      "purpose": "Construct a bloom as overlapping, turning forms",
+      "durationMinutes": 45,
+      "lessonType": "lesson",
+      "difficulty": "beginner",
+      "medium": [
+        "graphite"
+      ],
+      "requiredMaterials": [
+        "graphite pencil",
+        "eraser",
+        "sketchbook"
+      ],
+      "subject": "simple flower from life",
+      "exerciseSourceType": "from-life",
+      "fundamentals": {
+        "primary": [
+          "form",
+          "observation"
+        ],
+        "secondary": []
+      },
+      "concepts": [
+        {
+          "id": "form-volume",
+          "name": "Shape, form, and volume",
+          "stage": "revisited"
+        },
+        {
+          "id": "negative-space",
+          "name": "Negative space and surrounding shapes",
+          "stage": "revisited"
+        }
+      ],
+      "newConcepts": [],
+      "revisitedConcepts": [
+        "form-volume",
+        "negative-space"
+      ],
+      "prerequisites": [
+        "lesson-10"
+      ],
+      "warmupIntent": "5–10 minutes: block one subject part as a simple turning volume, using simple flower from life.",
+      "conceptTeachingIntent": "Construct a bloom as overlapping, turning forms",
+      "mainDrawingExerciseIntent": "Block the center and petal groups, then compare gaps and overlaps",
+      "learnerDecisions": "Choose bloom and viewing angle",
+      "scaffoldingLevel": "high",
+      "sourceConceptReferences": [
+        {
+          "book_id": "picard-beginning-drawing",
+          "source_concept_id": "picard-beginning-drawing-concept-05",
+          "locator": "printed pp. 57–63 (PDF pp. 59–65)"
+        },
+        {
+          "book_id": "edwards-right-side-brain",
+          "source_concept_id": "edwards-right-side-brain-concept-03",
+          "locator": "PDF pp. 155–179"
+        }
+      ],
+      "sourceExerciseReferences": [],
+      "visualRequirements": [
+        "from-life"
+      ],
+      "potentialSourceIllustrations": [],
+      "optionalExtensionIntent": "Repeat with a changed viewpoint, lighting, or subject while keeping the same shape, form, and volume question."
+    },
+    {
+      "id": "lesson-17",
+      "sequence": 17,
+      "section": "Build form and light",
+      "title": "The first room corner",
+      "purpose": "Find eye level and receding directions in a room",
+      "durationMinutes": 45,
+      "lessonType": "lesson",
+      "difficulty": "beginner",
+      "medium": [
+        "graphite"
+      ],
+      "requiredMaterials": [
+        "graphite pencil",
+        "eraser",
+        "sketchbook"
+      ],
+      "subject": "room corner from life",
+      "exerciseSourceType": "from-life",
+      "fundamentals": {
+        "primary": [
+          "space",
+          "measurement"
+        ],
+        "secondary": []
+      },
+      "concepts": [
+        {
+          "id": "perspective-space",
+          "name": "Perspective and spatial construction",
+          "stage": "practised"
+        },
+        {
+          "id": "proportion-measurement",
+          "name": "Proportion and comparative measurement",
+          "stage": "revisited"
+        }
+      ],
+      "newConcepts": [],
+      "revisitedConcepts": [
+        "perspective-space",
+        "proportion-measurement"
+      ],
+      "prerequisites": [
+        "lesson-11"
+      ],
+      "warmupIntent": "5–10 minutes: locate eye level and two receding edge directions, using room corner from life.",
+      "conceptTeachingIntent": "Find eye level and receding directions in a room",
+      "mainDrawingExerciseIntent": "Draw a corner with floor and ceiling lines meeting consistently",
+      "learnerDecisions": "Choose seated or standing viewpoint",
+      "scaffoldingLevel": "high",
+      "sourceConceptReferences": [
+        {
+          "book_id": "norling-perspective-made-easy",
+          "source_concept_id": "norling-perspective-made-easy-concept-01",
+          "locator": "Printed pp. 1–10, Step One: The Horizon, The Vanishing Point, The Eye-Level"
+        },
+        {
+          "book_id": "aristides-classical-atelier",
+          "source_concept_id": "aristides-classical-atelier-concept-01",
+          "locator": "EPUB, Chapter Two, “The Golden Ratio” and “The Golden Ratio in Nature”"
+        }
+      ],
+      "sourceExerciseReferences": [
+        "norling-perspective-made-easy-exercise-01"
+      ],
+      "visualRequirements": [
+        "svg-diagram"
+      ],
+      "potentialSourceIllustrations": [],
+      "optionalExtensionIntent": "Repeat with a changed viewpoint, lighting, or subject while keeping the same perspective and spatial construction question."
+    },
+    {
+      "id": "lesson-18",
+      "sequence": 18,
+      "section": "Build form and light",
+      "title": "Boxes in a real scene",
+      "purpose": "Use one-point convergence to check a shelf or corridor",
+      "durationMinutes": 45,
+      "lessonType": "lesson",
+      "difficulty": "beginner",
+      "medium": [
+        "graphite"
+      ],
+      "requiredMaterials": [
+        "graphite pencil",
+        "eraser",
+        "sketchbook"
+      ],
+      "subject": "shelf or corridor from life",
+      "exerciseSourceType": "from-life",
+      "fundamentals": {
+        "primary": [
+          "space",
+          "form"
+        ],
+        "secondary": [
+          "measurement"
+        ]
+      },
+      "concepts": [
+        {
+          "id": "perspective-space",
+          "name": "Perspective and spatial construction",
+          "stage": "revisited"
+        },
+        {
+          "id": "form-volume",
+          "name": "Shape, form, and volume",
+          "stage": "revisited"
+        }
+      ],
+      "newConcepts": [],
+      "revisitedConcepts": [
+        "perspective-space",
+        "form-volume"
+      ],
+      "prerequisites": [
+        "lesson-17"
+      ],
+      "warmupIntent": "5–10 minutes: locate eye level and two receding edge directions, using shelf or corridor from life.",
+      "conceptTeachingIntent": "Use one-point convergence to check a shelf or corridor",
+      "mainDrawingExerciseIntent": "Block major box faces and test receding edges against eye level",
+      "learnerDecisions": "Choose scene",
+      "scaffoldingLevel": "high",
+      "sourceConceptReferences": [
+        {
+          "book_id": "norling-perspective-made-easy",
+          "source_concept_id": "norling-perspective-made-easy-concept-01",
+          "locator": "Printed pp. 1–10, Step One: The Horizon, The Vanishing Point, The Eye-Level"
+        },
+        {
+          "book_id": "picard-beginning-drawing",
+          "source_concept_id": "picard-beginning-drawing-concept-05",
+          "locator": "printed pp. 57–63 (PDF pp. 59–65)"
+        }
+      ],
+      "sourceExerciseReferences": [],
+      "visualRequirements": [
+        "svg-diagram"
+      ],
+      "potentialSourceIllustrations": [
+        "norling-perspective-made-easy-illustration-01"
+      ],
+      "optionalExtensionIntent": "Repeat with a changed viewpoint, lighting, or subject while keeping the same perspective and spatial construction question."
+    },
+    {
+      "id": "lesson-19",
+      "sequence": 19,
+      "section": "Build form and light",
+      "title": "Marks that turn",
+      "purpose": "Use directional hatching to support volume",
+      "durationMinutes": 45,
+      "lessonType": "lesson",
+      "difficulty": "beginner",
+      "medium": [
+        "graphite"
+      ],
+      "requiredMaterials": [
+        "graphite pencil",
+        "eraser",
+        "sketchbook"
+      ],
+      "subject": "shell or folded cloth from life",
+      "exerciseSourceType": "from-life",
+      "fundamentals": {
+        "primary": [
+          "line-shape",
+          "form"
+        ],
+        "secondary": []
+      },
+      "concepts": [
+        {
+          "id": "mark-making-line-quality",
+          "name": "Mark-making and line quality",
+          "stage": "practised"
+        },
+        {
+          "id": "form-volume",
+          "name": "Shape, form, and volume",
+          "stage": "revisited"
+        }
+      ],
+      "newConcepts": [],
+      "revisitedConcepts": [
+        "mark-making-line-quality",
+        "form-volume"
+      ],
+      "prerequisites": [
+        "lesson-15"
+      ],
+      "warmupIntent": "5–10 minutes: try light, medium, and decisive strokes on a small shape, using shell or folded cloth from life.",
+      "conceptTeachingIntent": "Use directional hatching to support volume",
+      "mainDrawingExerciseIntent": "Draw form first, then use restrained directional marks",
+      "learnerDecisions": "Choose mark density",
+      "scaffoldingLevel": "high",
+      "sourceConceptReferences": [
+        {
+          "book_id": "dodson-keys-to-drawing",
+          "source_concept_id": "dodson-keys-to-drawing-concept-02",
+          "locator": "Printed pp. 40–69, chapter 2"
+        },
+        {
+          "book_id": "picard-beginning-drawing",
+          "source_concept_id": "picard-beginning-drawing-concept-05",
+          "locator": "printed pp. 57–63 (PDF pp. 59–65)"
+        }
+      ],
+      "sourceExerciseReferences": [
+        "dodson-keys-to-drawing-exercise-07"
+      ],
+      "visualRequirements": [
+        "from-life"
+      ],
+      "potentialSourceIllustrations": [],
+      "optionalExtensionIntent": "Repeat with a changed viewpoint, lighting, or subject while keeping the same mark-making and line quality question."
+    },
+    {
+      "id": "lesson-20",
+      "sequence": 20,
+      "section": "Build form and light",
+      "title": "Edges in a lit object",
+      "purpose": "Separate hard, soft, and disappearing edges",
+      "durationMinutes": 45,
+      "lessonType": "lesson",
+      "difficulty": "beginner",
+      "medium": [
+        "graphite"
+      ],
+      "requiredMaterials": [
+        "graphite pencil",
+        "eraser",
+        "sketchbook"
+      ],
+      "subject": "fruit or ceramic object under lamp",
+      "exerciseSourceType": "from-life",
+      "fundamentals": {
+        "primary": [
+          "surface-edges",
+          "value"
+        ],
+        "secondary": []
+      },
+      "concepts": [
+        {
+          "id": "texture-surface",
+          "name": "Texture and surface",
+          "stage": "introduced"
+        },
+        {
+          "id": "value-light-shadow",
+          "name": "Value, light, and shadow",
+          "stage": "revisited"
+        }
+      ],
+      "newConcepts": [
+        "texture-surface"
+      ],
+      "revisitedConcepts": [
+        "value-light-shadow"
+      ],
+      "prerequisites": [
+        "lesson-14"
+      ],
+      "warmupIntent": "5–10 minutes: compare a hard, soft, and lost edge or three mark densities, using fruit or ceramic object under lamp.",
+      "conceptTeachingIntent": "Separate hard, soft, and disappearing edges",
+      "mainDrawingExerciseIntent": "Make a value study that varies edge clarity around the form",
+      "learnerDecisions": "Choose which edge to lose",
+      "scaffoldingLevel": "high",
+      "sourceConceptReferences": [
+        {
+          "book_id": "dodson-keys-to-drawing",
+          "source_concept_id": "dodson-keys-to-drawing-concept-06",
+          "locator": "Printed pp. 148–171, chapter 6; stroke and surface examples on pp. 149–153"
+        },
+        {
+          "book_id": "dodson-keys-to-drawing",
+          "source_concept_id": "dodson-keys-to-drawing-concept-04",
+          "locator": "Printed pp. 102–127, chapter 4; light-source example on p. 110"
+        }
+      ],
+      "sourceExerciseReferences": [],
+      "visualRequirements": [
+        "svg-diagram"
+      ],
+      "potentialSourceIllustrations": [],
+      "optionalExtensionIntent": "Repeat with a changed viewpoint, lighting, or subject while keeping the same texture and surface question."
+    },
+    {
+      "id": "lesson-21",
+      "sequence": 21,
+      "section": "Build form and light",
+      "title": "One plant, two lights",
+      "purpose": "Compare how a light move changes shadow design",
+      "durationMinutes": 45,
+      "lessonType": "lesson",
+      "difficulty": "beginner",
+      "medium": [
+        "graphite"
+      ],
+      "requiredMaterials": [
+        "graphite pencil",
+        "eraser",
+        "sketchbook"
+      ],
+      "subject": "plant under desk lamp",
+      "exerciseSourceType": "from-life",
+      "fundamentals": {
+        "primary": [
+          "value",
+          "composition"
+        ],
+        "secondary": []
+      },
+      "concepts": [
+        {
+          "id": "value-light-shadow",
+          "name": "Value, light, and shadow",
+          "stage": "revisited"
+        },
+        {
+          "id": "composition-framing",
+          "name": "Composition and framing",
+          "stage": "revisited"
+        }
+      ],
+      "newConcepts": [],
+      "revisitedConcepts": [
+        "value-light-shadow",
+        "composition-framing"
+      ],
+      "prerequisites": [
+        "lesson-16"
+      ],
+      "warmupIntent": "5–10 minutes: reduce a small view to light, middle, and dark masses, using plant under desk lamp.",
+      "conceptTeachingIntent": "Compare how a light move changes shadow design",
+      "mainDrawingExerciseIntent": "Make two small value studies after moving the lamp",
+      "learnerDecisions": "Choose strongest shadow pattern",
+      "scaffoldingLevel": "high",
+      "sourceConceptReferences": [
+        {
+          "book_id": "dodson-keys-to-drawing",
+          "source_concept_id": "dodson-keys-to-drawing-concept-04",
+          "locator": "Printed pp. 102–127, chapter 4; light-source example on p. 110"
+        },
+        {
+          "book_id": "picard-beginning-drawing",
+          "source_concept_id": "picard-beginning-drawing-concept-03",
+          "locator": "printed p. 29 (PDF p. 31)"
+        }
+      ],
+      "sourceExerciseReferences": [
+        "dodson-keys-to-drawing-exercise-05"
+      ],
+      "visualRequirements": [
+        "from-life"
+      ],
+      "potentialSourceIllustrations": [],
+      "optionalExtensionIntent": "Repeat with a changed viewpoint, lighting, or subject while keeping the same value, light, and shadow question."
+    },
+    {
+      "id": "lesson-22",
+      "sequence": 22,
+      "section": "Build form and light",
+      "title": "Two-point object",
+      "purpose": "Turn a box or book without losing consistent recession",
+      "durationMinutes": 45,
+      "lessonType": "lesson",
+      "difficulty": "beginner",
+      "medium": [
+        "graphite"
+      ],
+      "requiredMaterials": [
+        "graphite pencil",
+        "eraser",
+        "sketchbook"
+      ],
+      "subject": "book or small box from life",
+      "exerciseSourceType": "from-life",
+      "fundamentals": {
+        "primary": [
+          "space",
+          "form"
+        ],
+        "secondary": []
+      },
+      "concepts": [
+        {
+          "id": "perspective-space",
+          "name": "Perspective and spatial construction",
+          "stage": "revisited"
+        },
+        {
+          "id": "form-volume",
+          "name": "Shape, form, and volume",
+          "stage": "revisited"
+        }
+      ],
+      "newConcepts": [],
+      "revisitedConcepts": [
+        "perspective-space",
+        "form-volume"
+      ],
+      "prerequisites": [
+        "lesson-18"
+      ],
+      "warmupIntent": "5–10 minutes: locate eye level and two receding edge directions, using book or small box from life.",
+      "conceptTeachingIntent": "Turn a box or book without losing consistent recession",
+      "mainDrawingExerciseIntent": "Draw a rotated book using two receding edge families",
+      "learnerDecisions": "Choose rotation",
+      "scaffoldingLevel": "high",
+      "sourceConceptReferences": [
+        {
+          "book_id": "norling-perspective-made-easy",
+          "source_concept_id": "norling-perspective-made-easy-concept-01",
+          "locator": "Printed pp. 1–10, Step One: The Horizon, The Vanishing Point, The Eye-Level"
+        },
+        {
+          "book_id": "picard-beginning-drawing",
+          "source_concept_id": "picard-beginning-drawing-concept-05",
+          "locator": "printed pp. 57–63 (PDF pp. 59–65)"
+        }
+      ],
+      "sourceExerciseReferences": [],
+      "visualRequirements": [
+        "svg-diagram"
+      ],
+      "potentialSourceIllustrations": [],
+      "optionalExtensionIntent": "Repeat with a changed viewpoint, lighting, or subject while keeping the same perspective and spatial construction question."
+    },
+    {
+      "id": "lesson-23",
+      "sequence": 23,
+      "section": "Build form and light",
+      "title": "Shape, value, and focus",
+      "purpose": "Create hierarchy in a small still-life arrangement",
+      "durationMinutes": 45,
+      "lessonType": "lesson",
+      "difficulty": "beginner",
+      "medium": [
+        "graphite"
+      ],
+      "requiredMaterials": [
+        "graphite pencil",
+        "eraser",
+        "sketchbook"
+      ],
+      "subject": "three household objects from life",
+      "exerciseSourceType": "from-life",
+      "fundamentals": {
+        "primary": [
+          "composition"
+        ],
+        "secondary": []
+      },
+      "concepts": [
+        {
+          "id": "visual-hierarchy-focal-path",
+          "name": "Visual hierarchy and focal path",
+          "stage": "introduced"
+        },
+        {
+          "id": "composition-framing",
+          "name": "Composition and framing",
+          "stage": "revisited"
+        }
+      ],
+      "newConcepts": [
+        "visual-hierarchy-focal-path"
+      ],
+      "revisitedConcepts": [
+        "composition-framing"
+      ],
+      "prerequisites": [
+        "lesson-21"
+      ],
+      "warmupIntent": "5–10 minutes: make two thumbnails with different strongest contrasts, using three household objects from life.",
+      "conceptTeachingIntent": "Create hierarchy in a small still-life arrangement",
+      "mainDrawingExerciseIntent": "Thumbnail two arrangements and finish one with a focal contrast",
+      "learnerDecisions": "Choose focal object",
+      "scaffoldingLevel": "high",
+      "sourceConceptReferences": [
+        {
+          "book_id": "garvey-williams-mastering-composition",
+          "source_concept_id": "garvey-williams-mastering-composition-concept-01",
+          "locator": "Printed pp. 8–12, introduction and working definition"
+        },
+        {
+          "book_id": "picard-beginning-drawing",
+          "source_concept_id": "picard-beginning-drawing-concept-03",
+          "locator": "printed p. 29 (PDF p. 31)"
+        }
+      ],
+      "sourceExerciseReferences": [],
+      "visualRequirements": [
+        "from-life"
+      ],
+      "potentialSourceIllustrations": [
+        "picard-beginning-drawing-illustration-06"
+      ],
+      "optionalExtensionIntent": "Repeat with a changed viewpoint, lighting, or subject while keeping the same visual hierarchy and focal path question."
+    },
+    {
+      "id": "lesson-24",
+      "sequence": 24,
+      "section": "Build form and light",
+      "title": "Project: observed still life",
+      "purpose": "Combine measured shapes, form, value, and framing",
+      "durationMinutes": 90,
+      "lessonType": "project",
+      "difficulty": "beginner",
+      "medium": [
+        "graphite"
+      ],
+      "requiredMaterials": [
+        "graphite pencil",
+        "eraser",
+        "sketchbook"
+      ],
+      "subject": "self-arranged still life from life",
+      "exerciseSourceType": "from-life",
+      "fundamentals": {
+        "primary": [
+          "composition",
+          "value",
+          "measurement",
+          "reflection",
+          "observation"
+        ],
+        "secondary": [
+          "form"
+        ]
+      },
+      "concepts": [
+        {
+          "id": "composition-framing",
+          "name": "Composition and framing",
+          "stage": "combined"
+        },
+        {
+          "id": "value-light-shadow",
+          "name": "Value, light, and shadow",
+          "stage": "combined"
+        },
+        {
+          "id": "proportion-measurement",
+          "name": "Proportion and comparative measurement",
+          "stage": "combined"
+        },
+        {
+          "id": "practice-reflection",
+          "name": "Practice process and reflection",
+          "stage": "practised"
+        },
+        {
+          "id": "observation-perception",
+          "name": "Observation and perception",
+          "stage": "combined"
+        }
+      ],
+      "newConcepts": [],
+      "revisitedConcepts": [
+        "composition-framing",
+        "value-light-shadow",
+        "proportion-measurement",
+        "practice-reflection",
+        "observation-perception"
+      ],
+      "prerequisites": [
+        "lesson-23"
+      ],
+      "warmupIntent": "5–10 minutes: make two thumbnail crops with different margins, using self-arranged still life from life.",
+      "conceptTeachingIntent": "Combine measured shapes, form, value, and framing",
+      "mainDrawingExerciseIntent": "Plan two thumbnails and make one sustained drawing, reviewing placement and value",
+      "learnerDecisions": "Choose objects, crop, lighting",
+      "scaffoldingLevel": "high",
+      "sourceConceptReferences": [
+        {
+          "book_id": "picard-beginning-drawing",
+          "source_concept_id": "picard-beginning-drawing-concept-03",
+          "locator": "printed p. 29 (PDF p. 31)"
+        },
+        {
+          "book_id": "dodson-keys-to-drawing",
+          "source_concept_id": "dodson-keys-to-drawing-concept-04",
+          "locator": "Printed pp. 102–127, chapter 4; light-source example on p. 110"
+        },
+        {
+          "book_id": "aristides-classical-atelier",
+          "source_concept_id": "aristides-classical-atelier-concept-01",
+          "locator": "EPUB, Chapter Two, “The Golden Ratio” and “The Golden Ratio in Nature”"
+        },
+        {
+          "book_id": "dodson-keys-to-drawing",
+          "source_concept_id": "dodson-keys-to-drawing-concept-01",
+          "locator": "Printed pp. 10–39, chapter 1; the first project and line examples are on pp. 10–15"
+        }
+      ],
+      "sourceExerciseReferences": [
+        "watson-garcia-absolute-beginner-exercise-08"
+      ],
+      "visualRequirements": [
+        "from-life"
+      ],
+      "potentialSourceIllustrations": [],
+      "optionalExtensionIntent": "Repeat with a changed viewpoint, lighting, or subject while keeping the same composition and framing question."
+    },
+    {
+      "id": "lesson-25",
+      "sequence": 25,
+      "section": "Make space and design",
+      "title": "Trees from masses",
+      "purpose": "Simplify a tree into trunk, branch rhythm, and foliage groups",
+      "durationMinutes": 45,
+      "lessonType": "lesson",
+      "difficulty": "developing",
+      "medium": [
+        "graphite"
+      ],
+      "requiredMaterials": [
+        "graphite pencil",
+        "eraser",
+        "sketchbook"
+      ],
+      "subject": "tree from life or window",
+      "exerciseSourceType": "from-life",
+      "fundamentals": {
+        "primary": [
+          "form",
+          "gesture"
+        ],
+        "secondary": []
+      },
+      "concepts": [
+        {
+          "id": "form-volume",
+          "name": "Shape, form, and volume",
+          "stage": "combined"
+        },
+        {
+          "id": "gesture-action",
+          "name": "Gesture and action",
+          "stage": "practised"
+        }
+      ],
+      "newConcepts": [],
+      "revisitedConcepts": [
+        "form-volume",
+        "gesture-action"
+      ],
+      "prerequisites": [
+        "lesson-10"
+      ],
+      "warmupIntent": "5–10 minutes: block one subject part as a simple turning volume, using tree from life or window.",
+      "conceptTeachingIntent": "Simplify a tree into trunk, branch rhythm, and foliage groups",
+      "mainDrawingExerciseIntent": "Draw a tree with gesture and large masses before leaf details",
+      "learnerDecisions": "Choose tree and viewpoint",
+      "scaffoldingLevel": "medium",
+      "sourceConceptReferences": [
+        {
+          "book_id": "picard-beginning-drawing",
+          "source_concept_id": "picard-beginning-drawing-concept-05",
+          "locator": "printed pp. 57–63 (PDF pp. 59–65)"
+        },
+        {
+          "book_id": "hampton-figure-drawing",
+          "source_concept_id": "hampton-figure-drawing-concept-01",
+          "locator": "Printed p. 3; PDF p. 11, Gesture Drawing opening"
+        }
+      ],
+      "sourceExerciseReferences": [],
+      "visualRequirements": [
+        "from-life"
+      ],
+      "potentialSourceIllustrations": [],
+      "optionalExtensionIntent": "Repeat with a changed viewpoint, lighting, or subject while keeping the same shape, form, and volume question."
+    },
+    {
+      "id": "lesson-26",
+      "sequence": 26,
+      "section": "Make space and design",
+      "title": "Atmosphere in three planes",
+      "purpose": "Use value and edge contrast for landscape depth",
+      "durationMinutes": 45,
+      "lessonType": "lesson",
+      "difficulty": "developing",
+      "medium": [
+        "graphite"
+      ],
+      "requiredMaterials": [
+        "graphite pencil",
+        "eraser",
+        "sketchbook"
+      ],
+      "subject": "landscape from life or supplied view",
+      "exerciseSourceType": "provided-reference",
+      "fundamentals": {
+        "primary": [
+          "space",
+          "value"
+        ],
+        "secondary": [
+          "composition"
+        ]
+      },
+      "concepts": [
+        {
+          "id": "depth-atmosphere",
+          "name": "Depth and atmospheric recession",
+          "stage": "introduced"
+        },
+        {
+          "id": "value-light-shadow",
+          "name": "Value, light, and shadow",
+          "stage": "combined"
+        }
+      ],
+      "newConcepts": [
+        "depth-atmosphere"
+      ],
+      "revisitedConcepts": [
+        "value-light-shadow"
+      ],
+      "prerequisites": [
+        "lesson-11"
+      ],
+      "warmupIntent": "5–10 minutes: make a three-plane value thumbnail, using landscape from life or supplied view.",
+      "conceptTeachingIntent": "Use value and edge contrast for landscape depth",
+      "mainDrawingExerciseIntent": "Make a three-plane landscape, keeping distance quieter",
+      "learnerDecisions": "Choose distant shape grouping",
+      "scaffoldingLevel": "medium",
+      "sourceConceptReferences": [
+        {
+          "book_id": "dodson-keys-to-drawing",
+          "source_concept_id": "dodson-keys-to-drawing-concept-05",
+          "locator": "Printed pp. 128–147, chapter 5; construction example on p. 135"
+        },
+        {
+          "book_id": "dodson-keys-to-drawing",
+          "source_concept_id": "dodson-keys-to-drawing-concept-04",
+          "locator": "Printed pp. 102–127, chapter 4; light-source example on p. 110"
+        }
+      ],
+      "sourceExerciseReferences": [],
+      "visualRequirements": [
+        "generated-reference"
+      ],
+      "potentialSourceIllustrations": [],
+      "optionalExtensionIntent": "Repeat with a changed viewpoint, lighting, or subject while keeping the same depth and atmospheric recession question."
+    },
+    {
+      "id": "lesson-27",
+      "sequence": 27,
+      "section": "Make space and design",
+      "title": "Avoid accidental tangents",
+      "purpose": "Improve clarity where shapes nearly touch",
+      "durationMinutes": 45,
+      "lessonType": "lesson",
+      "difficulty": "developing",
+      "medium": [
+        "graphite"
+      ],
+      "requiredMaterials": [
+        "graphite pencil",
+        "eraser",
+        "sketchbook"
+      ],
+      "subject": "plant and container from life",
+      "exerciseSourceType": "from-life",
+      "fundamentals": {
+        "primary": [
+          "composition",
+          "observation",
+          "line-shape"
+        ],
+        "secondary": []
+      },
+      "concepts": [
+        {
+          "id": "composition-framing",
+          "name": "Composition and framing",
+          "stage": "combined"
+        },
+        {
+          "id": "negative-space",
+          "name": "Negative space and surrounding shapes",
+          "stage": "combined"
+        },
+        {
+          "id": "edges-contour",
+          "name": "Edges and contour",
+          "stage": "combined"
+        }
+      ],
+      "newConcepts": [],
+      "revisitedConcepts": [
+        "composition-framing",
+        "negative-space",
+        "edges-contour"
+      ],
+      "prerequisites": [
+        "lesson-23"
+      ],
+      "warmupIntent": "5–10 minutes: make two thumbnail crops with different margins, using plant and container from life.",
+      "conceptTeachingIntent": "Improve clarity where shapes nearly touch",
+      "mainDrawingExerciseIntent": "Make two crops and change one overlap or tangent",
+      "learnerDecisions": "Choose crop correction",
+      "scaffoldingLevel": "medium",
+      "sourceConceptReferences": [
+        {
+          "book_id": "picard-beginning-drawing",
+          "source_concept_id": "picard-beginning-drawing-concept-03",
+          "locator": "printed p. 29 (PDF p. 31)"
+        },
+        {
+          "book_id": "edwards-right-side-brain",
+          "source_concept_id": "edwards-right-side-brain-concept-03",
+          "locator": "PDF pp. 155–179"
+        },
+        {
+          "book_id": "aristides-classical-atelier",
+          "source_concept_id": "aristides-classical-atelier-concept-02",
+          "locator": "EPUB, Chapter Three, “Types and Uses of Lines”"
+        }
+      ],
+      "sourceExerciseReferences": [
+        "dodson-keys-to-drawing-exercise-08"
+      ],
+      "visualRequirements": [
+        "from-life"
+      ],
+      "potentialSourceIllustrations": [],
+      "optionalExtensionIntent": "Repeat with a changed viewpoint, lighting, or subject while keeping the same composition and framing question."
+    },
+    {
+      "id": "lesson-28",
+      "sequence": 28,
+      "section": "Make space and design",
+      "title": "Creature from another angle",
+      "purpose": "Rotate simple character forms rather than tracing a contour",
+      "durationMinutes": 45,
+      "lessonType": "lesson",
+      "difficulty": "developing",
+      "medium": [
+        "graphite"
+      ],
+      "requiredMaterials": [
+        "graphite pencil",
+        "eraser",
+        "sketchbook"
+      ],
+      "subject": "chosen Pokémon or original creature",
+      "exerciseSourceType": "learner-selected-reference",
+      "fundamentals": {
+        "primary": [
+          "invention",
+          "space"
+        ],
+        "secondary": []
+      },
+      "concepts": [
+        {
+          "id": "stylized-character-construction",
+          "name": "Stylized character construction",
+          "stage": "practised"
+        },
+        {
+          "id": "perspective-space",
+          "name": "Perspective and spatial construction",
+          "stage": "combined"
+        },
+        {
+          "id": "creative-invention",
+          "name": "Creative invention and interpretation",
+          "stage": "practised"
+        }
+      ],
+      "newConcepts": [],
+      "revisitedConcepts": [
+        "stylized-character-construction",
+        "perspective-space",
+        "creative-invention"
+      ],
+      "prerequisites": [
+        "lesson-22"
+      ],
+      "warmupIntent": "5–10 minutes: draw one action guide and three large shapes, using chosen Pokémon or original creature.",
+      "conceptTeachingIntent": "Rotate simple character forms rather than tracing a contour",
+      "mainDrawingExerciseIntent": "Construct a character in a new three-quarter view with visible form axes",
+      "learnerDecisions": "Choose view and pose",
+      "scaffoldingLevel": "medium",
+      "sourceConceptReferences": [
+        {
+          "book_id": "pokemon-how-to-draw",
+          "source_concept_id": "pokemon-how-to-draw-concept-02",
+          "locator": "Printed pp. 8–9; PDF pp. 10–11, Pikachu steps"
+        },
+        {
+          "book_id": "norling-perspective-made-easy",
+          "source_concept_id": "norling-perspective-made-easy-concept-01",
+          "locator": "Printed pp. 1–10, Step One: The Horizon, The Vanishing Point, The Eye-Level"
+        },
+        {
+          "book_id": "dodson-keys-to-drawing",
+          "source_concept_id": "dodson-keys-to-drawing-concept-08",
+          "locator": "Printed pp. 198–221, chapter 8; creative examples on pp. 198–206"
+        }
+      ],
+      "sourceExerciseReferences": [
+        "pokemon-how-to-draw-exercise-02"
+      ],
+      "visualRequirements": [
+        "learner-reference"
+      ],
+      "potentialSourceIllustrations": [],
+      "optionalExtensionIntent": "Repeat with a changed viewpoint, lighting, or subject while keeping the same stylized character construction question."
+    },
+    {
+      "id": "lesson-29",
+      "sequence": 29,
+      "section": "Make space and design",
+      "title": "Landscape thumbnails",
+      "purpose": "Compare focal paths and large value shapes in a view",
+      "durationMinutes": 45,
+      "lessonType": "lesson",
+      "difficulty": "developing",
+      "medium": [
+        "graphite"
+      ],
+      "requiredMaterials": [
+        "graphite pencil",
+        "eraser",
+        "sketchbook"
+      ],
+      "subject": "outdoor view or supplied landscape",
+      "exerciseSourceType": "from-life",
+      "fundamentals": {
+        "primary": [
+          "composition"
+        ],
+        "secondary": []
+      },
+      "concepts": [
+        {
+          "id": "visual-hierarchy-focal-path",
+          "name": "Visual hierarchy and focal path",
+          "stage": "practised"
+        },
+        {
+          "id": "composition-framing",
+          "name": "Composition and framing",
+          "stage": "combined"
+        }
+      ],
+      "newConcepts": [],
+      "revisitedConcepts": [
+        "visual-hierarchy-focal-path",
+        "composition-framing"
+      ],
+      "prerequisites": [
+        "lesson-26"
+      ],
+      "warmupIntent": "5–10 minutes: make two thumbnails with different strongest contrasts, using outdoor view or supplied landscape.",
+      "conceptTeachingIntent": "Compare focal paths and large value shapes in a view",
+      "mainDrawingExerciseIntent": "Make four thumbnails with different crops and choose one to develop",
+      "learnerDecisions": "Choose crop and focal area",
+      "scaffoldingLevel": "medium",
+      "sourceConceptReferences": [
+        {
+          "book_id": "garvey-williams-mastering-composition",
+          "source_concept_id": "garvey-williams-mastering-composition-concept-01",
+          "locator": "Printed pp. 8–12, introduction and working definition"
+        },
+        {
+          "book_id": "picard-beginning-drawing",
+          "source_concept_id": "picard-beginning-drawing-concept-03",
+          "locator": "printed p. 29 (PDF p. 31)"
+        }
+      ],
+      "sourceExerciseReferences": [],
+      "visualRequirements": [
+        "from-life"
+      ],
+      "potentialSourceIllustrations": [],
+      "optionalExtensionIntent": "Repeat with a changed viewpoint, lighting, or subject while keeping the same visual hierarchy and focal path question."
+    },
+    {
+      "id": "lesson-30",
+      "sequence": 30,
+      "section": "Make space and design",
+      "title": "Charcoal masses",
+      "purpose": "Use charcoal to move broad value shapes quickly",
+      "durationMinutes": 45,
+      "lessonType": "lesson",
+      "difficulty": "developing",
+      "medium": [
+        "charcoal"
+      ],
+      "requiredMaterials": [
+        "charcoal",
+        "eraser",
+        "sketchbook"
+      ],
+      "subject": "lamp-lit still life from life",
+      "exerciseSourceType": "from-life",
+      "fundamentals": {
+        "primary": [
+          "materials",
+          "value"
+        ],
+        "secondary": [
+          "composition"
+        ]
+      },
+      "concepts": [
+        {
+          "id": "color-media",
+          "name": "Color and drawing media",
+          "stage": "introduced"
+        },
+        {
+          "id": "value-light-shadow",
+          "name": "Value, light, and shadow",
+          "stage": "combined"
+        }
+      ],
+      "newConcepts": [
+        "color-media"
+      ],
+      "revisitedConcepts": [
+        "value-light-shadow"
+      ],
+      "prerequisites": [
+        "lesson-24"
+      ],
+      "warmupIntent": "5–10 minutes: make two broad graphite or charcoal masses and lift one light, using lamp-lit still life from life.",
+      "conceptTeachingIntent": "Use charcoal to move broad value shapes quickly",
+      "mainDrawingExerciseIntent": "Make two broad charcoal block-ins and lift lights with an eraser",
+      "learnerDecisions": "Choose object grouping",
+      "scaffoldingLevel": "medium",
+      "sourceConceptReferences": [
+        {
+          "book_id": "watson-garcia-absolute-beginner",
+          "source_concept_id": "watson-garcia-absolute-beginner-concept-05",
+          "locator": "Printed pp. 72–87, chapter 5"
+        },
+        {
+          "book_id": "dodson-keys-to-drawing",
+          "source_concept_id": "dodson-keys-to-drawing-concept-04",
+          "locator": "Printed pp. 102–127, chapter 4; light-source example on p. 110"
+        }
+      ],
+      "sourceExerciseReferences": [],
+      "visualRequirements": [
+        "from-life"
+      ],
+      "potentialSourceIllustrations": [],
+      "optionalExtensionIntent": "Repeat with a changed viewpoint, lighting, or subject while keeping the same color and drawing media question."
+    },
+    {
+      "id": "lesson-31",
+      "sequence": 31,
+      "section": "Make space and design",
+      "title": "Plant stems in space",
+      "purpose": "Use curved axes, overlap, and a vessel rim to explain a small arrangement",
+      "durationMinutes": 45,
+      "lessonType": "lesson",
+      "difficulty": "developing",
+      "medium": [
+        "graphite"
+      ],
+      "requiredMaterials": [
+        "graphite pencil",
+        "eraser",
+        "sketchbook"
+      ],
+      "subject": "leafy stems in a jar from life",
+      "exerciseSourceType": "from-life",
+      "fundamentals": {
+        "primary": [
+          "gesture",
+          "form",
+          "space"
+        ],
+        "secondary": [
+          "observation"
+        ]
+      },
+      "concepts": [
+        {
+          "id": "gesture-action",
+          "name": "Gesture and action",
+          "stage": "revisited"
+        },
+        {
+          "id": "form-volume",
+          "name": "Shape, form, and volume",
+          "stage": "combined"
+        },
+        {
+          "id": "ellipse-cylinder-construction",
+          "name": "Ellipses and cylinders in space",
+          "stage": "revisited"
+        }
+      ],
+      "newConcepts": [],
+      "revisitedConcepts": [
+        "gesture-action",
+        "form-volume",
+        "ellipse-cylinder-construction"
+      ],
+      "prerequisites": [
+        "lesson-16"
+      ],
+      "warmupIntent": "5–10 minutes: draw three short action lines before adding mass, using leafy stems in a jar from life.",
+      "conceptTeachingIntent": "Use curved axes, overlap, and a vessel rim to explain a small arrangement",
+      "mainDrawingExerciseIntent": "Draw gesture lines, volumes, jar ellipse, and selected overlaps",
+      "learnerDecisions": "Choose arrangement",
+      "scaffoldingLevel": "medium",
+      "sourceConceptReferences": [
+        {
+          "book_id": "hampton-figure-drawing",
+          "source_concept_id": "hampton-figure-drawing-concept-01",
+          "locator": "Printed p. 3; PDF p. 11, Gesture Drawing opening"
+        },
+        {
+          "book_id": "picard-beginning-drawing",
+          "source_concept_id": "picard-beginning-drawing-concept-05",
+          "locator": "printed pp. 57–63 (PDF pp. 59–65)"
+        },
+        {
+          "book_id": "dodson-keys-to-drawing",
+          "source_concept_id": "dodson-keys-to-drawing-concept-05",
+          "locator": "Printed pp. 128–147, chapter 5; construction example on p. 135"
+        }
+      ],
+      "sourceExerciseReferences": [],
+      "visualRequirements": [
+        "from-life"
+      ],
+      "potentialSourceIllustrations": [],
+      "optionalExtensionIntent": "Repeat with a changed viewpoint, lighting, or subject while keeping the same gesture and action question."
+    },
+    {
+      "id": "lesson-32",
+      "sequence": 32,
+      "section": "Make space and design",
+      "title": "Interior depth",
+      "purpose": "Coordinate eye level, size, and overlapping furniture",
+      "durationMinutes": 45,
+      "lessonType": "lesson",
+      "difficulty": "developing",
+      "medium": [
+        "graphite"
+      ],
+      "requiredMaterials": [
+        "graphite pencil",
+        "eraser",
+        "sketchbook"
+      ],
+      "subject": "room from life",
+      "exerciseSourceType": "from-life",
+      "fundamentals": {
+        "primary": [
+          "space",
+          "composition"
+        ],
+        "secondary": []
+      },
+      "concepts": [
+        {
+          "id": "perspective-space",
+          "name": "Perspective and spatial construction",
+          "stage": "combined"
+        },
+        {
+          "id": "composition-framing",
+          "name": "Composition and framing",
+          "stage": "combined"
+        }
+      ],
+      "newConcepts": [],
+      "revisitedConcepts": [
+        "perspective-space",
+        "composition-framing"
+      ],
+      "prerequisites": [
+        "lesson-18"
+      ],
+      "warmupIntent": "5–10 minutes: locate eye level and two receding edge directions, using room from life.",
+      "conceptTeachingIntent": "Coordinate eye level, size, and overlapping furniture",
+      "mainDrawingExerciseIntent": "Draw a room corner with two furniture masses and a planned focal area",
+      "learnerDecisions": "Choose viewpoint and crop",
+      "scaffoldingLevel": "medium",
+      "sourceConceptReferences": [
+        {
+          "book_id": "norling-perspective-made-easy",
+          "source_concept_id": "norling-perspective-made-easy-concept-01",
+          "locator": "Printed pp. 1–10, Step One: The Horizon, The Vanishing Point, The Eye-Level"
+        },
+        {
+          "book_id": "picard-beginning-drawing",
+          "source_concept_id": "picard-beginning-drawing-concept-03",
+          "locator": "printed p. 29 (PDF p. 31)"
+        }
+      ],
+      "sourceExerciseReferences": [],
+      "visualRequirements": [
+        "svg-diagram"
+      ],
+      "potentialSourceIllustrations": [],
+      "optionalExtensionIntent": "Repeat with a changed viewpoint, lighting, or subject while keeping the same perspective and spatial construction question."
+    },
+    {
+      "id": "lesson-33",
+      "sequence": 33,
+      "section": "Make space and design",
+      "title": "Texture with restraint",
+      "purpose": "Suggest a surface without filling every area",
+      "durationMinutes": 45,
+      "lessonType": "lesson",
+      "difficulty": "developing",
+      "medium": [
+        "graphite"
+      ],
+      "requiredMaterials": [
+        "graphite pencil",
+        "eraser",
+        "sketchbook"
+      ],
+      "subject": "bark, stone, or fabric from life",
+      "exerciseSourceType": "from-life",
+      "fundamentals": {
+        "primary": [
+          "surface-edges",
+          "composition",
+          "line-shape"
+        ],
+        "secondary": []
+      },
+      "concepts": [
+        {
+          "id": "texture-surface",
+          "name": "Texture and surface",
+          "stage": "practised"
+        },
+        {
+          "id": "visual-hierarchy-focal-path",
+          "name": "Visual hierarchy and focal path",
+          "stage": "revisited"
+        },
+        {
+          "id": "edges-contour",
+          "name": "Edges and contour",
+          "stage": "combined"
+        },
+        {
+          "id": "mark-making-line-quality",
+          "name": "Mark-making and line quality",
+          "stage": "revisited"
+        }
+      ],
+      "newConcepts": [],
+      "revisitedConcepts": [
+        "texture-surface",
+        "visual-hierarchy-focal-path",
+        "edges-contour",
+        "mark-making-line-quality"
+      ],
+      "prerequisites": [
+        "lesson-20"
+      ],
+      "warmupIntent": "5–10 minutes: compare a hard, soft, and lost edge or three mark densities, using bark, stone, or fabric from life.",
+      "conceptTeachingIntent": "Suggest a surface without filling every area",
+      "mainDrawingExerciseIntent": "Draw a textured object, concentrating marks near the focal point",
+      "learnerDecisions": "Choose texture and omitted areas",
+      "scaffoldingLevel": "medium",
+      "sourceConceptReferences": [
+        {
+          "book_id": "dodson-keys-to-drawing",
+          "source_concept_id": "dodson-keys-to-drawing-concept-06",
+          "locator": "Printed pp. 148–171, chapter 6; stroke and surface examples on pp. 149–153"
+        },
+        {
+          "book_id": "garvey-williams-mastering-composition",
+          "source_concept_id": "garvey-williams-mastering-composition-concept-01",
+          "locator": "Printed pp. 8–12, introduction and working definition"
+        },
+        {
+          "book_id": "aristides-classical-atelier",
+          "source_concept_id": "aristides-classical-atelier-concept-02",
+          "locator": "EPUB, Chapter Three, “Types and Uses of Lines”"
+        },
+        {
+          "book_id": "dodson-keys-to-drawing",
+          "source_concept_id": "dodson-keys-to-drawing-concept-02",
+          "locator": "Printed pp. 40–69, chapter 2"
+        }
+      ],
+      "sourceExerciseReferences": [
+        "dodson-keys-to-drawing-exercise-07"
+      ],
+      "visualRequirements": [
+        "from-life"
+      ],
+      "potentialSourceIllustrations": [],
+      "optionalExtensionIntent": "Repeat with a changed viewpoint, lighting, or subject while keeping the same texture and surface question."
+    },
+    {
+      "id": "lesson-34",
+      "sequence": 34,
+      "section": "Make space and design",
+      "title": "Light on a flower",
+      "purpose": "Group petal shadows without outlining every petal",
+      "durationMinutes": 45,
+      "lessonType": "lesson",
+      "difficulty": "developing",
+      "medium": [
+        "graphite"
+      ],
+      "requiredMaterials": [
+        "graphite pencil",
+        "eraser",
+        "sketchbook"
+      ],
+      "subject": "single flower under lamp",
+      "exerciseSourceType": "from-life",
+      "fundamentals": {
+        "primary": [
+          "value",
+          "form"
+        ],
+        "secondary": []
+      },
+      "concepts": [
+        {
+          "id": "value-light-shadow",
+          "name": "Value, light, and shadow",
+          "stage": "combined"
+        },
+        {
+          "id": "form-volume",
+          "name": "Shape, form, and volume",
+          "stage": "combined"
+        }
+      ],
+      "newConcepts": [],
+      "revisitedConcepts": [
+        "value-light-shadow",
+        "form-volume"
+      ],
+      "prerequisites": [
+        "lesson-16"
+      ],
+      "warmupIntent": "5–10 minutes: reduce a small view to light, middle, and dark masses, using single flower under lamp.",
+      "conceptTeachingIntent": "Group petal shadows without outlining every petal",
+      "mainDrawingExerciseIntent": "Draw a bloom with three value groups and restrained edges",
+      "learnerDecisions": "Choose bloom and light angle",
+      "scaffoldingLevel": "medium",
+      "sourceConceptReferences": [
+        {
+          "book_id": "dodson-keys-to-drawing",
+          "source_concept_id": "dodson-keys-to-drawing-concept-04",
+          "locator": "Printed pp. 102–127, chapter 4; light-source example on p. 110"
+        },
+        {
+          "book_id": "picard-beginning-drawing",
+          "source_concept_id": "picard-beginning-drawing-concept-05",
+          "locator": "printed pp. 57–63 (PDF pp. 59–65)"
+        }
+      ],
+      "sourceExerciseReferences": [],
+      "visualRequirements": [
+        "from-life"
+      ],
+      "potentialSourceIllustrations": [],
+      "optionalExtensionIntent": "Repeat with a changed viewpoint, lighting, or subject while keeping the same value, light, and shadow question."
+    },
+    {
+      "id": "lesson-35",
+      "sequence": 35,
+      "section": "Make space and design",
+      "title": "Charcoal landscape atmosphere",
+      "purpose": "Use broad charcoal masses and soft distance",
+      "durationMinutes": 45,
+      "lessonType": "lesson",
+      "difficulty": "developing",
+      "medium": [
+        "charcoal"
+      ],
+      "requiredMaterials": [
+        "charcoal",
+        "eraser",
+        "sketchbook"
+      ],
+      "subject": "landscape from life or generated reference",
+      "exerciseSourceType": "provided-reference",
+      "fundamentals": {
+        "primary": [
+          "space",
+          "materials"
+        ],
+        "secondary": []
+      },
+      "concepts": [
+        {
+          "id": "depth-atmosphere",
+          "name": "Depth and atmospheric recession",
+          "stage": "practised"
+        },
+        {
+          "id": "color-media",
+          "name": "Color and drawing media",
+          "stage": "practised"
+        }
+      ],
+      "newConcepts": [],
+      "revisitedConcepts": [
+        "depth-atmosphere",
+        "color-media"
+      ],
+      "prerequisites": [
+        "lesson-30"
+      ],
+      "warmupIntent": "5–10 minutes: make a three-plane value thumbnail, using landscape from life or generated reference.",
+      "conceptTeachingIntent": "Use broad charcoal masses and soft distance",
+      "mainDrawingExerciseIntent": "Draw a small landscape in charcoal, lifting the lightest plane",
+      "learnerDecisions": "Choose view and focal contrast",
+      "scaffoldingLevel": "medium",
+      "sourceConceptReferences": [
+        {
+          "book_id": "dodson-keys-to-drawing",
+          "source_concept_id": "dodson-keys-to-drawing-concept-05",
+          "locator": "Printed pp. 128–147, chapter 5; construction example on p. 135"
+        },
+        {
+          "book_id": "watson-garcia-absolute-beginner",
+          "source_concept_id": "watson-garcia-absolute-beginner-concept-05",
+          "locator": "Printed pp. 72–87, chapter 5"
+        }
+      ],
+      "sourceExerciseReferences": [],
+      "visualRequirements": [
+        "generated-reference"
+      ],
+      "potentialSourceIllustrations": [],
+      "optionalExtensionIntent": "Repeat with a changed viewpoint, lighting, or subject while keeping the same depth and atmospheric recession question."
+    },
+    {
+      "id": "lesson-36",
+      "sequence": 36,
+      "section": "Make space and design",
+      "title": "Project: a sense of place",
+      "purpose": "Combine landscape depth, framing, and tonal emphasis",
+      "durationMinutes": 90,
+      "lessonType": "project",
+      "difficulty": "developing",
+      "medium": [
+        "graphite",
+        "charcoal"
+      ],
+      "requiredMaterials": [
+        "graphite or charcoal",
+        "eraser",
+        "sketchbook"
+      ],
+      "subject": "chosen familiar place",
+      "exerciseSourceType": "from-life",
+      "fundamentals": {
+        "primary": [
+          "composition",
+          "space",
+          "reflection",
+          "invention"
+        ],
+        "secondary": [
+          "measurement"
+        ]
+      },
+      "concepts": [
+        {
+          "id": "composition-framing",
+          "name": "Composition and framing",
+          "stage": "combined"
+        },
+        {
+          "id": "depth-atmosphere",
+          "name": "Depth and atmospheric recession",
+          "stage": "revisited"
+        },
+        {
+          "id": "visual-hierarchy-focal-path",
+          "name": "Visual hierarchy and focal path",
+          "stage": "combined"
+        },
+        {
+          "id": "practice-reflection",
+          "name": "Practice process and reflection",
+          "stage": "revisited"
+        },
+        {
+          "id": "creative-invention",
+          "name": "Creative invention and interpretation",
+          "stage": "revisited"
+        }
+      ],
+      "newConcepts": [],
+      "revisitedConcepts": [
+        "composition-framing",
+        "depth-atmosphere",
+        "visual-hierarchy-focal-path",
+        "practice-reflection",
+        "creative-invention"
+      ],
+      "prerequisites": [
+        "lesson-35"
+      ],
+      "warmupIntent": "5–10 minutes: make two thumbnail crops with different margins, using chosen familiar place.",
+      "conceptTeachingIntent": "Combine landscape depth, framing, and tonal emphasis",
+      "mainDrawingExerciseIntent": "Plan three viewpoints and finish one place drawing",
+      "learnerDecisions": "Choose place, crop, medium",
+      "scaffoldingLevel": "medium",
+      "sourceConceptReferences": [
+        {
+          "book_id": "picard-beginning-drawing",
+          "source_concept_id": "picard-beginning-drawing-concept-03",
+          "locator": "printed p. 29 (PDF p. 31)"
+        },
+        {
+          "book_id": "dodson-keys-to-drawing",
+          "source_concept_id": "dodson-keys-to-drawing-concept-05",
+          "locator": "Printed pp. 128–147, chapter 5; construction example on p. 135"
+        },
+        {
+          "book_id": "garvey-williams-mastering-composition",
+          "source_concept_id": "garvey-williams-mastering-composition-concept-01",
+          "locator": "Printed pp. 8–12, introduction and working definition"
+        },
+        {
+          "book_id": "dodson-keys-to-drawing",
+          "source_concept_id": "dodson-keys-to-drawing-concept-01",
+          "locator": "Printed pp. 10–39, chapter 1; the first project and line examples are on pp. 10–15"
+        },
+        {
+          "book_id": "dodson-keys-to-drawing",
+          "source_concept_id": "dodson-keys-to-drawing-concept-08",
+          "locator": "Printed pp. 198–221, chapter 8; creative examples on pp. 198–206"
+        }
+      ],
+      "sourceExerciseReferences": [
+        "picard-beginning-drawing-exercise-10"
+      ],
+      "visualRequirements": [
+        "from-life"
+      ],
+      "potentialSourceIllustrations": [
+        "picard-beginning-drawing-illustration-08"
+      ],
+      "optionalExtensionIntent": "Repeat with a changed viewpoint, lighting, or subject while keeping the same composition and framing question."
+    },
+    {
+      "id": "lesson-37",
+      "sequence": 37,
+      "section": "Draw people and movement",
+      "title": "Action before anatomy",
+      "purpose": "Capture a pose with direction and weight",
+      "durationMinutes": 45,
+      "lessonType": "lesson",
+      "difficulty": "developing",
+      "medium": [
+        "graphite"
+      ],
+      "requiredMaterials": [
+        "graphite pencil",
+        "eraser",
+        "sketchbook"
+      ],
+      "subject": "willing model or timed figure reference",
+      "exerciseSourceType": "provided-reference",
+      "fundamentals": {
+        "primary": [
+          "gesture",
+          "observation"
+        ],
+        "secondary": []
+      },
+      "concepts": [
+        {
+          "id": "gesture-action",
+          "name": "Gesture and action",
+          "stage": "combined"
+        },
+        {
+          "id": "observation-perception",
+          "name": "Observation and perception",
+          "stage": "combined"
+        }
+      ],
+      "newConcepts": [],
+      "revisitedConcepts": [
+        "gesture-action",
+        "observation-perception"
+      ],
+      "prerequisites": [
+        "lesson-25"
+      ],
+      "warmupIntent": "5–10 minutes: draw three short action lines before adding mass, using willing model or timed figure reference.",
+      "conceptTeachingIntent": "Capture a pose with direction and weight",
+      "mainDrawingExerciseIntent": "Make short gestures, then one longer action drawing",
+      "learnerDecisions": "Choose poses to repeat",
+      "scaffoldingLevel": "medium",
+      "sourceConceptReferences": [
+        {
+          "book_id": "hampton-figure-drawing",
+          "source_concept_id": "hampton-figure-drawing-concept-01",
+          "locator": "Printed p. 3; PDF p. 11, Gesture Drawing opening"
+        },
+        {
+          "book_id": "dodson-keys-to-drawing",
+          "source_concept_id": "dodson-keys-to-drawing-concept-01",
+          "locator": "Printed pp. 10–39, chapter 1; the first project and line examples are on pp. 10–15"
+        }
+      ],
+      "sourceExerciseReferences": [
+        "hampton-figure-drawing-exercise-01"
+      ],
+      "visualRequirements": [
+        "generated-reference"
+      ],
+      "potentialSourceIllustrations": [],
+      "optionalExtensionIntent": "Repeat with a changed viewpoint, lighting, or subject while keeping the same gesture and action question."
+    },
+    {
+      "id": "lesson-38",
+      "sequence": 38,
+      "section": "Draw people and movement",
+      "title": "Head as a turning form",
+      "purpose": "Use a simple head mass and axes to track orientation",
+      "durationMinutes": 45,
+      "lessonType": "lesson",
+      "difficulty": "developing",
+      "medium": [
+        "graphite"
+      ],
+      "requiredMaterials": [
+        "graphite pencil",
+        "eraser",
+        "sketchbook"
+      ],
+      "subject": "mirror or head reference",
+      "exerciseSourceType": "from-life",
+      "fundamentals": {
+        "primary": [
+          "form"
+        ],
+        "secondary": [
+          "observation"
+        ]
+      },
+      "concepts": [
+        {
+          "id": "head-portrait-construction",
+          "name": "Head and portrait construction",
+          "stage": "introduced"
+        },
+        {
+          "id": "form-volume",
+          "name": "Shape, form, and volume",
+          "stage": "combined"
+        }
+      ],
+      "newConcepts": [
+        "head-portrait-construction"
+      ],
+      "revisitedConcepts": [
+        "form-volume"
+      ],
+      "prerequisites": [
+        "lesson-22"
+      ],
+      "warmupIntent": "5–10 minutes: draw three head axes at different tilts, using mirror or head reference.",
+      "conceptTeachingIntent": "Use a simple head mass and axes to track orientation",
+      "mainDrawingExerciseIntent": "Construct heads at three tilts without detailed features",
+      "learnerDecisions": "Choose tilt",
+      "scaffoldingLevel": "medium",
+      "sourceConceptReferences": [
+        {
+          "book_id": "loomis-head-hands",
+          "source_concept_id": "loomis-head-hands-concept-01",
+          "locator": "Printed p. 22, Plate 1, “The basic shape is a flattened ball”"
+        },
+        {
+          "book_id": "picard-beginning-drawing",
+          "source_concept_id": "picard-beginning-drawing-concept-05",
+          "locator": "printed pp. 57–63 (PDF pp. 59–65)"
+        }
+      ],
+      "sourceExerciseReferences": [
+        "loomis-head-hands-exercise-01"
+      ],
+      "visualRequirements": [
+        "svg-diagram"
+      ],
+      "potentialSourceIllustrations": [
+        "loomis-head-hands-illustration-01"
+      ],
+      "optionalExtensionIntent": "Repeat with a changed viewpoint, lighting, or subject while keeping the same head and portrait construction question."
+    },
+    {
+      "id": "lesson-39",
+      "sequence": 39,
+      "section": "Draw people and movement",
+      "title": "Observed face intervals",
+      "purpose": "Check features against the whole head and individual sitter",
+      "durationMinutes": 45,
+      "lessonType": "lesson",
+      "difficulty": "developing",
+      "medium": [
+        "graphite"
+      ],
+      "requiredMaterials": [
+        "graphite pencil",
+        "eraser",
+        "sketchbook"
+      ],
+      "subject": "mirror self-portrait",
+      "exerciseSourceType": "from-life",
+      "fundamentals": {
+        "primary": [
+          "measurement",
+          "form"
+        ],
+        "secondary": []
+      },
+      "concepts": [
+        {
+          "id": "proportion-measurement",
+          "name": "Proportion and comparative measurement",
+          "stage": "combined"
+        },
+        {
+          "id": "head-portrait-construction",
+          "name": "Head and portrait construction",
+          "stage": "practised"
+        }
+      ],
+      "newConcepts": [],
+      "revisitedConcepts": [
+        "proportion-measurement",
+        "head-portrait-construction"
+      ],
+      "prerequisites": [
+        "lesson-38"
+      ],
+      "warmupIntent": "5–10 minutes: compare one length, one angle, and one alignment, using mirror self-portrait.",
+      "conceptTeachingIntent": "Check features against the whole head and individual sitter",
+      "mainDrawingExerciseIntent": "Draw a self-portrait block-in using a few measured intervals",
+      "learnerDecisions": "Choose which ratio to test",
+      "scaffoldingLevel": "medium",
+      "sourceConceptReferences": [
+        {
+          "book_id": "aristides-classical-atelier",
+          "source_concept_id": "aristides-classical-atelier-concept-01",
+          "locator": "EPUB, Chapter Two, “The Golden Ratio” and “The Golden Ratio in Nature”"
+        },
+        {
+          "book_id": "loomis-head-hands",
+          "source_concept_id": "loomis-head-hands-concept-01",
+          "locator": "Printed p. 22, Plate 1, “The basic shape is a flattened ball”"
+        }
+      ],
+      "sourceExerciseReferences": [
+        "watson-garcia-absolute-beginner-exercise-07"
+      ],
+      "visualRequirements": [
+        "from-life"
+      ],
+      "potentialSourceIllustrations": [],
+      "optionalExtensionIntent": "Repeat with a changed viewpoint, lighting, or subject while keeping the same proportion and comparative measurement question."
+    },
+    {
+      "id": "lesson-40",
+      "sequence": 40,
+      "section": "Draw people and movement",
+      "title": "Profile and silhouette",
+      "purpose": "Use negative shape and head structure in profile",
+      "durationMinutes": 45,
+      "lessonType": "lesson",
+      "difficulty": "developing",
+      "medium": [
+        "graphite"
+      ],
+      "requiredMaterials": [
+        "graphite pencil",
+        "eraser",
+        "sketchbook"
+      ],
+      "subject": "mirror or willing sitter",
+      "exerciseSourceType": "provided-reference",
+      "fundamentals": {
+        "primary": [
+          "form",
+          "observation"
+        ],
+        "secondary": []
+      },
+      "concepts": [
+        {
+          "id": "head-portrait-construction",
+          "name": "Head and portrait construction",
+          "stage": "revisited"
+        },
+        {
+          "id": "negative-space",
+          "name": "Negative space and surrounding shapes",
+          "stage": "combined"
+        }
+      ],
+      "newConcepts": [],
+      "revisitedConcepts": [
+        "head-portrait-construction",
+        "negative-space"
+      ],
+      "prerequisites": [
+        "lesson-39"
+      ],
+      "warmupIntent": "5–10 minutes: draw three head axes at different tilts, using mirror or willing sitter.",
+      "conceptTeachingIntent": "Use negative shape and head structure in profile",
+      "mainDrawingExerciseIntent": "Draw a profile with large silhouette and neck junction first",
+      "learnerDecisions": "Choose sitter or reference",
+      "scaffoldingLevel": "medium",
+      "sourceConceptReferences": [
+        {
+          "book_id": "loomis-head-hands",
+          "source_concept_id": "loomis-head-hands-concept-01",
+          "locator": "Printed p. 22, Plate 1, “The basic shape is a flattened ball”"
+        },
+        {
+          "book_id": "edwards-right-side-brain",
+          "source_concept_id": "edwards-right-side-brain-concept-03",
+          "locator": "PDF pp. 155–179"
+        }
+      ],
+      "sourceExerciseReferences": [
+        "edwards-right-side-brain-exercise-07"
+      ],
+      "visualRequirements": [
+        "generated-reference"
+      ],
+      "potentialSourceIllustrations": [],
+      "optionalExtensionIntent": "Repeat with a changed viewpoint, lighting, or subject while keeping the same head and portrait construction question."
+    },
+    {
+      "id": "lesson-41",
+      "sequence": 41,
+      "section": "Draw people and movement",
+      "title": "Hands as moving forms",
+      "purpose": "Group palm and fingers by action before detail",
+      "durationMinutes": 45,
+      "lessonType": "lesson",
+      "difficulty": "developing",
+      "medium": [
+        "graphite"
+      ],
+      "requiredMaterials": [
+        "graphite pencil",
+        "eraser",
+        "sketchbook"
+      ],
+      "subject": "own hand from life",
+      "exerciseSourceType": "from-life",
+      "fundamentals": {
+        "primary": [
+          "form",
+          "gesture"
+        ],
+        "secondary": [
+          "measurement"
+        ]
+      },
+      "concepts": [
+        {
+          "id": "hands-extremities",
+          "name": "Hands and extremities",
+          "stage": "introduced"
+        },
+        {
+          "id": "gesture-action",
+          "name": "Gesture and action",
+          "stage": "combined"
+        }
+      ],
+      "newConcepts": [
+        "hands-extremities"
+      ],
+      "revisitedConcepts": [
+        "gesture-action"
+      ],
+      "prerequisites": [
+        "lesson-37"
+      ],
+      "warmupIntent": "5–10 minutes: block a hand as palm mass and finger group in two poses, using own hand from life.",
+      "conceptTeachingIntent": "Group palm and fingers by action before detail",
+      "mainDrawingExerciseIntent": "Draw three hand poses as palm block and finger groups",
+      "learnerDecisions": "Choose poses",
+      "scaffoldingLevel": "medium",
+      "sourceConceptReferences": [
+        {
+          "book_id": "hampton-figure-drawing",
+          "source_concept_id": "hampton-figure-drawing-concept-06",
+          "locator": "Printed pp. 129–159, The Arm; pp. 160–177, The Hand; pp. 178–201, The Leg; pp. 202–217, The Foot; pp. 218–231, Drapery"
+        },
+        {
+          "book_id": "hampton-figure-drawing",
+          "source_concept_id": "hampton-figure-drawing-concept-01",
+          "locator": "Printed p. 3; PDF p. 11, Gesture Drawing opening"
+        }
+      ],
+      "sourceExerciseReferences": [],
+      "visualRequirements": [
+        "svg-diagram"
+      ],
+      "potentialSourceIllustrations": [
+        "loomis-head-hands-illustration-03"
+      ],
+      "optionalExtensionIntent": "Repeat with a changed viewpoint, lighting, or subject while keeping the same hands and extremities question."
+    },
+    {
+      "id": "lesson-42",
+      "sequence": 42,
+      "section": "Draw people and movement",
+      "title": "Weight and landmarks",
+      "purpose": "Connect ribcage, pelvis, and ground contact",
+      "durationMinutes": 45,
+      "lessonType": "lesson",
+      "difficulty": "developing",
+      "medium": [
+        "graphite"
+      ],
+      "requiredMaterials": [
+        "graphite pencil",
+        "eraser",
+        "sketchbook"
+      ],
+      "subject": "standing figure reference",
+      "exerciseSourceType": "provided-reference",
+      "fundamentals": {
+        "primary": [
+          "gesture"
+        ],
+        "secondary": []
+      },
+      "concepts": [
+        {
+          "id": "figure-structure-anatomy",
+          "name": "Figure structure and anatomy",
+          "stage": "introduced"
+        },
+        {
+          "id": "gesture-action",
+          "name": "Gesture and action",
+          "stage": "combined"
+        }
+      ],
+      "newConcepts": [
+        "figure-structure-anatomy"
+      ],
+      "revisitedConcepts": [
+        "gesture-action"
+      ],
+      "prerequisites": [
+        "lesson-37"
+      ],
+      "warmupIntent": "5–10 minutes: mark weight line, ribcage, and pelvis on two small poses, using standing figure reference.",
+      "conceptTeachingIntent": "Connect ribcage, pelvis, and ground contact",
+      "mainDrawingExerciseIntent": "Draw a standing figure with weight line and simple masses",
+      "learnerDecisions": "Choose pose",
+      "scaffoldingLevel": "medium",
+      "sourceConceptReferences": [
+        {
+          "book_id": "aristides-classical-atelier",
+          "source_concept_id": "aristides-classical-atelier-concept-06",
+          "locator": "EPUB, Chapter Eight, “Capturing Life” and “Elements of Figure Drawing”"
+        },
+        {
+          "book_id": "hampton-figure-drawing",
+          "source_concept_id": "hampton-figure-drawing-concept-01",
+          "locator": "Printed p. 3; PDF p. 11, Gesture Drawing opening"
+        }
+      ],
+      "sourceExerciseReferences": [],
+      "visualRequirements": [
+        "generated-reference"
+      ],
+      "potentialSourceIllustrations": [],
+      "optionalExtensionIntent": "Repeat with a changed viewpoint, lighting, or subject while keeping the same figure structure and anatomy question."
+    },
+    {
+      "id": "lesson-43",
+      "sequence": 43,
+      "section": "Draw people and movement",
+      "title": "Object group rhythm",
+      "purpose": "Arrange several objects with rhythm and negative space",
+      "durationMinutes": 45,
+      "lessonType": "lesson",
+      "difficulty": "developing",
+      "medium": [
+        "graphite"
+      ],
+      "requiredMaterials": [
+        "graphite pencil",
+        "eraser",
+        "sketchbook"
+      ],
+      "subject": "cup, book, and small object from life",
+      "exerciseSourceType": "from-life",
+      "fundamentals": {
+        "primary": [
+          "composition",
+          "space"
+        ],
+        "secondary": []
+      },
+      "concepts": [
+        {
+          "id": "design-rhythm-pattern",
+          "name": "Design, rhythm, and pattern",
+          "stage": "introduced"
+        },
+        {
+          "id": "composition-framing",
+          "name": "Composition and framing",
+          "stage": "combined"
+        },
+        {
+          "id": "ellipse-cylinder-construction",
+          "name": "Ellipses and cylinders in space",
+          "stage": "combined"
+        }
+      ],
+      "newConcepts": [
+        "design-rhythm-pattern"
+      ],
+      "revisitedConcepts": [
+        "composition-framing",
+        "ellipse-cylinder-construction"
+      ],
+      "prerequisites": [
+        "lesson-31"
+      ],
+      "warmupIntent": "5–10 minutes: vary spacing between three shapes in two thumbnails, using cup, book, and small object from life.",
+      "conceptTeachingIntent": "Arrange several objects with rhythm and negative space",
+      "mainDrawingExerciseIntent": "Make three arrangement thumbnails, then develop one while checking the cup rim",
+      "learnerDecisions": "Choose rhythm and focal object",
+      "scaffoldingLevel": "medium",
+      "sourceConceptReferences": [
+        {
+          "book_id": "aristides-classical-atelier",
+          "source_concept_id": "aristides-classical-atelier-concept-01",
+          "locator": "EPUB, Chapter Two, “The Golden Ratio” and “The Golden Ratio in Nature”"
+        },
+        {
+          "book_id": "picard-beginning-drawing",
+          "source_concept_id": "picard-beginning-drawing-concept-03",
+          "locator": "printed p. 29 (PDF p. 31)"
+        },
+        {
+          "book_id": "dodson-keys-to-drawing",
+          "source_concept_id": "dodson-keys-to-drawing-concept-05",
+          "locator": "Printed pp. 128–147, chapter 5; construction example on p. 135"
+        }
+      ],
+      "sourceExerciseReferences": [],
+      "visualRequirements": [
+        "from-life"
+      ],
+      "potentialSourceIllustrations": [],
+      "optionalExtensionIntent": "Repeat with a changed viewpoint, lighting, or subject while keeping the same design, rhythm, and pattern question."
+    },
+    {
+      "id": "lesson-44",
+      "sequence": 44,
+      "section": "Draw people and movement",
+      "title": "Water and reflection",
+      "purpose": "Distinguish horizontal surface pattern from object form",
+      "durationMinutes": 45,
+      "lessonType": "lesson",
+      "difficulty": "developing",
+      "medium": [
+        "graphite"
+      ],
+      "requiredMaterials": [
+        "graphite pencil",
+        "eraser",
+        "sketchbook"
+      ],
+      "subject": "water view or generated reference",
+      "exerciseSourceType": "provided-reference",
+      "fundamentals": {
+        "primary": [
+          "space",
+          "value"
+        ],
+        "secondary": [
+          "composition"
+        ]
+      },
+      "concepts": [
+        {
+          "id": "depth-atmosphere",
+          "name": "Depth and atmospheric recession",
+          "stage": "combined"
+        },
+        {
+          "id": "value-light-shadow",
+          "name": "Value, light, and shadow",
+          "stage": "combined"
+        }
+      ],
+      "newConcepts": [],
+      "revisitedConcepts": [
+        "depth-atmosphere",
+        "value-light-shadow"
+      ],
+      "prerequisites": [
+        "lesson-36"
+      ],
+      "warmupIntent": "5–10 minutes: make a three-plane value thumbnail, using water view or generated reference.",
+      "conceptTeachingIntent": "Distinguish horizontal surface pattern from object form",
+      "mainDrawingExerciseIntent": "Draw a simple waterside view with grouped reflections and distant values",
+      "learnerDecisions": "Choose horizon and reflection detail",
+      "scaffoldingLevel": "medium",
+      "sourceConceptReferences": [
+        {
+          "book_id": "dodson-keys-to-drawing",
+          "source_concept_id": "dodson-keys-to-drawing-concept-05",
+          "locator": "Printed pp. 128–147, chapter 5; construction example on p. 135"
+        },
+        {
+          "book_id": "dodson-keys-to-drawing",
+          "source_concept_id": "dodson-keys-to-drawing-concept-04",
+          "locator": "Printed pp. 102–127, chapter 4; light-source example on p. 110"
+        }
+      ],
+      "sourceExerciseReferences": [],
+      "visualRequirements": [
+        "generated-reference"
+      ],
+      "potentialSourceIllustrations": [],
+      "optionalExtensionIntent": "Repeat with a changed viewpoint, lighting, or subject while keeping the same depth and atmospheric recession question."
+    },
+    {
+      "id": "lesson-45",
+      "sequence": 45,
+      "section": "Draw people and movement",
+      "title": "Portrait light pattern",
+      "purpose": "Model head planes with grouped shadows",
+      "durationMinutes": 45,
+      "lessonType": "lesson",
+      "difficulty": "developing",
+      "medium": [
+        "charcoal"
+      ],
+      "requiredMaterials": [
+        "charcoal",
+        "eraser",
+        "sketchbook"
+      ],
+      "subject": "lit self-portrait or supplied head",
+      "exerciseSourceType": "provided-reference",
+      "fundamentals": {
+        "primary": [
+          "form",
+          "value"
+        ],
+        "secondary": [
+          "observation"
+        ]
+      },
+      "concepts": [
+        {
+          "id": "head-portrait-construction",
+          "name": "Head and portrait construction",
+          "stage": "combined"
+        },
+        {
+          "id": "value-light-shadow",
+          "name": "Value, light, and shadow",
+          "stage": "combined"
+        }
+      ],
+      "newConcepts": [],
+      "revisitedConcepts": [
+        "head-portrait-construction",
+        "value-light-shadow"
+      ],
+      "prerequisites": [
+        "lesson-40"
+      ],
+      "warmupIntent": "5–10 minutes: draw three head axes at different tilts, using lit self-portrait or supplied head.",
+      "conceptTeachingIntent": "Model head planes with grouped shadows",
+      "mainDrawingExerciseIntent": "Block pose, then light and shadow shapes before features",
+      "learnerDecisions": "Choose light direction",
+      "scaffoldingLevel": "medium",
+      "sourceConceptReferences": [
+        {
+          "book_id": "loomis-head-hands",
+          "source_concept_id": "loomis-head-hands-concept-01",
+          "locator": "Printed p. 22, Plate 1, “The basic shape is a flattened ball”"
+        },
+        {
+          "book_id": "dodson-keys-to-drawing",
+          "source_concept_id": "dodson-keys-to-drawing-concept-04",
+          "locator": "Printed pp. 102–127, chapter 4; light-source example on p. 110"
+        }
+      ],
+      "sourceExerciseReferences": [
+        "aristides-classical-atelier-exercise-04"
+      ],
+      "visualRequirements": [
+        "generated-reference"
+      ],
+      "potentialSourceIllustrations": [],
+      "optionalExtensionIntent": "Repeat with a changed viewpoint, lighting, or subject while keeping the same head and portrait construction question."
+    },
+    {
+      "id": "lesson-46",
+      "sequence": 46,
+      "section": "Draw people and movement",
+      "title": "Building among trees",
+      "purpose": "Combine perspective and natural forms without equal detail",
+      "durationMinutes": 45,
+      "lessonType": "lesson",
+      "difficulty": "developing",
+      "medium": [
+        "graphite"
+      ],
+      "requiredMaterials": [
+        "graphite pencil",
+        "eraser",
+        "sketchbook"
+      ],
+      "subject": "building in landscape from life",
+      "exerciseSourceType": "from-life",
+      "fundamentals": {
+        "primary": [
+          "space",
+          "composition"
+        ],
+        "secondary": []
+      },
+      "concepts": [
+        {
+          "id": "perspective-space",
+          "name": "Perspective and spatial construction",
+          "stage": "combined"
+        },
+        {
+          "id": "visual-hierarchy-focal-path",
+          "name": "Visual hierarchy and focal path",
+          "stage": "combined"
+        }
+      ],
+      "newConcepts": [],
+      "revisitedConcepts": [
+        "perspective-space",
+        "visual-hierarchy-focal-path"
+      ],
+      "prerequisites": [
+        "lesson-36"
+      ],
+      "warmupIntent": "5–10 minutes: locate eye level and two receding edge directions, using building in landscape from life.",
+      "conceptTeachingIntent": "Combine perspective and natural forms without equal detail",
+      "mainDrawingExerciseIntent": "Block building axes and tree masses, then choose focal contrast",
+      "learnerDecisions": "Choose building and view",
+      "scaffoldingLevel": "medium",
+      "sourceConceptReferences": [
+        {
+          "book_id": "norling-perspective-made-easy",
+          "source_concept_id": "norling-perspective-made-easy-concept-01",
+          "locator": "Printed pp. 1–10, Step One: The Horizon, The Vanishing Point, The Eye-Level"
+        },
+        {
+          "book_id": "garvey-williams-mastering-composition",
+          "source_concept_id": "garvey-williams-mastering-composition-concept-01",
+          "locator": "Printed pp. 8–12, introduction and working definition"
+        }
+      ],
+      "sourceExerciseReferences": [],
+      "visualRequirements": [
+        "from-life"
+      ],
+      "potentialSourceIllustrations": [],
+      "optionalExtensionIntent": "Repeat with a changed viewpoint, lighting, or subject while keeping the same perspective and spatial construction question."
+    },
+    {
+      "id": "lesson-47",
+      "sequence": 47,
+      "section": "Draw people and movement",
+      "title": "Portrait as an individual",
+      "purpose": "Balance construction guides with observed differences",
+      "durationMinutes": 45,
+      "lessonType": "lesson",
+      "difficulty": "developing",
+      "medium": [
+        "graphite"
+      ],
+      "requiredMaterials": [
+        "graphite pencil",
+        "eraser",
+        "sketchbook"
+      ],
+      "subject": "mirror or willing sitter",
+      "exerciseSourceType": "from-life",
+      "fundamentals": {
+        "primary": [
+          "form",
+          "observation"
+        ],
+        "secondary": []
+      },
+      "concepts": [
+        {
+          "id": "head-portrait-construction",
+          "name": "Head and portrait construction",
+          "stage": "combined"
+        },
+        {
+          "id": "observation-perception",
+          "name": "Observation and perception",
+          "stage": "combined"
+        }
+      ],
+      "newConcepts": [],
+      "revisitedConcepts": [
+        "head-portrait-construction",
+        "observation-perception"
+      ],
+      "prerequisites": [
+        "lesson-45"
+      ],
+      "warmupIntent": "5–10 minutes: draw three head axes at different tilts, using mirror or willing sitter.",
+      "conceptTeachingIntent": "Balance construction guides with observed differences",
+      "mainDrawingExerciseIntent": "Draw one portrait, revising generic ratios against the sitter",
+      "learnerDecisions": "Choose distinctive relationships",
+      "scaffoldingLevel": "medium",
+      "sourceConceptReferences": [
+        {
+          "book_id": "loomis-head-hands",
+          "source_concept_id": "loomis-head-hands-concept-01",
+          "locator": "Printed p. 22, Plate 1, “The basic shape is a flattened ball”"
+        },
+        {
+          "book_id": "dodson-keys-to-drawing",
+          "source_concept_id": "dodson-keys-to-drawing-concept-01",
+          "locator": "Printed pp. 10–39, chapter 1; the first project and line examples are on pp. 10–15"
+        }
+      ],
+      "sourceExerciseReferences": [],
+      "visualRequirements": [
+        "from-life"
+      ],
+      "potentialSourceIllustrations": [],
+      "optionalExtensionIntent": "Repeat with a changed viewpoint, lighting, or subject while keeping the same head and portrait construction question."
+    },
+    {
+      "id": "lesson-48",
+      "sequence": 48,
+      "section": "Draw people and movement",
+      "title": "Project: figure or portrait",
+      "purpose": "Integrate gesture, proportion, form, and light",
+      "durationMinutes": 90,
+      "lessonType": "project",
+      "difficulty": "developing",
+      "medium": [
+        "graphite",
+        "charcoal"
+      ],
+      "requiredMaterials": [
+        "graphite or charcoal",
+        "eraser",
+        "sketchbook"
+      ],
+      "subject": "chosen person or self",
+      "exerciseSourceType": "provided-reference",
+      "fundamentals": {
+        "primary": [
+          "gesture",
+          "form",
+          "value",
+          "reflection",
+          "measurement"
+        ],
+        "secondary": []
+      },
+      "concepts": [
+        {
+          "id": "figure-structure-anatomy",
+          "name": "Figure structure and anatomy",
+          "stage": "practised"
+        },
+        {
+          "id": "head-portrait-construction",
+          "name": "Head and portrait construction",
+          "stage": "combined"
+        },
+        {
+          "id": "value-light-shadow",
+          "name": "Value, light, and shadow",
+          "stage": "combined"
+        },
+        {
+          "id": "practice-reflection",
+          "name": "Practice process and reflection",
+          "stage": "combined"
+        },
+        {
+          "id": "proportion-measurement",
+          "name": "Proportion and comparative measurement",
+          "stage": "combined"
+        }
+      ],
+      "newConcepts": [],
+      "revisitedConcepts": [
+        "figure-structure-anatomy",
+        "head-portrait-construction",
+        "value-light-shadow",
+        "practice-reflection",
+        "proportion-measurement"
+      ],
+      "prerequisites": [
+        "lesson-47"
+      ],
+      "warmupIntent": "5–10 minutes: mark weight line, ribcage, and pelvis on two small poses, using chosen person or self.",
+      "conceptTeachingIntent": "Integrate gesture, proportion, form, and light",
+      "mainDrawingExerciseIntent": "Plan studies and complete one sustained figure or portrait",
+      "learnerDecisions": "Choose subject, crop, medium",
+      "scaffoldingLevel": "medium",
+      "sourceConceptReferences": [
+        {
+          "book_id": "aristides-classical-atelier",
+          "source_concept_id": "aristides-classical-atelier-concept-06",
+          "locator": "EPUB, Chapter Eight, “Capturing Life” and “Elements of Figure Drawing”"
+        },
+        {
+          "book_id": "loomis-head-hands",
+          "source_concept_id": "loomis-head-hands-concept-01",
+          "locator": "Printed p. 22, Plate 1, “The basic shape is a flattened ball”"
+        },
+        {
+          "book_id": "dodson-keys-to-drawing",
+          "source_concept_id": "dodson-keys-to-drawing-concept-04",
+          "locator": "Printed pp. 102–127, chapter 4; light-source example on p. 110"
+        },
+        {
+          "book_id": "dodson-keys-to-drawing",
+          "source_concept_id": "dodson-keys-to-drawing-concept-01",
+          "locator": "Printed pp. 10–39, chapter 1; the first project and line examples are on pp. 10–15"
+        },
+        {
+          "book_id": "aristides-classical-atelier",
+          "source_concept_id": "aristides-classical-atelier-concept-01",
+          "locator": "EPUB, Chapter Two, “The Golden Ratio” and “The Golden Ratio in Nature”"
+        }
+      ],
+      "sourceExerciseReferences": [],
+      "visualRequirements": [
+        "generated-reference"
+      ],
+      "potentialSourceIllustrations": [],
+      "optionalExtensionIntent": "Repeat with a changed viewpoint, lighting, or subject while keeping the same figure structure and anatomy question."
+    },
+    {
+      "id": "lesson-49",
+      "sequence": 49,
+      "section": "Combine and interpret",
+      "title": "Line study from a master",
+      "purpose": "Study a verified artist's line choice, then transfer it to life",
+      "durationMinutes": 45,
+      "lessonType": "master-study",
+      "difficulty": "intermediate",
+      "medium": [
+        "graphite"
+      ],
+      "requiredMaterials": [
+        "graphite pencil",
+        "eraser",
+        "sketchbook"
+      ],
+      "subject": "public-domain drawing and own object",
+      "exerciseSourceType": "verified-master",
+      "fundamentals": {
+        "primary": [
+          "reflection",
+          "line-shape"
+        ],
+        "secondary": []
+      },
+      "concepts": [
+        {
+          "id": "master-study-copying",
+          "name": "Master studies and cast studies",
+          "stage": "introduced"
+        },
+        {
+          "id": "mark-making-line-quality",
+          "name": "Mark-making and line quality",
+          "stage": "combined"
+        }
+      ],
+      "newConcepts": [
+        "master-study-copying"
+      ],
+      "revisitedConcepts": [
+        "mark-making-line-quality"
+      ],
+      "prerequisites": [
+        "lesson-24"
+      ],
+      "warmupIntent": "5–10 minutes: compare three directional or value choices in the study work, using public-domain drawing and own object.",
+      "conceptTeachingIntent": "Study a verified artist's line choice, then transfer it to life",
+      "mainDrawingExerciseIntent": "Compare strokes in a small crop, then draw a different observed object",
+      "learnerDecisions": "Choose line quality to transfer",
+      "scaffoldingLevel": "low",
+      "sourceConceptReferences": [
+        {
+          "book_id": "aristides-classical-atelier",
+          "source_concept_id": "aristides-classical-atelier-concept-05",
+          "locator": "EPUB, Chapter Six, “The Value of Copying” and “Copying Versus Constructing”"
+        },
+        {
+          "book_id": "dodson-keys-to-drawing",
+          "source_concept_id": "dodson-keys-to-drawing-concept-02",
+          "locator": "Printed pp. 40–69, chapter 2"
+        }
+      ],
+      "sourceExerciseReferences": [
+        "dodson-keys-to-drawing-exercise-03"
+      ],
+      "visualRequirements": [
+        "optional-master-example"
+      ],
+      "potentialSourceIllustrations": [],
+      "optionalExtensionIntent": "Repeat with a changed viewpoint, lighting, or subject while keeping the same master studies and cast studies question."
+    },
+    {
+      "id": "lesson-50",
+      "sequence": 50,
+      "section": "Combine and interpret",
+      "title": "Clothing over form",
+      "purpose": "Let folds follow the body and gravity",
+      "durationMinutes": 45,
+      "lessonType": "lesson",
+      "difficulty": "intermediate",
+      "medium": [
+        "graphite"
+      ],
+      "requiredMaterials": [
+        "graphite pencil",
+        "eraser",
+        "sketchbook"
+      ],
+      "subject": "own hand holding fabric from life",
+      "exerciseSourceType": "from-life",
+      "fundamentals": {
+        "primary": [
+          "gesture",
+          "form"
+        ],
+        "secondary": []
+      },
+      "concepts": [
+        {
+          "id": "drapery-clothing",
+          "name": "Drapery and clothing",
+          "stage": "introduced"
+        },
+        {
+          "id": "figure-structure-anatomy",
+          "name": "Figure structure and anatomy",
+          "stage": "revisited"
+        },
+        {
+          "id": "hands-extremities",
+          "name": "Hands and extremities",
+          "stage": "practised"
+        }
+      ],
+      "newConcepts": [
+        "drapery-clothing"
+      ],
+      "revisitedConcepts": [
+        "figure-structure-anatomy",
+        "hands-extremities"
+      ],
+      "prerequisites": [
+        "lesson-42"
+      ],
+      "warmupIntent": "5–10 minutes: mark gravity direction and three main cloth folds, using own hand holding fabric from life.",
+      "conceptTeachingIntent": "Let folds follow the body and gravity",
+      "mainDrawingExerciseIntent": "Draw the hand mass and a few cloth folds that explain gravity and contact",
+      "learnerDecisions": "Choose fabric and grip",
+      "scaffoldingLevel": "low",
+      "sourceConceptReferences": [
+        {
+          "book_id": "hampton-figure-drawing",
+          "source_concept_id": "hampton-figure-drawing-concept-06",
+          "locator": "Printed pp. 129–159, The Arm; pp. 160–177, The Hand; pp. 178–201, The Leg; pp. 202–217, The Foot; pp. 218–231, Drapery"
+        },
+        {
+          "book_id": "aristides-classical-atelier",
+          "source_concept_id": "aristides-classical-atelier-concept-06",
+          "locator": "EPUB, Chapter Eight, “Capturing Life” and “Elements of Figure Drawing”"
+        }
+      ],
+      "sourceExerciseReferences": [],
+      "visualRequirements": [
+        "from-life"
+      ],
+      "potentialSourceIllustrations": [],
+      "optionalExtensionIntent": "Repeat with a changed viewpoint, lighting, or subject while keeping the same drapery and clothing question."
+    },
+    {
+      "id": "lesson-51",
+      "sequence": 51,
+      "section": "Combine and interpret",
+      "title": "Figure in a room",
+      "purpose": "Combine body scale with a simple environment",
+      "durationMinutes": 45,
+      "lessonType": "lesson",
+      "difficulty": "intermediate",
+      "medium": [
+        "graphite"
+      ],
+      "requiredMaterials": [
+        "graphite pencil",
+        "eraser",
+        "sketchbook"
+      ],
+      "subject": "seated figure in room reference",
+      "exerciseSourceType": "provided-reference",
+      "fundamentals": {
+        "primary": [
+          "gesture",
+          "space"
+        ],
+        "secondary": []
+      },
+      "concepts": [
+        {
+          "id": "figure-structure-anatomy",
+          "name": "Figure structure and anatomy",
+          "stage": "combined"
+        },
+        {
+          "id": "perspective-space",
+          "name": "Perspective and spatial construction",
+          "stage": "combined"
+        }
+      ],
+      "newConcepts": [],
+      "revisitedConcepts": [
+        "figure-structure-anatomy",
+        "perspective-space"
+      ],
+      "prerequisites": [
+        "lesson-42"
+      ],
+      "warmupIntent": "5–10 minutes: mark weight line, ribcage, and pelvis on two small poses, using seated figure in room reference.",
+      "conceptTeachingIntent": "Combine body scale with a simple environment",
+      "mainDrawingExerciseIntent": "Place a seated figure and chair with shared eye level and overlaps",
+      "learnerDecisions": "Choose crop",
+      "scaffoldingLevel": "low",
+      "sourceConceptReferences": [
+        {
+          "book_id": "aristides-classical-atelier",
+          "source_concept_id": "aristides-classical-atelier-concept-06",
+          "locator": "EPUB, Chapter Eight, “Capturing Life” and “Elements of Figure Drawing”"
+        },
+        {
+          "book_id": "norling-perspective-made-easy",
+          "source_concept_id": "norling-perspective-made-easy-concept-01",
+          "locator": "Printed pp. 1–10, Step One: The Horizon, The Vanishing Point, The Eye-Level"
+        }
+      ],
+      "sourceExerciseReferences": [
+        "dodson-keys-to-drawing-exercise-06"
+      ],
+      "visualRequirements": [
+        "generated-reference"
+      ],
+      "potentialSourceIllustrations": [],
+      "optionalExtensionIntent": "Repeat with a changed viewpoint, lighting, or subject while keeping the same figure structure and anatomy question."
+    },
+    {
+      "id": "lesson-52",
+      "sequence": 52,
+      "section": "Combine and interpret",
+      "title": "Gesture in charcoal",
+      "purpose": "Use broad lines and mass to capture movement",
+      "durationMinutes": 45,
+      "lessonType": "lesson",
+      "difficulty": "intermediate",
+      "medium": [
+        "charcoal"
+      ],
+      "requiredMaterials": [
+        "charcoal",
+        "eraser",
+        "sketchbook"
+      ],
+      "subject": "timed figure reference",
+      "exerciseSourceType": "provided-reference",
+      "fundamentals": {
+        "primary": [
+          "gesture",
+          "materials"
+        ],
+        "secondary": []
+      },
+      "concepts": [
+        {
+          "id": "gesture-action",
+          "name": "Gesture and action",
+          "stage": "combined"
+        },
+        {
+          "id": "color-media",
+          "name": "Color and drawing media",
+          "stage": "revisited"
+        }
+      ],
+      "newConcepts": [],
+      "revisitedConcepts": [
+        "gesture-action",
+        "color-media"
+      ],
+      "prerequisites": [
+        "lesson-42"
+      ],
+      "warmupIntent": "5–10 minutes: draw three short action lines before adding mass, using timed figure reference.",
+      "conceptTeachingIntent": "Use broad lines and mass to capture movement",
+      "mainDrawingExerciseIntent": "Make a sequence of short charcoal gestures and one sustained pose",
+      "learnerDecisions": "Choose pose duration",
+      "scaffoldingLevel": "low",
+      "sourceConceptReferences": [
+        {
+          "book_id": "hampton-figure-drawing",
+          "source_concept_id": "hampton-figure-drawing-concept-01",
+          "locator": "Printed p. 3; PDF p. 11, Gesture Drawing opening"
+        },
+        {
+          "book_id": "watson-garcia-absolute-beginner",
+          "source_concept_id": "watson-garcia-absolute-beginner-concept-05",
+          "locator": "Printed pp. 72–87, chapter 5"
+        }
+      ],
+      "sourceExerciseReferences": [],
+      "visualRequirements": [
+        "generated-reference"
+      ],
+      "potentialSourceIllustrations": [],
+      "optionalExtensionIntent": "Repeat with a changed viewpoint, lighting, or subject while keeping the same gesture and action question."
+    },
+    {
+      "id": "lesson-53",
+      "sequence": 53,
+      "section": "Combine and interpret",
+      "title": "Character in motion",
+      "purpose": "Apply gesture, rotation, and structure to a stylised subject",
+      "durationMinutes": 45,
+      "lessonType": "lesson",
+      "difficulty": "intermediate",
+      "medium": [
+        "graphite"
+      ],
+      "requiredMaterials": [
+        "graphite pencil",
+        "eraser",
+        "sketchbook"
+      ],
+      "subject": "chosen Pokémon or original creature",
+      "exerciseSourceType": "learner-selected-reference",
+      "fundamentals": {
+        "primary": [
+          "invention",
+          "gesture"
+        ],
+        "secondary": []
+      },
+      "concepts": [
+        {
+          "id": "stylized-character-construction",
+          "name": "Stylized character construction",
+          "stage": "revisited"
+        },
+        {
+          "id": "gesture-action",
+          "name": "Gesture and action",
+          "stage": "combined"
+        },
+        {
+          "id": "creative-invention",
+          "name": "Creative invention and interpretation",
+          "stage": "combined"
+        }
+      ],
+      "newConcepts": [],
+      "revisitedConcepts": [
+        "stylized-character-construction",
+        "gesture-action",
+        "creative-invention"
+      ],
+      "prerequisites": [
+        "lesson-42"
+      ],
+      "warmupIntent": "5–10 minutes: draw one action guide and three large shapes, using chosen Pokémon or original creature.",
+      "conceptTeachingIntent": "Apply gesture, rotation, and structure to a stylised subject",
+      "mainDrawingExerciseIntent": "Construct a changed pose with action line and turned volumes",
+      "learnerDecisions": "Choose pose and character",
+      "scaffoldingLevel": "low",
+      "sourceConceptReferences": [
+        {
+          "book_id": "pokemon-how-to-draw",
+          "source_concept_id": "pokemon-how-to-draw-concept-02",
+          "locator": "Printed pp. 8–9; PDF pp. 10–11, Pikachu steps"
+        },
+        {
+          "book_id": "hampton-figure-drawing",
+          "source_concept_id": "hampton-figure-drawing-concept-01",
+          "locator": "Printed p. 3; PDF p. 11, Gesture Drawing opening"
+        },
+        {
+          "book_id": "dodson-keys-to-drawing",
+          "source_concept_id": "dodson-keys-to-drawing-concept-08",
+          "locator": "Printed pp. 198–221, chapter 8; creative examples on pp. 198–206"
+        }
+      ],
+      "sourceExerciseReferences": [],
+      "visualRequirements": [
+        "learner-reference"
+      ],
+      "potentialSourceIllustrations": [],
+      "optionalExtensionIntent": "Repeat with a changed viewpoint, lighting, or subject while keeping the same stylized character construction question."
+    },
+    {
+      "id": "lesson-54",
+      "sequence": 54,
+      "section": "Combine and interpret",
+      "title": "Edge-led charcoal study",
+      "purpose": "Use hard, soft, and lost edges to direct attention",
+      "durationMinutes": 45,
+      "lessonType": "lesson",
+      "difficulty": "intermediate",
+      "medium": [
+        "charcoal"
+      ],
+      "requiredMaterials": [
+        "charcoal",
+        "eraser",
+        "sketchbook"
+      ],
+      "subject": "portrait or still life under controlled light",
+      "exerciseSourceType": "from-life",
+      "fundamentals": {
+        "primary": [
+          "surface-edges",
+          "value",
+          "line-shape"
+        ],
+        "secondary": [
+          "composition"
+        ]
+      },
+      "concepts": [
+        {
+          "id": "texture-surface",
+          "name": "Texture and surface",
+          "stage": "revisited"
+        },
+        {
+          "id": "value-light-shadow",
+          "name": "Value, light, and shadow",
+          "stage": "combined"
+        },
+        {
+          "id": "edges-contour",
+          "name": "Edges and contour",
+          "stage": "combined"
+        }
+      ],
+      "newConcepts": [],
+      "revisitedConcepts": [
+        "texture-surface",
+        "value-light-shadow",
+        "edges-contour"
+      ],
+      "prerequisites": [
+        "lesson-45"
+      ],
+      "warmupIntent": "5–10 minutes: compare a hard, soft, and lost edge or three mark densities, using portrait or still life under controlled light.",
+      "conceptTeachingIntent": "Use hard, soft, and lost edges to direct attention",
+      "mainDrawingExerciseIntent": "Make a charcoal study with one sharp focal edge and quieter surround",
+      "learnerDecisions": "Choose focal edge",
+      "scaffoldingLevel": "low",
+      "sourceConceptReferences": [
+        {
+          "book_id": "dodson-keys-to-drawing",
+          "source_concept_id": "dodson-keys-to-drawing-concept-06",
+          "locator": "Printed pp. 148–171, chapter 6; stroke and surface examples on pp. 149–153"
+        },
+        {
+          "book_id": "dodson-keys-to-drawing",
+          "source_concept_id": "dodson-keys-to-drawing-concept-04",
+          "locator": "Printed pp. 102–127, chapter 4; light-source example on p. 110"
+        },
+        {
+          "book_id": "aristides-classical-atelier",
+          "source_concept_id": "aristides-classical-atelier-concept-02",
+          "locator": "EPUB, Chapter Three, “Types and Uses of Lines”"
+        }
+      ],
+      "sourceExerciseReferences": [],
+      "visualRequirements": [
+        "from-life"
+      ],
+      "potentialSourceIllustrations": [],
+      "optionalExtensionIntent": "Repeat with a changed viewpoint, lighting, or subject while keeping the same texture and surface question."
+    },
+    {
+      "id": "lesson-55",
+      "sequence": 55,
+      "section": "Combine and interpret",
+      "title": "Master value study",
+      "purpose": "Analyze a verified work's big value grouping and transfer it",
+      "durationMinutes": 45,
+      "lessonType": "master-study",
+      "difficulty": "intermediate",
+      "medium": [
+        "graphite"
+      ],
+      "requiredMaterials": [
+        "graphite pencil",
+        "eraser",
+        "sketchbook"
+      ],
+      "subject": "public-domain drawing and own subject",
+      "exerciseSourceType": "verified-master",
+      "fundamentals": {
+        "primary": [
+          "reflection",
+          "composition"
+        ],
+        "secondary": []
+      },
+      "concepts": [
+        {
+          "id": "master-study-copying",
+          "name": "Master studies and cast studies",
+          "stage": "practised"
+        },
+        {
+          "id": "visual-hierarchy-focal-path",
+          "name": "Visual hierarchy and focal path",
+          "stage": "combined"
+        }
+      ],
+      "newConcepts": [],
+      "revisitedConcepts": [
+        "master-study-copying",
+        "visual-hierarchy-focal-path"
+      ],
+      "prerequisites": [
+        "lesson-49"
+      ],
+      "warmupIntent": "5–10 minutes: compare three directional or value choices in the study work, using public-domain drawing and own subject.",
+      "conceptTeachingIntent": "Analyze a verified work's big value grouping and transfer it",
+      "mainDrawingExerciseIntent": "Reduce a master drawing to value shapes, then apply one pattern to life",
+      "learnerDecisions": "Choose value lesson to transfer",
+      "scaffoldingLevel": "low",
+      "sourceConceptReferences": [
+        {
+          "book_id": "aristides-classical-atelier",
+          "source_concept_id": "aristides-classical-atelier-concept-05",
+          "locator": "EPUB, Chapter Six, “The Value of Copying” and “Copying Versus Constructing”"
+        },
+        {
+          "book_id": "garvey-williams-mastering-composition",
+          "source_concept_id": "garvey-williams-mastering-composition-concept-01",
+          "locator": "Printed pp. 8–12, introduction and working definition"
+        }
+      ],
+      "sourceExerciseReferences": [
+        "aristides-classical-atelier-exercise-02"
+      ],
+      "visualRequirements": [
+        "optional-master-example"
+      ],
+      "potentialSourceIllustrations": [],
+      "optionalExtensionIntent": "Repeat with a changed viewpoint, lighting, or subject while keeping the same master studies and cast studies question."
+    },
+    {
+      "id": "lesson-56",
+      "sequence": 56,
+      "section": "Combine and interpret",
+      "title": "Landscape mark language",
+      "purpose": "Vary marks for trees, ground, and distance",
+      "durationMinutes": 45,
+      "lessonType": "lesson",
+      "difficulty": "intermediate",
+      "medium": [
+        "graphite"
+      ],
+      "requiredMaterials": [
+        "graphite pencil",
+        "eraser",
+        "sketchbook"
+      ],
+      "subject": "outdoor landscape from life",
+      "exerciseSourceType": "from-life",
+      "fundamentals": {
+        "primary": [
+          "surface-edges",
+          "space",
+          "line-shape"
+        ],
+        "secondary": []
+      },
+      "concepts": [
+        {
+          "id": "texture-surface",
+          "name": "Texture and surface",
+          "stage": "combined"
+        },
+        {
+          "id": "depth-atmosphere",
+          "name": "Depth and atmospheric recession",
+          "stage": "combined"
+        },
+        {
+          "id": "mark-making-line-quality",
+          "name": "Mark-making and line quality",
+          "stage": "combined"
+        }
+      ],
+      "newConcepts": [],
+      "revisitedConcepts": [
+        "texture-surface",
+        "depth-atmosphere",
+        "mark-making-line-quality"
+      ],
+      "prerequisites": [
+        "lesson-44"
+      ],
+      "warmupIntent": "5–10 minutes: compare a hard, soft, and lost edge or three mark densities, using outdoor landscape from life.",
+      "conceptTeachingIntent": "Vary marks for trees, ground, and distance",
+      "mainDrawingExerciseIntent": "Draw a scene with three mark families and reduced distant texture",
+      "learnerDecisions": "Choose marks and omissions",
+      "scaffoldingLevel": "low",
+      "sourceConceptReferences": [
+        {
+          "book_id": "dodson-keys-to-drawing",
+          "source_concept_id": "dodson-keys-to-drawing-concept-06",
+          "locator": "Printed pp. 148–171, chapter 6; stroke and surface examples on pp. 149–153"
+        },
+        {
+          "book_id": "dodson-keys-to-drawing",
+          "source_concept_id": "dodson-keys-to-drawing-concept-05",
+          "locator": "Printed pp. 128–147, chapter 5; construction example on p. 135"
+        },
+        {
+          "book_id": "dodson-keys-to-drawing",
+          "source_concept_id": "dodson-keys-to-drawing-concept-02",
+          "locator": "Printed pp. 40–69, chapter 2"
+        }
+      ],
+      "sourceExerciseReferences": [],
+      "visualRequirements": [
+        "from-life"
+      ],
+      "potentialSourceIllustrations": [],
+      "optionalExtensionIntent": "Repeat with a changed viewpoint, lighting, or subject while keeping the same texture and surface question."
+    },
+    {
+      "id": "lesson-57",
+      "sequence": 57,
+      "section": "Combine and interpret",
+      "title": "Still life with a story",
+      "purpose": "Use placement and contrast to suggest a relationship",
+      "durationMinutes": 45,
+      "lessonType": "lesson",
+      "difficulty": "intermediate",
+      "medium": [
+        "graphite"
+      ],
+      "requiredMaterials": [
+        "graphite pencil",
+        "eraser",
+        "sketchbook"
+      ],
+      "subject": "personal objects from life",
+      "exerciseSourceType": "from-life",
+      "fundamentals": {
+        "primary": [
+          "composition",
+          "invention"
+        ],
+        "secondary": []
+      },
+      "concepts": [
+        {
+          "id": "narrative-staging",
+          "name": "Narrative and staging",
+          "stage": "introduced"
+        },
+        {
+          "id": "composition-framing",
+          "name": "Composition and framing",
+          "stage": "combined"
+        },
+        {
+          "id": "creative-invention",
+          "name": "Creative invention and interpretation",
+          "stage": "combined"
+        }
+      ],
+      "newConcepts": [
+        "narrative-staging"
+      ],
+      "revisitedConcepts": [
+        "composition-framing",
+        "creative-invention"
+      ],
+      "prerequisites": [
+        "lesson-24"
+      ],
+      "warmupIntent": "5–10 minutes: make two object arrangements that suggest different actions, using personal objects from life.",
+      "conceptTeachingIntent": "Use placement and contrast to suggest a relationship",
+      "mainDrawingExerciseIntent": "Arrange two or three objects to suggest a simple idea without words",
+      "learnerDecisions": "Choose narrative and framing",
+      "scaffoldingLevel": "low",
+      "sourceConceptReferences": [
+        {
+          "book_id": "garvey-williams-mastering-composition",
+          "source_concept_id": "garvey-williams-mastering-composition-concept-01",
+          "locator": "Printed pp. 8–12, introduction and working definition"
+        },
+        {
+          "book_id": "picard-beginning-drawing",
+          "source_concept_id": "picard-beginning-drawing-concept-03",
+          "locator": "printed p. 29 (PDF p. 31)"
+        },
+        {
+          "book_id": "dodson-keys-to-drawing",
+          "source_concept_id": "dodson-keys-to-drawing-concept-08",
+          "locator": "Printed pp. 198–221, chapter 8; creative examples on pp. 198–206"
+        }
+      ],
+      "sourceExerciseReferences": [],
+      "visualRequirements": [
+        "from-life"
+      ],
+      "potentialSourceIllustrations": [],
+      "optionalExtensionIntent": "Repeat with a changed viewpoint, lighting, or subject while keeping the same narrative and staging question."
+    },
+    {
+      "id": "lesson-58",
+      "sequence": 58,
+      "section": "Combine and interpret",
+      "title": "Charcoal portrait",
+      "purpose": "Use charcoal masses and edges for an expressive likeness",
+      "durationMinutes": 45,
+      "lessonType": "lesson",
+      "difficulty": "intermediate",
+      "medium": [
+        "charcoal"
+      ],
+      "requiredMaterials": [
+        "charcoal",
+        "eraser",
+        "sketchbook"
+      ],
+      "subject": "self or willing sitter",
+      "exerciseSourceType": "from-life",
+      "fundamentals": {
+        "primary": [
+          "form",
+          "materials"
+        ],
+        "secondary": []
+      },
+      "concepts": [
+        {
+          "id": "head-portrait-construction",
+          "name": "Head and portrait construction",
+          "stage": "combined"
+        },
+        {
+          "id": "color-media",
+          "name": "Color and drawing media",
+          "stage": "combined"
+        }
+      ],
+      "newConcepts": [],
+      "revisitedConcepts": [
+        "head-portrait-construction",
+        "color-media"
+      ],
+      "prerequisites": [
+        "lesson-47"
+      ],
+      "warmupIntent": "5–10 minutes: draw three head axes at different tilts, using self or willing sitter.",
+      "conceptTeachingIntent": "Use charcoal masses and edges for an expressive likeness",
+      "mainDrawingExerciseIntent": "Make a portrait led by pose, shadow design, and selective edges",
+      "learnerDecisions": "Choose sitter, crop, and focal area",
+      "scaffoldingLevel": "low",
+      "sourceConceptReferences": [
+        {
+          "book_id": "loomis-head-hands",
+          "source_concept_id": "loomis-head-hands-concept-01",
+          "locator": "Printed p. 22, Plate 1, “The basic shape is a flattened ball”"
+        },
+        {
+          "book_id": "watson-garcia-absolute-beginner",
+          "source_concept_id": "watson-garcia-absolute-beginner-concept-05",
+          "locator": "Printed pp. 72–87, chapter 5"
+        }
+      ],
+      "sourceExerciseReferences": [],
+      "visualRequirements": [
+        "from-life"
+      ],
+      "potentialSourceIllustrations": [],
+      "optionalExtensionIntent": "Repeat with a changed viewpoint, lighting, or subject while keeping the same head and portrait construction question."
+    },
+    {
+      "id": "lesson-59",
+      "sequence": 59,
+      "section": "Combine and interpret",
+      "title": "Project: natural forms",
+      "purpose": "Combine organic construction, value, edges, and composition",
+      "durationMinutes": 90,
+      "lessonType": "project",
+      "difficulty": "intermediate",
+      "medium": [
+        "graphite",
+        "charcoal"
+      ],
+      "requiredMaterials": [
+        "graphite or charcoal",
+        "eraser",
+        "sketchbook"
+      ],
+      "subject": "plant, shell, or natural object from life",
+      "exerciseSourceType": "from-life",
+      "fundamentals": {
+        "primary": [
+          "form",
+          "composition",
+          "value",
+          "measurement"
+        ],
+        "secondary": [
+          "surface-edges"
+        ]
+      },
+      "concepts": [
+        {
+          "id": "form-volume",
+          "name": "Shape, form, and volume",
+          "stage": "combined"
+        },
+        {
+          "id": "composition-framing",
+          "name": "Composition and framing",
+          "stage": "combined"
+        },
+        {
+          "id": "value-light-shadow",
+          "name": "Value, light, and shadow",
+          "stage": "combined"
+        },
+        {
+          "id": "proportion-measurement",
+          "name": "Proportion and comparative measurement",
+          "stage": "combined"
+        }
+      ],
+      "newConcepts": [],
+      "revisitedConcepts": [
+        "form-volume",
+        "composition-framing",
+        "value-light-shadow",
+        "proportion-measurement"
+      ],
+      "prerequisites": [
+        "lesson-54"
+      ],
+      "warmupIntent": "5–10 minutes: block one subject part as a simple turning volume, using plant, shell, or natural object from life.",
+      "conceptTeachingIntent": "Combine organic construction, value, edges, and composition",
+      "mainDrawingExerciseIntent": "Plan and complete a sustained natural-form drawing with selective detail",
+      "learnerDecisions": "Choose subject, light, medium",
+      "scaffoldingLevel": "low",
+      "sourceConceptReferences": [
+        {
+          "book_id": "picard-beginning-drawing",
+          "source_concept_id": "picard-beginning-drawing-concept-05",
+          "locator": "printed pp. 57–63 (PDF pp. 59–65)"
+        },
+        {
+          "book_id": "picard-beginning-drawing",
+          "source_concept_id": "picard-beginning-drawing-concept-03",
+          "locator": "printed p. 29 (PDF p. 31)"
+        },
+        {
+          "book_id": "dodson-keys-to-drawing",
+          "source_concept_id": "dodson-keys-to-drawing-concept-04",
+          "locator": "Printed pp. 102–127, chapter 4; light-source example on p. 110"
+        },
+        {
+          "book_id": "aristides-classical-atelier",
+          "source_concept_id": "aristides-classical-atelier-concept-01",
+          "locator": "EPUB, Chapter Two, “The Golden Ratio” and “The Golden Ratio in Nature”"
+        }
+      ],
+      "sourceExerciseReferences": [],
+      "visualRequirements": [
+        "from-life"
+      ],
+      "potentialSourceIllustrations": [],
+      "optionalExtensionIntent": "Repeat with a changed viewpoint, lighting, or subject while keeping the same shape, form, and volume question."
+    },
+    {
+      "id": "lesson-60",
+      "sequence": 60,
+      "section": "Combine and interpret",
+      "title": "Project: landscape interpretation",
+      "purpose": "Choose what to simplify and emphasize in a place",
+      "durationMinutes": 90,
+      "lessonType": "project",
+      "difficulty": "intermediate",
+      "medium": [
+        "graphite",
+        "charcoal"
+      ],
+      "requiredMaterials": [
+        "graphite or charcoal",
+        "eraser",
+        "sketchbook"
+      ],
+      "subject": "chosen landscape",
+      "exerciseSourceType": "from-life",
+      "fundamentals": {
+        "primary": [
+          "composition",
+          "space",
+          "invention"
+        ],
+        "secondary": [
+          "value"
+        ]
+      },
+      "concepts": [
+        {
+          "id": "composition-framing",
+          "name": "Composition and framing",
+          "stage": "combined"
+        },
+        {
+          "id": "depth-atmosphere",
+          "name": "Depth and atmospheric recession",
+          "stage": "combined"
+        },
+        {
+          "id": "creative-invention",
+          "name": "Creative invention and interpretation",
+          "stage": "combined"
+        }
+      ],
+      "newConcepts": [],
+      "revisitedConcepts": [
+        "composition-framing",
+        "depth-atmosphere",
+        "creative-invention"
+      ],
+      "prerequisites": [
+        "lesson-57"
+      ],
+      "warmupIntent": "5–10 minutes: make two thumbnail crops with different margins, using chosen landscape.",
+      "conceptTeachingIntent": "Choose what to simplify and emphasize in a place",
+      "mainDrawingExerciseIntent": "Make studies, plan values, and finish an interpreted landscape",
+      "learnerDecisions": "Choose place, viewpoint, medium, focal point",
+      "scaffoldingLevel": "low",
+      "sourceConceptReferences": [
+        {
+          "book_id": "picard-beginning-drawing",
+          "source_concept_id": "picard-beginning-drawing-concept-03",
+          "locator": "printed p. 29 (PDF p. 31)"
+        },
+        {
+          "book_id": "dodson-keys-to-drawing",
+          "source_concept_id": "dodson-keys-to-drawing-concept-05",
+          "locator": "Printed pp. 128–147, chapter 5; construction example on p. 135"
+        },
+        {
+          "book_id": "dodson-keys-to-drawing",
+          "source_concept_id": "dodson-keys-to-drawing-concept-08",
+          "locator": "Printed pp. 198–221, chapter 8; creative examples on pp. 198–206"
+        }
+      ],
+      "sourceExerciseReferences": [],
+      "visualRequirements": [
+        "from-life"
+      ],
+      "potentialSourceIllustrations": [],
+      "optionalExtensionIntent": "Repeat with a changed viewpoint, lighting, or subject while keeping the same composition and framing question."
+    },
+    {
+      "id": "lesson-61",
+      "sequence": 61,
+      "section": "Choose and communicate",
+      "title": "Own subject, three plans",
+      "purpose": "Compare solutions before committing to a drawing",
+      "durationMinutes": 45,
+      "lessonType": "lesson",
+      "difficulty": "intermediate",
+      "medium": [
+        "graphite",
+        "charcoal"
+      ],
+      "requiredMaterials": [
+        "graphite or charcoal",
+        "eraser",
+        "sketchbook"
+      ],
+      "subject": "personally chosen subject",
+      "exerciseSourceType": "learner-selected",
+      "fundamentals": {
+        "primary": [
+          "composition",
+          "invention"
+        ],
+        "secondary": []
+      },
+      "concepts": [
+        {
+          "id": "composition-framing",
+          "name": "Composition and framing",
+          "stage": "independent"
+        },
+        {
+          "id": "creative-invention",
+          "name": "Creative invention and interpretation",
+          "stage": "independent"
+        }
+      ],
+      "newConcepts": [],
+      "revisitedConcepts": [
+        "composition-framing",
+        "creative-invention"
+      ],
+      "prerequisites": [
+        "lesson-60"
+      ],
+      "warmupIntent": "5–10 minutes: make two thumbnail crops with different margins, using personally chosen subject.",
+      "conceptTeachingIntent": "Compare solutions before committing to a drawing",
+      "mainDrawingExerciseIntent": "Make three small plans that vary crop and value structure",
+      "learnerDecisions": "Choose subject and preferred plan",
+      "scaffoldingLevel": "independent",
+      "sourceConceptReferences": [
+        {
+          "book_id": "picard-beginning-drawing",
+          "source_concept_id": "picard-beginning-drawing-concept-03",
+          "locator": "printed p. 29 (PDF p. 31)"
+        },
+        {
+          "book_id": "dodson-keys-to-drawing",
+          "source_concept_id": "dodson-keys-to-drawing-concept-08",
+          "locator": "Printed pp. 198–221, chapter 8; creative examples on pp. 198–206"
+        }
+      ],
+      "sourceExerciseReferences": [],
+      "visualRequirements": [
+        "learner-choice"
+      ],
+      "potentialSourceIllustrations": [],
+      "optionalExtensionIntent": "Repeat with a changed viewpoint, lighting, or subject while keeping the same composition and framing question."
+    },
+    {
+      "id": "lesson-62",
+      "sequence": 62,
+      "section": "Choose and communicate",
+      "title": "Drawing from memory, then life",
+      "purpose": "Test what observation adds to a remembered object",
+      "durationMinutes": 45,
+      "lessonType": "lesson",
+      "difficulty": "intermediate",
+      "medium": [
+        "graphite"
+      ],
+      "requiredMaterials": [
+        "graphite pencil",
+        "eraser",
+        "sketchbook"
+      ],
+      "subject": "familiar object from life",
+      "exerciseSourceType": "from-life",
+      "fundamentals": {
+        "primary": [
+          "observation",
+          "reflection",
+          "measurement"
+        ],
+        "secondary": []
+      },
+      "concepts": [
+        {
+          "id": "observation-perception",
+          "name": "Observation and perception",
+          "stage": "independent"
+        },
+        {
+          "id": "practice-reflection",
+          "name": "Practice process and reflection",
+          "stage": "independent"
+        },
+        {
+          "id": "proportion-measurement",
+          "name": "Proportion and comparative measurement",
+          "stage": "independent"
+        }
+      ],
+      "newConcepts": [],
+      "revisitedConcepts": [
+        "observation-perception",
+        "practice-reflection",
+        "proportion-measurement"
+      ],
+      "prerequisites": [
+        "lesson-61"
+      ],
+      "warmupIntent": "5–10 minutes: make two tiny observation sketches and name one changed relationship, using familiar object from life.",
+      "conceptTeachingIntent": "Test what observation adds to a remembered object",
+      "mainDrawingExerciseIntent": "Draw from memory, then from life, and annotate two discoveries",
+      "learnerDecisions": "Choose object and next practice target",
+      "scaffoldingLevel": "independent",
+      "sourceConceptReferences": [
+        {
+          "book_id": "dodson-keys-to-drawing",
+          "source_concept_id": "dodson-keys-to-drawing-concept-01",
+          "locator": "Printed pp. 10–39, chapter 1; the first project and line examples are on pp. 10–15"
+        },
+        {
+          "book_id": "aristides-classical-atelier",
+          "source_concept_id": "aristides-classical-atelier-concept-01",
+          "locator": "EPUB, Chapter Two, “The Golden Ratio” and “The Golden Ratio in Nature”"
+        }
+      ],
+      "sourceExerciseReferences": [],
+      "visualRequirements": [
+        "from-life"
+      ],
+      "potentialSourceIllustrations": [],
+      "optionalExtensionIntent": "Repeat with a changed viewpoint, lighting, or subject while keeping the same observation and perception question."
+    },
+    {
+      "id": "lesson-63",
+      "sequence": 63,
+      "section": "Choose and communicate",
+      "title": "Turn a vessel",
+      "purpose": "Reconstruct a familiar subject after studying it",
+      "durationMinutes": 45,
+      "lessonType": "lesson",
+      "difficulty": "intermediate",
+      "medium": [
+        "graphite"
+      ],
+      "requiredMaterials": [
+        "graphite pencil",
+        "eraser",
+        "sketchbook"
+      ],
+      "subject": "cup or vase from life",
+      "exerciseSourceType": "from-life",
+      "fundamentals": {
+        "primary": [
+          "space",
+          "form",
+          "line-shape"
+        ],
+        "secondary": []
+      },
+      "concepts": [
+        {
+          "id": "perspective-space",
+          "name": "Perspective and spatial construction",
+          "stage": "independent"
+        },
+        {
+          "id": "form-volume",
+          "name": "Shape, form, and volume",
+          "stage": "independent"
+        },
+        {
+          "id": "edges-contour",
+          "name": "Edges and contour",
+          "stage": "independent"
+        },
+        {
+          "id": "ellipse-cylinder-construction",
+          "name": "Ellipses and cylinders in space",
+          "stage": "independent"
+        }
+      ],
+      "newConcepts": [],
+      "revisitedConcepts": [
+        "perspective-space",
+        "form-volume",
+        "edges-contour",
+        "ellipse-cylinder-construction"
+      ],
+      "prerequisites": [
+        "lesson-62"
+      ],
+      "warmupIntent": "5–10 minutes: locate eye level and two receding edge directions, using cup or vase from life.",
+      "conceptTeachingIntent": "Reconstruct a familiar subject after studying it",
+      "mainDrawingExerciseIntent": "Study one view, then draw a plausible turned view with a checked ellipse",
+      "learnerDecisions": "Choose vessel and rotation",
+      "scaffoldingLevel": "independent",
+      "sourceConceptReferences": [
+        {
+          "book_id": "norling-perspective-made-easy",
+          "source_concept_id": "norling-perspective-made-easy-concept-01",
+          "locator": "Printed pp. 1–10, Step One: The Horizon, The Vanishing Point, The Eye-Level"
+        },
+        {
+          "book_id": "picard-beginning-drawing",
+          "source_concept_id": "picard-beginning-drawing-concept-05",
+          "locator": "printed pp. 57–63 (PDF pp. 59–65)"
+        },
+        {
+          "book_id": "aristides-classical-atelier",
+          "source_concept_id": "aristides-classical-atelier-concept-02",
+          "locator": "EPUB, Chapter Three, “Types and Uses of Lines”"
+        },
+        {
+          "book_id": "dodson-keys-to-drawing",
+          "source_concept_id": "dodson-keys-to-drawing-concept-05",
+          "locator": "Printed pp. 128–147, chapter 5; construction example on p. 135"
+        }
+      ],
+      "sourceExerciseReferences": [],
+      "visualRequirements": [
+        "from-life"
+      ],
+      "potentialSourceIllustrations": [],
+      "optionalExtensionIntent": "Repeat with a changed viewpoint, lighting, or subject while keeping the same perspective and spatial construction question."
+    },
+    {
+      "id": "lesson-64",
+      "sequence": 64,
+      "section": "Choose and communicate",
+      "title": "Original creature design",
+      "purpose": "Use observed animal or plant forms in a new design",
+      "durationMinutes": 45,
+      "lessonType": "lesson",
+      "difficulty": "intermediate",
+      "medium": [
+        "graphite"
+      ],
+      "requiredMaterials": [
+        "graphite pencil",
+        "eraser",
+        "sketchbook"
+      ],
+      "subject": "original creature based on life studies",
+      "exerciseSourceType": "learner-selected",
+      "fundamentals": {
+        "primary": [
+          "invention"
+        ],
+        "secondary": []
+      },
+      "concepts": [
+        {
+          "id": "creative-invention",
+          "name": "Creative invention and interpretation",
+          "stage": "independent"
+        },
+        {
+          "id": "stylized-character-construction",
+          "name": "Stylized character construction",
+          "stage": "independent"
+        }
+      ],
+      "newConcepts": [],
+      "revisitedConcepts": [
+        "creative-invention",
+        "stylized-character-construction"
+      ],
+      "prerequisites": [
+        "lesson-52"
+      ],
+      "warmupIntent": "5–10 minutes: draw three fast variations of one observed form, using original creature based on life studies.",
+      "conceptTeachingIntent": "Use observed animal or plant forms in a new design",
+      "mainDrawingExerciseIntent": "Sketch observed inputs, vary three designs, and construct one in space",
+      "learnerDecisions": "Choose source forms and pose",
+      "scaffoldingLevel": "independent",
+      "sourceConceptReferences": [
+        {
+          "book_id": "dodson-keys-to-drawing",
+          "source_concept_id": "dodson-keys-to-drawing-concept-08",
+          "locator": "Printed pp. 198–221, chapter 8; creative examples on pp. 198–206"
+        },
+        {
+          "book_id": "pokemon-how-to-draw",
+          "source_concept_id": "pokemon-how-to-draw-concept-02",
+          "locator": "Printed pp. 8–9; PDF pp. 10–11, Pikachu steps"
+        }
+      ],
+      "sourceExerciseReferences": [],
+      "visualRequirements": [
+        "learner-choice"
+      ],
+      "potentialSourceIllustrations": [],
+      "optionalExtensionIntent": "Repeat with a changed viewpoint, lighting, or subject while keeping the same creative invention and interpretation question."
+    },
+    {
+      "id": "lesson-65",
+      "sequence": 65,
+      "section": "Choose and communicate",
+      "title": "Quiet versus dramatic light",
+      "purpose": "Choose value structure for an intended mood",
+      "durationMinutes": 45,
+      "lessonType": "lesson",
+      "difficulty": "intermediate",
+      "medium": [
+        "graphite",
+        "charcoal"
+      ],
+      "requiredMaterials": [
+        "graphite or charcoal",
+        "eraser",
+        "sketchbook"
+      ],
+      "subject": "same still life or scene",
+      "exerciseSourceType": "from-life",
+      "fundamentals": {
+        "primary": [
+          "value",
+          "composition",
+          "surface-edges",
+          "line-shape"
+        ],
+        "secondary": []
+      },
+      "concepts": [
+        {
+          "id": "value-light-shadow",
+          "name": "Value, light, and shadow",
+          "stage": "independent"
+        },
+        {
+          "id": "visual-hierarchy-focal-path",
+          "name": "Visual hierarchy and focal path",
+          "stage": "independent"
+        },
+        {
+          "id": "texture-surface",
+          "name": "Texture and surface",
+          "stage": "independent"
+        },
+        {
+          "id": "edges-contour",
+          "name": "Edges and contour",
+          "stage": "independent"
+        }
+      ],
+      "newConcepts": [],
+      "revisitedConcepts": [
+        "value-light-shadow",
+        "visual-hierarchy-focal-path",
+        "texture-surface",
+        "edges-contour"
+      ],
+      "prerequisites": [
+        "lesson-61"
+      ],
+      "warmupIntent": "5–10 minutes: reduce a small view to light, middle, and dark masses, using same still life or scene.",
+      "conceptTeachingIntent": "Choose value structure for an intended mood",
+      "mainDrawingExerciseIntent": "Make two lighting plans and develop one with controlled edges",
+      "learnerDecisions": "Choose intention and medium",
+      "scaffoldingLevel": "independent",
+      "sourceConceptReferences": [
+        {
+          "book_id": "dodson-keys-to-drawing",
+          "source_concept_id": "dodson-keys-to-drawing-concept-04",
+          "locator": "Printed pp. 102–127, chapter 4; light-source example on p. 110"
+        },
+        {
+          "book_id": "garvey-williams-mastering-composition",
+          "source_concept_id": "garvey-williams-mastering-composition-concept-01",
+          "locator": "Printed pp. 8–12, introduction and working definition"
+        },
+        {
+          "book_id": "dodson-keys-to-drawing",
+          "source_concept_id": "dodson-keys-to-drawing-concept-06",
+          "locator": "Printed pp. 148–171, chapter 6; stroke and surface examples on pp. 149–153"
+        },
+        {
+          "book_id": "aristides-classical-atelier",
+          "source_concept_id": "aristides-classical-atelier-concept-02",
+          "locator": "EPUB, Chapter Three, “Types and Uses of Lines”"
+        }
+      ],
+      "sourceExerciseReferences": [],
+      "visualRequirements": [
+        "from-life"
+      ],
+      "potentialSourceIllustrations": [],
+      "optionalExtensionIntent": "Repeat with a changed viewpoint, lighting, or subject while keeping the same value, light, and shadow question."
+    },
+    {
+      "id": "lesson-66",
+      "sequence": 66,
+      "section": "Choose and communicate",
+      "title": "Personal arrangement",
+      "purpose": "Solve a composition with reduced prompts",
+      "durationMinutes": 45,
+      "lessonType": "lesson",
+      "difficulty": "intermediate",
+      "medium": [
+        "graphite",
+        "charcoal"
+      ],
+      "requiredMaterials": [
+        "graphite or charcoal",
+        "eraser",
+        "sketchbook"
+      ],
+      "subject": "one vessel with chosen objects or optional flowers from life",
+      "exerciseSourceType": "from-life",
+      "fundamentals": {
+        "primary": [
+          "composition",
+          "surface-edges",
+          "space"
+        ],
+        "secondary": [
+          "observation"
+        ]
+      },
+      "concepts": [
+        {
+          "id": "composition-framing",
+          "name": "Composition and framing",
+          "stage": "independent"
+        },
+        {
+          "id": "design-rhythm-pattern",
+          "name": "Design, rhythm, and pattern",
+          "stage": "practised"
+        },
+        {
+          "id": "texture-surface",
+          "name": "Texture and surface",
+          "stage": "independent"
+        },
+        {
+          "id": "ellipse-cylinder-construction",
+          "name": "Ellipses and cylinders in space",
+          "stage": "independent"
+        }
+      ],
+      "newConcepts": [],
+      "revisitedConcepts": [
+        "composition-framing",
+        "design-rhythm-pattern",
+        "texture-surface",
+        "ellipse-cylinder-construction"
+      ],
+      "prerequisites": [
+        "lesson-60"
+      ],
+      "warmupIntent": "5–10 minutes: make two thumbnail crops with different margins, using one vessel with chosen objects or optional flowers from life.",
+      "conceptTeachingIntent": "Solve a composition with reduced prompts",
+      "mainDrawingExerciseIntent": "Arrange, thumbnail, and draw a group with chosen emphasis and a checked vessel rim",
+      "learnerDecisions": "Choose arrangement, crop, light, medium",
+      "scaffoldingLevel": "independent",
+      "sourceConceptReferences": [
+        {
+          "book_id": "picard-beginning-drawing",
+          "source_concept_id": "picard-beginning-drawing-concept-03",
+          "locator": "printed p. 29 (PDF p. 31)"
+        },
+        {
+          "book_id": "aristides-classical-atelier",
+          "source_concept_id": "aristides-classical-atelier-concept-01",
+          "locator": "EPUB, Chapter Two, “The Golden Ratio” and “The Golden Ratio in Nature”"
+        },
+        {
+          "book_id": "dodson-keys-to-drawing",
+          "source_concept_id": "dodson-keys-to-drawing-concept-06",
+          "locator": "Printed pp. 148–171, chapter 6; stroke and surface examples on pp. 149–153"
+        },
+        {
+          "book_id": "dodson-keys-to-drawing",
+          "source_concept_id": "dodson-keys-to-drawing-concept-05",
+          "locator": "Printed pp. 128–147, chapter 5; construction example on p. 135"
+        }
+      ],
+      "sourceExerciseReferences": [],
+      "visualRequirements": [
+        "from-life"
+      ],
+      "potentialSourceIllustrations": [],
+      "optionalExtensionIntent": "Repeat with a changed viewpoint, lighting, or subject while keeping the same composition and framing question."
+    },
+    {
+      "id": "lesson-67",
+      "sequence": 67,
+      "section": "Choose and communicate",
+      "title": "Landscape from life, your way",
+      "purpose": "Decide depth, focus, and mark language independently",
+      "durationMinutes": 45,
+      "lessonType": "lesson",
+      "difficulty": "intermediate",
+      "medium": [
+        "graphite",
+        "charcoal"
+      ],
+      "requiredMaterials": [
+        "graphite or charcoal",
+        "eraser",
+        "sketchbook"
+      ],
+      "subject": "chosen outdoor view",
+      "exerciseSourceType": "from-life",
+      "fundamentals": {
+        "primary": [
+          "space",
+          "composition",
+          "line-shape"
+        ],
+        "secondary": []
+      },
+      "concepts": [
+        {
+          "id": "depth-atmosphere",
+          "name": "Depth and atmospheric recession",
+          "stage": "independent"
+        },
+        {
+          "id": "composition-framing",
+          "name": "Composition and framing",
+          "stage": "independent"
+        },
+        {
+          "id": "mark-making-line-quality",
+          "name": "Mark-making and line quality",
+          "stage": "independent"
+        }
+      ],
+      "newConcepts": [],
+      "revisitedConcepts": [
+        "depth-atmosphere",
+        "composition-framing",
+        "mark-making-line-quality"
+      ],
+      "prerequisites": [
+        "lesson-60"
+      ],
+      "warmupIntent": "5–10 minutes: make a three-plane value thumbnail, using chosen outdoor view.",
+      "conceptTeachingIntent": "Decide depth, focus, and mark language independently",
+      "mainDrawingExerciseIntent": "Make a small outdoor drawing and revise its depth/focus plan",
+      "learnerDecisions": "Choose view, medium, focal point",
+      "scaffoldingLevel": "independent",
+      "sourceConceptReferences": [
+        {
+          "book_id": "dodson-keys-to-drawing",
+          "source_concept_id": "dodson-keys-to-drawing-concept-05",
+          "locator": "Printed pp. 128–147, chapter 5; construction example on p. 135"
+        },
+        {
+          "book_id": "picard-beginning-drawing",
+          "source_concept_id": "picard-beginning-drawing-concept-03",
+          "locator": "printed p. 29 (PDF p. 31)"
+        },
+        {
+          "book_id": "dodson-keys-to-drawing",
+          "source_concept_id": "dodson-keys-to-drawing-concept-02",
+          "locator": "Printed pp. 40–69, chapter 2"
+        }
+      ],
+      "sourceExerciseReferences": [],
+      "visualRequirements": [
+        "from-life"
+      ],
+      "potentialSourceIllustrations": [],
+      "optionalExtensionIntent": "Repeat with a changed viewpoint, lighting, or subject while keeping the same depth and atmospheric recession question."
+    },
+    {
+      "id": "lesson-68",
+      "sequence": 68,
+      "section": "Choose and communicate",
+      "title": "Project: personal place",
+      "purpose": "Make a finished drawing that communicates why a place matters",
+      "durationMinutes": 90,
+      "lessonType": "project",
+      "difficulty": "intermediate",
+      "medium": [
+        "graphite",
+        "charcoal"
+      ],
+      "requiredMaterials": [
+        "graphite or charcoal",
+        "eraser",
+        "sketchbook"
+      ],
+      "subject": "personally meaningful place",
+      "exerciseSourceType": "learner-selected",
+      "fundamentals": {
+        "primary": [
+          "composition",
+          "invention",
+          "materials"
+        ],
+        "secondary": []
+      },
+      "concepts": [
+        {
+          "id": "narrative-staging",
+          "name": "Narrative and staging",
+          "stage": "practised"
+        },
+        {
+          "id": "composition-framing",
+          "name": "Composition and framing",
+          "stage": "independent"
+        },
+        {
+          "id": "creative-invention",
+          "name": "Creative invention and interpretation",
+          "stage": "independent"
+        },
+        {
+          "id": "color-media",
+          "name": "Color and drawing media",
+          "stage": "independent"
+        }
+      ],
+      "newConcepts": [],
+      "revisitedConcepts": [
+        "narrative-staging",
+        "composition-framing",
+        "creative-invention",
+        "color-media"
+      ],
+      "prerequisites": [
+        "lesson-67"
+      ],
+      "warmupIntent": "5–10 minutes: make two object arrangements that suggest different actions, using personally meaningful place.",
+      "conceptTeachingIntent": "Make a finished drawing that communicates why a place matters",
+      "mainDrawingExerciseIntent": "Gather studies, compare thumbnails, and complete a place drawing",
+      "learnerDecisions": "Choose all major visual decisions",
+      "scaffoldingLevel": "independent",
+      "sourceConceptReferences": [
+        {
+          "book_id": "garvey-williams-mastering-composition",
+          "source_concept_id": "garvey-williams-mastering-composition-concept-01",
+          "locator": "Printed pp. 8–12, introduction and working definition"
+        },
+        {
+          "book_id": "picard-beginning-drawing",
+          "source_concept_id": "picard-beginning-drawing-concept-03",
+          "locator": "printed p. 29 (PDF p. 31)"
+        },
+        {
+          "book_id": "dodson-keys-to-drawing",
+          "source_concept_id": "dodson-keys-to-drawing-concept-08",
+          "locator": "Printed pp. 198–221, chapter 8; creative examples on pp. 198–206"
+        },
+        {
+          "book_id": "watson-garcia-absolute-beginner",
+          "source_concept_id": "watson-garcia-absolute-beginner-concept-05",
+          "locator": "Printed pp. 72–87, chapter 5"
+        }
+      ],
+      "sourceExerciseReferences": [],
+      "visualRequirements": [
+        "learner-choice"
+      ],
+      "potentialSourceIllustrations": [],
+      "optionalExtensionIntent": "Repeat with a changed viewpoint, lighting, or subject while keeping the same narrative and staging question."
+    },
+    {
+      "id": "lesson-69",
+      "sequence": 69,
+      "section": "Choose and communicate",
+      "title": "Hands in action",
+      "purpose": "Use construction and observation with deliberate emphasis",
+      "durationMinutes": 45,
+      "lessonType": "lesson",
+      "difficulty": "intermediate",
+      "medium": [
+        "graphite",
+        "charcoal"
+      ],
+      "requiredMaterials": [
+        "graphite or charcoal",
+        "eraser",
+        "sketchbook"
+      ],
+      "subject": "own hands holding an object from life",
+      "exerciseSourceType": "from-life",
+      "fundamentals": {
+        "primary": [
+          "form",
+          "composition",
+          "gesture",
+          "measurement"
+        ],
+        "secondary": []
+      },
+      "concepts": [
+        {
+          "id": "hands-extremities",
+          "name": "Hands and extremities",
+          "stage": "independent"
+        },
+        {
+          "id": "visual-hierarchy-focal-path",
+          "name": "Visual hierarchy and focal path",
+          "stage": "independent"
+        },
+        {
+          "id": "gesture-action",
+          "name": "Gesture and action",
+          "stage": "independent"
+        },
+        {
+          "id": "proportion-measurement",
+          "name": "Proportion and comparative measurement",
+          "stage": "independent"
+        }
+      ],
+      "newConcepts": [],
+      "revisitedConcepts": [
+        "hands-extremities",
+        "visual-hierarchy-focal-path",
+        "gesture-action",
+        "proportion-measurement"
+      ],
+      "prerequisites": [
+        "lesson-48"
+      ],
+      "warmupIntent": "5–10 minutes: block a hand as palm mass and finger group in two poses, using own hands holding an object from life.",
+      "conceptTeachingIntent": "Use construction and observation with deliberate emphasis",
+      "mainDrawingExerciseIntent": "Make gesture and structure studies, then finish a focused hand drawing",
+      "learnerDecisions": "Choose action, object, medium, emphasis",
+      "scaffoldingLevel": "independent",
+      "sourceConceptReferences": [
+        {
+          "book_id": "hampton-figure-drawing",
+          "source_concept_id": "hampton-figure-drawing-concept-06",
+          "locator": "Printed pp. 129–159, The Arm; pp. 160–177, The Hand; pp. 178–201, The Leg; pp. 202–217, The Foot; pp. 218–231, Drapery"
+        },
+        {
+          "book_id": "garvey-williams-mastering-composition",
+          "source_concept_id": "garvey-williams-mastering-composition-concept-01",
+          "locator": "Printed pp. 8–12, introduction and working definition"
+        },
+        {
+          "book_id": "hampton-figure-drawing",
+          "source_concept_id": "hampton-figure-drawing-concept-01",
+          "locator": "Printed p. 3; PDF p. 11, Gesture Drawing opening"
+        },
+        {
+          "book_id": "aristides-classical-atelier",
+          "source_concept_id": "aristides-classical-atelier-concept-01",
+          "locator": "EPUB, Chapter Two, “The Golden Ratio” and “The Golden Ratio in Nature”"
+        }
+      ],
+      "sourceExerciseReferences": [],
+      "visualRequirements": [
+        "from-life"
+      ],
+      "potentialSourceIllustrations": [],
+      "optionalExtensionIntent": "Repeat with a changed viewpoint, lighting, or subject while keeping the same hands and extremities question."
+    },
+    {
+      "id": "lesson-70",
+      "sequence": 70,
+      "section": "Choose and communicate",
+      "title": "Independent mixed-subject study",
+      "purpose": "Combine two subject families without a prescribed solution",
+      "durationMinutes": 45,
+      "lessonType": "lesson",
+      "difficulty": "intermediate",
+      "medium": [
+        "graphite",
+        "charcoal"
+      ],
+      "requiredMaterials": [
+        "graphite or charcoal",
+        "eraser",
+        "sketchbook"
+      ],
+      "subject": "chosen objects, plants, person, or place",
+      "exerciseSourceType": "learner-selected",
+      "fundamentals": {
+        "primary": [
+          "form",
+          "composition",
+          "invention",
+          "line-shape"
+        ],
+        "secondary": []
+      },
+      "concepts": [
+        {
+          "id": "form-volume",
+          "name": "Shape, form, and volume",
+          "stage": "independent"
+        },
+        {
+          "id": "composition-framing",
+          "name": "Composition and framing",
+          "stage": "independent"
+        },
+        {
+          "id": "creative-invention",
+          "name": "Creative invention and interpretation",
+          "stage": "independent"
+        },
+        {
+          "id": "mark-making-line-quality",
+          "name": "Mark-making and line quality",
+          "stage": "independent"
+        }
+      ],
+      "newConcepts": [],
+      "revisitedConcepts": [
+        "form-volume",
+        "composition-framing",
+        "creative-invention",
+        "mark-making-line-quality"
+      ],
+      "prerequisites": [
+        "lesson-68"
+      ],
+      "warmupIntent": "5–10 minutes: block one subject part as a simple turning volume, using chosen objects, plants, person, or place.",
+      "conceptTeachingIntent": "Combine two subject families without a prescribed solution",
+      "mainDrawingExerciseIntent": "Design and draw a scene connecting two different subjects",
+      "learnerDecisions": "Choose subjects, crop, medium, light",
+      "scaffoldingLevel": "independent",
+      "sourceConceptReferences": [
+        {
+          "book_id": "picard-beginning-drawing",
+          "source_concept_id": "picard-beginning-drawing-concept-05",
+          "locator": "printed pp. 57–63 (PDF pp. 59–65)"
+        },
+        {
+          "book_id": "picard-beginning-drawing",
+          "source_concept_id": "picard-beginning-drawing-concept-03",
+          "locator": "printed p. 29 (PDF p. 31)"
+        },
+        {
+          "book_id": "dodson-keys-to-drawing",
+          "source_concept_id": "dodson-keys-to-drawing-concept-08",
+          "locator": "Printed pp. 198–221, chapter 8; creative examples on pp. 198–206"
+        },
+        {
+          "book_id": "dodson-keys-to-drawing",
+          "source_concept_id": "dodson-keys-to-drawing-concept-02",
+          "locator": "Printed pp. 40–69, chapter 2"
+        }
+      ],
+      "sourceExerciseReferences": [],
+      "visualRequirements": [
+        "learner-choice"
+      ],
+      "potentialSourceIllustrations": [],
+      "optionalExtensionIntent": "Repeat with a changed viewpoint, lighting, or subject while keeping the same shape, form, and volume question."
+    },
+    {
+      "id": "lesson-71",
+      "sequence": 71,
+      "section": "Choose and communicate",
+      "title": "Final project planning",
+      "purpose": "Define a personally meaningful drawing and test solutions",
+      "durationMinutes": 45,
+      "lessonType": "lesson",
+      "difficulty": "intermediate",
+      "medium": [
+        "graphite",
+        "charcoal"
+      ],
+      "requiredMaterials": [
+        "graphite or charcoal",
+        "eraser",
+        "sketchbook"
+      ],
+      "subject": "personally chosen subject",
+      "exerciseSourceType": "learner-selected",
+      "fundamentals": {
+        "primary": [
+          "reflection",
+          "composition",
+          "materials"
+        ],
+        "secondary": []
+      },
+      "concepts": [
+        {
+          "id": "practice-reflection",
+          "name": "Practice process and reflection",
+          "stage": "independent"
+        },
+        {
+          "id": "composition-framing",
+          "name": "Composition and framing",
+          "stage": "independent"
+        },
+        {
+          "id": "visual-hierarchy-focal-path",
+          "name": "Visual hierarchy and focal path",
+          "stage": "independent"
+        },
+        {
+          "id": "color-media",
+          "name": "Color and drawing media",
+          "stage": "independent"
+        }
+      ],
+      "newConcepts": [],
+      "revisitedConcepts": [
+        "practice-reflection",
+        "composition-framing",
+        "visual-hierarchy-focal-path",
+        "color-media"
+      ],
+      "prerequisites": [
+        "lesson-70"
+      ],
+      "warmupIntent": "5–10 minutes: review one earlier drawing for a specific strength and correction, using personally chosen subject.",
+      "conceptTeachingIntent": "Define a personally meaningful drawing and test solutions",
+      "mainDrawingExerciseIntent": "Gather own or lawful references, make thumbnails and value plans, select a focal point",
+      "learnerDecisions": "Choose subject, medium, references, design",
+      "scaffoldingLevel": "independent",
+      "sourceConceptReferences": [
+        {
+          "book_id": "dodson-keys-to-drawing",
+          "source_concept_id": "dodson-keys-to-drawing-concept-01",
+          "locator": "Printed pp. 10–39, chapter 1; the first project and line examples are on pp. 10–15"
+        },
+        {
+          "book_id": "picard-beginning-drawing",
+          "source_concept_id": "picard-beginning-drawing-concept-03",
+          "locator": "printed p. 29 (PDF p. 31)"
+        },
+        {
+          "book_id": "garvey-williams-mastering-composition",
+          "source_concept_id": "garvey-williams-mastering-composition-concept-01",
+          "locator": "Printed pp. 8–12, introduction and working definition"
+        },
+        {
+          "book_id": "watson-garcia-absolute-beginner",
+          "source_concept_id": "watson-garcia-absolute-beginner-concept-05",
+          "locator": "Printed pp. 72–87, chapter 5"
+        }
+      ],
+      "sourceExerciseReferences": [],
+      "visualRequirements": [
+        "learner-choice"
+      ],
+      "potentialSourceIllustrations": [],
+      "optionalExtensionIntent": "Repeat with a changed viewpoint, lighting, or subject while keeping the same practice process and reflection question."
+    },
+    {
+      "id": "lesson-72",
+      "sequence": 72,
+      "section": "Choose and communicate",
+      "title": "Final project",
+      "purpose": "Make and evaluate an independent finished drawing",
+      "durationMinutes": 150,
+      "lessonType": "project",
+      "difficulty": "intermediate",
+      "medium": [
+        "graphite",
+        "charcoal"
+      ],
+      "requiredMaterials": [
+        "graphite or charcoal",
+        "eraser",
+        "sketchbook"
+      ],
+      "subject": "personally chosen subject",
+      "exerciseSourceType": "learner-selected",
+      "fundamentals": {
+        "primary": [
+          "invention",
+          "composition",
+          "value"
+        ],
+        "secondary": [
+          "reflection"
+        ]
+      },
+      "concepts": [
+        {
+          "id": "creative-invention",
+          "name": "Creative invention and interpretation",
+          "stage": "independent"
+        },
+        {
+          "id": "composition-framing",
+          "name": "Composition and framing",
+          "stage": "independent"
+        },
+        {
+          "id": "value-light-shadow",
+          "name": "Value, light, and shadow",
+          "stage": "independent"
+        }
+      ],
+      "newConcepts": [],
+      "revisitedConcepts": [
+        "creative-invention",
+        "composition-framing",
+        "value-light-shadow"
+      ],
+      "prerequisites": [
+        "lesson-71"
+      ],
+      "warmupIntent": "5–10 minutes: draw three fast variations of one observed form, using personally chosen subject.",
+      "conceptTeachingIntent": "Make and evaluate an independent finished drawing",
+      "mainDrawingExerciseIntent": "Complete the planned drawing, document decisions, and self-review with next steps",
+      "learnerDecisions": "Choose and execute all major decisions",
+      "scaffoldingLevel": "independent",
+      "sourceConceptReferences": [
+        {
+          "book_id": "dodson-keys-to-drawing",
+          "source_concept_id": "dodson-keys-to-drawing-concept-08",
+          "locator": "Printed pp. 198–221, chapter 8; creative examples on pp. 198–206"
+        },
+        {
+          "book_id": "picard-beginning-drawing",
+          "source_concept_id": "picard-beginning-drawing-concept-03",
+          "locator": "printed p. 29 (PDF p. 31)"
+        },
+        {
+          "book_id": "dodson-keys-to-drawing",
+          "source_concept_id": "dodson-keys-to-drawing-concept-04",
+          "locator": "Printed pp. 102–127, chapter 4; light-source example on p. 110"
+        }
+      ],
+      "sourceExerciseReferences": [],
+      "visualRequirements": [
+        "learner-choice"
+      ],
+      "potentialSourceIllustrations": [],
+      "optionalExtensionIntent": "Repeat with a changed viewpoint, lighting, or subject while keeping the same creative invention and interpretation question."
+    }
+  ]
+}

@@ -1,0 +1,3034 @@
+{
+  "schema_version": "1.0",
+  "source_ledger": "sources/research/SOURCE_COVERAGE_LEDGER.json",
+  "placement_policy": "lesson_ids are representative teaching anchors chosen for highest canonical-concept overlap and spread through the course; concept_match_lesson_ids lists all matching lesson metadata, not a claim that every source method is taught there.",
+  "status_vocabulary": [
+    "INCLUDED",
+    "MERGED",
+    "ALTERNATIVE METHOD",
+    "OPTIONAL / ADVANCED",
+    "OMITTED"
+  ],
+  "decisions": [
+    {
+      "book_id": "aristides-classical-atelier",
+      "source_concept_id": "aristides-classical-atelier-concept-01",
+      "source_concept": "Design, proportion, and visual rhythm",
+      "canonical_concept_ids": [
+        "composition-framing",
+        "proportion-measurement",
+        "design-rhythm-pattern"
+      ],
+      "status": "MERGED",
+      "lesson_ids": [
+        "lesson-24",
+        "lesson-43",
+        "lesson-59",
+        "lesson-66"
+      ],
+      "concept_match_lesson_ids": [
+        "lesson-06",
+        "lesson-07",
+        "lesson-11",
+        "lesson-21",
+        "lesson-23",
+        "lesson-24",
+        "lesson-27",
+        "lesson-29",
+        "lesson-32",
+        "lesson-36",
+        "lesson-43",
+        "lesson-57",
+        "lesson-59",
+        "lesson-60",
+        "lesson-61",
+        "lesson-66",
+        "lesson-67",
+        "lesson-68",
+        "lesson-70",
+        "lesson-71",
+        "lesson-72",
+        "lesson-04",
+        "lesson-09",
+        "lesson-13",
+        "lesson-17",
+        "lesson-39",
+        "lesson-48",
+        "lesson-62",
+        "lesson-69"
+      ],
+      "locators": [
+        "EPUB, Chapter Two, “The Golden Ratio” and “The Golden Ratio in Nature”",
+        "EPUB, Chapter Two, “Art as Visual Music”"
+      ],
+      "reason": "Integrate overlapping methods into the same spiral progression."
+    },
+    {
+      "book_id": "aristides-classical-atelier",
+      "source_concept_id": "aristides-classical-atelier-concept-02",
+      "source_concept": "Line as direction, shape, and block-in",
+      "canonical_concept_ids": [
+        "mark-making-line-quality",
+        "edges-contour",
+        "form-volume"
+      ],
+      "status": "MERGED",
+      "lesson_ids": [
+        "lesson-05",
+        "lesson-10",
+        "lesson-14",
+        "lesson-15",
+        "lesson-33",
+        "lesson-63"
+      ],
+      "concept_match_lesson_ids": [
+        "lesson-05",
+        "lesson-19",
+        "lesson-33",
+        "lesson-49",
+        "lesson-56",
+        "lesson-67",
+        "lesson-70",
+        "lesson-02",
+        "lesson-10",
+        "lesson-15",
+        "lesson-27",
+        "lesson-54",
+        "lesson-63",
+        "lesson-65",
+        "lesson-08",
+        "lesson-12",
+        "lesson-14",
+        "lesson-16",
+        "lesson-18",
+        "lesson-22",
+        "lesson-25",
+        "lesson-31",
+        "lesson-34",
+        "lesson-38",
+        "lesson-59"
+      ],
+      "locators": [
+        "EPUB, Chapter Three, “Types and Uses of Lines”",
+        "EPUB, Chapter Three, “The Block In” and “Measuring”",
+        "EPUB, Chapter Ten, Lesson Two, “Stage One: Blocking in the Shape”"
+      ],
+      "reason": "Integrate overlapping methods into the same spiral progression."
+    },
+    {
+      "book_id": "aristides-classical-atelier",
+      "source_concept_id": "aristides-classical-atelier-concept-03",
+      "source_concept": "Value as composition, hierarchy, and light",
+      "canonical_concept_ids": [
+        "value-light-shadow",
+        "visual-hierarchy-focal-path",
+        "composition-framing"
+      ],
+      "status": "MERGED",
+      "lesson_ids": [
+        "lesson-07",
+        "lesson-14",
+        "lesson-21",
+        "lesson-23",
+        "lesson-29",
+        "lesson-59"
+      ],
+      "concept_match_lesson_ids": [
+        "lesson-07",
+        "lesson-14",
+        "lesson-20",
+        "lesson-21",
+        "lesson-24",
+        "lesson-26",
+        "lesson-30",
+        "lesson-34",
+        "lesson-44",
+        "lesson-45",
+        "lesson-48",
+        "lesson-54",
+        "lesson-59",
+        "lesson-65",
+        "lesson-72",
+        "lesson-23",
+        "lesson-29",
+        "lesson-33",
+        "lesson-36",
+        "lesson-46",
+        "lesson-55",
+        "lesson-69",
+        "lesson-71",
+        "lesson-06",
+        "lesson-11",
+        "lesson-27",
+        "lesson-32",
+        "lesson-43",
+        "lesson-57",
+        "lesson-60",
+        "lesson-61",
+        "lesson-66",
+        "lesson-67",
+        "lesson-68",
+        "lesson-70"
+      ],
+      "locators": [
+        "EPUB, Chapter Four, “Value in Composition” and “Value and Mood”",
+        "EPUB, Chapter Four, “Hierarchy in Composition” and “Simplifying Light and Shadow”"
+      ],
+      "reason": "Integrate overlapping methods into the same spiral progression."
+    },
+    {
+      "book_id": "aristides-classical-atelier",
+      "source_concept_id": "aristides-classical-atelier-concept-04",
+      "source_concept": "Form and the turning of light over a surface",
+      "canonical_concept_ids": [
+        "form-volume",
+        "value-light-shadow"
+      ],
+      "status": "MERGED",
+      "lesson_ids": [
+        "lesson-14",
+        "lesson-34",
+        "lesson-45",
+        "lesson-59"
+      ],
+      "concept_match_lesson_ids": [
+        "lesson-08",
+        "lesson-10",
+        "lesson-12",
+        "lesson-14",
+        "lesson-15",
+        "lesson-16",
+        "lesson-18",
+        "lesson-19",
+        "lesson-22",
+        "lesson-25",
+        "lesson-31",
+        "lesson-34",
+        "lesson-38",
+        "lesson-59",
+        "lesson-63",
+        "lesson-70",
+        "lesson-07",
+        "lesson-20",
+        "lesson-21",
+        "lesson-24",
+        "lesson-26",
+        "lesson-30",
+        "lesson-44",
+        "lesson-45",
+        "lesson-48",
+        "lesson-54",
+        "lesson-65",
+        "lesson-72"
+      ],
+      "locators": [
+        "EPUB, Chapter Five, “Understanding Form,” “Universals and Particulars,” and “Creating Form”",
+        "EPUB, Chapter Ten, Lesson One, “Stage Three: Focusing on Form Drawing”"
+      ],
+      "reason": "Integrate overlapping methods into the same spiral progression."
+    },
+    {
+      "book_id": "aristides-classical-atelier",
+      "source_concept_id": "aristides-classical-atelier-concept-05",
+      "source_concept": "Learning through master copies and cast studies",
+      "canonical_concept_ids": [
+        "master-study-copying",
+        "form-volume",
+        "practice-reflection"
+      ],
+      "status": "MERGED",
+      "lesson_ids": [
+        "lesson-01",
+        "lesson-08",
+        "lesson-14",
+        "lesson-25",
+        "lesson-49",
+        "lesson-55"
+      ],
+      "concept_match_lesson_ids": [
+        "lesson-49",
+        "lesson-55",
+        "lesson-08",
+        "lesson-10",
+        "lesson-12",
+        "lesson-14",
+        "lesson-15",
+        "lesson-16",
+        "lesson-18",
+        "lesson-19",
+        "lesson-22",
+        "lesson-25",
+        "lesson-31",
+        "lesson-34",
+        "lesson-38",
+        "lesson-59",
+        "lesson-63",
+        "lesson-70",
+        "lesson-01",
+        "lesson-24",
+        "lesson-36",
+        "lesson-48",
+        "lesson-62",
+        "lesson-71"
+      ],
+      "locators": [
+        "EPUB, Chapter Six, “The Value of Copying” and “Copying Versus Constructing”",
+        "EPUB, Chapter Seven, “The History of Cast Drawing” and “Bringing the Past into the Present”"
+      ],
+      "reason": "Integrate overlapping methods into the same spiral progression."
+    },
+    {
+      "book_id": "aristides-classical-atelier",
+      "source_concept_id": "aristides-classical-atelier-concept-06",
+      "source_concept": "Figure and portrait drawing combine structure with individual observation",
+      "canonical_concept_ids": [
+        "figure-structure-anatomy",
+        "head-portrait-construction",
+        "observation-perception"
+      ],
+      "status": "MERGED",
+      "lesson_ids": [
+        "lesson-01",
+        "lesson-45",
+        "lesson-47",
+        "lesson-48",
+        "lesson-50"
+      ],
+      "concept_match_lesson_ids": [
+        "lesson-42",
+        "lesson-48",
+        "lesson-50",
+        "lesson-51",
+        "lesson-38",
+        "lesson-39",
+        "lesson-40",
+        "lesson-45",
+        "lesson-47",
+        "lesson-58",
+        "lesson-01",
+        "lesson-02",
+        "lesson-03",
+        "lesson-13",
+        "lesson-24",
+        "lesson-37",
+        "lesson-62"
+      ],
+      "locators": [
+        "EPUB, Chapter Eight, “Capturing Life” and “Elements of Figure Drawing”",
+        "EPUB, Chapter Nine, “Body and Mind,” “Obstacles to Observation,” and “Elements of Portrait Drawing”"
+      ],
+      "reason": "Integrate overlapping methods into the same spiral progression."
+    },
+    {
+      "book_id": "dodson-keys-to-drawing",
+      "source_concept_id": "dodson-keys-to-drawing-concept-01",
+      "source_concept": "Drawing improves through a cycle of looking, making, and critically reviewing a mark.",
+      "canonical_concept_ids": [
+        "observation-perception",
+        "practice-reflection"
+      ],
+      "status": "INCLUDED",
+      "lesson_ids": [
+        "lesson-01",
+        "lesson-02",
+        "lesson-24",
+        "lesson-36",
+        "lesson-62"
+      ],
+      "concept_match_lesson_ids": [
+        "lesson-01",
+        "lesson-02",
+        "lesson-03",
+        "lesson-13",
+        "lesson-24",
+        "lesson-37",
+        "lesson-47",
+        "lesson-62",
+        "lesson-36",
+        "lesson-48",
+        "lesson-71"
+      ],
+      "locators": [
+        "Printed pp. 10–39, chapter 1; the first project and line examples are on pp. 10–15"
+      ],
+      "reason": "Distinctive application retained."
+    },
+    {
+      "book_id": "dodson-keys-to-drawing",
+      "source_concept_id": "dodson-keys-to-drawing-concept-02",
+      "source_concept": "Hand action can range from controlled description to expressive mark-making, and the learner can practise both.",
+      "canonical_concept_ids": [
+        "mark-making-line-quality"
+      ],
+      "status": "MERGED",
+      "lesson_ids": [
+        "lesson-05",
+        "lesson-19",
+        "lesson-33",
+        "lesson-49"
+      ],
+      "concept_match_lesson_ids": [
+        "lesson-05",
+        "lesson-19",
+        "lesson-33",
+        "lesson-49",
+        "lesson-56",
+        "lesson-67",
+        "lesson-70"
+      ],
+      "locators": [
+        "Printed pp. 40–69, chapter 2"
+      ],
+      "reason": "Integrate overlapping methods into the same spiral progression."
+    },
+    {
+      "book_id": "dodson-keys-to-drawing",
+      "source_concept_id": "dodson-keys-to-drawing-concept-03",
+      "source_concept": "Proportion can be estimated through sighting, alignment, midpoint checks, and comparison among parts.",
+      "canonical_concept_ids": [
+        "proportion-measurement"
+      ],
+      "status": "MERGED",
+      "lesson_ids": [
+        "lesson-04",
+        "lesson-09",
+        "lesson-13",
+        "lesson-17",
+        "lesson-39",
+        "lesson-59"
+      ],
+      "concept_match_lesson_ids": [
+        "lesson-04",
+        "lesson-09",
+        "lesson-13",
+        "lesson-17",
+        "lesson-24",
+        "lesson-39",
+        "lesson-48",
+        "lesson-59",
+        "lesson-62",
+        "lesson-69"
+      ],
+      "locators": [
+        "Printed pp. 70–101, chapter 3; midpoint and figure examples on pp. 71–77"
+      ],
+      "reason": "Integrate overlapping methods into the same spiral progression."
+    },
+    {
+      "book_id": "dodson-keys-to-drawing",
+      "source_concept_id": "dodson-keys-to-drawing-concept-04",
+      "source_concept": "Light becomes legible when its pattern is mapped as value shapes and managed edges.",
+      "canonical_concept_ids": [
+        "value-light-shadow"
+      ],
+      "status": "MERGED",
+      "lesson_ids": [
+        "lesson-07",
+        "lesson-14",
+        "lesson-20",
+        "lesson-21",
+        "lesson-26",
+        "lesson-54"
+      ],
+      "concept_match_lesson_ids": [
+        "lesson-07",
+        "lesson-14",
+        "lesson-20",
+        "lesson-21",
+        "lesson-24",
+        "lesson-26",
+        "lesson-30",
+        "lesson-34",
+        "lesson-44",
+        "lesson-45",
+        "lesson-48",
+        "lesson-54",
+        "lesson-59",
+        "lesson-65",
+        "lesson-72"
+      ],
+      "locators": [
+        "Printed pp. 102–127, chapter 4; light-source example on p. 110"
+      ],
+      "reason": "Integrate overlapping methods into the same spiral progression."
+    },
+    {
+      "book_id": "dodson-keys-to-drawing",
+      "source_concept_id": "dodson-keys-to-drawing-concept-05",
+      "source_concept": "Depth can be suggested by several cues working together, including overlap, scale, convergence, edges, and ellipses.",
+      "canonical_concept_ids": [
+        "perspective-space",
+        "form-volume",
+        "ellipse-cylinder-construction",
+        "depth-atmosphere"
+      ],
+      "status": "MERGED",
+      "lesson_ids": [
+        "lesson-08",
+        "lesson-15",
+        "lesson-18",
+        "lesson-31",
+        "lesson-63"
+      ],
+      "concept_match_lesson_ids": [
+        "lesson-11",
+        "lesson-17",
+        "lesson-18",
+        "lesson-22",
+        "lesson-28",
+        "lesson-32",
+        "lesson-46",
+        "lesson-51",
+        "lesson-63",
+        "lesson-08",
+        "lesson-10",
+        "lesson-12",
+        "lesson-14",
+        "lesson-15",
+        "lesson-16",
+        "lesson-19",
+        "lesson-25",
+        "lesson-31",
+        "lesson-34",
+        "lesson-38",
+        "lesson-59",
+        "lesson-70",
+        "lesson-09",
+        "lesson-43",
+        "lesson-66",
+        "lesson-26",
+        "lesson-35",
+        "lesson-36",
+        "lesson-44",
+        "lesson-56",
+        "lesson-60",
+        "lesson-67"
+      ],
+      "locators": [
+        "Printed pp. 128–147, chapter 5; construction example on p. 135"
+      ],
+      "reason": "Integrate overlapping methods into the same spiral progression."
+    },
+    {
+      "book_id": "dodson-keys-to-drawing",
+      "source_concept_id": "dodson-keys-to-drawing-concept-06",
+      "source_concept": "Texture is communicated by selected stroke qualities and patterns rather than exhaustive surface copying.",
+      "canonical_concept_ids": [
+        "texture-surface"
+      ],
+      "status": "INCLUDED",
+      "lesson_ids": [
+        "lesson-20",
+        "lesson-33",
+        "lesson-54",
+        "lesson-56"
+      ],
+      "concept_match_lesson_ids": [
+        "lesson-20",
+        "lesson-33",
+        "lesson-54",
+        "lesson-56",
+        "lesson-65",
+        "lesson-66"
+      ],
+      "locators": [
+        "Printed pp. 148–171, chapter 6; stroke and surface examples on pp. 149–153"
+      ],
+      "reason": "Distinctive application retained."
+    },
+    {
+      "book_id": "dodson-keys-to-drawing",
+      "source_concept_id": "dodson-keys-to-drawing-concept-07",
+      "source_concept": "Pattern, framing, opposites, and tangencies are design relationships that can be noticed and adjusted.",
+      "canonical_concept_ids": [
+        "composition-framing",
+        "visual-hierarchy-focal-path",
+        "design-rhythm-pattern"
+      ],
+      "status": "MERGED",
+      "lesson_ids": [
+        "lesson-06",
+        "lesson-07",
+        "lesson-21",
+        "lesson-23",
+        "lesson-29",
+        "lesson-66"
+      ],
+      "concept_match_lesson_ids": [
+        "lesson-06",
+        "lesson-07",
+        "lesson-11",
+        "lesson-21",
+        "lesson-23",
+        "lesson-24",
+        "lesson-27",
+        "lesson-29",
+        "lesson-32",
+        "lesson-36",
+        "lesson-43",
+        "lesson-57",
+        "lesson-59",
+        "lesson-60",
+        "lesson-61",
+        "lesson-66",
+        "lesson-67",
+        "lesson-68",
+        "lesson-70",
+        "lesson-71",
+        "lesson-72",
+        "lesson-33",
+        "lesson-46",
+        "lesson-55",
+        "lesson-65",
+        "lesson-69"
+      ],
+      "locators": [
+        "Printed pp. 172–197, chapter 7; design examples on pp. 172–184"
+      ],
+      "reason": "Integrate overlapping methods into the same spiral progression."
+    },
+    {
+      "book_id": "dodson-keys-to-drawing",
+      "source_concept_id": "dodson-keys-to-drawing-concept-08",
+      "source_concept": "Imagination can be practised by combining sources, changing familiar forms, and developing ideas in sequence.",
+      "canonical_concept_ids": [
+        "creative-invention"
+      ],
+      "status": "INCLUDED",
+      "lesson_ids": [
+        "lesson-12",
+        "lesson-28",
+        "lesson-36",
+        "lesson-53"
+      ],
+      "concept_match_lesson_ids": [
+        "lesson-12",
+        "lesson-28",
+        "lesson-36",
+        "lesson-53",
+        "lesson-57",
+        "lesson-60",
+        "lesson-61",
+        "lesson-64",
+        "lesson-68",
+        "lesson-70",
+        "lesson-72"
+      ],
+      "locators": [
+        "Printed pp. 198–221, chapter 8; creative examples on pp. 198–206"
+      ],
+      "reason": "Distinctive application retained."
+    },
+    {
+      "book_id": "edwards-right-side-brain",
+      "source_concept_id": "edwards-right-side-brain-concept-01",
+      "source_concept": "Perception versus symbolic naming",
+      "canonical_concept_ids": [
+        "observation-perception"
+      ],
+      "status": "ALTERNATIVE METHOD",
+      "lesson_ids": [
+        "lesson-01",
+        "lesson-02",
+        "lesson-03",
+        "lesson-13",
+        "lesson-37",
+        "lesson-62"
+      ],
+      "concept_match_lesson_ids": [
+        "lesson-01",
+        "lesson-02",
+        "lesson-03",
+        "lesson-13",
+        "lesson-24",
+        "lesson-37",
+        "lesson-47",
+        "lesson-62"
+      ],
+      "locators": [
+        "PDF pp. 31–38",
+        "PDF pp. 76–98",
+        "PDF pp. 99–120"
+      ],
+      "reason": "Use attention-reset exercises when useful; do not teach global hemisphere learner types."
+    },
+    {
+      "book_id": "edwards-right-side-brain",
+      "source_concept_id": "edwards-right-side-brain-concept-02",
+      "source_concept": "Edges and contour as records of observed boundaries",
+      "canonical_concept_ids": [
+        "edges-contour"
+      ],
+      "status": "MERGED",
+      "lesson_ids": [
+        "lesson-02",
+        "lesson-05",
+        "lesson-10",
+        "lesson-15",
+        "lesson-27",
+        "lesson-54"
+      ],
+      "concept_match_lesson_ids": [
+        "lesson-02",
+        "lesson-05",
+        "lesson-10",
+        "lesson-15",
+        "lesson-27",
+        "lesson-33",
+        "lesson-54",
+        "lesson-63",
+        "lesson-65"
+      ],
+      "locators": [
+        "PDF pp. 121–154"
+      ],
+      "reason": "Integrate overlapping methods into the same spiral progression."
+    },
+    {
+      "book_id": "edwards-right-side-brain",
+      "source_concept_id": "edwards-right-side-brain-concept-03",
+      "source_concept": "Negative spaces describe positive forms",
+      "canonical_concept_ids": [
+        "negative-space"
+      ],
+      "status": "INCLUDED",
+      "lesson_ids": [
+        "lesson-03",
+        "lesson-04",
+        "lesson-06",
+        "lesson-27",
+        "lesson-40"
+      ],
+      "concept_match_lesson_ids": [
+        "lesson-03",
+        "lesson-04",
+        "lesson-06",
+        "lesson-16",
+        "lesson-27",
+        "lesson-40"
+      ],
+      "locators": [
+        "PDF pp. 155–179"
+      ],
+      "reason": "Distinctive application retained."
+    },
+    {
+      "book_id": "edwards-right-side-brain",
+      "source_concept_id": "edwards-right-side-brain-concept-04",
+      "source_concept": "Relative proportion, angle, and perspective through sighting",
+      "canonical_concept_ids": [
+        "proportion-measurement",
+        "perspective-space"
+      ],
+      "status": "MERGED",
+      "lesson_ids": [
+        "lesson-04",
+        "lesson-09",
+        "lesson-11",
+        "lesson-17",
+        "lesson-28",
+        "lesson-51"
+      ],
+      "concept_match_lesson_ids": [
+        "lesson-04",
+        "lesson-09",
+        "lesson-13",
+        "lesson-17",
+        "lesson-24",
+        "lesson-39",
+        "lesson-48",
+        "lesson-59",
+        "lesson-62",
+        "lesson-69",
+        "lesson-11",
+        "lesson-18",
+        "lesson-22",
+        "lesson-28",
+        "lesson-32",
+        "lesson-46",
+        "lesson-51",
+        "lesson-63"
+      ],
+      "locators": [
+        "PDF pp. 180–211",
+        "PDF pp. 214–234"
+      ],
+      "reason": "Integrate overlapping methods into the same spiral progression."
+    },
+    {
+      "book_id": "edwards-right-side-brain",
+      "source_concept_id": "edwards-right-side-brain-concept-05",
+      "source_concept": "Portrait form can be built from observed shapes and intervals",
+      "canonical_concept_ids": [
+        "head-portrait-construction",
+        "proportion-measurement",
+        "observation-perception"
+      ],
+      "status": "ALTERNATIVE METHOD",
+      "lesson_ids": [
+        "lesson-13",
+        "lesson-24",
+        "lesson-39",
+        "lesson-40",
+        "lesson-62"
+      ],
+      "concept_match_lesson_ids": [
+        "lesson-38",
+        "lesson-39",
+        "lesson-40",
+        "lesson-45",
+        "lesson-47",
+        "lesson-48",
+        "lesson-58",
+        "lesson-04",
+        "lesson-09",
+        "lesson-13",
+        "lesson-17",
+        "lesson-24",
+        "lesson-59",
+        "lesson-62",
+        "lesson-69",
+        "lesson-01",
+        "lesson-02",
+        "lesson-03",
+        "lesson-37"
+      ],
+      "locators": [
+        "PDF pp. 212–250"
+      ],
+      "reason": "Preserve this as an alternate check or construction route; compare it with observation instead of imposing one fixed method."
+    },
+    {
+      "book_id": "edwards-right-side-brain",
+      "source_concept_id": "edwards-right-side-brain-concept-06",
+      "source_concept": "Light, shadow, and the gestalt",
+      "canonical_concept_ids": [
+        "value-light-shadow"
+      ],
+      "status": "MERGED",
+      "lesson_ids": [
+        "lesson-07",
+        "lesson-14",
+        "lesson-20",
+        "lesson-21",
+        "lesson-26",
+        "lesson-54"
+      ],
+      "concept_match_lesson_ids": [
+        "lesson-07",
+        "lesson-14",
+        "lesson-20",
+        "lesson-21",
+        "lesson-24",
+        "lesson-26",
+        "lesson-30",
+        "lesson-34",
+        "lesson-44",
+        "lesson-45",
+        "lesson-48",
+        "lesson-54",
+        "lesson-59",
+        "lesson-65",
+        "lesson-72"
+      ],
+      "locators": [
+        "PDF pp. 251–289"
+      ],
+      "reason": "Integrate overlapping methods into the same spiral progression."
+    },
+    {
+      "book_id": "edwards-right-side-brain",
+      "source_concept_id": "edwards-right-side-brain-concept-07",
+      "source_concept": "Perceptual practice can transfer to creative work",
+      "canonical_concept_ids": [
+        "creative-invention",
+        "practice-reflection"
+      ],
+      "status": "MERGED",
+      "lesson_ids": [
+        "lesson-01",
+        "lesson-12",
+        "lesson-24",
+        "lesson-36",
+        "lesson-53"
+      ],
+      "concept_match_lesson_ids": [
+        "lesson-12",
+        "lesson-28",
+        "lesson-36",
+        "lesson-53",
+        "lesson-57",
+        "lesson-60",
+        "lesson-61",
+        "lesson-64",
+        "lesson-68",
+        "lesson-70",
+        "lesson-72",
+        "lesson-01",
+        "lesson-24",
+        "lesson-48",
+        "lesson-62",
+        "lesson-71"
+      ],
+      "locators": [
+        "PDF pp. 290–309",
+        "PDF pp. 310–314"
+      ],
+      "reason": "Integrate overlapping methods into the same spiral progression."
+    },
+    {
+      "book_id": "garvey-williams-mastering-composition",
+      "source_concept_id": "garvey-williams-mastering-composition-concept-01",
+      "source_concept": "Composition selects, arranges, and emphasizes elements to support an intended message or response.",
+      "canonical_concept_ids": [
+        "composition-framing",
+        "visual-hierarchy-focal-path",
+        "narrative-staging"
+      ],
+      "status": "MERGED",
+      "lesson_ids": [
+        "lesson-23",
+        "lesson-29",
+        "lesson-36",
+        "lesson-57"
+      ],
+      "concept_match_lesson_ids": [
+        "lesson-06",
+        "lesson-07",
+        "lesson-11",
+        "lesson-21",
+        "lesson-23",
+        "lesson-24",
+        "lesson-27",
+        "lesson-29",
+        "lesson-32",
+        "lesson-36",
+        "lesson-43",
+        "lesson-57",
+        "lesson-59",
+        "lesson-60",
+        "lesson-61",
+        "lesson-66",
+        "lesson-67",
+        "lesson-68",
+        "lesson-70",
+        "lesson-71",
+        "lesson-72",
+        "lesson-33",
+        "lesson-46",
+        "lesson-55",
+        "lesson-65",
+        "lesson-69"
+      ],
+      "locators": [
+        "Printed pp. 8–12, introduction and working definition",
+        "Printed pp. 114–124, applying theory and intent",
+        "Printed p. 169, conclusion"
+      ],
+      "reason": "Integrate overlapping methods into the same spiral progression."
+    },
+    {
+      "book_id": "garvey-williams-mastering-composition",
+      "source_concept_id": "garvey-williams-mastering-composition-concept-02",
+      "source_concept": "Perception and Gestalt grouping affect how viewers read figure, ground, and whole-image meaning.",
+      "canonical_concept_ids": [
+        "observation-perception",
+        "visual-hierarchy-focal-path",
+        "negative-space"
+      ],
+      "status": "MERGED",
+      "lesson_ids": [
+        "lesson-01",
+        "lesson-02",
+        "lesson-03",
+        "lesson-04",
+        "lesson-27",
+        "lesson-55"
+      ],
+      "concept_match_lesson_ids": [
+        "lesson-01",
+        "lesson-02",
+        "lesson-03",
+        "lesson-13",
+        "lesson-24",
+        "lesson-37",
+        "lesson-47",
+        "lesson-62",
+        "lesson-23",
+        "lesson-29",
+        "lesson-33",
+        "lesson-36",
+        "lesson-46",
+        "lesson-55",
+        "lesson-65",
+        "lesson-69",
+        "lesson-71",
+        "lesson-04",
+        "lesson-06",
+        "lesson-16",
+        "lesson-27",
+        "lesson-40"
+      ],
+      "locators": [
+        "Printed pp. 14–36, Chapter 1: Visual Perception",
+        "Printed p. 22, Gestalt Theory"
+      ],
+      "reason": "Integrate overlapping methods into the same spiral progression."
+    },
+    {
+      "book_id": "garvey-williams-mastering-composition",
+      "source_concept_id": "garvey-williams-mastering-composition-concept-03",
+      "source_concept": "Visual weight and balance depend on size, tone, color, shape, position, and negative space.",
+      "canonical_concept_ids": [
+        "composition-framing",
+        "visual-hierarchy-focal-path",
+        "negative-space"
+      ],
+      "status": "ALTERNATIVE METHOD",
+      "lesson_ids": [
+        "lesson-06",
+        "lesson-23",
+        "lesson-27",
+        "lesson-29",
+        "lesson-71"
+      ],
+      "concept_match_lesson_ids": [
+        "lesson-06",
+        "lesson-07",
+        "lesson-11",
+        "lesson-21",
+        "lesson-23",
+        "lesson-24",
+        "lesson-27",
+        "lesson-29",
+        "lesson-32",
+        "lesson-36",
+        "lesson-43",
+        "lesson-57",
+        "lesson-59",
+        "lesson-60",
+        "lesson-61",
+        "lesson-66",
+        "lesson-67",
+        "lesson-68",
+        "lesson-70",
+        "lesson-71",
+        "lesson-72",
+        "lesson-33",
+        "lesson-46",
+        "lesson-55",
+        "lesson-65",
+        "lesson-69",
+        "lesson-03",
+        "lesson-04",
+        "lesson-16",
+        "lesson-40"
+      ],
+      "locators": [
+        "Printed pp. 38–57, Chapter 2 and Visual Weight",
+        "Printed pp. 58–70, picture formats, framing, and dynamic tension"
+      ],
+      "reason": "Preserve this as an alternate check or construction route; compare it with observation instead of imposing one fixed method."
+    },
+    {
+      "book_id": "garvey-williams-mastering-composition",
+      "source_concept_id": "garvey-williams-mastering-composition-concept-04",
+      "source_concept": "Lines, shapes, scale, texture, and perspective create structure, movement, and depth.",
+      "canonical_concept_ids": [
+        "mark-making-line-quality",
+        "form-volume",
+        "texture-surface",
+        "perspective-space",
+        "depth-atmosphere"
+      ],
+      "status": "MERGED",
+      "lesson_ids": [
+        "lesson-18",
+        "lesson-19",
+        "lesson-22",
+        "lesson-33",
+        "lesson-56"
+      ],
+      "concept_match_lesson_ids": [
+        "lesson-05",
+        "lesson-19",
+        "lesson-33",
+        "lesson-49",
+        "lesson-56",
+        "lesson-67",
+        "lesson-70",
+        "lesson-08",
+        "lesson-10",
+        "lesson-12",
+        "lesson-14",
+        "lesson-15",
+        "lesson-16",
+        "lesson-18",
+        "lesson-22",
+        "lesson-25",
+        "lesson-31",
+        "lesson-34",
+        "lesson-38",
+        "lesson-59",
+        "lesson-63",
+        "lesson-20",
+        "lesson-54",
+        "lesson-65",
+        "lesson-66",
+        "lesson-11",
+        "lesson-17",
+        "lesson-28",
+        "lesson-32",
+        "lesson-46",
+        "lesson-51",
+        "lesson-26",
+        "lesson-35",
+        "lesson-36",
+        "lesson-44",
+        "lesson-60"
+      ],
+      "locators": [
+        "Printed pp. 72–97, Chapter 3: Elements of Design",
+        "Printed pp. 98–101, Perspective & Depth"
+      ],
+      "reason": "Integrate overlapping methods into the same spiral progression."
+    },
+    {
+      "book_id": "garvey-williams-mastering-composition",
+      "source_concept_id": "garvey-williams-mastering-composition-concept-05",
+      "source_concept": "Tone and color affect salience, emotional tone, and the viewer's route through an image.",
+      "canonical_concept_ids": [
+        "value-light-shadow",
+        "color-media",
+        "visual-hierarchy-focal-path"
+      ],
+      "status": "MERGED",
+      "lesson_ids": [
+        "lesson-07",
+        "lesson-30",
+        "lesson-65",
+        "lesson-71"
+      ],
+      "concept_match_lesson_ids": [
+        "lesson-07",
+        "lesson-14",
+        "lesson-20",
+        "lesson-21",
+        "lesson-24",
+        "lesson-26",
+        "lesson-30",
+        "lesson-34",
+        "lesson-44",
+        "lesson-45",
+        "lesson-48",
+        "lesson-54",
+        "lesson-59",
+        "lesson-65",
+        "lesson-72",
+        "lesson-35",
+        "lesson-52",
+        "lesson-58",
+        "lesson-68",
+        "lesson-71",
+        "lesson-23",
+        "lesson-29",
+        "lesson-33",
+        "lesson-36",
+        "lesson-46",
+        "lesson-55",
+        "lesson-69"
+      ],
+      "locators": [
+        "Printed pp. 102–113, Chapter 4: The Role of Tone & Color",
+        "Printed pp. 148–153, simplification, salience, and backgrounds"
+      ],
+      "reason": "Integrate overlapping methods into the same spiral progression."
+    },
+    {
+      "book_id": "garvey-williams-mastering-composition",
+      "source_concept_id": "garvey-williams-mastering-composition-concept-06",
+      "source_concept": "A deliberate workflow uses viewpoint, sketching, simplification, background, and a final review.",
+      "canonical_concept_ids": [
+        "practice-reflection",
+        "composition-framing",
+        "creative-invention"
+      ],
+      "status": "MERGED",
+      "lesson_ids": [
+        "lesson-24",
+        "lesson-36",
+        "lesson-57",
+        "lesson-60"
+      ],
+      "concept_match_lesson_ids": [
+        "lesson-01",
+        "lesson-24",
+        "lesson-36",
+        "lesson-48",
+        "lesson-62",
+        "lesson-71",
+        "lesson-06",
+        "lesson-07",
+        "lesson-11",
+        "lesson-21",
+        "lesson-23",
+        "lesson-27",
+        "lesson-29",
+        "lesson-32",
+        "lesson-43",
+        "lesson-57",
+        "lesson-59",
+        "lesson-60",
+        "lesson-61",
+        "lesson-66",
+        "lesson-67",
+        "lesson-68",
+        "lesson-70",
+        "lesson-72",
+        "lesson-12",
+        "lesson-28",
+        "lesson-53",
+        "lesson-64"
+      ],
+      "locators": [
+        "Printed pp. 116–147, intent, viewpoint, and sketch pad",
+        "Printed pp. 148–159, simplification, checklist, and image processing",
+        "Printed pp. 160–168, Chapter 6: Photography as Art"
+      ],
+      "reason": "Integrate overlapping methods into the same spiral progression."
+    },
+    {
+      "book_id": "hampton-figure-drawing",
+      "source_concept_id": "hampton-figure-drawing-concept-01",
+      "source_concept": "Gesture as the organizing line of a pose",
+      "canonical_concept_ids": [
+        "gesture-action"
+      ],
+      "status": "INCLUDED",
+      "lesson_ids": [
+        "lesson-10",
+        "lesson-25",
+        "lesson-31",
+        "lesson-37",
+        "lesson-52"
+      ],
+      "concept_match_lesson_ids": [
+        "lesson-10",
+        "lesson-25",
+        "lesson-31",
+        "lesson-37",
+        "lesson-41",
+        "lesson-42",
+        "lesson-52",
+        "lesson-53",
+        "lesson-69"
+      ],
+      "locators": [
+        "Printed p. 3; PDF p. 11, Gesture Drawing opening",
+        "Printed pp. 4–28; PDF pp. 12–36, gesture subtopics"
+      ],
+      "reason": "Distinctive application retained."
+    },
+    {
+      "book_id": "hampton-figure-drawing",
+      "source_concept_id": "hampton-figure-drawing-concept-02",
+      "source_concept": "Landmarks, weight distribution, and connected body masses",
+      "canonical_concept_ids": [
+        "figure-structure-anatomy",
+        "proportion-measurement"
+      ],
+      "status": "INCLUDED",
+      "lesson_ids": [
+        "lesson-04",
+        "lesson-09",
+        "lesson-13",
+        "lesson-48",
+        "lesson-50"
+      ],
+      "concept_match_lesson_ids": [
+        "lesson-42",
+        "lesson-48",
+        "lesson-50",
+        "lesson-51",
+        "lesson-04",
+        "lesson-09",
+        "lesson-13",
+        "lesson-17",
+        "lesson-24",
+        "lesson-39",
+        "lesson-59",
+        "lesson-62",
+        "lesson-69"
+      ],
+      "locators": [
+        "Printed p. 29; PDF p. 37, Landmarks opening",
+        "Printed pp. 30–49; PDF pp. 38–57, rib cage, back, volume, weight, connections, arms and legs"
+      ],
+      "reason": "Distinctive application retained."
+    },
+    {
+      "book_id": "hampton-figure-drawing",
+      "source_concept_id": "hampton-figure-drawing-concept-03",
+      "source_concept": "Geometric forms and connections support figure volume",
+      "canonical_concept_ids": [
+        "form-volume",
+        "figure-structure-anatomy"
+      ],
+      "status": "MERGED",
+      "lesson_ids": [
+        "lesson-08",
+        "lesson-10",
+        "lesson-12",
+        "lesson-14",
+        "lesson-25",
+        "lesson-50"
+      ],
+      "concept_match_lesson_ids": [
+        "lesson-08",
+        "lesson-10",
+        "lesson-12",
+        "lesson-14",
+        "lesson-15",
+        "lesson-16",
+        "lesson-18",
+        "lesson-19",
+        "lesson-22",
+        "lesson-25",
+        "lesson-31",
+        "lesson-34",
+        "lesson-38",
+        "lesson-59",
+        "lesson-63",
+        "lesson-70",
+        "lesson-42",
+        "lesson-48",
+        "lesson-50",
+        "lesson-51"
+      ],
+      "locators": [
+        "Printed pp. 50–55; PDF pp. 58–63, Forms and Connections",
+        "Printed p. 160; PDF p. 168, The Hand opening"
+      ],
+      "reason": "Integrate overlapping methods into the same spiral progression."
+    },
+    {
+      "book_id": "hampton-figure-drawing",
+      "source_concept_id": "hampton-figure-drawing-concept-04",
+      "source_concept": "Head construction from sphere, tilt, perspective, and proportions",
+      "canonical_concept_ids": [
+        "head-portrait-construction",
+        "perspective-space",
+        "proportion-measurement"
+      ],
+      "status": "MERGED",
+      "lesson_ids": [
+        "lesson-04",
+        "lesson-17",
+        "lesson-39",
+        "lesson-48",
+        "lesson-51"
+      ],
+      "concept_match_lesson_ids": [
+        "lesson-38",
+        "lesson-39",
+        "lesson-40",
+        "lesson-45",
+        "lesson-47",
+        "lesson-48",
+        "lesson-58",
+        "lesson-11",
+        "lesson-17",
+        "lesson-18",
+        "lesson-22",
+        "lesson-28",
+        "lesson-32",
+        "lesson-46",
+        "lesson-51",
+        "lesson-63",
+        "lesson-04",
+        "lesson-09",
+        "lesson-13",
+        "lesson-24",
+        "lesson-59",
+        "lesson-62",
+        "lesson-69"
+      ],
+      "locators": [
+        "Printed pp. 56–85; PDF pp. 64–93, Head Drawing and its construction steps"
+      ],
+      "reason": "Integrate overlapping methods into the same spiral progression."
+    },
+    {
+      "book_id": "hampton-figure-drawing",
+      "source_concept_id": "hampton-figure-drawing-concept-05",
+      "source_concept": "Anatomy as a simplified design vocabulary",
+      "canonical_concept_ids": [
+        "figure-structure-anatomy"
+      ],
+      "status": "OPTIONAL / ADVANCED",
+      "lesson_ids": [
+        "lesson-42",
+        "lesson-48",
+        "lesson-50",
+        "lesson-51"
+      ],
+      "concept_match_lesson_ids": [
+        "lesson-42",
+        "lesson-48",
+        "lesson-50",
+        "lesson-51"
+      ],
+      "locators": [
+        "Printed p. 86; PDF p. 94, Anatomy opening",
+        "Printed pp. 87–128; PDF pp. 95–136, anatomy studies; e.g. serratus anterior at printed p. 112"
+      ],
+      "reason": "Keep selective drawing applications; omit exhaustive technical or non-graphite/charcoal treatment."
+    },
+    {
+      "book_id": "hampton-figure-drawing",
+      "source_concept_id": "hampton-figure-drawing-concept-06",
+      "source_concept": "Hands, arms, legs, feet, and drapery are built from connected forms",
+      "canonical_concept_ids": [
+        "hands-extremities",
+        "figure-structure-anatomy",
+        "drapery-clothing"
+      ],
+      "status": "OPTIONAL / ADVANCED",
+      "lesson_ids": [
+        "lesson-41",
+        "lesson-42",
+        "lesson-48",
+        "lesson-50"
+      ],
+      "concept_match_lesson_ids": [
+        "lesson-41",
+        "lesson-50",
+        "lesson-69",
+        "lesson-42",
+        "lesson-48",
+        "lesson-51"
+      ],
+      "locators": [
+        "Printed pp. 129–159, The Arm; pp. 160–177, The Hand; pp. 178–201, The Leg; pp. 202–217, The Foot; pp. 218–231, Drapery",
+        "Printed pp. 232 onward, Some Notes on Light and Shadow"
+      ],
+      "reason": "Keep selective drawing applications; omit exhaustive technical or non-graphite/charcoal treatment."
+    },
+    {
+      "book_id": "loomis-creative-illustration",
+      "source_concept_id": "loomis-creative-illustration-concept-01",
+      "source_concept": "Line can describe, organize, direct attention, create tone, and carry expressive character.",
+      "canonical_concept_ids": [
+        "mark-making-line-quality",
+        "composition-framing",
+        "visual-hierarchy-focal-path"
+      ],
+      "status": "MERGED",
+      "lesson_ids": [
+        "lesson-23",
+        "lesson-29",
+        "lesson-33",
+        "lesson-36",
+        "lesson-67"
+      ],
+      "concept_match_lesson_ids": [
+        "lesson-05",
+        "lesson-19",
+        "lesson-33",
+        "lesson-49",
+        "lesson-56",
+        "lesson-67",
+        "lesson-70",
+        "lesson-06",
+        "lesson-07",
+        "lesson-11",
+        "lesson-21",
+        "lesson-23",
+        "lesson-24",
+        "lesson-27",
+        "lesson-29",
+        "lesson-32",
+        "lesson-36",
+        "lesson-43",
+        "lesson-57",
+        "lesson-59",
+        "lesson-60",
+        "lesson-61",
+        "lesson-66",
+        "lesson-68",
+        "lesson-71",
+        "lesson-72",
+        "lesson-46",
+        "lesson-55",
+        "lesson-65",
+        "lesson-69"
+      ],
+      "locators": [
+        "Printed p. 25, Part One: Line; seven functions of line",
+        "Printed pp. 31–40, line used for composition and perspective guides"
+      ],
+      "reason": "Integrate overlapping methods into the same spiral progression."
+    },
+    {
+      "book_id": "loomis-creative-illustration",
+      "source_concept_id": "loomis-creative-illustration-concept-02",
+      "source_concept": "Viewpoint and eye level govern perspective relationships throughout a picture.",
+      "canonical_concept_ids": [
+        "perspective-space"
+      ],
+      "status": "MERGED",
+      "lesson_ids": [
+        "lesson-11",
+        "lesson-17",
+        "lesson-18",
+        "lesson-22",
+        "lesson-28",
+        "lesson-51"
+      ],
+      "concept_match_lesson_ids": [
+        "lesson-11",
+        "lesson-17",
+        "lesson-18",
+        "lesson-22",
+        "lesson-28",
+        "lesson-32",
+        "lesson-46",
+        "lesson-51",
+        "lesson-63"
+      ],
+      "locators": [
+        "Printed pp. 40–42, perspective guide lines and eye level",
+        "Printed pp. 43–47, coordinating figures, viewpoint, and eye pathways"
+      ],
+      "reason": "Integrate overlapping methods into the same spiral progression."
+    },
+    {
+      "book_id": "loomis-creative-illustration",
+      "source_concept_id": "loomis-creative-illustration-concept-03",
+      "source_concept": "Tone describes the effect of light on form and depends on relationships among neighboring values.",
+      "canonical_concept_ids": [
+        "value-light-shadow",
+        "visual-hierarchy-focal-path"
+      ],
+      "status": "MERGED",
+      "lesson_ids": [
+        "lesson-07",
+        "lesson-14",
+        "lesson-20",
+        "lesson-26",
+        "lesson-65"
+      ],
+      "concept_match_lesson_ids": [
+        "lesson-07",
+        "lesson-14",
+        "lesson-20",
+        "lesson-21",
+        "lesson-24",
+        "lesson-26",
+        "lesson-30",
+        "lesson-34",
+        "lesson-44",
+        "lesson-45",
+        "lesson-48",
+        "lesson-54",
+        "lesson-59",
+        "lesson-65",
+        "lesson-72",
+        "lesson-23",
+        "lesson-29",
+        "lesson-33",
+        "lesson-36",
+        "lesson-46",
+        "lesson-55",
+        "lesson-69",
+        "lesson-71"
+      ],
+      "locators": [
+        "Printed pp. 81–87, properties of tone and value relationships",
+        "Printed pp. 91–96, tonal planning and completed sketch"
+      ],
+      "reason": "Integrate overlapping methods into the same spiral progression."
+    },
+    {
+      "book_id": "loomis-creative-illustration",
+      "source_concept_id": "loomis-creative-illustration-concept-04",
+      "source_concept": "Color is shaped by light, shadow, neighboring colors, and reflected color rather than by local color alone.",
+      "canonical_concept_ids": [
+        "color-media",
+        "value-light-shadow"
+      ],
+      "status": "OMITTED",
+      "lesson_ids": [],
+      "concept_match_lesson_ids": [
+        "lesson-30",
+        "lesson-35",
+        "lesson-52",
+        "lesson-58",
+        "lesson-68",
+        "lesson-71",
+        "lesson-07",
+        "lesson-14",
+        "lesson-20",
+        "lesson-21",
+        "lesson-24",
+        "lesson-26",
+        "lesson-34",
+        "lesson-44",
+        "lesson-45",
+        "lesson-48",
+        "lesson-54",
+        "lesson-59",
+        "lesson-65",
+        "lesson-72"
+      ],
+      "locators": [
+        "Printed pp. 148–162, color, light, shadow, and surrounding influence",
+        "Printed pp. 170–174, color experiments and preliminary roughs"
+      ],
+      "reason": "Colour interaction theory belongs to a later colour course; tonal relationships are covered separately in graphite/charcoal."
+    },
+    {
+      "book_id": "loomis-creative-illustration",
+      "source_concept_id": "loomis-creative-illustration-concept-05",
+      "source_concept": "Narrative illustration begins with understanding the subject, choosing a point of view, and staging readable action.",
+      "canonical_concept_ids": [
+        "narrative-staging",
+        "composition-framing",
+        "gesture-action"
+      ],
+      "status": "OPTIONAL / ADVANCED",
+      "lesson_ids": [
+        "lesson-06",
+        "lesson-07",
+        "lesson-25",
+        "lesson-57",
+        "lesson-68"
+      ],
+      "concept_match_lesson_ids": [
+        "lesson-57",
+        "lesson-68",
+        "lesson-06",
+        "lesson-07",
+        "lesson-11",
+        "lesson-21",
+        "lesson-23",
+        "lesson-24",
+        "lesson-27",
+        "lesson-29",
+        "lesson-32",
+        "lesson-36",
+        "lesson-43",
+        "lesson-59",
+        "lesson-60",
+        "lesson-61",
+        "lesson-66",
+        "lesson-67",
+        "lesson-70",
+        "lesson-71",
+        "lesson-72",
+        "lesson-10",
+        "lesson-25",
+        "lesson-31",
+        "lesson-37",
+        "lesson-41",
+        "lesson-42",
+        "lesson-52",
+        "lesson-53",
+        "lesson-69"
+      ],
+      "locators": [
+        "Printed pp. 177–187, visualization, dramatization, pose, and arrangement",
+        "Printed pp. 210–218, questionnaire, rough ideas, and sketching from life"
+      ],
+      "reason": "Keep selective drawing applications; omit exhaustive technical or non-graphite/charcoal treatment."
+    },
+    {
+      "book_id": "loomis-head-hands",
+      "source_concept_id": "loomis-head-hands-concept-01",
+      "source_concept": "Construct the head from a ball, planes, and crossing axes",
+      "canonical_concept_ids": [
+        "head-portrait-construction",
+        "form-volume",
+        "perspective-space"
+      ],
+      "status": "INCLUDED",
+      "lesson_ids": [
+        "lesson-18",
+        "lesson-22",
+        "lesson-38",
+        "lesson-63"
+      ],
+      "concept_match_lesson_ids": [
+        "lesson-38",
+        "lesson-39",
+        "lesson-40",
+        "lesson-45",
+        "lesson-47",
+        "lesson-48",
+        "lesson-58",
+        "lesson-08",
+        "lesson-10",
+        "lesson-12",
+        "lesson-14",
+        "lesson-15",
+        "lesson-16",
+        "lesson-18",
+        "lesson-19",
+        "lesson-22",
+        "lesson-25",
+        "lesson-31",
+        "lesson-34",
+        "lesson-59",
+        "lesson-63",
+        "lesson-70",
+        "lesson-11",
+        "lesson-17",
+        "lesson-28",
+        "lesson-32",
+        "lesson-46",
+        "lesson-51"
+      ],
+      "locators": [
+        "Printed p. 22, Plate 1, “The basic shape is a flattened ball”",
+        "Printed pp. 24–35, Plates 2–11: cross, middle line, planes, tilt, and perspective"
+      ],
+      "reason": "Distinctive application retained."
+    },
+    {
+      "book_id": "loomis-head-hands",
+      "source_concept_id": "loomis-head-hands-concept-02",
+      "source_concept": "Proportion and feature placement are checked against the whole head",
+      "canonical_concept_ids": [
+        "head-portrait-construction",
+        "proportion-measurement"
+      ],
+      "status": "ALTERNATIVE METHOD",
+      "lesson_ids": [
+        "lesson-04",
+        "lesson-38",
+        "lesson-39",
+        "lesson-48",
+        "lesson-58"
+      ],
+      "concept_match_lesson_ids": [
+        "lesson-38",
+        "lesson-39",
+        "lesson-40",
+        "lesson-45",
+        "lesson-47",
+        "lesson-48",
+        "lesson-58",
+        "lesson-04",
+        "lesson-09",
+        "lesson-13",
+        "lesson-17",
+        "lesson-24",
+        "lesson-59",
+        "lesson-62",
+        "lesson-69"
+      ],
+      "locators": [
+        "Printed pp. 44–47, Standard Head, male head proportions, and anatomy"
+      ],
+      "reason": "Preserve this as an alternate check or construction route; compare it with observation instead of imposing one fixed method."
+    },
+    {
+      "book_id": "loomis-head-hands",
+      "source_concept_id": "loomis-head-hands-concept-03",
+      "source_concept": "Anatomy explains feature mechanics and expression",
+      "canonical_concept_ids": [
+        "head-portrait-construction",
+        "figure-structure-anatomy"
+      ],
+      "status": "MERGED",
+      "lesson_ids": [
+        "lesson-38",
+        "lesson-39",
+        "lesson-40",
+        "lesson-48",
+        "lesson-50"
+      ],
+      "concept_match_lesson_ids": [
+        "lesson-38",
+        "lesson-39",
+        "lesson-40",
+        "lesson-45",
+        "lesson-47",
+        "lesson-48",
+        "lesson-58",
+        "lesson-42",
+        "lesson-50",
+        "lesson-51"
+      ],
+      "locators": [
+        "Printed pp. 47–61, Plates 20–30 and accompanying text"
+      ],
+      "reason": "Integrate overlapping methods into the same spiral progression."
+    },
+    {
+      "book_id": "loomis-head-hands",
+      "source_concept_id": "loomis-head-hands-concept-04",
+      "source_concept": "Planes and tonal shapes model the head",
+      "canonical_concept_ids": [
+        "head-portrait-construction",
+        "value-light-shadow",
+        "form-volume"
+      ],
+      "status": "MERGED",
+      "lesson_ids": [
+        "lesson-14",
+        "lesson-34",
+        "lesson-38",
+        "lesson-45",
+        "lesson-59"
+      ],
+      "concept_match_lesson_ids": [
+        "lesson-38",
+        "lesson-39",
+        "lesson-40",
+        "lesson-45",
+        "lesson-47",
+        "lesson-48",
+        "lesson-58",
+        "lesson-07",
+        "lesson-14",
+        "lesson-20",
+        "lesson-21",
+        "lesson-24",
+        "lesson-26",
+        "lesson-30",
+        "lesson-34",
+        "lesson-44",
+        "lesson-54",
+        "lesson-59",
+        "lesson-65",
+        "lesson-72",
+        "lesson-08",
+        "lesson-10",
+        "lesson-12",
+        "lesson-15",
+        "lesson-16",
+        "lesson-18",
+        "lesson-19",
+        "lesson-22",
+        "lesson-25",
+        "lesson-31",
+        "lesson-63",
+        "lesson-70"
+      ],
+      "locators": [
+        "Printed pp. 63–69, Tone, Plates 32–35"
+      ],
+      "reason": "Integrate overlapping methods into the same spiral progression."
+    },
+    {
+      "book_id": "loomis-head-hands",
+      "source_concept_id": "loomis-head-hands-concept-05",
+      "source_concept": "Head construction changes across age and individual type",
+      "canonical_concept_ids": [
+        "head-portrait-construction",
+        "figure-structure-anatomy"
+      ],
+      "status": "MERGED",
+      "lesson_ids": [
+        "lesson-38",
+        "lesson-39",
+        "lesson-40",
+        "lesson-48",
+        "lesson-50"
+      ],
+      "concept_match_lesson_ids": [
+        "lesson-38",
+        "lesson-39",
+        "lesson-40",
+        "lesson-45",
+        "lesson-47",
+        "lesson-48",
+        "lesson-58",
+        "lesson-42",
+        "lesson-50",
+        "lesson-51"
+      ],
+      "locators": [
+        "Printed pp. 74–128, Women's Heads, Babies' Heads, Heads of Boys and Girls, and Teenagers"
+      ],
+      "reason": "Integrate overlapping methods into the same spiral progression."
+    },
+    {
+      "book_id": "loomis-head-hands",
+      "source_concept_id": "loomis-head-hands-concept-06",
+      "source_concept": "Hands are built from anatomy, block forms, proportion, and action",
+      "canonical_concept_ids": [
+        "hands-extremities",
+        "figure-structure-anatomy",
+        "gesture-action"
+      ],
+      "status": "INCLUDED",
+      "lesson_ids": [
+        "lesson-10",
+        "lesson-41",
+        "lesson-42",
+        "lesson-50",
+        "lesson-69"
+      ],
+      "concept_match_lesson_ids": [
+        "lesson-41",
+        "lesson-50",
+        "lesson-69",
+        "lesson-42",
+        "lesson-48",
+        "lesson-51",
+        "lesson-10",
+        "lesson-25",
+        "lesson-31",
+        "lesson-37",
+        "lesson-52",
+        "lesson-53"
+      ],
+      "locators": [
+        "Printed pp. 129–149, Plates 77–93"
+      ],
+      "reason": "Distinctive application retained."
+    },
+    {
+      "book_id": "norling-perspective-made-easy",
+      "source_concept_id": "norling-perspective-made-easy-concept-01",
+      "source_concept": "Horizon, vanishing point, and eye level establish the viewpoint for a perspective drawing.",
+      "canonical_concept_ids": [
+        "perspective-space"
+      ],
+      "status": "INCLUDED",
+      "lesson_ids": [
+        "lesson-11",
+        "lesson-17",
+        "lesson-18",
+        "lesson-22",
+        "lesson-28",
+        "lesson-51"
+      ],
+      "concept_match_lesson_ids": [
+        "lesson-11",
+        "lesson-17",
+        "lesson-18",
+        "lesson-22",
+        "lesson-28",
+        "lesson-32",
+        "lesson-46",
+        "lesson-51",
+        "lesson-63"
+      ],
+      "locators": [
+        "Printed pp. 1–10, Step One: The Horizon, The Vanishing Point, The Eye-Level",
+        "Printed pp. 11–20, Step Two: eye level and perspective drawing"
+      ],
+      "reason": "Distinctive application retained."
+    },
+    {
+      "book_id": "norling-perspective-made-easy",
+      "source_concept_id": "norling-perspective-made-easy-concept-02",
+      "source_concept": "One- and two-point perspective are built from receding parallel directions and carefully placed vanishing points.",
+      "canonical_concept_ids": [
+        "perspective-space"
+      ],
+      "status": "INCLUDED",
+      "lesson_ids": [
+        "lesson-11",
+        "lesson-17",
+        "lesson-18",
+        "lesson-22",
+        "lesson-28",
+        "lesson-51"
+      ],
+      "concept_match_lesson_ids": [
+        "lesson-11",
+        "lesson-17",
+        "lesson-18",
+        "lesson-22",
+        "lesson-28",
+        "lesson-32",
+        "lesson-46",
+        "lesson-51",
+        "lesson-63"
+      ],
+      "locators": [
+        "Printed pp. 21–46, parallel lines and one- and two-point relationships",
+        "Printed pp. 47–66, vanishing-point placement and spacing"
+      ],
+      "reason": "Distinctive application retained."
+    },
+    {
+      "book_id": "norling-perspective-made-easy",
+      "source_concept_id": "norling-perspective-made-easy-concept-03",
+      "source_concept": "Perspective can coordinate bricks, buildings, figures, and interiors within a common space.",
+      "canonical_concept_ids": [
+        "perspective-space",
+        "form-volume",
+        "figure-structure-anatomy"
+      ],
+      "status": "MERGED",
+      "lesson_ids": [
+        "lesson-17",
+        "lesson-18",
+        "lesson-22",
+        "lesson-25",
+        "lesson-51"
+      ],
+      "concept_match_lesson_ids": [
+        "lesson-11",
+        "lesson-17",
+        "lesson-18",
+        "lesson-22",
+        "lesson-28",
+        "lesson-32",
+        "lesson-46",
+        "lesson-51",
+        "lesson-63",
+        "lesson-08",
+        "lesson-10",
+        "lesson-12",
+        "lesson-14",
+        "lesson-15",
+        "lesson-16",
+        "lesson-19",
+        "lesson-25",
+        "lesson-31",
+        "lesson-34",
+        "lesson-38",
+        "lesson-59",
+        "lesson-70",
+        "lesson-42",
+        "lesson-48",
+        "lesson-50"
+      ],
+      "locators": [
+        "Printed pp. 67–78, building perspective with bricks",
+        "Printed pp. 79–116, figures, objects, roofs, interiors, and measured divisions",
+        "Printed p. 82, height lines for figures at a building"
+      ],
+      "reason": "Integrate overlapping methods into the same spiral progression."
+    },
+    {
+      "book_id": "norling-perspective-made-easy",
+      "source_concept_id": "norling-perspective-made-easy-concept-04",
+      "source_concept": "Cylinders, ellipses, and repeated divisions can be constructed in perspective.",
+      "canonical_concept_ids": [
+        "ellipse-cylinder-construction",
+        "perspective-space"
+      ],
+      "status": "INCLUDED",
+      "lesson_ids": [
+        "lesson-08",
+        "lesson-09",
+        "lesson-17",
+        "lesson-28",
+        "lesson-63"
+      ],
+      "concept_match_lesson_ids": [
+        "lesson-08",
+        "lesson-09",
+        "lesson-31",
+        "lesson-43",
+        "lesson-63",
+        "lesson-66",
+        "lesson-11",
+        "lesson-17",
+        "lesson-18",
+        "lesson-22",
+        "lesson-28",
+        "lesson-32",
+        "lesson-46",
+        "lesson-51"
+      ],
+      "locators": [
+        "Printed pp. 117–130, cylinders and ellipses",
+        "Printed pp. 131–154, practical cylinders and divided surfaces"
+      ],
+      "reason": "Distinctive application retained."
+    },
+    {
+      "book_id": "norling-perspective-made-easy",
+      "source_concept_id": "norling-perspective-made-easy-concept-05",
+      "source_concept": "Shadows, reflections, unusual viewpoints, and mechanical construction extend the perspective framework.",
+      "canonical_concept_ids": [
+        "perspective-space",
+        "value-light-shadow",
+        "depth-atmosphere"
+      ],
+      "status": "OPTIONAL / ADVANCED",
+      "lesson_ids": [
+        "lesson-07",
+        "lesson-17",
+        "lesson-26",
+        "lesson-44",
+        "lesson-51"
+      ],
+      "concept_match_lesson_ids": [
+        "lesson-11",
+        "lesson-17",
+        "lesson-18",
+        "lesson-22",
+        "lesson-28",
+        "lesson-32",
+        "lesson-46",
+        "lesson-51",
+        "lesson-63",
+        "lesson-07",
+        "lesson-14",
+        "lesson-20",
+        "lesson-21",
+        "lesson-24",
+        "lesson-26",
+        "lesson-30",
+        "lesson-34",
+        "lesson-44",
+        "lesson-45",
+        "lesson-48",
+        "lesson-54",
+        "lesson-59",
+        "lesson-65",
+        "lesson-72",
+        "lesson-35",
+        "lesson-36",
+        "lesson-56",
+        "lesson-60",
+        "lesson-67"
+      ],
+      "locators": [
+        "Printed pp. 155–174, shade, shadow, and reflections",
+        "Printed pp. 175–200, unusual perspective and mechanical perspective"
+      ],
+      "reason": "Keep selective drawing applications; omit exhaustive technical or non-graphite/charcoal treatment."
+    },
+    {
+      "book_id": "picard-beginning-drawing",
+      "source_concept_id": "picard-beginning-drawing-concept-01",
+      "source_concept": "Visual habits for observation and self-checking",
+      "canonical_concept_ids": [
+        "observation-perception",
+        "proportion-measurement",
+        "negative-space",
+        "edges-contour"
+      ],
+      "status": "MERGED",
+      "lesson_ids": [
+        "lesson-02",
+        "lesson-03",
+        "lesson-04",
+        "lesson-13",
+        "lesson-27",
+        "lesson-62"
+      ],
+      "concept_match_lesson_ids": [
+        "lesson-01",
+        "lesson-02",
+        "lesson-03",
+        "lesson-13",
+        "lesson-24",
+        "lesson-37",
+        "lesson-47",
+        "lesson-62",
+        "lesson-04",
+        "lesson-09",
+        "lesson-17",
+        "lesson-39",
+        "lesson-48",
+        "lesson-59",
+        "lesson-69",
+        "lesson-06",
+        "lesson-16",
+        "lesson-27",
+        "lesson-40",
+        "lesson-05",
+        "lesson-10",
+        "lesson-15",
+        "lesson-33",
+        "lesson-54",
+        "lesson-63",
+        "lesson-65"
+      ],
+      "locators": [
+        "printed pp. 26–29 (PDF pp. 28–31)"
+      ],
+      "reason": "Integrate overlapping methods into the same spiral progression."
+    },
+    {
+      "book_id": "picard-beginning-drawing",
+      "source_concept_id": "picard-beginning-drawing-concept-02",
+      "source_concept": "Line quality, contour, gesture, and mark-making",
+      "canonical_concept_ids": [
+        "edges-contour",
+        "mark-making-line-quality",
+        "gesture-action",
+        "texture-surface"
+      ],
+      "status": "MERGED",
+      "lesson_ids": [
+        "lesson-05",
+        "lesson-10",
+        "lesson-33",
+        "lesson-54"
+      ],
+      "concept_match_lesson_ids": [
+        "lesson-02",
+        "lesson-05",
+        "lesson-10",
+        "lesson-15",
+        "lesson-27",
+        "lesson-33",
+        "lesson-54",
+        "lesson-63",
+        "lesson-65",
+        "lesson-19",
+        "lesson-49",
+        "lesson-56",
+        "lesson-67",
+        "lesson-70",
+        "lesson-25",
+        "lesson-31",
+        "lesson-37",
+        "lesson-41",
+        "lesson-42",
+        "lesson-52",
+        "lesson-53",
+        "lesson-69",
+        "lesson-20",
+        "lesson-66"
+      ],
+      "locators": [
+        "printed pp. 31–41 (PDF pp. 33–43)"
+      ],
+      "reason": "Integrate overlapping methods into the same spiral progression."
+    },
+    {
+      "book_id": "picard-beginning-drawing",
+      "source_concept_id": "picard-beginning-drawing-concept-03",
+      "source_concept": "Negative shapes as alternate ways to describe a subject",
+      "canonical_concept_ids": [
+        "negative-space",
+        "composition-framing"
+      ],
+      "status": "MERGED",
+      "lesson_ids": [
+        "lesson-03",
+        "lesson-06",
+        "lesson-27",
+        "lesson-36",
+        "lesson-57"
+      ],
+      "concept_match_lesson_ids": [
+        "lesson-03",
+        "lesson-04",
+        "lesson-06",
+        "lesson-16",
+        "lesson-27",
+        "lesson-40",
+        "lesson-07",
+        "lesson-11",
+        "lesson-21",
+        "lesson-23",
+        "lesson-24",
+        "lesson-29",
+        "lesson-32",
+        "lesson-36",
+        "lesson-43",
+        "lesson-57",
+        "lesson-59",
+        "lesson-60",
+        "lesson-61",
+        "lesson-66",
+        "lesson-67",
+        "lesson-68",
+        "lesson-70",
+        "lesson-71",
+        "lesson-72"
+      ],
+      "locators": [
+        "printed p. 29 (PDF p. 31)",
+        "printed p. 41 (PDF p. 43)",
+        "printed pp. 82–83 (PDF pp. 84–85)"
+      ],
+      "reason": "Integrate overlapping methods into the same spiral progression."
+    },
+    {
+      "book_id": "picard-beginning-drawing",
+      "source_concept_id": "picard-beginning-drawing-concept-04",
+      "source_concept": "Linear perspective and spatial recession",
+      "canonical_concept_ids": [
+        "perspective-space"
+      ],
+      "status": "MERGED",
+      "lesson_ids": [
+        "lesson-11",
+        "lesson-17",
+        "lesson-18",
+        "lesson-22",
+        "lesson-28",
+        "lesson-51"
+      ],
+      "concept_match_lesson_ids": [
+        "lesson-11",
+        "lesson-17",
+        "lesson-18",
+        "lesson-22",
+        "lesson-28",
+        "lesson-32",
+        "lesson-46",
+        "lesson-51",
+        "lesson-63"
+      ],
+      "locators": [
+        "printed pp. 45–55 (PDF pp. 47–57)"
+      ],
+      "reason": "Integrate overlapping methods into the same spiral progression."
+    },
+    {
+      "book_id": "picard-beginning-drawing",
+      "source_concept_id": "picard-beginning-drawing-concept-05",
+      "source_concept": "Basic shapes, volumes, and ellipses",
+      "canonical_concept_ids": [
+        "form-volume",
+        "ellipse-cylinder-construction"
+      ],
+      "status": "MERGED",
+      "lesson_ids": [
+        "lesson-08",
+        "lesson-09",
+        "lesson-31",
+        "lesson-63"
+      ],
+      "concept_match_lesson_ids": [
+        "lesson-08",
+        "lesson-10",
+        "lesson-12",
+        "lesson-14",
+        "lesson-15",
+        "lesson-16",
+        "lesson-18",
+        "lesson-19",
+        "lesson-22",
+        "lesson-25",
+        "lesson-31",
+        "lesson-34",
+        "lesson-38",
+        "lesson-59",
+        "lesson-63",
+        "lesson-70",
+        "lesson-09",
+        "lesson-43",
+        "lesson-66"
+      ],
+      "locators": [
+        "printed pp. 57–63 (PDF pp. 59–65)"
+      ],
+      "reason": "Integrate overlapping methods into the same spiral progression."
+    },
+    {
+      "book_id": "picard-beginning-drawing",
+      "source_concept_id": "picard-beginning-drawing-concept-06",
+      "source_concept": "Value grouping, atmospheric depth, and light logic",
+      "canonical_concept_ids": [
+        "value-light-shadow",
+        "depth-atmosphere"
+      ],
+      "status": "MERGED",
+      "lesson_ids": [
+        "lesson-07",
+        "lesson-26",
+        "lesson-36",
+        "lesson-44",
+        "lesson-54"
+      ],
+      "concept_match_lesson_ids": [
+        "lesson-07",
+        "lesson-14",
+        "lesson-20",
+        "lesson-21",
+        "lesson-24",
+        "lesson-26",
+        "lesson-30",
+        "lesson-34",
+        "lesson-44",
+        "lesson-45",
+        "lesson-48",
+        "lesson-54",
+        "lesson-59",
+        "lesson-65",
+        "lesson-72",
+        "lesson-35",
+        "lesson-36",
+        "lesson-56",
+        "lesson-60",
+        "lesson-67"
+      ],
+      "locators": [
+        "printed pp. 65–71 (PDF pp. 67–73)",
+        "printed pp. 73–79 (PDF pp. 75–81)"
+      ],
+      "reason": "Integrate overlapping methods into the same spiral progression."
+    },
+    {
+      "book_id": "picard-beginning-drawing",
+      "source_concept_id": "picard-beginning-drawing-concept-07",
+      "source_concept": "Composition as planned hierarchy and visual movement",
+      "canonical_concept_ids": [
+        "composition-framing",
+        "visual-hierarchy-focal-path",
+        "depth-atmosphere"
+      ],
+      "status": "INCLUDED",
+      "lesson_ids": [
+        "lesson-23",
+        "lesson-29",
+        "lesson-36",
+        "lesson-60"
+      ],
+      "concept_match_lesson_ids": [
+        "lesson-06",
+        "lesson-07",
+        "lesson-11",
+        "lesson-21",
+        "lesson-23",
+        "lesson-24",
+        "lesson-27",
+        "lesson-29",
+        "lesson-32",
+        "lesson-36",
+        "lesson-43",
+        "lesson-57",
+        "lesson-59",
+        "lesson-60",
+        "lesson-61",
+        "lesson-66",
+        "lesson-67",
+        "lesson-68",
+        "lesson-70",
+        "lesson-71",
+        "lesson-72",
+        "lesson-33",
+        "lesson-46",
+        "lesson-55",
+        "lesson-65",
+        "lesson-69",
+        "lesson-26",
+        "lesson-35",
+        "lesson-44",
+        "lesson-56"
+      ],
+      "locators": [
+        "printed pp. 81–95 (PDF pp. 83–97)"
+      ],
+      "reason": "Distinctive application retained."
+    },
+    {
+      "book_id": "picard-beginning-drawing",
+      "source_concept_id": "picard-beginning-drawing-concept-08",
+      "source_concept": "A repeatable working process and integrated studies",
+      "canonical_concept_ids": [
+        "practice-reflection",
+        "creative-invention"
+      ],
+      "status": "MERGED",
+      "lesson_ids": [
+        "lesson-01",
+        "lesson-12",
+        "lesson-24",
+        "lesson-36",
+        "lesson-53"
+      ],
+      "concept_match_lesson_ids": [
+        "lesson-01",
+        "lesson-24",
+        "lesson-36",
+        "lesson-48",
+        "lesson-62",
+        "lesson-71",
+        "lesson-12",
+        "lesson-28",
+        "lesson-53",
+        "lesson-57",
+        "lesson-60",
+        "lesson-61",
+        "lesson-64",
+        "lesson-68",
+        "lesson-70",
+        "lesson-72"
+      ],
+      "locators": [
+        "printed pp. 43–44 (PDF pp. 45–46)",
+        "printed pp. 98–126 (PDF pp. 100–128)",
+        "printed p. 127 (PDF p. 129)"
+      ],
+      "reason": "Integrate overlapping methods into the same spiral progression."
+    },
+    {
+      "book_id": "pokemon-how-to-draw",
+      "source_concept_id": "pokemon-how-to-draw-concept-01",
+      "source_concept": "Warm up with basic marks and shapes",
+      "canonical_concept_ids": [
+        "practice-reflection",
+        "mark-making-line-quality",
+        "form-volume"
+      ],
+      "status": "MERGED",
+      "lesson_ids": [
+        "lesson-01",
+        "lesson-12",
+        "lesson-19",
+        "lesson-25",
+        "lesson-70"
+      ],
+      "concept_match_lesson_ids": [
+        "lesson-01",
+        "lesson-24",
+        "lesson-36",
+        "lesson-48",
+        "lesson-62",
+        "lesson-71",
+        "lesson-05",
+        "lesson-19",
+        "lesson-33",
+        "lesson-49",
+        "lesson-56",
+        "lesson-67",
+        "lesson-70",
+        "lesson-08",
+        "lesson-10",
+        "lesson-12",
+        "lesson-14",
+        "lesson-15",
+        "lesson-16",
+        "lesson-18",
+        "lesson-22",
+        "lesson-25",
+        "lesson-31",
+        "lesson-34",
+        "lesson-38",
+        "lesson-59",
+        "lesson-63"
+      ],
+      "locators": [
+        "Printed p. 6; PDF p. 8, Introduction and Getting Started"
+      ],
+      "reason": "Integrate overlapping methods into the same spiral progression."
+    },
+    {
+      "book_id": "pokemon-how-to-draw",
+      "source_concept_id": "pokemon-how-to-draw-concept-02",
+      "source_concept": "Action lines and simple shapes communicate pose",
+      "canonical_concept_ids": [
+        "gesture-action",
+        "stylized-character-construction",
+        "form-volume"
+      ],
+      "status": "INCLUDED",
+      "lesson_ids": [
+        "lesson-10",
+        "lesson-12",
+        "lesson-25",
+        "lesson-28",
+        "lesson-53"
+      ],
+      "concept_match_lesson_ids": [
+        "lesson-10",
+        "lesson-25",
+        "lesson-31",
+        "lesson-37",
+        "lesson-41",
+        "lesson-42",
+        "lesson-52",
+        "lesson-53",
+        "lesson-69",
+        "lesson-12",
+        "lesson-28",
+        "lesson-64",
+        "lesson-08",
+        "lesson-14",
+        "lesson-15",
+        "lesson-16",
+        "lesson-18",
+        "lesson-19",
+        "lesson-22",
+        "lesson-34",
+        "lesson-38",
+        "lesson-59",
+        "lesson-63",
+        "lesson-70"
+      ],
+      "locators": [
+        "Printed pp. 8–9; PDF pp. 10–11, Pikachu steps",
+        "Printed p. 74; PDF p. 76, Azelf steps",
+        "Printed p. 106; PDF p. 108, Fennekin steps"
+      ],
+      "reason": "Distinctive application retained."
+    },
+    {
+      "book_id": "pokemon-how-to-draw",
+      "source_concept_id": "pokemon-how-to-draw-concept-03",
+      "source_concept": "Build a drawing from large forms toward details",
+      "canonical_concept_ids": [
+        "form-volume",
+        "practice-reflection",
+        "observation-perception"
+      ],
+      "status": "MERGED",
+      "lesson_ids": [
+        "lesson-01",
+        "lesson-12",
+        "lesson-24",
+        "lesson-25",
+        "lesson-62"
+      ],
+      "concept_match_lesson_ids": [
+        "lesson-08",
+        "lesson-10",
+        "lesson-12",
+        "lesson-14",
+        "lesson-15",
+        "lesson-16",
+        "lesson-18",
+        "lesson-19",
+        "lesson-22",
+        "lesson-25",
+        "lesson-31",
+        "lesson-34",
+        "lesson-38",
+        "lesson-59",
+        "lesson-63",
+        "lesson-70",
+        "lesson-01",
+        "lesson-24",
+        "lesson-36",
+        "lesson-48",
+        "lesson-62",
+        "lesson-71",
+        "lesson-02",
+        "lesson-03",
+        "lesson-13",
+        "lesson-37",
+        "lesson-47"
+      ],
+      "locators": [
+        "Printed p. 7; PDF p. 9, Top Five Training Tips",
+        "Printed pp. 8–142; PDF pp. 10–144, numbered character lessons"
+      ],
+      "reason": "Integrate overlapping methods into the same spiral progression."
+    },
+    {
+      "book_id": "pokemon-how-to-draw",
+      "source_concept_id": "pokemon-how-to-draw-concept-04",
+      "source_concept": "Finish and color while managing smudging and value order",
+      "canonical_concept_ids": [
+        "color-media",
+        "value-light-shadow",
+        "mark-making-line-quality"
+      ],
+      "status": "OMITTED",
+      "lesson_ids": [],
+      "concept_match_lesson_ids": [
+        "lesson-30",
+        "lesson-35",
+        "lesson-52",
+        "lesson-58",
+        "lesson-68",
+        "lesson-71",
+        "lesson-07",
+        "lesson-14",
+        "lesson-20",
+        "lesson-21",
+        "lesson-24",
+        "lesson-26",
+        "lesson-34",
+        "lesson-44",
+        "lesson-45",
+        "lesson-48",
+        "lesson-54",
+        "lesson-59",
+        "lesson-65",
+        "lesson-72",
+        "lesson-05",
+        "lesson-19",
+        "lesson-33",
+        "lesson-49",
+        "lesson-56",
+        "lesson-67",
+        "lesson-70"
+      ],
+      "locators": [
+        "Printed p. 7; PDF p. 9, Top Five Training Tips",
+        "Printed pp. 9 and 144; PDF pp. 11 and 146, Pikachu completion and Congratulations"
+      ],
+      "reason": "Licensed-character colour finishing and page-care advice are excluded; graphite value order and mark control are taught through other source methods."
+    },
+    {
+      "book_id": "watson-garcia-absolute-beginner",
+      "source_concept_id": "watson-garcia-absolute-beginner-concept-01",
+      "source_concept": "Careful looking can replace remembered symbols with observed shapes and relationships.",
+      "canonical_concept_ids": [
+        "observation-perception"
+      ],
+      "status": "MERGED",
+      "lesson_ids": [
+        "lesson-01",
+        "lesson-02",
+        "lesson-03",
+        "lesson-24",
+        "lesson-37",
+        "lesson-62"
+      ],
+      "concept_match_lesson_ids": [
+        "lesson-01",
+        "lesson-02",
+        "lesson-03",
+        "lesson-13",
+        "lesson-24",
+        "lesson-37",
+        "lesson-47",
+        "lesson-62"
+      ],
+      "locators": [
+        "Printed pp. 15–23, chapter 1, especially wire drawing and upside-down drawing"
+      ],
+      "reason": "Integrate overlapping methods into the same spiral progression."
+    },
+    {
+      "book_id": "watson-garcia-absolute-beginner",
+      "source_concept_id": "watson-garcia-absolute-beginner-concept-02",
+      "source_concept": "Contour drawing is a record of connected edges, not a shorthand outline made from memory.",
+      "canonical_concept_ids": [
+        "edges-contour"
+      ],
+      "status": "MERGED",
+      "lesson_ids": [
+        "lesson-02",
+        "lesson-05",
+        "lesson-10",
+        "lesson-15",
+        "lesson-27",
+        "lesson-54"
+      ],
+      "concept_match_lesson_ids": [
+        "lesson-02",
+        "lesson-05",
+        "lesson-10",
+        "lesson-15",
+        "lesson-27",
+        "lesson-33",
+        "lesson-54",
+        "lesson-63",
+        "lesson-65"
+      ],
+      "locators": [
+        "Printed pp. 24–37, chapter 2; contour drawing begins on p. 26"
+      ],
+      "reason": "Integrate overlapping methods into the same spiral progression."
+    },
+    {
+      "book_id": "watson-garcia-absolute-beginner",
+      "source_concept_id": "watson-garcia-absolute-beginner-concept-03",
+      "source_concept": "Value relationships describe light, shadow, and volume more reliably than isolated value names.",
+      "canonical_concept_ids": [
+        "value-light-shadow"
+      ],
+      "status": "MERGED",
+      "lesson_ids": [
+        "lesson-07",
+        "lesson-14",
+        "lesson-20",
+        "lesson-24",
+        "lesson-26",
+        "lesson-54"
+      ],
+      "concept_match_lesson_ids": [
+        "lesson-07",
+        "lesson-14",
+        "lesson-20",
+        "lesson-21",
+        "lesson-24",
+        "lesson-26",
+        "lesson-30",
+        "lesson-34",
+        "lesson-44",
+        "lesson-45",
+        "lesson-48",
+        "lesson-54",
+        "lesson-59",
+        "lesson-65",
+        "lesson-72"
+      ],
+      "locators": [
+        "Printed pp. 38–49, chapter 3"
+      ],
+      "reason": "Integrate overlapping methods into the same spiral progression."
+    },
+    {
+      "book_id": "watson-garcia-absolute-beginner",
+      "source_concept_id": "watson-garcia-absolute-beginner-concept-04",
+      "source_concept": "Proportion and perspective can be checked through relative measurements, alignments, and simple structural guides.",
+      "canonical_concept_ids": [
+        "proportion-measurement",
+        "perspective-space"
+      ],
+      "status": "MERGED",
+      "lesson_ids": [
+        "lesson-04",
+        "lesson-17",
+        "lesson-24",
+        "lesson-28",
+        "lesson-39",
+        "lesson-51"
+      ],
+      "concept_match_lesson_ids": [
+        "lesson-04",
+        "lesson-09",
+        "lesson-13",
+        "lesson-17",
+        "lesson-24",
+        "lesson-39",
+        "lesson-48",
+        "lesson-59",
+        "lesson-62",
+        "lesson-69",
+        "lesson-11",
+        "lesson-18",
+        "lesson-22",
+        "lesson-28",
+        "lesson-32",
+        "lesson-46",
+        "lesson-51",
+        "lesson-63"
+      ],
+      "locators": [
+        "Printed pp. 50–71, chapter 4"
+      ],
+      "reason": "Integrate overlapping methods into the same spiral progression."
+    },
+    {
+      "book_id": "watson-garcia-absolute-beginner",
+      "source_concept_id": "watson-garcia-absolute-beginner-concept-05",
+      "source_concept": "Edges, marks, and media can be varied to describe different surfaces and organize attention.",
+      "canonical_concept_ids": [
+        "edges-contour",
+        "mark-making-line-quality",
+        "texture-surface",
+        "color-media"
+      ],
+      "status": "MERGED",
+      "lesson_ids": [
+        "lesson-05",
+        "lesson-33",
+        "lesson-54",
+        "lesson-56"
+      ],
+      "concept_match_lesson_ids": [
+        "lesson-02",
+        "lesson-05",
+        "lesson-10",
+        "lesson-15",
+        "lesson-27",
+        "lesson-33",
+        "lesson-54",
+        "lesson-63",
+        "lesson-65",
+        "lesson-19",
+        "lesson-49",
+        "lesson-56",
+        "lesson-67",
+        "lesson-70",
+        "lesson-20",
+        "lesson-66",
+        "lesson-30",
+        "lesson-35",
+        "lesson-52",
+        "lesson-58",
+        "lesson-68",
+        "lesson-71"
+      ],
+      "locators": [
+        "Printed pp. 72–87, chapter 5",
+        "Printed pp. 88–117, chapters 6–7",
+        "Printed pp. 160–167, chapter 11"
+      ],
+      "reason": "Integrate overlapping methods into the same spiral progression."
+    },
+    {
+      "book_id": "watson-garcia-absolute-beginner",
+      "source_concept_id": "watson-garcia-absolute-beginner-concept-06",
+      "source_concept": "Depth can be communicated through overlapping, relative size, converging directions, edges, and ellipses.",
+      "canonical_concept_ids": [
+        "perspective-space",
+        "form-volume",
+        "depth-atmosphere"
+      ],
+      "status": "MERGED",
+      "lesson_ids": [
+        "lesson-08",
+        "lesson-18",
+        "lesson-22",
+        "lesson-25",
+        "lesson-63"
+      ],
+      "concept_match_lesson_ids": [
+        "lesson-11",
+        "lesson-17",
+        "lesson-18",
+        "lesson-22",
+        "lesson-28",
+        "lesson-32",
+        "lesson-46",
+        "lesson-51",
+        "lesson-63",
+        "lesson-08",
+        "lesson-10",
+        "lesson-12",
+        "lesson-14",
+        "lesson-15",
+        "lesson-16",
+        "lesson-19",
+        "lesson-25",
+        "lesson-31",
+        "lesson-34",
+        "lesson-38",
+        "lesson-59",
+        "lesson-70",
+        "lesson-26",
+        "lesson-35",
+        "lesson-36",
+        "lesson-44",
+        "lesson-56",
+        "lesson-60",
+        "lesson-67"
+      ],
+      "locators": [
+        "Printed pp. 128–147, chapter 5"
+      ],
+      "reason": "Integrate overlapping methods into the same spiral progression."
+    },
+    {
+      "book_id": "watson-garcia-absolute-beginner",
+      "source_concept_id": "watson-garcia-absolute-beginner-concept-07",
+      "source_concept": "Texture is suggested by selected strokes and their variation, rather than by copying every surface mark.",
+      "canonical_concept_ids": [
+        "texture-surface"
+      ],
+      "status": "MERGED",
+      "lesson_ids": [
+        "lesson-20",
+        "lesson-33",
+        "lesson-54",
+        "lesson-56"
+      ],
+      "concept_match_lesson_ids": [
+        "lesson-20",
+        "lesson-33",
+        "lesson-54",
+        "lesson-56",
+        "lesson-65",
+        "lesson-66"
+      ],
+      "locators": [
+        "Printed pp. 148–171, chapter 6"
+      ],
+      "reason": "Integrate overlapping methods into the same spiral progression."
+    },
+    {
+      "book_id": "watson-garcia-absolute-beginner",
+      "source_concept_id": "watson-garcia-absolute-beginner-concept-08",
+      "source_concept": "Composition and invention develop through thumbnail choices, attention to negative space, and deliberate variation.",
+      "canonical_concept_ids": [
+        "composition-framing",
+        "creative-invention",
+        "negative-space"
+      ],
+      "status": "INCLUDED",
+      "lesson_ids": [
+        "lesson-06",
+        "lesson-24",
+        "lesson-27",
+        "lesson-36",
+        "lesson-57"
+      ],
+      "concept_match_lesson_ids": [
+        "lesson-06",
+        "lesson-07",
+        "lesson-11",
+        "lesson-21",
+        "lesson-23",
+        "lesson-24",
+        "lesson-27",
+        "lesson-29",
+        "lesson-32",
+        "lesson-36",
+        "lesson-43",
+        "lesson-57",
+        "lesson-59",
+        "lesson-60",
+        "lesson-61",
+        "lesson-66",
+        "lesson-67",
+        "lesson-68",
+        "lesson-70",
+        "lesson-71",
+        "lesson-72",
+        "lesson-12",
+        "lesson-28",
+        "lesson-53",
+        "lesson-64",
+        "lesson-03",
+        "lesson-04",
+        "lesson-16",
+        "lesson-40"
+      ],
+      "locators": [
+        "Printed pp. 168–188, chapter 12",
+        "Printed pp. 189–191, concluding section",
+        "Printed pp. 198–221, chapter 8"
+      ],
+      "reason": "Distinctive application retained."
+    },
+    {
+      "book_id": "watson-garcia-absolute-beginner",
+      "source_concept_id": "watson-garcia-absolute-beginner-concept-09",
+      "source_concept": "Portrait structure can be approached through observation and adjustable construction guides across several views.",
+      "canonical_concept_ids": [
+        "head-portrait-construction",
+        "proportion-measurement",
+        "observation-perception"
+      ],
+      "status": "MERGED",
+      "lesson_ids": [
+        "lesson-13",
+        "lesson-24",
+        "lesson-39",
+        "lesson-47",
+        "lesson-62"
+      ],
+      "concept_match_lesson_ids": [
+        "lesson-38",
+        "lesson-39",
+        "lesson-40",
+        "lesson-45",
+        "lesson-47",
+        "lesson-48",
+        "lesson-58",
+        "lesson-04",
+        "lesson-09",
+        "lesson-13",
+        "lesson-17",
+        "lesson-24",
+        "lesson-59",
+        "lesson-62",
+        "lesson-69",
+        "lesson-01",
+        "lesson-02",
+        "lesson-03",
+        "lesson-37"
+      ],
+      "locators": [
+        "Printed pp. 118–137, chapter 8",
+        "Printed pp. 138–145, chapter 9",
+        "Printed pp. 146–159, chapter 10"
+      ],
+      "reason": "Integrate overlapping methods into the same spiral progression."
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 650" role="img" aria-labelledby="title desc">
+  <title id="title">Build a cup from simple volumes</title>
+  <desc id="desc">A cylindrical cup construction with a top rim ellipse, a vertical center axis, a lightly shown bottom ellipse, and a separate loop handle attached to the body.</desc>
+  <rect width="480" height="650" rx="20" fill="#fbf8f0"/>
+  <text x="240" y="46" fill="#38463f" font-family="system-ui,sans-serif" font-size="26" font-weight="600" text-anchor="middle">Cup volumes</text>
+
+  <!-- Handle loop sits behind the cup body and meets it at two attachment points. -->
+  <path d="M315 187 C405 169 416 292 315 276" fill="none" stroke="#8e9d91" stroke-width="19" stroke-linecap="round"/>
+  <path d="M315 187 C405 169 416 292 315 276" fill="none" stroke="#38463f" stroke-width="4" stroke-linecap="round"/>
+  <path d="M315 207 C369 198 377 263 315 256" fill="none" stroke="#fbf8f0" stroke-width="8" stroke-linecap="round"/>
+
+  <!-- Cylinder body. The front half of the base ellipse is its visible lower edge. -->
+  <path d="M120 150 V345 A100 30 0 0 1 320 345 V150 Z" fill="#f4f0e6"/>
+  <path d="M120 150 V345 M320 150 V345" fill="none" stroke="#38463f" stroke-width="4"/>
+  <path d="M120 345 A100 30 0 0 0 320 345" fill="none" stroke="#8e9d91" stroke-width="3" stroke-dasharray="8 8"/>
+  <path d="M120 345 A100 30 0 0 1 320 345" fill="none" stroke="#38463f" stroke-width="4"/>
+
+  <!-- Top rim and opening. -->
+  <ellipse cx="220" cy="150" rx="100" ry="30" fill="#f4f0e6" stroke="#38463f" stroke-width="4"/>
+  <ellipse cx="220" cy="150" rx="74" ry="19" fill="#fbf8f0" stroke="#38463f" stroke-width="3"/>
+
+  <!-- Light construction guides. -->
+  <path d="M220 102 V379" fill="none" stroke="#527b7c" stroke-width="3" stroke-dasharray="9 8"/>
+  <path d="M108 150 H332" fill="none" stroke="#bd7859" stroke-width="2.5" stroke-dasharray="6 8" opacity=".8"/>
+
+  <!-- Large, stacked labels stay readable in a narrow phone column. -->
+  <ellipse cx="67" cy="432" rx="22" ry="8" fill="none" stroke="#bd7859" stroke-width="3"/>
+  <text x="108" y="440" fill="#38463f" font-family="system-ui,sans-serif" font-size="22">Rim ellipses</text>
+  <path d="M67 458 V487" fill="none" stroke="#527b7c" stroke-width="3" stroke-dasharray="7 6"/>
+  <text x="108" y="480" fill="#38463f" font-family="system-ui,sans-serif" font-size="22">Center axis</text>
+  <rect x="45" y="503" width="44" height="24" rx="4" fill="#e9ddc5" stroke="#38463f" stroke-width="2"/>
+  <text x="108" y="525" fill="#38463f" font-family="system-ui,sans-serif" font-size="22">Cylinder body</text>
+  <path d="M48 560 C46 535 90 535 88 560 C86 581 51 581 48 560" fill="none" stroke="#527b7c" stroke-width="4"/>
+  <text x="108" y="570" fill="#38463f" font-family="system-ui,sans-serif" font-size="22">Separate handle loop</text>
+  <text x="240" y="622" fill="#59645b" font-family="system-ui,sans-serif" font-size="21" text-anchor="middle">Build lightly; compare with your cup.</text>
+</svg>

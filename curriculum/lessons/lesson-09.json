@@ -1,0 +1,69 @@
+{
+  "id": "lesson-09",
+  "title": "Ellipse and rim",
+  "durationMinutes": 45,
+  "difficulty": "beginner",
+  "medium": ["graphite"],
+  "materials": ["sketchbook", "graphite pencil", "eraser", "bowl from life"],
+  "lessonType": "lesson",
+  "fundamentals": {
+    "primary": ["space", "measurement"],
+    "secondary": []
+  },
+  "concepts": [
+    { "id": "ellipse-cylinder-construction", "name": "Ellipses and cylinders in space", "stage": "practised" },
+    { "id": "proportion-measurement", "name": "Proportion and comparative measurement", "stage": "practised" }
+  ],
+  "prerequisites": ["lesson-08"],
+  "objective": "Compare how open a bowl rim looks relative to its width from two eye heights, and draw each observed opening.",
+  "warmup": {
+    "durationMinutes": 7,
+    "instructions": "Keep the bowl fixed. From three eye heights, sketch a rim oval each time. For each one, compare its height with its measured width."
+  },
+  "explanation": [
+    "A circular, horizontal rim looks flatter as your view approaches its plane. From higher above the rim, its ellipse opens up and you see more of the inside. Raising your eye also changes your distance to the bowl slightly, so the apparent width can shift.",
+    "Compare the opening's height with its measured width at each viewpoint. A diagram can suggest the relationship, but real vessels vary; let your observation set the ellipse rather than using a preset ratio."
+  ],
+  "visuals": [
+    {
+      "src": "assets/diagrams/lesson-09-eye-level-ellipses.svg",
+      "alt": "Stacked side views show one bowl from lower and higher eye levels. The rim ovals are normalized to equal widths for comparison; the lower view is flatter and the higher view more open.",
+      "caption": "Equal widths are normalized to compare openness; measure the actual rim in each view.",
+      "provenance": {
+        "kind": "original-diagram",
+        "source": "Original deterministic SVG made for this lesson.",
+        "creator": "Codex",
+        "license": "project-created",
+        "notes": "Schematic geometric comparison; no source-book illustration was copied."
+      }
+    }
+  ],
+  "exercise": {
+    "durationMinutes": 31,
+    "instructions": "1. Set a bowl on a table and choose a spot. Keep the bowl fixed as you change your eye height.\n2. From a low eye height near the rim's level, draw the bowl's outer shape and opening. Measure the rim's apparent width and height.\n3. Raise your eye and draw the bowl again. Measure the rim width and height at this viewpoint too; notice how much more of the inside you can see.\n4. Compare each ellipse's height with its own measured width. Do not force the widths or proportions to match the diagram.\n5. Check the side walls against the bowl. Correct one observed relationship, then leave both viewpoint studies side by side.",
+    "source": "from-life",
+    "subjectType": "bowl from two viewpoints"
+  },
+  "artistReferences": [],
+  "bookReferences": [
+    {
+      "sourceId": "dodson-keys-to-drawing",
+      "pages": "Printed pp. 128–147, chapter 5; construction example on p. 135",
+      "note": "Source concept: dodson-keys-to-drawing-concept-05. Adapt the discussion of eye level and ellipse construction into a comparison of observed bowl rims. No source exercise ID is assigned to lesson 09 in the map."
+    },
+    {
+      "sourceId": "aristides-classical-atelier",
+      "pages": "EPUB, Chapter Three, “The Block In” and “Measuring”",
+      "note": "Source concept: aristides-classical-atelier-concept-02. Use an observational block-in and comparative measurement for each view. The map's concept-01 locator—EPUB Chapter Two, “The Golden Ratio” and “The Golden Ratio in Nature”—was reviewed but not used because it does not support this ellipse exercise. No source exercise ID is assigned to lesson 09 in the map."
+    }
+  ],
+  "reflection": [
+    "Which rim is flatter, and how does that relate to your eye height?",
+    "How did the measured width and height change between the two views?",
+    "What did looking from the second viewpoint make you correct about the bowl?"
+  ],
+  "extension": "Try the same comparison with a cup from lesson 08. Notice whether its rim and handle openings flatten by similar amounts.",
+  "scaffoldingLevel": "high",
+  "status": "published",
+  "label": ""
+}

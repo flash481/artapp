@@ -1,0 +1,446 @@
+{
+  "schema_version": "1.0",
+  "source_taxonomy": "sources/research/CANONICAL_TAXONOMY.json",
+  "fundamentals": [
+    {
+      "id": "observation",
+      "name": "Observe visible relationships",
+      "concept_ids": [
+        "observation-perception",
+        "negative-space"
+      ]
+    },
+    {
+      "id": "line-shape",
+      "name": "Describe shapes with line",
+      "concept_ids": [
+        "edges-contour",
+        "mark-making-line-quality"
+      ]
+    },
+    {
+      "id": "measurement",
+      "name": "Compare size and placement",
+      "concept_ids": [
+        "proportion-measurement"
+      ]
+    },
+    {
+      "id": "form",
+      "name": "Construct volume",
+      "concept_ids": [
+        "head-portrait-construction",
+        "hands-extremities",
+        "form-volume"
+      ]
+    },
+    {
+      "id": "space",
+      "name": "Organise depth and perspective",
+      "concept_ids": [
+        "perspective-space",
+        "ellipse-cylinder-construction",
+        "depth-atmosphere"
+      ]
+    },
+    {
+      "id": "value",
+      "name": "Group light and shadow",
+      "concept_ids": [
+        "value-light-shadow"
+      ]
+    },
+    {
+      "id": "surface-edges",
+      "name": "Choose edges and marks",
+      "concept_ids": [
+        "texture-surface"
+      ]
+    },
+    {
+      "id": "gesture",
+      "name": "Capture movement and structure",
+      "concept_ids": [
+        "gesture-action",
+        "figure-structure-anatomy",
+        "drapery-clothing"
+      ]
+    },
+    {
+      "id": "composition",
+      "name": "Arrange a readable picture",
+      "concept_ids": [
+        "composition-framing",
+        "visual-hierarchy-focal-path",
+        "design-rhythm-pattern",
+        "narrative-staging"
+      ]
+    },
+    {
+      "id": "materials",
+      "name": "Choose drawing media",
+      "concept_ids": [
+        "color-media"
+      ]
+    },
+    {
+      "id": "invention",
+      "name": "Transform observed knowledge",
+      "concept_ids": [
+        "creative-invention",
+        "stylized-character-construction"
+      ]
+    },
+    {
+      "id": "reflection",
+      "name": "Review and redirect practice",
+      "concept_ids": [
+        "practice-reflection",
+        "master-study-copying"
+      ]
+    }
+  ],
+  "concepts": [
+    {
+      "id": "observation-perception",
+      "label": "Observation and perception",
+      "fundamental_id": "observation",
+      "prerequisite_concepts": [],
+      "first_lesson": "lesson-01",
+      "related_concepts": [
+        "edges-contour",
+        "proportion-measurement",
+        "negative-space"
+      ]
+    },
+    {
+      "id": "edges-contour",
+      "label": "Edges and contour",
+      "fundamental_id": "line-shape",
+      "prerequisite_concepts": [
+        "observation-perception"
+      ],
+      "first_lesson": "lesson-02",
+      "related_concepts": [
+        "observation-perception",
+        "mark-making-line-quality",
+        "negative-space"
+      ]
+    },
+    {
+      "id": "mark-making-line-quality",
+      "label": "Mark-making and line quality",
+      "fundamental_id": "line-shape",
+      "prerequisite_concepts": [],
+      "first_lesson": "lesson-05",
+      "related_concepts": [
+        "edges-contour",
+        "gesture-action",
+        "texture-surface"
+      ]
+    },
+    {
+      "id": "proportion-measurement",
+      "label": "Proportion and comparative measurement",
+      "fundamental_id": "measurement",
+      "prerequisite_concepts": [
+        "observation-perception"
+      ],
+      "first_lesson": "lesson-04",
+      "related_concepts": [
+        "observation-perception",
+        "perspective-space",
+        "head-portrait-construction"
+      ]
+    },
+    {
+      "id": "negative-space",
+      "label": "Negative space and surrounding shapes",
+      "fundamental_id": "observation",
+      "prerequisite_concepts": [
+        "observation-perception"
+      ],
+      "first_lesson": "lesson-03",
+      "related_concepts": [
+        "edges-contour",
+        "composition-framing",
+        "observation-perception"
+      ]
+    },
+    {
+      "id": "gesture-action",
+      "label": "Gesture and action",
+      "fundamental_id": "gesture",
+      "prerequisite_concepts": [],
+      "first_lesson": "lesson-10",
+      "related_concepts": [
+        "figure-structure-anatomy",
+        "mark-making-line-quality",
+        "proportion-measurement"
+      ]
+    },
+    {
+      "id": "figure-structure-anatomy",
+      "label": "Figure structure and anatomy",
+      "fundamental_id": "gesture",
+      "prerequisite_concepts": [
+        "gesture-action",
+        "form-volume"
+      ],
+      "first_lesson": "lesson-42",
+      "related_concepts": [
+        "gesture-action",
+        "form-volume",
+        "hands-extremities",
+        "drapery-clothing"
+      ]
+    },
+    {
+      "id": "head-portrait-construction",
+      "label": "Head and portrait construction",
+      "fundamental_id": "form",
+      "prerequisite_concepts": [
+        "proportion-measurement",
+        "form-volume"
+      ],
+      "first_lesson": "lesson-38",
+      "related_concepts": [
+        "proportion-measurement",
+        "form-volume",
+        "value-light-shadow"
+      ]
+    },
+    {
+      "id": "hands-extremities",
+      "label": "Hands and extremities",
+      "fundamental_id": "form",
+      "prerequisite_concepts": [
+        "gesture-action",
+        "form-volume"
+      ],
+      "first_lesson": "lesson-41",
+      "related_concepts": [
+        "figure-structure-anatomy",
+        "gesture-action",
+        "form-volume"
+      ]
+    },
+    {
+      "id": "form-volume",
+      "label": "Shape, form, and volume",
+      "fundamental_id": "form",
+      "prerequisite_concepts": [
+        "observation-perception"
+      ],
+      "first_lesson": "lesson-08",
+      "related_concepts": [
+        "perspective-space",
+        "ellipse-cylinder-construction",
+        "value-light-shadow"
+      ]
+    },
+    {
+      "id": "perspective-space",
+      "label": "Perspective and spatial construction",
+      "fundamental_id": "space",
+      "prerequisite_concepts": [
+        "form-volume"
+      ],
+      "first_lesson": "lesson-11",
+      "related_concepts": [
+        "proportion-measurement",
+        "form-volume",
+        "depth-atmosphere",
+        "ellipse-cylinder-construction"
+      ]
+    },
+    {
+      "id": "ellipse-cylinder-construction",
+      "label": "Ellipses and cylinders in space",
+      "fundamental_id": "space",
+      "prerequisite_concepts": [],
+      "first_lesson": "lesson-08",
+      "related_concepts": [
+        "perspective-space",
+        "form-volume"
+      ]
+    },
+    {
+      "id": "drapery-clothing",
+      "label": "Drapery and clothing",
+      "fundamental_id": "gesture",
+      "prerequisite_concepts": [
+        "figure-structure-anatomy"
+      ],
+      "first_lesson": "lesson-50",
+      "related_concepts": [
+        "figure-structure-anatomy",
+        "gesture-action",
+        "mark-making-line-quality"
+      ]
+    },
+    {
+      "id": "value-light-shadow",
+      "label": "Value, light, and shadow",
+      "fundamental_id": "value",
+      "prerequisite_concepts": [
+        "observation-perception"
+      ],
+      "first_lesson": "lesson-07",
+      "related_concepts": [
+        "form-volume",
+        "depth-atmosphere",
+        "visual-hierarchy-focal-path"
+      ]
+    },
+    {
+      "id": "depth-atmosphere",
+      "label": "Depth and atmospheric recession",
+      "fundamental_id": "space",
+      "prerequisite_concepts": [
+        "value-light-shadow",
+        "perspective-space"
+      ],
+      "first_lesson": "lesson-26",
+      "related_concepts": [
+        "perspective-space",
+        "value-light-shadow",
+        "composition-framing"
+      ]
+    },
+    {
+      "id": "texture-surface",
+      "label": "Texture and surface",
+      "fundamental_id": "surface-edges",
+      "prerequisite_concepts": [
+        "mark-making-line-quality",
+        "value-light-shadow"
+      ],
+      "first_lesson": "lesson-20",
+      "related_concepts": [
+        "mark-making-line-quality",
+        "value-light-shadow",
+        "color-media"
+      ]
+    },
+    {
+      "id": "color-media",
+      "label": "Color and drawing media",
+      "fundamental_id": "materials",
+      "prerequisite_concepts": [
+        "value-light-shadow"
+      ],
+      "first_lesson": "lesson-30",
+      "related_concepts": [
+        "value-light-shadow",
+        "texture-surface",
+        "mark-making-line-quality"
+      ]
+    },
+    {
+      "id": "composition-framing",
+      "label": "Composition and framing",
+      "fundamental_id": "composition",
+      "prerequisite_concepts": [],
+      "first_lesson": "lesson-06",
+      "related_concepts": [
+        "negative-space",
+        "visual-hierarchy-focal-path",
+        "design-rhythm-pattern"
+      ]
+    },
+    {
+      "id": "visual-hierarchy-focal-path",
+      "label": "Visual hierarchy and focal path",
+      "fundamental_id": "composition",
+      "prerequisite_concepts": [
+        "composition-framing",
+        "value-light-shadow"
+      ],
+      "first_lesson": "lesson-23",
+      "related_concepts": [
+        "composition-framing",
+        "value-light-shadow",
+        "narrative-staging"
+      ]
+    },
+    {
+      "id": "design-rhythm-pattern",
+      "label": "Design, rhythm, and pattern",
+      "fundamental_id": "composition",
+      "prerequisite_concepts": [],
+      "first_lesson": "lesson-43",
+      "related_concepts": [
+        "composition-framing",
+        "mark-making-line-quality",
+        "visual-hierarchy-focal-path"
+      ]
+    },
+    {
+      "id": "narrative-staging",
+      "label": "Narrative and staging",
+      "fundamental_id": "composition",
+      "prerequisite_concepts": [
+        "composition-framing",
+        "gesture-action"
+      ],
+      "first_lesson": "lesson-57",
+      "related_concepts": [
+        "composition-framing",
+        "gesture-action",
+        "visual-hierarchy-focal-path"
+      ]
+    },
+    {
+      "id": "creative-invention",
+      "label": "Creative invention and interpretation",
+      "fundamental_id": "invention",
+      "prerequisite_concepts": [],
+      "first_lesson": "lesson-12",
+      "related_concepts": [
+        "composition-framing",
+        "narrative-staging",
+        "practice-reflection"
+      ]
+    },
+    {
+      "id": "practice-reflection",
+      "label": "Practice process and reflection",
+      "fundamental_id": "reflection",
+      "prerequisite_concepts": [],
+      "first_lesson": "lesson-01",
+      "related_concepts": [
+        "observation-perception",
+        "creative-invention",
+        "mark-making-line-quality"
+      ]
+    },
+    {
+      "id": "master-study-copying",
+      "label": "Master studies and cast studies",
+      "fundamental_id": "reflection",
+      "prerequisite_concepts": [],
+      "first_lesson": "lesson-49",
+      "related_concepts": [
+        "observation-perception",
+        "form-volume",
+        "value-light-shadow"
+      ]
+    },
+    {
+      "id": "stylized-character-construction",
+      "label": "Stylized character construction",
+      "fundamental_id": "invention",
+      "prerequisite_concepts": [
+        "form-volume"
+      ],
+      "first_lesson": "lesson-12",
+      "related_concepts": [
+        "form-volume",
+        "gesture-action",
+        "mark-making-line-quality"
+      ]
+    }
+  ],
+  "note": "Prerequisites are enabling experiences, not mastery gates. Parent fundamentals roll canonical concepts into auditable strands."
+}

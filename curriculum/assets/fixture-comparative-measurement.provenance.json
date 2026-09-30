@@ -1,0 +1,17 @@
+{
+  "schema_version": "1.0",
+  "asset_id": "fixture-comparative-measurement",
+  "file": "public/assets/diagrams/comparative-measurement.svg",
+  "category": "diagram",
+  "title": "Compare parts of a mug",
+  "alt_text": "A simple mug outline with a vertical pencil-width unit and horizontal comparison marks.",
+  "caption": "Pick one part, then compare the other parts against it.",
+  "provenance": {
+    "origin": "original",
+    "creator_or_model": "Personal art course fixture",
+    "rights_basis": "original",
+    "license_or_attribution": "project-created"
+  },
+  "distribution": "deployable_after_review",
+  "review_notes": "Deterministic teaching diagram made for app testing. It is a legacy fixture asset copied from public/ into the build; no source-book illustration was copied."
+}

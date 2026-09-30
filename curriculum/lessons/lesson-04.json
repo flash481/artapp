@@ -1,0 +1,76 @@
+{
+  "id": "lesson-04",
+  "title": "Measure a flower",
+  "durationMinutes": 45,
+  "difficulty": "beginner",
+  "medium": [
+    "graphite"
+  ],
+  "materials": [
+    "graphite pencil",
+    "eraser",
+    "sketchbook"
+  ],
+  "lessonType": "lesson",
+  "fundamentals": {
+    "primary": [
+      "measurement",
+      "observation"
+    ],
+    "secondary": []
+  },
+  "concepts": [
+    {
+      "id": "proportion-measurement",
+      "name": "Proportion and comparative measurement",
+      "stage": "introduced"
+    },
+    {
+      "id": "negative-space",
+      "name": "Negative space and surrounding shapes",
+      "stage": "practised"
+    }
+  ],
+  "prerequisites": [
+    "lesson-03"
+  ],
+  "objective": "Use observed lengths, angles, and alignments to place one flower or leafy stem more convincingly.",
+  "warmup": {
+    "durationMinutes": 7,
+    "instructions": "Choose a flower or leafy stem that fits comfortably in view. In seven minutes, sketch its main axis and largest masses; check one relative length, one angle, and one alignment against the subject."
+  },
+  "explanation": [
+    "Choose a visible part as a temporary unit. Compare the stem with the bloom's width, and check key angles and alignments from one steady viewpoint. If you sight with your pencil, keep your arm straight and use it only to compare.",
+    "Then compare the gaps around and between the forms. As in Lesson 3, a negative shape can reveal a contour that is too wide, narrow, or misplaced.",
+    "Flowers vary. There is no target ratio to force; draw the proportions you observe in this particular subject."
+  ],
+  "visuals": [],
+  "exercise": {
+    "durationMinutes": 32,
+    "instructions": "1. Keep the stem and your viewpoint still. Lightly mark the top and bottom of the visible subject, then draw the stem's direction as one simple axis.\n2. Use the bloom's width—or one leaf's length—as a temporary unit. Compare it with the visible stem length, then check the relationship once more at the bloom-stem join.\n3. Block in the bloom and the few largest leaves. Check their tilt and where they meet the stem; adjust the big shapes before adding detail.\n4. Look at the open gaps around and between the forms. Compare their shapes with the page and with each other, as you did in Lesson 3.\n5. Refine the most distinctive edges and add only two or three details needed to make your particular flower or stem recognizable. Recheck one measurement before you stop.",
+    "source": "from-life",
+    "subjectType": "flower or leafy stem from life"
+  },
+  "artistReferences": [],
+  "bookReferences": [
+    {
+      "sourceId": "aristides-classical-atelier",
+      "pages": "EPUB, Chapter Three, “The Block In” and “Measuring”",
+      "note": "Source concept: aristides-classical-atelier-concept-02; informs the use of observed relative lengths and angles. The mapped aristides-classical-atelier-concept-01 and Chapter Two golden-ratio passage were reviewed but not used."
+    },
+    {
+      "sourceId": "edwards-right-side-brain",
+      "pages": "PDF pp. 155–179",
+      "note": "Source concept: edwards-right-side-brain-concept-03, negative spaces as shapes for checking positive forms; applied here to gaps around and between the observed stem, bloom, and leaves."
+    }
+  ],
+  "reflection": [
+    "Which relationship most changed your drawing: length, angle, or alignment?",
+    "Did a gap between forms reveal an edge that needed moving?",
+    "Which proportion would you check first from another viewpoint?"
+  ],
+  "extension": "From a new viewpoint, compare the same part-to-part relationship on a different flower or leafy stem. Keep the first drawing and note what changes.",
+  "scaffoldingLevel": "high",
+  "status": "published",
+  "label": ""
+}

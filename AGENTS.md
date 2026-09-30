@@ -14,7 +14,7 @@ These identifiers describe task or agent choices only; do not invent repository-
 ## Learning and privacy
 
 - Design a spiral: introduce, practise, revisit, combine, and independently apply concepts across varied subjects. Do not impose month-long blocks by topic. Teach observational and structural drawing early; stylized subjects can reinforce, not replace, those foundations. Let personal style emerge through exposure and experimentation.
-- Keep original books, extracts, analyses, research, private notes, and scratch work under `sources/`; never put them in the public app or deployment. Use only books the learner may lawfully study, preserve provenance, and avoid reproducing books or illustration collections. The app's static password is only a casual viewing barrier, never source protection.
+- Keep original books, extracts, analyses, research, private notes, and scratch work under `sources/`; never put them in the public app or deployment. Use only books the learner may lawfully study, preserve provenance, and avoid reproducing books or illustration collections. The site currently opens publicly, so never rely on app access controls for source protection.
 - Keep the app lightweight, data-driven, mobile-first, and comfortable to use while drawing. Lesson content stays independent of UI code; use deterministic diagrams where visual accuracy matters.
 
 ## Project map and engineering

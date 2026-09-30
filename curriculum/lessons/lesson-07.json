@@ -1,0 +1,62 @@
+{
+  "id": "lesson-07",
+  "title": "Three simple values",
+  "durationMinutes": 45,
+  "difficulty": "beginner",
+  "medium": ["graphite"],
+  "materials": [
+    "sketchbook",
+    "graphite pencil",
+    "eraser",
+    "one piece of fruit",
+    "desk lamp or another steady lamp"
+  ],
+  "lessonType": "lesson",
+  "fundamentals": {
+    "primary": ["value", "composition"],
+    "secondary": ["form"]
+  },
+  "concepts": [
+    { "id": "value-light-shadow", "name": "Value, light, and shadow", "stage": "introduced" },
+    { "id": "composition-framing", "name": "Composition and framing", "stage": "practised" }
+  ],
+  "prerequisites": ["lesson-06"],
+  "objective": "Group a lit fruit and its cast shadow into light, middle, and dark values while keeping the chosen crop readable.",
+  "warmup": {
+    "durationMinutes": 7,
+    "instructions": "Place one fruit under a steady lamp. Make a palm-sized thumbnail with three broad pencil values: light, middle, and dark. Keep the silhouette and cast shadow simple; do not blend."
+  },
+  "explanation": [
+    "Value means how light or dark an area appears. Squint to find the largest light, middle, and dark groups on the fruit and table before adding details.",
+    "Keep the three groups distinct. The lit side is not always white, and the darkest group may include both the fruit's shadow side and its cast shadow. Follow the lamp and the fruit you can see."
+  ],
+  "visuals": [],
+  "exercise": {
+    "durationMinutes": 31,
+    "instructions": "1. Set one fruit under a steady lamp so a clear cast shadow falls on the table. Choose a crop that includes both fruit and shadow.\n2. Draw the fruit silhouette and the shadow lightly. Check the fruit's width against its height, and note the shadow's direction.\n3. Squint at the setup. Mark only the broad light, middle, and dark shapes; group small variations into the nearest value family.\n4. Leave the light group as paper, shade the middle evenly, and make the dark group clearly deeper. Keep the marks broad and unblended.\n5. Compare your drawing with the setup. Correct one value boundary or silhouette, then stop before adding skin texture or tiny highlights.",
+    "source": "from-life",
+    "subjectType": "fruit under directional light"
+  },
+  "artistReferences": [],
+  "bookReferences": [
+    {
+      "sourceId": "dodson-keys-to-drawing",
+      "pages": "Printed pp. 102–127, chapter 4; light-source example on p. 110",
+      "note": "Source concept: dodson-keys-to-drawing-concept-04. Adapted as a short study of broad light and shadow shapes. Source exercise: dodson-keys-to-drawing-exercise-05, printed pp. 102–117, especially the light-source examples on p. 110; this lesson keeps one lamp position, with a changed-light comparison as an optional extension."
+    },
+    {
+      "sourceId": "picard-beginning-drawing",
+      "pages": "printed p. 29 (PDF p. 31)",
+      "note": "Source concept: picard-beginning-drawing-concept-03. Keep the earlier crop decision in view and judge the fruit and shadow as large shapes; no fixed composition ratio is taught."
+    }
+  ],
+  "reflection": [
+    "Can you still distinguish light, middle, and dark when you squint at your drawing?",
+    "Does the cast shadow point away from the lamp as it does in the setup?",
+    "Does your crop keep the fruit and its shadow together as one clear arrangement?"
+  ],
+  "extension": "Move the lamp slightly and make a three-minute thumbnail. Note which cast-shadow edge or value boundary changed.",
+  "scaffoldingLevel": "high",
+  "status": "published",
+  "label": ""
+}

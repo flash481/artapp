@@ -1,0 +1,69 @@
+{
+  "id": "lesson-08",
+  "title": "Build a cup from volumes",
+  "durationMinutes": 45,
+  "difficulty": "beginner",
+  "medium": ["graphite"],
+  "materials": ["sketchbook", "graphite pencil", "eraser", "cup from life"],
+  "lessonType": "lesson",
+  "fundamentals": {
+    "primary": ["form", "space"],
+    "secondary": ["observation"]
+  },
+  "concepts": [
+    { "id": "form-volume", "name": "Shape, form, and volume", "stage": "introduced" },
+    { "id": "ellipse-cylinder-construction", "name": "Ellipses and cylinders in space", "stage": "introduced" }
+  ],
+  "prerequisites": ["lesson-04"],
+  "objective": "Organize a cup as a cylindrical body and a looped handle, then revise the construction to match what you observe.",
+  "warmup": {
+    "durationMinutes": 7,
+    "instructions": "Look at your cup and draw one loose cylinder beside it. Add a center axis and top and bottom ellipses; check the angle and width against the cup."
+  },
+  "explanation": [
+    "A cylinder can be organized with an axis, two ellipses, and side edges. A real cup may taper, so let the observed silhouette decide how its sides change.",
+    "Treat the handle as a separate loop attached at two points. Draw these guides lightly, then look back at the cup and correct their angles, spacing, and connections."
+  ],
+  "visuals": [
+    {
+      "src": "assets/diagrams/lesson-08-cup-volumes.svg",
+      "alt": "A cup is built from a top rim ellipse, a cylindrical body with a center axis, a lightly drawn bottom ellipse, and a separate loop handle.",
+      "caption": "Use simple volumes as a first guess, then check every shape against the cup.",
+      "provenance": {
+        "kind": "original-diagram",
+        "source": "Original deterministic SVG made for this lesson.",
+        "creator": "Codex",
+        "license": "project-created",
+        "notes": "Original geometric teaching diagram; no source-book illustration was copied."
+      }
+    }
+  ],
+  "exercise": {
+    "durationMinutes": 31,
+    "instructions": "1. Place a cup where you can keep the same view. Choose an angle that shows the opening and handle.\n2. Lightly mark the cup's center axis and compare its overall height and width with the object.\n3. Draw the rim as an observed ellipse. Extend its sides into a cylinder-like body, allowing for any taper you can see; sketch the base ellipse lightly.\n4. Add the handle as a separate loop, placing its two attachments where they meet the cup.\n5. Look back and compare the rim tilt, body width, and handle opening. Correct one mismatch, then strengthen only the visible edges.",
+    "source": "from-life",
+    "subjectType": "cup"
+  },
+  "artistReferences": [],
+  "bookReferences": [
+    {
+      "sourceId": "picard-beginning-drawing",
+      "pages": "printed pp. 57–63 (PDF pp. 59–65)",
+      "note": "Source concept: picard-beginning-drawing-concept-05. Adapt the progression from flat shapes to simple volumes and household objects; draw through lightly before refining. No source exercise ID is assigned to lesson 08 in the map."
+    },
+    {
+      "sourceId": "dodson-keys-to-drawing",
+      "pages": "Printed pp. 128–147, chapter 5; construction example on p. 135",
+      "note": "Source concept: dodson-keys-to-drawing-concept-05. Use construction as a guide for depth and ellipses, then correct it against the observed cup. No source exercise ID is assigned to lesson 08 in the map."
+    }
+  ],
+  "reflection": [
+    "Does the rim ellipse match the angle of the cup you observed?",
+    "Can you identify the body volume and handle loop in your drawing?",
+    "Which construction line or edge did you change after looking back?"
+  ],
+  "extension": "Turn the cup to a new angle and make a quick second construction, checking how the rim ellipse and handle opening change.",
+  "scaffoldingLevel": "high",
+  "status": "published",
+  "label": ""
+}

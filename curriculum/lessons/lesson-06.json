@@ -1,0 +1,80 @@
+{
+  "id": "lesson-06",
+  "title": "Three crops of one subject",
+  "durationMinutes": 45,
+  "difficulty": "beginner",
+  "medium": [
+    "graphite"
+  ],
+  "materials": [
+    "graphite pencil",
+    "eraser",
+    "sketchbook"
+  ],
+  "lessonType": "lesson",
+  "fundamentals": {
+    "primary": [
+      "composition",
+      "observation"
+    ],
+    "secondary": []
+  },
+  "concepts": [
+    {
+      "id": "composition-framing",
+      "name": "Composition and framing",
+      "stage": "introduced"
+    },
+    {
+      "id": "negative-space",
+      "name": "Negative space and surrounding shapes",
+      "stage": "revisited"
+    }
+  ],
+  "prerequisites": [
+    "lesson-03"
+  ],
+  "objective": "Choose a crop that makes the relationship between a mug and book read clearly before adding detail.",
+  "warmup": {
+    "durationMinutes": 7,
+    "instructions": "Place a mug beside a book and choose a fixed seat. In seven minutes, sketch two small frames around the same arrangement, changing where the page edges cut it and how much margin it has."
+  },
+  "explanation": [
+    "Your page edges act like a frame. A closer crop or wider margin changes how the mug and book share attention, even before you add detail.",
+    "Check the spaces around and between them as shapes. The gap check from Lesson 3 can help you judge whether each object sits clearly in the frame. No single crop is correct; choose the one that emphasizes the relationship you want."
+  ],
+  "visuals": [],
+  "exercise": {
+    "durationMinutes": 30,
+    "instructions": "1. Arrange a mug and closed book in steady light. Choose your viewpoint and leave the objects in place while you compare crops.\n2. Draw three small rectangle frames. In each, show only the large shapes of both objects; vary the crop and margins—one generous, one closer, and one shifted toward an edge.\n3. Compare the empty spaces around and between the mug and book. Check whether their contours stay clear or make awkward near-touches with each other or the frame.\n4. Circle the crop that makes the relationship easiest to read. If needed, adjust the crop slightly to open a gap or give one form more room.\n5. Below, draw a larger version of that crop. Place the big shapes first, check the margins and gaps, then add only the details needed to identify the objects.",
+    "source": "from-life",
+    "subjectType": "mug and book from life"
+  },
+  "artistReferences": [],
+  "bookReferences": [
+    {
+      "sourceId": "picard-beginning-drawing",
+      "pages": "printed p. 29 (PDF p. 31)",
+      "note": "Source concept: picard-beginning-drawing-concept-03, negative shapes as alternate ways to describe a subject; connects gaps with cropping and balance."
+    },
+    {
+      "sourceId": "edwards-right-side-brain",
+      "pages": "PDF pp. 155–179",
+      "note": "Source concept: edwards-right-side-brain-concept-03, negative spaces as shapes for checking positive forms; applied to margins and gaps around the still life."
+    },
+    {
+      "sourceId": "dodson-keys-to-drawing",
+      "pages": "Printed pp. 172–197, chapter 7; examples on pp. 172–184",
+      "note": "Adapted from dodson-keys-to-drawing-exercise-08: compare small still-life framings and select the clearest shape relationships."
+    }
+  ],
+  "reflection": [
+    "Which crop lets you read the mug and book most easily?",
+    "Which margin or gap helped you decide?",
+    "Did your larger drawing keep the crop you chose?"
+  ],
+  "extension": "Try the same thumbnail test from a new viewpoint or with a different pair of simple objects. Notice how the crop changes the surrounding shapes.",
+  "scaffoldingLevel": "high",
+  "status": "published",
+  "label": ""
+}

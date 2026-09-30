@@ -1,0 +1,17 @@
+{
+  "schema_version": "1.0",
+  "asset_id": "fixture-three-value-groups",
+  "file": "public/assets/diagrams/three-value-groups.svg",
+  "category": "diagram",
+  "title": "Three value groups on a round fruit",
+  "alt_text": "A round fruit form simplified into a light face, a middle band, and a darker shadow side with a cast shadow.",
+  "caption": "A few clear groups can describe the form before small details are added.",
+  "provenance": {
+    "origin": "original",
+    "creator_or_model": "Personal art course fixture",
+    "rights_basis": "original",
+    "license_or_attribution": "project-created"
+  },
+  "distribution": "deployable_after_review",
+  "review_notes": "Deterministic teaching diagram made for app testing. It is a legacy fixture asset copied from public/ into the build; no source-book illustration was copied."
+}

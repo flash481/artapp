@@ -1,6 +1,6 @@
 # Lesson data contract
 
-Lesson content is independent of application UI. The Phase 1 machine-readable contract is [`curriculum/schemas/lesson.schema.json`](../curriculum/schemas/lesson.schema.json), and the app consumes lesson JSON from the curriculum area. The contract matches `src/lib/lesson.ts` and the three development fixtures, including the current camelCase field names.
+Lesson content is independent of application UI. The version 2 machine-readable contract is [`curriculum/schemas/lesson.schema.json`](../curriculum/schemas/lesson.schema.json), and the app consumes lesson JSON from the curriculum area. The contract matches `src/lib/lesson.ts` and the three development fixtures, including the current camelCase field names.
 
 ## Phase 1 contract
 
@@ -23,7 +23,9 @@ Lesson content is independent of application UI. The Phase 1 machine-readable co
 | `scaffoldingLevel` | Optional future metadata for how much structure the learner receives |
 | `status`, `label` | Fixed fixture marker in Phase 1 |
 
-The current lesson schema requires `status: "development-fixture"` and the exact label `DEVELOPMENT FIXTURE — NOT FINAL CURRICULUM`. This deliberately prevents Phase 1 content from being mistaken for a finished course. Before Phase 2 authoring, revise and version the lifecycle part of the schema for real lessons; do not remove the fixture warning from these three records.
+The version 2 schema accepts `status: "published"` with an empty label for finished content. The three Phase 1 fixtures retain `status: "development-fixture"` and the exact label `DEVELOPMENT FIXTURE — NOT FINAL CURRICULUM`. The app lists only published lessons as playable.
+
+Full `bookReferences` in the repository lesson JSON are internal source provenance. The Vite app import strips those records from the public bundle; the learner-facing lesson currently does not display them. Keep precise source IDs and locators in the authored JSON for review without shipping private analysis notes.
 
 The spiral stages are `introduced`, `practised`, `revisited`, `combined`, and `independent`. Current records attach a stage to each concept in `concepts`. Phase 2 curriculum metadata maps concept IDs to canonical concept tags and parent fundamentals so coverage can roll lesson concept stages up to each fundamental.
 

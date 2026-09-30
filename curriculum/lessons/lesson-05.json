@@ -1,0 +1,74 @@
+{
+  "id": "lesson-05",
+  "title": "Confident lines, familiar object",
+  "durationMinutes": 45,
+  "difficulty": "beginner",
+  "medium": [
+    "graphite"
+  ],
+  "materials": [
+    "graphite pencil",
+    "eraser",
+    "sketchbook"
+  ],
+  "lessonType": "lesson",
+  "fundamentals": {
+    "primary": [
+      "line-shape"
+    ],
+    "secondary": []
+  },
+  "concepts": [
+    {
+      "id": "mark-making-line-quality",
+      "name": "Mark-making and line quality",
+      "stage": "introduced"
+    },
+    {
+      "id": "edges-contour",
+      "name": "Edges and contour",
+      "stage": "practised"
+    }
+  ],
+  "prerequisites": [
+    "lesson-02"
+  ],
+  "objective": "Use light searching marks and selected, deliberate lines to make a familiar object's shape clearer.",
+  "warmup": {
+    "durationMinutes": 6,
+    "instructions": "Draw a thumbnail-sized corner or outline of your book or key from life. Follow one edge three times—light, medium, then firm—and compare how pressure changes the mark."
+  },
+  "explanation": [
+    "Lines can locate a shape, show its direction, or call attention to an edge. Light searching strokes are provisional; a clearer stroke records a line you have checked against the object.",
+    "Use pressure selectively. Reuse Lesson 2's close contour observation, then vary the direction or strength only when it helps the form read. Every edge does not need the same dark outline."
+  ],
+  "visuals": [],
+  "exercise": {
+    "durationMinutes": 32,
+    "instructions": "1. Choose one familiar book or key and set it at a steady viewpoint. Keep it there for all three drawings. Spend two minutes noticing its overall proportions and the main turns in its contour.\n2. In five minutes, make a small light-search drawing. Let a few marks overlap while you find the object's width, height, and direction; keep the lines pale.\n3. In seven minutes, make a second small drawing. This time, select three lines that clarify the shape or an overlap; make those more definite and leave quieter edges light.\n4. Spend sixteen minutes on a larger drawing. Start with light searching lines, compare the big contour with the object, then choose which lines to strengthen. Add a few identifying details, such as a key's bow and teeth or a book's cover and page edge.\n5. Use the final two minutes to compare the three drawings. Notice which line choices made the object clearest. Soften stray searches only if they confuse the larger drawing; stop before shading.",
+    "source": "from-life",
+    "subjectType": "book or key from life"
+  },
+  "artistReferences": [],
+  "bookReferences": [
+    {
+      "sourceId": "dodson-keys-to-drawing",
+      "pages": "Printed pp. 40–69, chapter 2",
+      "note": "Source concept: dodson-keys-to-drawing-concept-02, measured and expressive mark-making; adapted as light searching marks followed by selected, checked strokes."
+    },
+    {
+      "sourceId": "aristides-classical-atelier",
+      "pages": "EPUB, Chapter Three, “Types and Uses of Lines”",
+      "note": "Source concept: aristides-classical-atelier-concept-02, line as direction, shape, and block-in; used to clarify observed contour and the object's main directions."
+    }
+  ],
+  "reflection": [
+    "Which line is clearest, and what changed in its direction or pressure?",
+    "Where did lighter marks give you room to adjust?",
+    "Did one edge need less emphasis than you expected?"
+  ],
+  "extension": "Make a second small drawing of the same object from another viewpoint. Keep the searching lines light, then choose one edge to emphasize.",
+  "scaffoldingLevel": "high",
+  "status": "published",
+  "label": ""
+}

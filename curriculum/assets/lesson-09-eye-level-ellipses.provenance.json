@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0",
+  "asset_id": "lesson-09-eye-level-ellipses",
+  "file": "public/assets/diagrams/lesson-09-eye-level-ellipses.svg",
+  "category": "diagram",
+  "title": "Eye height changes the apparent bowl rim",
+  "alt_text": "Two stacked side views show one bowl at lower and higher eye levels. The rim ovals are normalized to equal widths for comparison; the lower view is flatter and the higher view more open. Real apparent widths can differ.",
+  "caption": "Equal widths are normalized to compare openness; measure the actual rim in each view.",
+  "created_on": "2026-09-30",
+  "provenance": {
+    "origin": "original",
+    "creator_or_model": "Codex; deterministic SVG paths authored for this course",
+    "work_title": "Eye height changes the apparent bowl rim",
+    "creation_date_or_period": "2026-09-30",
+    "rights_basis": "original",
+    "license_or_attribution": "Original course asset. No source-book illustration was used."
+  },
+  "distribution": "deployable_after_review",
+  "review_notes": "Stacked portrait schematic; the output ellipses have equal normalized widths to compare height-to-width openness. Measure actual widths from the learner's subject. Review rendered at phone width before release."
+}

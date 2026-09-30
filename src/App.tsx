@@ -1,6 +1,5 @@
 import { type ChangeEvent, useEffect, useMemo, useState } from "react";
-import { PasswordGate } from "./components/PasswordGate";
-import { lessons, lessonAssetUrl, type Lesson, type LessonVisual } from "./lib/lesson";
+import { lessons, lessonAssetUrl, plannedLessonCount, type Lesson, type LessonVisual } from "./lib/lesson";
 import {
   emptyProgress,
   loadProgress,
@@ -8,10 +7,6 @@ import {
   saveProgress,
   type CourseProgress,
 } from "./lib/progress";
-
-interface AppProps {
-  passwordHash?: string;
-}
 
 function ImageViewer({ visual }: { visual: LessonVisual }) {
   const [expanded, setExpanded] = useState(false);
@@ -59,14 +54,16 @@ function LessonContent({ lesson }: { lesson: Lesson }) {
   return (
     <article className="lesson-content" aria-labelledby="lesson-title">
       <header className="lesson-heading">
-        <p className="fixture-label">{lesson.label}</p>
+        {lesson.label && <p className="fixture-label">{lesson.label}</p>}
         <p className="eyebrow">{lesson.lessonType.replaceAll("-", " ")} · {lesson.durationMinutes} minutes</p>
         <h1 id="lesson-title">{lesson.title}</h1>
         <p className="lesson-objective">{lesson.objective}</p>
         <div className="tag-row" aria-label="Lesson details">
-          <span>{lesson.difficulty}</span>
+          <span>Focus: {lesson.fundamentals.primary.join(" · ")}</span>
+          {lesson.fundamentals.secondary.length > 0 && <span>Also: {lesson.fundamentals.secondary.join(" · ")}</span>}
           {lesson.medium.map((medium) => <span key={medium}>{medium}</span>)}
         </div>
+        <p className="heading-materials"><strong>Have ready:</strong> {lesson.materials.join(" · ")}</p>
       </header>
 
       <section className="lesson-section warmup-section" aria-labelledby="warmup-heading">
@@ -107,8 +104,9 @@ function LessonContent({ lesson }: { lesson: Lesson }) {
         <div>
           <p className="eyebrow">{lesson.exercise.durationMinutes} minutes · {lesson.exercise.source.replaceAll("-", " ")}</p>
           <h2 id="exercise-heading">Your drawing</h2>
-          <p>{lesson.exercise.instructions}</p>
-          <p className="materials"><strong>Gather:</strong> {lesson.materials.join(" · ")}</p>
+          <div className="exercise-steps">
+            {lesson.exercise.instructions.split(/\n+/).map((step, index) => <p key={`${index}-${step}`}>{step}</p>)}
+          </div>
         </div>
       </section>
 
@@ -187,7 +185,7 @@ function Navigation({
   );
 }
 
-function CourseApp({ onLock }: { onLock: () => void }) {
+export default function App() {
   const [progress, setProgress] = useState<CourseProgress>(() => loadProgress());
   const [expandedNotes, setExpandedNotes] = useState("");
   const [importMessage, setImportMessage] = useState("");
@@ -285,8 +283,8 @@ function CourseApp({ onLock }: { onLock: () => void }) {
     return (
       <main className="app-shell">
         <p className="eyebrow">Sketchbook Lessons</p>
-        <h1>No lesson fixtures found</h1>
-        <p>Add lesson JSON files to <code>curriculum/lessons</code> to see the course.</p>
+        <h1>No finished lessons found</h1>
+        <p>Published lessons will appear here when production is complete.</p>
       </main>
     );
   }
@@ -302,15 +300,13 @@ function CourseApp({ onLock }: { onLock: () => void }) {
           <span>Sketchbook lessons</span>
         </a>
         <p className="quiet-note">A personal drawing practice</p>
-        <button type="button" className="header-lock-button" onClick={onLock} aria-label="Lock course">
-          Lock
-        </button>
       </header>
 
       <section id="top" className="course-overview" aria-label="Course progress">
         <div>
           <p className="eyebrow">A small study for today</p>
-          <p className="progress-copy">Lesson {currentIndex + 1} of {lessons.length}<span aria-hidden="true"> · </span>{completedCount} completed</p>
+          <p className="progress-copy">Lesson {currentIndex + 1} of {lessons.length} available<span aria-hidden="true"> · </span>{completedCount} completed</p>
+          <p className="planned-copy">Lessons {lessons.length + 1}–{plannedLessonCount} planned</p>
         </div>
         <progress value={completedCount} max={lessons.length} aria-label={`${completedCount} of ${lessons.length} lessons completed`} />
       </section>
@@ -370,13 +366,5 @@ function CourseApp({ onLock }: { onLock: () => void }) {
         <p>Take what helps. Leave room for your own way of seeing.</p>
       </footer>
     </main>
-  );
-}
-
-export default function App({ passwordHash = import.meta.env.VITE_COURSE_PASSWORD_HASH }: AppProps) {
-  return (
-    <PasswordGate hash={passwordHash}>
-      {(lock) => <CourseApp onLock={lock} />}
-    </PasswordGate>
   );
 }

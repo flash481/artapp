@@ -1,0 +1,167 @@
+{
+  "schema_version": "1.0",
+  "required_flower_lesson_ids": [
+    "lesson-04",
+    "lesson-16",
+    "lesson-34"
+  ],
+  "optional_flower_lesson_ids": [
+    "lesson-66"
+  ],
+  "plant_natural_form_lesson_ids": [
+    "lesson-03",
+    "lesson-04",
+    "lesson-10",
+    "lesson-19",
+    "lesson-21",
+    "lesson-27",
+    "lesson-31",
+    "lesson-59",
+    "lesson-70"
+  ],
+  "landscape_lesson_ids": [
+    "lesson-11",
+    "lesson-25",
+    "lesson-26",
+    "lesson-29",
+    "lesson-35",
+    "lesson-36",
+    "lesson-44",
+    "lesson-46",
+    "lesson-56",
+    "lesson-60",
+    "lesson-67",
+    "lesson-68",
+    "lesson-70"
+  ],
+  "stylized_lesson_ids": [
+    "lesson-12",
+    "lesson-28",
+    "lesson-53",
+    "lesson-64"
+  ],
+  "portrait_figure_lesson_ids": [
+    "lesson-37",
+    "lesson-38",
+    "lesson-39",
+    "lesson-40",
+    "lesson-41",
+    "lesson-42",
+    "lesson-45",
+    "lesson-47",
+    "lesson-48",
+    "lesson-50",
+    "lesson-51",
+    "lesson-52",
+    "lesson-54",
+    "lesson-58",
+    "lesson-69",
+    "lesson-70"
+  ],
+  "subject_family_counts": {
+    "objects-still-life": 21,
+    "natural-forms": 11,
+    "environment": 14,
+    "stylized": 4,
+    "people": 17,
+    "master-study": 2,
+    "learner-choice": 3
+  },
+  "subject_family_lesson_ids": {
+    "objects-still-life": [
+      "lesson-01",
+      "lesson-02",
+      "lesson-05",
+      "lesson-06",
+      "lesson-07",
+      "lesson-08",
+      "lesson-09",
+      "lesson-13",
+      "lesson-14",
+      "lesson-15",
+      "lesson-18",
+      "lesson-20",
+      "lesson-22",
+      "lesson-23",
+      "lesson-24",
+      "lesson-30",
+      "lesson-43",
+      "lesson-57",
+      "lesson-62",
+      "lesson-63",
+      "lesson-65"
+    ],
+    "natural-forms": [
+      "lesson-03",
+      "lesson-04",
+      "lesson-10",
+      "lesson-16",
+      "lesson-19",
+      "lesson-21",
+      "lesson-27",
+      "lesson-31",
+      "lesson-34",
+      "lesson-59",
+      "lesson-66"
+    ],
+    "environment": [
+      "lesson-11",
+      "lesson-17",
+      "lesson-25",
+      "lesson-26",
+      "lesson-29",
+      "lesson-32",
+      "lesson-35",
+      "lesson-36",
+      "lesson-44",
+      "lesson-46",
+      "lesson-56",
+      "lesson-60",
+      "lesson-67",
+      "lesson-68"
+    ],
+    "stylized": [
+      "lesson-12",
+      "lesson-28",
+      "lesson-53",
+      "lesson-64"
+    ],
+    "people": [
+      "lesson-33",
+      "lesson-37",
+      "lesson-38",
+      "lesson-39",
+      "lesson-40",
+      "lesson-41",
+      "lesson-42",
+      "lesson-45",
+      "lesson-47",
+      "lesson-48",
+      "lesson-50",
+      "lesson-51",
+      "lesson-52",
+      "lesson-54",
+      "lesson-58",
+      "lesson-69",
+      "lesson-70"
+    ],
+    "master-study": [
+      "lesson-49",
+      "lesson-55"
+    ],
+    "learner-choice": [
+      "lesson-61",
+      "lesson-71",
+      "lesson-72"
+    ]
+  },
+  "project_lesson_ids": [
+    "lesson-24",
+    "lesson-36",
+    "lesson-48",
+    "lesson-59",
+    "lesson-60",
+    "lesson-68",
+    "lesson-72"
+  ]
+}

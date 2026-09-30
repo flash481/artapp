@@ -1,0 +1,17 @@
+{
+  "schema_version": "1.0",
+  "asset_id": "fixture-negative-space",
+  "file": "public/assets/diagrams/negative-space.svg",
+  "category": "diagram",
+  "title": "Notice the negative spaces",
+  "alt_text": "Two simple desk objects with pale blue negative spaces marked between and around them.",
+  "caption": "The blue areas are shapes you can observe and compare.",
+  "provenance": {
+    "origin": "original",
+    "creator_or_model": "Personal art course fixture",
+    "rights_basis": "original",
+    "license_or_attribution": "project-created"
+  },
+  "distribution": "deployable_after_review",
+  "review_notes": "Deterministic teaching diagram made for app testing. It is a legacy fixture asset copied from public/ into the build; no source-book illustration was copied."
+}

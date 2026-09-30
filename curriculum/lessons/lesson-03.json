@@ -1,0 +1,55 @@
+{
+  "id": "lesson-03",
+  "title": "Shapes around a plant",
+  "durationMinutes": 45,
+  "difficulty": "beginner",
+  "medium": ["graphite"],
+  "materials": ["graphite pencil", "eraser", "sketchbook"],
+  "lessonType": "lesson",
+  "fundamentals": {
+    "primary": ["observation"],
+    "secondary": []
+  },
+  "concepts": [
+    { "id": "negative-space", "name": "Negative space and surrounding shapes", "stage": "introduced" },
+    { "id": "observation-perception", "name": "Observation and perception", "stage": "revisited" }
+  ],
+  "prerequisites": ["lesson-02"],
+  "objective": "Use the shapes of gaps around a potted plant to check and correct its organic silhouette.",
+  "warmup": {
+    "durationMinutes": 7,
+    "instructions": "Set a potted plant against a simple background. Before drawing any leaves, find two clear gaps between or around its leaves and pot. Sketch each gap as its own small shape, then compare their widths and angles with what you see."
+  },
+  "explanation": [
+    "The open spaces around and between the plant are shapes you can observe too. Each gap has its own outline, angle, and width; comparing those shapes can make an irregular silhouette easier to place than copying leaf symbols from memory.",
+    "Start with a few large gaps, then use their edges to place nearby leaves, stems, and the pot. Add small details only after the main plant shape reads clearly."
+  ],
+  "visuals": [],
+  "exercise": {
+    "durationMinutes": 35,
+    "instructions": "1. Place a potted plant against a simple background and choose a view that shows the pot and a few separate leaves. Keep this viewpoint steady. (3 min)\n2. Lightly mark the plant's overall top, bottom, left, and right limits so the full silhouette fits on the page. Do not draw individual leaves yet. (4 min)\n3. Find three large gaps: one or two between leaves and one around the foliage or pot. Draw each empty shape by following its edges. Lightly hatch inside the gaps so they are easy to compare with the plant. (12 min)\n4. Use the gap boundaries to place the nearby leaves and stems, then add the pot. Check whether the angles and widths of those spaces still match the plant as you draw. (11 min)\n5. Choose the one gap that looks least like the observed space. Adjust the leaf or pot edges around it, then add only a few defining details to make the plant recognizable. (5 min)",
+    "source": "from-life",
+    "subjectType": "potted plant from life"
+  },
+  "artistReferences": [],
+  "bookReferences": [
+    {
+      "sourceId": "edwards-right-side-brain",
+      "pages": "PDF pp. 155–179",
+      "note": "Source concept: edwards-right-side-brain-concept-03, negative spaces describe positive forms. The source applies surrounding gaps to clarify a form; this lesson adapts that observation to a potted plant from life."
+    },
+    {
+      "sourceId": "dodson-keys-to-drawing",
+      "pages": "Printed pp. 10–39, chapter 1; the first project and line examples are on pp. 10–15",
+      "note": "Source concept: dodson-keys-to-drawing-concept-01, drawing as looking, making, and critical review. Compare observed spaces and plant edges, then choose one visible correction."
+    }
+  ],
+  "reflection": [
+    "Which gap shape differed most from the space you observed?",
+    "Which nearby leaf, stem, or pot edge did that gap help you place or correct?"
+  ],
+  "extension": "Repeat the gap-first study from another viewpoint, using the same plant and checking which surrounding shapes change.",
+  "scaffoldingLevel": "high",
+  "status": "published",
+  "label": ""
+}

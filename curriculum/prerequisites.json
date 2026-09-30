@@ -1,0 +1,384 @@
+{
+  "schema_version": "1.0",
+  "policy": "An anchor lesson supplies a useful prior experience; earlier drawing remains available without mastery gates.",
+  "concept_edges": [
+    {
+      "from": "observation-perception",
+      "to": "edges-contour"
+    },
+    {
+      "from": "observation-perception",
+      "to": "proportion-measurement"
+    },
+    {
+      "from": "observation-perception",
+      "to": "negative-space"
+    },
+    {
+      "from": "gesture-action",
+      "to": "figure-structure-anatomy"
+    },
+    {
+      "from": "form-volume",
+      "to": "figure-structure-anatomy"
+    },
+    {
+      "from": "proportion-measurement",
+      "to": "head-portrait-construction"
+    },
+    {
+      "from": "form-volume",
+      "to": "head-portrait-construction"
+    },
+    {
+      "from": "gesture-action",
+      "to": "hands-extremities"
+    },
+    {
+      "from": "form-volume",
+      "to": "hands-extremities"
+    },
+    {
+      "from": "observation-perception",
+      "to": "form-volume"
+    },
+    {
+      "from": "form-volume",
+      "to": "perspective-space"
+    },
+    {
+      "from": "figure-structure-anatomy",
+      "to": "drapery-clothing"
+    },
+    {
+      "from": "observation-perception",
+      "to": "value-light-shadow"
+    },
+    {
+      "from": "value-light-shadow",
+      "to": "depth-atmosphere"
+    },
+    {
+      "from": "perspective-space",
+      "to": "depth-atmosphere"
+    },
+    {
+      "from": "mark-making-line-quality",
+      "to": "texture-surface"
+    },
+    {
+      "from": "value-light-shadow",
+      "to": "texture-surface"
+    },
+    {
+      "from": "value-light-shadow",
+      "to": "color-media"
+    },
+    {
+      "from": "composition-framing",
+      "to": "visual-hierarchy-focal-path"
+    },
+    {
+      "from": "value-light-shadow",
+      "to": "visual-hierarchy-focal-path"
+    },
+    {
+      "from": "composition-framing",
+      "to": "narrative-staging"
+    },
+    {
+      "from": "gesture-action",
+      "to": "narrative-staging"
+    },
+    {
+      "from": "form-volume",
+      "to": "stylized-character-construction"
+    }
+  ],
+  "lesson_edges": [
+    {
+      "from": "lesson-01",
+      "to": "lesson-02"
+    },
+    {
+      "from": "lesson-02",
+      "to": "lesson-03"
+    },
+    {
+      "from": "lesson-03",
+      "to": "lesson-04"
+    },
+    {
+      "from": "lesson-02",
+      "to": "lesson-05"
+    },
+    {
+      "from": "lesson-03",
+      "to": "lesson-06"
+    },
+    {
+      "from": "lesson-06",
+      "to": "lesson-07"
+    },
+    {
+      "from": "lesson-04",
+      "to": "lesson-08"
+    },
+    {
+      "from": "lesson-08",
+      "to": "lesson-09"
+    },
+    {
+      "from": "lesson-08",
+      "to": "lesson-10"
+    },
+    {
+      "from": "lesson-06",
+      "to": "lesson-11"
+    },
+    {
+      "from": "lesson-08",
+      "to": "lesson-12"
+    },
+    {
+      "from": "lesson-04",
+      "to": "lesson-13"
+    },
+    {
+      "from": "lesson-07",
+      "to": "lesson-14"
+    },
+    {
+      "from": "lesson-08",
+      "to": "lesson-15"
+    },
+    {
+      "from": "lesson-10",
+      "to": "lesson-16"
+    },
+    {
+      "from": "lesson-11",
+      "to": "lesson-17"
+    },
+    {
+      "from": "lesson-17",
+      "to": "lesson-18"
+    },
+    {
+      "from": "lesson-15",
+      "to": "lesson-19"
+    },
+    {
+      "from": "lesson-14",
+      "to": "lesson-20"
+    },
+    {
+      "from": "lesson-16",
+      "to": "lesson-21"
+    },
+    {
+      "from": "lesson-18",
+      "to": "lesson-22"
+    },
+    {
+      "from": "lesson-21",
+      "to": "lesson-23"
+    },
+    {
+      "from": "lesson-23",
+      "to": "lesson-24"
+    },
+    {
+      "from": "lesson-10",
+      "to": "lesson-25"
+    },
+    {
+      "from": "lesson-11",
+      "to": "lesson-26"
+    },
+    {
+      "from": "lesson-23",
+      "to": "lesson-27"
+    },
+    {
+      "from": "lesson-22",
+      "to": "lesson-28"
+    },
+    {
+      "from": "lesson-26",
+      "to": "lesson-29"
+    },
+    {
+      "from": "lesson-24",
+      "to": "lesson-30"
+    },
+    {
+      "from": "lesson-16",
+      "to": "lesson-31"
+    },
+    {
+      "from": "lesson-18",
+      "to": "lesson-32"
+    },
+    {
+      "from": "lesson-20",
+      "to": "lesson-33"
+    },
+    {
+      "from": "lesson-16",
+      "to": "lesson-34"
+    },
+    {
+      "from": "lesson-30",
+      "to": "lesson-35"
+    },
+    {
+      "from": "lesson-35",
+      "to": "lesson-36"
+    },
+    {
+      "from": "lesson-25",
+      "to": "lesson-37"
+    },
+    {
+      "from": "lesson-22",
+      "to": "lesson-38"
+    },
+    {
+      "from": "lesson-38",
+      "to": "lesson-39"
+    },
+    {
+      "from": "lesson-39",
+      "to": "lesson-40"
+    },
+    {
+      "from": "lesson-37",
+      "to": "lesson-41"
+    },
+    {
+      "from": "lesson-37",
+      "to": "lesson-42"
+    },
+    {
+      "from": "lesson-31",
+      "to": "lesson-43"
+    },
+    {
+      "from": "lesson-36",
+      "to": "lesson-44"
+    },
+    {
+      "from": "lesson-40",
+      "to": "lesson-45"
+    },
+    {
+      "from": "lesson-36",
+      "to": "lesson-46"
+    },
+    {
+      "from": "lesson-45",
+      "to": "lesson-47"
+    },
+    {
+      "from": "lesson-47",
+      "to": "lesson-48"
+    },
+    {
+      "from": "lesson-24",
+      "to": "lesson-49"
+    },
+    {
+      "from": "lesson-42",
+      "to": "lesson-50"
+    },
+    {
+      "from": "lesson-42",
+      "to": "lesson-51"
+    },
+    {
+      "from": "lesson-42",
+      "to": "lesson-52"
+    },
+    {
+      "from": "lesson-42",
+      "to": "lesson-53"
+    },
+    {
+      "from": "lesson-45",
+      "to": "lesson-54"
+    },
+    {
+      "from": "lesson-49",
+      "to": "lesson-55"
+    },
+    {
+      "from": "lesson-44",
+      "to": "lesson-56"
+    },
+    {
+      "from": "lesson-24",
+      "to": "lesson-57"
+    },
+    {
+      "from": "lesson-47",
+      "to": "lesson-58"
+    },
+    {
+      "from": "lesson-54",
+      "to": "lesson-59"
+    },
+    {
+      "from": "lesson-57",
+      "to": "lesson-60"
+    },
+    {
+      "from": "lesson-60",
+      "to": "lesson-61"
+    },
+    {
+      "from": "lesson-61",
+      "to": "lesson-62"
+    },
+    {
+      "from": "lesson-62",
+      "to": "lesson-63"
+    },
+    {
+      "from": "lesson-52",
+      "to": "lesson-64"
+    },
+    {
+      "from": "lesson-61",
+      "to": "lesson-65"
+    },
+    {
+      "from": "lesson-60",
+      "to": "lesson-66"
+    },
+    {
+      "from": "lesson-60",
+      "to": "lesson-67"
+    },
+    {
+      "from": "lesson-67",
+      "to": "lesson-68"
+    },
+    {
+      "from": "lesson-48",
+      "to": "lesson-69"
+    },
+    {
+      "from": "lesson-68",
+      "to": "lesson-70"
+    },
+    {
+      "from": "lesson-70",
+      "to": "lesson-71"
+    },
+    {
+      "from": "lesson-71",
+      "to": "lesson-72"
+    }
+  ]
+}

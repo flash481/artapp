@@ -1,0 +1,50 @@
+{
+  "id": "lesson-01",
+  "title": "Your first drawing",
+  "durationMinutes": 45,
+  "difficulty": "beginner",
+  "medium": ["graphite"],
+  "materials": ["graphite pencil", "eraser", "sketchbook"],
+  "lessonType": "lesson",
+  "fundamentals": {
+    "primary": ["observation", "reflection"],
+    "secondary": ["line-shape"]
+  },
+  "concepts": [
+    { "id": "observation-perception", "name": "Observation and perception", "stage": "introduced" },
+    { "id": "practice-reflection", "name": "Practice process and reflection", "stage": "introduced" }
+  ],
+  "prerequisites": [],
+  "objective": "Draw a mug from observation, keep the first attempt as a baseline, and use one visible relationship to guide a second drawing.",
+  "warmup": {
+    "durationMinutes": 7,
+    "instructions": "Use the same mug and viewpoint for both sketches. Look for 30 seconds, then draw a tiny mug in a small box for 2 minutes. Pause and compare its height with its width or the opening of its handle. Make a second 2-minute sketch, changing just one relationship. Circle the difference you noticed."
+  },
+  "explanation": [
+    "Keep your first drawing as a record of what you noticed at the start. Compare it with the mug and choose one visible relationship to improve, such as the mug's height against its width, the tilt of its rim, or the shape inside the handle.",
+    "Make the second drawing beside the first and test that one change. The aim is to look, draw, compare, and try again—not to produce a polished mug."
+  ],
+  "visuals": [],
+  "exercise": {
+    "durationMinutes": 35,
+    "instructions": "1. Set one mug where you can see its rim, body, and handle. Choose a comfortable viewpoint and keep it for both drawings. (3 min)\n2. Look before drawing. Lightly make a recognizable first drawing, placing the mug on the page and describing its large outline, rim, and handle opening. Keep this attempt; do not erase it. (11 min)\n3. Compare the drawing with the mug. Choose one mismatch you can see, such as the body being too wide, the rim tilting differently, or the handle opening being too small. Write a short note beside the first drawing. (5 min)\n4. In a fresh space, draw the mug again. Keep the same viewpoint and focus on correcting only the relationship you chose; use the mug to check the rest as you go. (12 min)\n5. Look between the mug and both drawings. Mark the part that changed and note one relationship you want to watch in your next drawing. (4 min)",
+    "source": "from-life",
+    "subjectType": "mug from life"
+  },
+  "artistReferences": [],
+  "bookReferences": [
+    {
+      "sourceId": "dodson-keys-to-drawing",
+      "pages": "Printed pp. 10–39, chapter 1; the first project and line examples are on pp. 10–15",
+      "note": "Source concept: dodson-keys-to-drawing-concept-01, drawing as looking, making, and critical review. Adapted source exercise: dodson-keys-to-drawing-exercise-02, first observed drawing followed by a separate restatement focused on one mismatch (Printed pp. 10–39, chapter 1)."
+    }
+  ],
+  "reflection": [
+    "Which visible relationship did you choose to improve in the second drawing?",
+    "What changed between your first and second drawings when you checked the mug?"
+  ],
+  "extension": "Draw the same mug from a new viewpoint and ask the same question: which visible relationship will you check first?",
+  "scaffoldingLevel": "high",
+  "status": "published",
+  "label": ""
+}
