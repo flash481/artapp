@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0",
+  "asset_id": "lesson-06-crop-thumbnails-exercise",
+  "file": "public/assets/diagrams/lesson-06-crop-thumbnails-exercise.svg",
+  "category": "diagram",
+  "title": "Compare three thumbnails",
+  "alt_text": "Three rough thumbnail frames show the mug and book with different margins and a shifted crop; a larger selected frame below demonstrates carrying the chosen crop into a simple drawing.",
+  "caption": "Compare big shapes and gaps before adding identifying details.",
+  "created_on": "2026-09-30",
+  "provenance": {
+    "origin": "original",
+    "creator_or_model": "Codex; deterministic SVG paths authored for this course",
+    "work_title": "Compare three thumbnails",
+    "creation_date_or_period": "2026-09-30",
+    "rights_basis": "original",
+    "license_or_attribution": "Original course asset. No source-book illustration was used."
+  },
+  "distribution": "deployable_after_review",
+  "review_notes": "Portrait SVG with labels sized for a 390 px phone viewport; review in the app before release."
+}

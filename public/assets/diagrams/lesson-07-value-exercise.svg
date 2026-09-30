@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 790" role="img" aria-labelledby="title desc">
+  <title id="title">Build a fruit drawing in four passes</title>
+  <desc id="desc">Four stages show fixing the setup and crop, comparing fruit and cast shadow, grouping three broad values, and correcting one observed mismatch.</desc>
+  <defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0 10 5 0 10z" fill="#237680"/></marker></defs>
+  <rect width="480" height="790" rx="20" fill="#fbf8f0"/>
+  <text x="240" y="42" fill="#33413b" font-family="system-ui,sans-serif" font-size="25" font-weight="700" text-anchor="middle">Observe, group, correct</text>
+  <rect x="24" y="66" width="432" height="150" rx="14" fill="#f4f0e6"/>
+  <circle cx="69" cy="115" r="16" fill="#f1d58f" stroke="#33413b" stroke-width="3"/>
+  <path d="M85 126 125 151" stroke="#237680" stroke-width="3" stroke-dasharray="6 6"/>
+  <path d="M145 120c-17-15-38-4-38 24s16 37 38 35c23 2 39-7 39-35s-21-39-39-24z" fill="#f4efdd" stroke="#33413b" stroke-width="3"/>
+  <ellipse cx="192" cy="192" rx="57" ry="8" fill="#58493d"/>
+  <text x="267" y="108" fill="#33413b" font-family="system-ui,sans-serif" font-size="20" font-weight="700">1 · Hold the setup</text>
+  <text x="267" y="139" fill="#53635b" font-family="system-ui,sans-serif" font-size="17">Lamp + fruit stay put.</text>
+  <text x="267" y="165" fill="#53635b" font-family="system-ui,sans-serif" font-size="17">Frame fruit + shadow.</text>
+  <rect x="24" y="228" width="432" height="150" rx="14" fill="#f4f0e6"/>
+  <path d="M124 268c-20-17-47-3-47 28 0 27 17 39 47 36 31 3 48-9 48-36 0-31-27-45-48-28z" fill="none" stroke="#33413b" stroke-width="3"/>
+  <path d="M163 333q47-12 91 5q-27 13-76 8z" fill="#58493d"/>
+  <line x1="93" y1="258" x2="93" y2="345" stroke="#bc6b4e" stroke-width="2"/>
+  <line x1="85" y1="258" x2="101" y2="258" stroke="#bc6b4e" stroke-width="2"/>
+  <line x1="85" y1="345" x2="101" y2="345" stroke="#bc6b4e" stroke-width="2"/>
+  <text x="240" y="270" fill="#33413b" font-family="system-ui,sans-serif" font-size="20" font-weight="700">2 · Measure big shapes</text>
+  <text x="240" y="301" fill="#53635b" font-family="system-ui,sans-serif" font-size="17">Compare height / width.</text>
+  <text x="240" y="328" fill="#53635b" font-family="system-ui,sans-serif" font-size="17">Note shadow direction.</text>
+  <text x="240" y="354" fill="#53635b" font-family="system-ui,sans-serif" font-size="17">Keep lines light.</text>
+  <rect x="24" y="390" width="432" height="168" rx="14" fill="#f4f0e6"/>
+  <path d="M128 431c-20-17-47-3-47 28 0 27 17 39 47 36 31 3 48-9 48-36 0-31-27-45-48-28z" fill="#c19b68" stroke="#33413b" stroke-width="3"/>
+  <path d="M128 431c-16-12-35-6-42 9-6 12-2 29 6 39 6 8 16 13 36 15z" fill="#f4efdd"/>
+  <path d="M128 431c16-12 35-6 42 9 6 12 2 29-6 39-6 8-16 13-36 15z" fill="#58493d"/>
+  <path d="M164 520q42-11 85 5q-28 12-73 7z" fill="#58493d"/>
+  <text x="260" y="431" fill="#33413b" font-family="system-ui,sans-serif" font-size="20" font-weight="700">3 · Group values</text>
+  <text x="260" y="463" fill="#53635b" font-family="system-ui,sans-serif" font-size="17">Squint; name 3 groups.</text>
+  <text x="260" y="490" fill="#53635b" font-family="system-ui,sans-serif" font-size="17">Paper can stay light.</text>
+  <text x="260" y="517" fill="#53635b" font-family="system-ui,sans-serif" font-size="17">Keep groups broad.</text>
+  <rect x="24" y="570" width="432" height="160" rx="14" fill="#f4f0e6"/>
+  <path d="M83 614c-17-15-38-4-38 24s16 37 38 35c23 2 39-7 39-35s-21-39-39-24z" fill="#c19b68" stroke="#33413b" stroke-width="3"/>
+  <path d="M83 614c-13-10-26-4-31 8-5 11-2 25 5 34 5 6 13 11 27 12z" fill="#f4efdd"/>
+  <path d="M83 614c13-10 26-4 31 8 5 11 2 25-5 34-5 6-13 11-27 12z" fill="#58493d"/>
+  <path d="M139 670h48" stroke="#237680" stroke-width="3" marker-end="url(#arrow)"/>
+  <text x="205" y="618" fill="#33413b" font-family="system-ui,sans-serif" font-size="20" font-weight="700">4 · Look back</text>
+  <text x="205" y="650" fill="#53635b" font-family="system-ui,sans-serif" font-size="17">Find one mismatch.</text>
+  <text x="205" y="677" fill="#53635b" font-family="system-ui,sans-serif" font-size="17">Correct an edge or value.</text>
+  <text x="240" y="766" fill="#53635b" font-family="system-ui,sans-serif" font-size="17" text-anchor="middle">Stop before texture and tiny highlights.</text>
+</svg>

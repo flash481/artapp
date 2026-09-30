@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0",
+  "asset_id": "lesson-02-two-contour-passes",
+  "file": "public/assets/diagrams/lesson-02-two-contour-passes.svg",
+  "category": "diagram",
+  "title": "Restate one shoe contour",
+  "alt_text": "Two shoe drawings show the first outline kept on the page, one toe turn circled, and a second outline with a visibly different toe angle while other parts remain a rough first pass.",
+  "caption": "Correct the turn you observe, then check the rest of the shoe.",
+  "created_on": "2026-09-30",
+  "provenance": {
+    "origin": "original",
+    "creator_or_model": "Codex; deterministic SVG paths authored for this course",
+    "work_title": "Restate one shoe contour",
+    "creation_date_or_period": "2026-09-30",
+    "rights_basis": "original",
+    "license_or_attribution": "Original course asset. No source-book image was used."
+  },
+  "distribution": "deployable_after_review",
+  "review_notes": "Portrait teaching diagram with short labels for phone viewing. Original schematic, not a target shoe; review in the app before release."
+}

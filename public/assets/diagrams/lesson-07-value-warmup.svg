@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 660" role="img" aria-labelledby="title desc">
+  <title id="title">Seven-minute value warm-up</title>
+  <desc id="desc">Three short stages set the fruit and lamp, group broad light, middle, and dark areas, then squint at the thumbnail to check the groups.</desc>
+  <rect width="480" height="660" rx="20" fill="#fbf8f0"/>
+  <text x="240" y="42" fill="#33413b" font-family="system-ui,sans-serif" font-size="25" font-weight="700" text-anchor="middle">Seven-minute warm-up</text>
+  <text x="240" y="72" fill="#53635b" font-family="system-ui,sans-serif" font-size="18" text-anchor="middle">Small view · steady lamp</text>
+  <rect x="24" y="96" width="432" height="158" rx="14" fill="#f4f0e6"/>
+  <circle cx="70" cy="148" r="18" fill="#f1d58f" stroke="#33413b" stroke-width="3"/>
+  <path d="M88 159 136 183" stroke="#237680" stroke-width="3" stroke-dasharray="6 6"/>
+  <path d="M154 153c-13-13-27-9-32 0 11 2 20 4 32 0 11-5 20-3 26 1-2-10-15-15-26-1z" fill="#665748"/>
+  <path d="M154 173c-26-20-59-1-58 33 1 27 18 40 59 38 41 2 58-11 59-38 1-34-33-53-60-33z" fill="#f4efdd" stroke="#33413b" stroke-width="3"/>
+  <ellipse cx="218" cy="244" rx="61" ry="8" fill="#58493d"/>
+  <text x="286" y="135" fill="#33413b" font-family="system-ui,sans-serif" font-size="20" font-weight="700">1 · Fix the view</text>
+  <text x="286" y="166" fill="#53635b" font-family="system-ui,sans-serif" font-size="18">Fruit stays put.</text>
+  <text x="286" y="193" fill="#53635b" font-family="system-ui,sans-serif" font-size="18">Keep lamp fixed.</text>
+  <text x="286" y="220" fill="#53635b" font-family="system-ui,sans-serif" font-size="18">Frame its shadow.</text>
+  <rect x="24" y="270" width="432" height="176" rx="14" fill="#f4f0e6"/>
+  <path d="M113 322c-24-20-55-3-55 34 0 30 20 44 55 41 35 3 55-11 55-41 0-37-31-54-55-34z" fill="#c19b68" stroke="#33413b" stroke-width="3"/>
+  <path d="M113 322c-19-14-40-6-48 10-7 14-3 35 7 47 8 10 18 15 41 18z" fill="#f4efdd"/>
+  <path d="M113 322c19-14 40-6 48 10 7 14 3 35-7 47-8 10-18 15-41 18z" fill="#58493d"/>
+  <ellipse cx="185" cy="414" rx="54" ry="8" fill="#58493d"/>
+  <text x="263" y="310" fill="#33413b" font-family="system-ui,sans-serif" font-size="20" font-weight="700">2 · Group broad areas</text>
+  <text x="263" y="343" fill="#53635b" font-family="system-ui,sans-serif" font-size="18">Three groups</text>
+  <text x="263" y="371" fill="#53635b" font-family="system-ui,sans-serif" font-size="18">Use broad marks.</text>
+  <text x="263" y="399" fill="#53635b" font-family="system-ui,sans-serif" font-size="18">Shadow stays joined.</text>
+  <rect x="24" y="462" width="432" height="164" rx="14" fill="#f4f0e6"/>
+  <rect x="55" y="494" width="47" height="65" fill="#f4efdd" stroke="#33413b" stroke-width="2"/>
+  <rect x="102" y="494" width="47" height="65" fill="#c19b68" stroke="#33413b" stroke-width="2"/>
+  <rect x="149" y="494" width="47" height="65" fill="#58493d" stroke="#33413b" stroke-width="2"/>
+  <text x="78" y="588" fill="#33413b" font-family="system-ui,sans-serif" font-size="17" text-anchor="middle">L</text>
+  <text x="125" y="588" fill="#33413b" font-family="system-ui,sans-serif" font-size="17" text-anchor="middle">M</text>
+  <text x="172" y="588" fill="#33413b" font-family="system-ui,sans-serif" font-size="17" text-anchor="middle">D</text>
+  <text x="234" y="512" fill="#33413b" font-family="system-ui,sans-serif" font-size="20" font-weight="700">3 · Squint to check</text>
+  <text x="234" y="545" fill="#53635b" font-family="system-ui,sans-serif" font-size="18">Can you still name</text>
+  <text x="234" y="572" fill="#53635b" font-family="system-ui,sans-serif" font-size="18">all three groups?</text>
+  <text x="240" y="645" fill="#53635b" font-family="system-ui,sans-serif" font-size="17" text-anchor="middle">Match your fruit; this is only a guide.</text>
+</svg>

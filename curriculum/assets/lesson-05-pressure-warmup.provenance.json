@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0",
+  "asset_id": "lesson-05-pressure-warmup",
+  "file": "public/assets/diagrams/lesson-05-pressure-warmup.svg",
+  "category": "diagram",
+  "title": "One edge, three pressures",
+  "alt_text": "A small book corner sits above three repeated graphite strokes labeled light, medium, and firm, showing pressure changes darkness and width without changing the line's direction.",
+  "caption": "Trace one observed edge three times in six minutes.",
+  "created_on": "2026-09-30",
+  "provenance": {
+    "origin": "original",
+    "creator_or_model": "Codex; deterministic SVG paths authored for this course",
+    "work_title": "One edge, three pressures",
+    "creation_date_or_period": "2026-09-30",
+    "rights_basis": "original",
+    "license_or_attribution": "Original course asset. No source-book illustration was used."
+  },
+  "distribution": "deployable_after_review",
+  "review_notes": "Portrait SVG with labels sized for a 390 px phone viewport; review in the app before release."
+}

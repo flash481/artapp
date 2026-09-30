@@ -10,6 +10,14 @@ describe("lesson app", () => {
     expect(screen.queryByLabelText("Password")).toBeNull();
     expect(screen.queryByText("DEVELOPMENT FIXTURE — NOT FINAL CURRICULUM")).toBeNull();
     expect(screen.getByText("Lessons 10–72 planned")).toBeTruthy();
+    expect(screen.getByText("Go deeper")).toBeTruthy();
+    expect(screen.getByText("Sources & further reading")).toBeTruthy();
+    expect(screen.getByRole("heading", { name: "Self-check" })).toBeTruthy();
+    expect(screen.getByRole("heading", { name: "Common mistakes" })).toBeTruthy();
+    const deeper = screen.getByText("Go deeper").closest("details");
+    expect(deeper?.open).toBe(false);
+    fireEvent.click(screen.getByText("Go deeper"));
+    expect(deeper?.open).toBe(true);
 
     fireEvent.click(screen.getByRole("button", { name: "Lesson 2: Follow an edge" }));
     expect(await screen.findByRole("heading", { name: "Follow an edge" })).toBeTruthy();
@@ -23,7 +31,7 @@ describe("lesson app", () => {
 
     fireEvent.click(screen.getByRole("button", { name: "Lesson 8: Build a cup from volumes" }));
     expect(await screen.findByRole("heading", { name: "Build a cup from volumes" })).toBeTruthy();
-    expect(screen.getByRole("button", { name: /Enlarge image:/ })).toBeTruthy();
+    expect(screen.getAllByRole("button", { name: /Enlarge image:/ }).length).toBeGreaterThanOrEqual(4);
 
   });
 });

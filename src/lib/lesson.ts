@@ -19,6 +19,29 @@ export interface LessonVisual {
   };
 }
 
+export interface LessonSource {
+  id: string;
+  title: string;
+  author: string;
+  edition: string;
+  pages: string;
+  usedFor: string;
+  sections: Array<"concept" | "deepDive" | "warmup" | "exercise" | "mistakes">;
+  visualInfluence?: string;
+}
+
+export interface LessonTeaching {
+  whyItMatters: string;
+  connections: string;
+  conceptVisuals: LessonVisual[];
+  deepDive: string[];
+  warmupVisuals: LessonVisual[];
+  exerciseVisuals: LessonVisual[];
+  commonMistakes: Array<{ mistake: string; lookFor: string; visual: LessonVisual }>;
+  selfCheck: string[];
+  sources: LessonSource[];
+}
+
 export interface Lesson {
   id: string;
   title: string;
@@ -43,6 +66,8 @@ export interface Lesson {
   artistReferences: string[];
   bookReferences: Array<{ sourceId: string; pages?: string; note?: string }>;
   reflection: string[];
+  teaching?: LessonTeaching;
+  sourceImages?: Array<{ id: string; sourceId: string; page: string; section: string }>;
   extension?: string;
   scaffoldingLevel?: string;
   status: "development-fixture" | "published";

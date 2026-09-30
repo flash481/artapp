@@ -18,29 +18,16 @@
   "objective": "Organize a cup as a cylindrical body and a looped handle, then revise the construction to match what you observe.",
   "warmup": {
     "durationMinutes": 7,
-    "instructions": "Look at your cup and draw one loose cylinder beside it. Add a center axis and top and bottom ellipses; check the angle and width against the cup."
+    "instructions": "Keep a handled cup in one place. Spend four minutes making one loose cylinder guide beside it, with a center axis and top and base ellipses. For the last three minutes, compare the guide's width, rim opening, and side angle with your actual cup; note one correction."
   },
   "explanation": [
-    "A cylinder can be organized with an axis, two ellipses, and side edges. A real cup may taper, so let the observed silhouette decide how its sides change.",
-    "Treat the handle as a separate loop attached at two points. Draw these guides lightly, then look back at the cup and correct their angles, spacing, and connections."
+    "A cylinder can be organized with a center axis, top and base ellipses, and side edges. This is a light starting guide: a real cup may taper or lean, so check each side against the silhouette you see.",
+    "Build the handle as a separate loop. Compare its opening and two attachment points with the cup, then revise the construction before strengthening a few visible edges."
   ],
-  "visuals": [
-    {
-      "src": "assets/diagrams/lesson-08-cup-volumes.svg",
-      "alt": "A cup is built from a top rim ellipse, a cylindrical body with a center axis, a lightly drawn bottom ellipse, and a separate loop handle.",
-      "caption": "Use simple volumes as a first guess, then check every shape against the cup.",
-      "provenance": {
-        "kind": "original-diagram",
-        "source": "Original deterministic SVG made for this lesson.",
-        "creator": "Codex",
-        "license": "project-created",
-        "notes": "Original geometric teaching diagram; no source-book illustration was copied."
-      }
-    }
-  ],
+  "visuals": [],
   "exercise": {
     "durationMinutes": 31,
-    "instructions": "1. Place a cup where you can keep the same view. Choose an angle that shows the opening and handle.\n2. Lightly mark the cup's center axis and compare its overall height and width with the object.\n3. Draw the rim as an observed ellipse. Extend its sides into a cylinder-like body, allowing for any taper you can see; sketch the base ellipse lightly.\n4. Add the handle as a separate loop, placing its two attachments where they meet the cup.\n5. Look back and compare the rim tilt, body width, and handle opening. Correct one mismatch, then strengthen only the visible edges.",
+    "instructions": "1. (4 min) Place a handled cup where you can keep the same view. Choose an angle that shows the opening and handle; compare its overall height and width.\n2. (5 min) Lightly mark a center axis and the cup's outer height. Leave the construction easy to change.\n3. (7 min) Draw the rim as you observe it. Extend the sides into a cylinder-like body, follow any taper, and lightly place the base.\n4. (8 min) Add the handle as a separate loop. Compare its opening and mark both places where it joins the cup.\n5. (5 min) Look back and compare the rim tilt, body taper, and handle spacing. Correct one mismatch against the object.\n6. (2 min) Strengthen only the visible edges; keep useful construction lines pale.",
     "source": "from-life",
     "subjectType": "cup"
   },
@@ -48,13 +35,13 @@
   "bookReferences": [
     {
       "sourceId": "picard-beginning-drawing",
-      "pages": "printed pp. 57–63 (PDF pp. 59–65)",
+      "pages": "Printed pp. 57–63 (PDF pp. 59–65)",
       "note": "Source concept: picard-beginning-drawing-concept-05. Adapt the progression from flat shapes to simple volumes and household objects; draw through lightly before refining. No source exercise ID is assigned to lesson 08 in the map."
     },
     {
       "sourceId": "dodson-keys-to-drawing",
-      "pages": "Printed pp. 128–147, chapter 5; construction example on p. 135",
-      "note": "Source concept: dodson-keys-to-drawing-concept-05. Use construction as a guide for depth and ellipses, then correct it against the observed cup. No source exercise ID is assigned to lesson 08 in the map."
+      "pages": "Printed p. 135 and pp. 144–147",
+      "note": "Printed folios in the supplied scan. Page 135 shows draw-through construction; pp. 144–147 address ellipse openness relative to eye level. Use the construction as a provisional guide and correct it against the cup. No source exercise ID is assigned to lesson 08 in the map."
     }
   ],
   "reflection": [
@@ -65,5 +52,99 @@
   "extension": "Turn the cup to a new angle and make a quick second construction, checking how the rim ellipse and handle opening change.",
   "scaffoldingLevel": "high",
   "status": "published",
-  "label": ""
+  "label": "",
+  "teaching": {
+    "whyItMatters": "A simple volume gives you a way to place the cup in space, while observation keeps the drawing from turning into a generic cylinder.",
+    "connections": "Return to Lesson 4's comparative measurement: check the cup's total height against its width before detailing. The axis and ellipse guide add depth to those proportion checks, and this construction prepares you to compare bowl rims by eye height in Lesson 9.",
+    "conceptVisuals": [
+      {
+        "src": "assets/diagrams/lesson-08-cup-volumes.svg",
+        "alt": "A cup is lightly organized as a cylinder with a top rim ellipse, center axis, base guide, and separate loop handle.",
+        "caption": "Use the volume as a first guess; let the observed cup set its shape.",
+        "provenance": {
+          "kind": "original-diagram",
+          "source": "Original deterministic SVG made for this lesson.",
+          "creator": "Codex",
+          "license": "project-created",
+          "notes": "Original course diagram. No source-book illustration was copied."
+        }
+      }
+    ],
+    "deepDive": [
+      "A cylinder is a useful way to think about a cup's body: a center axis helps keep the sides organized, and elliptical openings suggest the circular rim and base in perspective. Treat that structure as a guide rather than a template. A cup can narrow toward its base, lean slightly, or have a rim that is not perfectly level. Picard's progression from flat shapes to volumes informs this starting construction; the visible silhouette and rim in front of you decide where it needs to change.",
+      "The handle belongs to the same object but has its own looped shape and thickness. Find where it meets the body at the top and bottom, then compare the gap inside the handle with the cup's width. A loop attached in the wrong place can make an otherwise plausible body feel unstable. Dodson's draw-through construction is useful for seeing simple forms as volumes, while the ellipse pages support checking the opening. Keep guides light so a measured correction remains easy."
+    ],
+    "warmupVisuals": [
+      {
+        "src": "assets/diagrams/lesson-08-cup-warmup.svg",
+        "alt": "A light cylinder guide with an axis and ellipses is compared with a real handled cup; short prompts point to taper, handle angle, and rim opening.",
+        "caption": "Construct once, then check the real cup before drawing it.",
+        "provenance": {
+          "kind": "original-diagram",
+          "source": "Original deterministic SVG made for this lesson.",
+          "creator": "Codex",
+          "license": "project-created",
+          "notes": "Original course diagram. No source-book illustration was copied."
+        }
+      }
+    ],
+    "exerciseVisuals": [
+      {
+        "src": "assets/diagrams/lesson-08-cup-exercise.svg",
+        "alt": "Four checks compare cup proportions, construct the tapered body lightly, place the handle loop at two joins, and revise one mismatch.",
+        "caption": "Build only as far as your observations support, then correct one relationship.",
+        "provenance": {
+          "kind": "original-diagram",
+          "source": "Original deterministic SVG made for this lesson.",
+          "creator": "Codex",
+          "license": "project-created",
+          "notes": "Original course diagram. No source-book illustration was copied."
+        }
+      }
+    ],
+    "commonMistakes": [
+      {
+        "mistake": "Keeping a perfect cylinder and guessed handle even when the cup looks different.",
+        "lookFor": "The body sides ignore a visible taper, or the handle's opening and attachment points do not match the observed view.",
+        "visual": {
+          "src": "assets/diagrams/lesson-08-cup-mistake.svg",
+          "alt": "A forced vertical cylinder and guessed handle are contrasted with a checked, tapered cup and two observed handle joins.",
+          "caption": "Use the construction to begin; use the cup to correct it.",
+          "provenance": {
+            "kind": "original-diagram",
+            "source": "Original deterministic SVG made for this lesson.",
+            "creator": "Codex",
+            "license": "project-created",
+            "notes": "Original course diagram. No source-book illustration was copied."
+          }
+        }
+      }
+    ],
+    "selfCheck": [
+      "Does the cup's rim ellipse match the angle you observed?",
+      "Can you see the body volume and the separate handle loop in your drawing?",
+      "Which measured relationship did you correct after looking back at the cup?"
+    ],
+    "sources": [
+      {
+        "id": "picard-beginning-drawing",
+        "title": "Beginning Drawing: A Multidimensional Approach to Learning the Art of Basic Drawing",
+        "author": "Alain Picard",
+        "edition": "2016, Walter Foster Publishing; no edition number stated",
+        "pages": "Printed pp. 57–63 (PDF pp. 59–65)",
+        "usedFor": "The progression from flat shapes to volumes, basic cylinder construction, and drawing through simple forms.",
+        "sections": ["concept", "deepDive", "warmup", "exercise"]
+      },
+      {
+        "id": "dodson-keys-to-drawing",
+        "title": "Keys to Drawing",
+        "author": "Bert Dodson",
+        "edition": "Supplied scan of the 1985 work; first paperback printing 1990, later printing year unverified",
+        "pages": "Printed p. 135 and pp. 144–147",
+        "usedFor": "Draw-through construction on p. 135 and eye-level ellipse openness on pp. 144–147; no specific source exercise is assigned.",
+        "sections": ["concept", "deepDive", "exercise"],
+        "visualInfluence": "The cup, cylinder, and loop are original schematic shapes; no book illustration was copied."
+      }
+    ]
+  }
 }

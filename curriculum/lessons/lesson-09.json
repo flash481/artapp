@@ -18,29 +18,16 @@
   "objective": "Compare how open a bowl rim looks relative to its width from two eye heights, and draw each observed opening.",
   "warmup": {
     "durationMinutes": 7,
-    "instructions": "Keep the bowl fixed. From three eye heights, sketch a rim oval each time. For each one, compare its height with its measured width."
+    "instructions": "Keep the bowl fixed and change only your eye height. In seven minutes, sketch its opening from low, middle, and higher positions. Measure each oval's width and height, then order them from flattest to most open."
   },
   "explanation": [
-    "A circular, horizontal rim looks flatter as your view approaches its plane. From higher above the rim, its ellipse opens up and you see more of the inside. Raising your eye also changes your distance to the bowl slightly, so the apparent width can shift.",
-    "Compare the opening's height with its measured width at each viewpoint. A diagram can suggest the relationship, but real vessels vary; let your observation set the ellipse rather than using a preset ratio."
+    "A circular, horizontal rim looks flatter as your eye approaches the rim plane. From higher above it, the ellipse opens and more of the inside is visible. The apparent width can also shift, so measure each view separately.",
+    "Compare each opening's height with its own measured width. Use that proportion to check the drawing, not as a fixed recipe: let the bowl and your viewpoint set the ellipse."
   ],
-  "visuals": [
-    {
-      "src": "assets/diagrams/lesson-09-eye-level-ellipses.svg",
-      "alt": "Stacked side views show one bowl from lower and higher eye levels. The rim ovals are normalized to equal widths for comparison; the lower view is flatter and the higher view more open.",
-      "caption": "Equal widths are normalized to compare openness; measure the actual rim in each view.",
-      "provenance": {
-        "kind": "original-diagram",
-        "source": "Original deterministic SVG made for this lesson.",
-        "creator": "Codex",
-        "license": "project-created",
-        "notes": "Schematic geometric comparison; no source-book illustration was copied."
-      }
-    }
-  ],
+  "visuals": [],
   "exercise": {
     "durationMinutes": 31,
-    "instructions": "1. Set a bowl on a table and choose a spot. Keep the bowl fixed as you change your eye height.\n2. From a low eye height near the rim's level, draw the bowl's outer shape and opening. Measure the rim's apparent width and height.\n3. Raise your eye and draw the bowl again. Measure the rim width and height at this viewpoint too; notice how much more of the inside you can see.\n4. Compare each ellipse's height with its own measured width. Do not force the widths or proportions to match the diagram.\n5. Check the side walls against the bowl. Correct one observed relationship, then leave both viewpoint studies side by side.",
+    "instructions": "1. (3 min) Set a bowl on a table and choose a steady horizontal viewing position. Keep the bowl fixed as you change eye height.\n2. (6 min) From a low eye height near the rim's level, draw the opening and bowl walls. Measure that rim's apparent width and height.\n3. (6 min) Raise your eye. Draw the new opening and side walls; measure this rim's width and height separately.\n4. (7 min) Compare the two height-to-width relationships. Note which opening looks flatter and how much more of the inside appears from above.\n5. (6 min) Check both bowl contours against life and correct one mismatch in each study if needed.\n6. (3 min) Leave the paired views side by side and label the eye heights.",
     "source": "from-life",
     "subjectType": "bowl from two viewpoints"
   },
@@ -48,13 +35,13 @@
   "bookReferences": [
     {
       "sourceId": "dodson-keys-to-drawing",
-      "pages": "Printed pp. 128–147, chapter 5; construction example on p. 135",
-      "note": "Source concept: dodson-keys-to-drawing-concept-05. Adapt the discussion of eye level and ellipse construction into a comparison of observed bowl rims. No source exercise ID is assigned to lesson 09 in the map."
+      "pages": "Printed pp. 144–147",
+      "note": "Printed folios in the supplied scan. Page 144 discusses eye level and cautions that its eye-level rule applies to vertical cylinders; pp. 145–147 explain ellipse openness as viewing angle changes. The bowl task applies that observation to a horizontal rim without prescribing a fixed ratio."
     },
     {
       "sourceId": "aristides-classical-atelier",
-      "pages": "EPUB, Chapter Three, “The Block In” and “Measuring”",
-      "note": "Source concept: aristides-classical-atelier-concept-02. Use an observational block-in and comparative measurement for each view. The map's concept-01 locator—EPUB Chapter Two, “The Golden Ratio” and “The Golden Ratio in Nature”—was reviewed but not used because it does not support this ellipse exercise. No source exercise ID is assigned to lesson 09 in the map."
+      "pages": "EPUB, Chapter Three, “The Block In” and “Measuring” (reflowable; no stable pages)",
+      "note": "Source concept: aristides-classical-atelier-concept-02. These sections inform the observational block-in and comparative checks for each view. The map's Chapter Two golden-ratio locator was not used because it does not support this ellipse exercise."
     }
   ],
   "reflection": [
@@ -65,5 +52,99 @@
   "extension": "Try the same comparison with a cup from lesson 08. Notice whether its rim and handle openings flatten by similar amounts.",
   "scaffoldingLevel": "high",
   "status": "published",
-  "label": ""
+  "label": "",
+  "teaching": {
+    "whyItMatters": "A rim ellipse is a clue to your viewing angle. Comparing two views helps you draw the bowl you see instead of repeating a memorized oval.",
+    "connections": "Lesson 8 used the cup's rim to construct a cylinder. Here, revisit that ellipse check with a bowl and add Lesson 4's comparative measurement: compare each opening's height with its own width, then connect the rim to the vessel's side walls.",
+    "conceptVisuals": [
+      {
+        "src": "assets/diagrams/lesson-09-eye-level-ellipses.svg",
+        "alt": "Two stacked side views show the same bowl from lower and higher eye heights. Equal-width schematic rim ellipses compare a flatter lower opening with a more open higher one.",
+        "caption": "The diagram normalizes width to show openness; measure your actual bowl in each view.",
+        "provenance": {
+          "kind": "original-diagram",
+          "source": "Original deterministic SVG made for this lesson.",
+          "creator": "Codex",
+          "license": "project-created",
+          "notes": "Original course diagram. No source-book illustration was copied."
+        }
+      }
+    ],
+    "deepDive": [
+      "A circular horizontal rim changes its apparent ellipse as your eye moves above or below the rim plane. Near rim height, the opening looks shallow; above the plane, it appears more open and shows more of the inside. Below the plane, the near rim can hide part of the opening. Dodson's ellipse sequence links openness with view angle and illustrates why a drawn oval needs to match the object's position relative to the viewer. This comparison concerns a bowl resting level on a table; tilted vessels and other planes need their own observation.",
+      "Measure width and height in each drawing rather than copying the first oval or forcing the two widths to match. If you raise your eye while keeping your horizontal position fixed, you also move farther from the bowl, so its apparent width tends to shrink slightly even as the opening gets taller. Use the ratio as a comparison aid, not a preset target. A center axis can help you check whether both sides balance and reveal pointed ends or a slanted oval. Then connect the rim to the side walls you see, and compare the whole contour with the bowl."
+    ],
+    "warmupVisuals": [
+      {
+        "src": "assets/diagrams/lesson-09-ellipse-warmup.svg",
+        "alt": "Three small bowl studies compare flatter, middle, and more open rim sketches as eye height rises; the learner measures each opening independently.",
+        "caption": "Sketch the same opening from three eye heights and compare your measured proportions.",
+        "provenance": {
+          "kind": "original-diagram",
+          "source": "Original deterministic SVG made for this lesson.",
+          "creator": "Codex",
+          "license": "project-created",
+          "notes": "Original course diagram. No source-book illustration was copied."
+        }
+      }
+    ],
+    "exerciseVisuals": [
+      {
+        "src": "assets/diagrams/lesson-09-ellipse-exercise.svg",
+        "alt": "Two bowl studies include the rim, side walls, and base. Each view has its own width and height marks, with one flatter lower opening and one more open higher opening.",
+        "caption": "Draw the whole bowl in each view and measure each rim separately.",
+        "provenance": {
+          "kind": "original-diagram",
+          "source": "Original deterministic SVG made for this lesson.",
+          "creator": "Codex",
+          "license": "project-created",
+          "notes": "Original course diagram. No source-book illustration was copied."
+        }
+      }
+    ],
+    "commonMistakes": [
+      {
+        "mistake": "Copying one oval into both views or drawing a pointed, tilted rim without checking it.",
+        "lookFor": "The two openings stay identical as your eye height changes, or the rim ends pinch and its halves do not balance around the center axis.",
+        "visual": {
+          "src": "assets/diagrams/lesson-09-ellipse-mistake.svg",
+          "alt": "The same oval copied for low and high views is contrasted with a pointed, tilted rim and a balanced ellipse checked against a center axis.",
+          "caption": "Compare each half across the center axis, then check the opening against life.",
+          "provenance": {
+            "kind": "original-diagram",
+            "source": "Original deterministic SVG made for this lesson.",
+            "creator": "Codex",
+            "license": "project-created",
+            "notes": "Original course diagram. No source-book illustration was copied."
+          }
+        }
+      }
+    ],
+    "selfCheck": [
+      "Which opening looks flatter, and how does that relate to your eye height?",
+      "Did you measure each rim's height against its own width?",
+      "Do the rim's two halves balance around the center axis, and do the side walls match the bowl?"
+    ],
+    "sources": [
+      {
+        "id": "dodson-keys-to-drawing",
+        "title": "Keys to Drawing",
+        "author": "Bert Dodson",
+        "edition": "Supplied scan of the 1985 work; first paperback printing 1990, later printing year unverified",
+        "pages": "Printed pp. 144–147",
+        "usedFor": "Eye-level ellipse openness and its relation to viewing angle. Page 144 cautions that its eye-level rule applies to vertical cylinders; this lesson uses direct observation of a horizontal bowl rim.",
+        "sections": ["concept", "deepDive", "exercise", "mistakes"],
+        "visualInfluence": "The original diagrams compare bowl rim openings and retain each bowl's own measured width; no book illustration was copied."
+      },
+      {
+        "id": "aristides-classical-atelier",
+        "title": "Classical Drawing Atelier: A Contemporary Guide to Traditional Studio Practice",
+        "author": "Juliette Aristides",
+        "edition": "2011 reflowable EPUB of the work first published 2006; embedded print folios",
+        "pages": "Chapter 3, “The Block In” and “Measuring,” embedded printed pp. 78–80 and 83–86; EPUB has no stable page count",
+        "usedFor": "An observational block-in and comparative measurement for each viewpoint.",
+        "sections": ["concept", "deepDive", "exercise"]
+      }
+    ]
+  }
 }

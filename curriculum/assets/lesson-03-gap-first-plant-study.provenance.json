@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0",
+  "asset_id": "lesson-03-gap-first-plant-study",
+  "file": "public/assets/diagrams/lesson-03-gap-first-plant-study.svg",
+  "category": "diagram",
+  "title": "Build from the open spaces",
+  "alt_text": "A potted plant study shows outer page limits, three lightly highlighted gaps around and between leaves, and arrows from the gaps toward the neighboring plant edges they help locate.",
+  "caption": "Block in a few large gaps, then use their edges to place nearby forms.",
+  "created_on": "2026-09-30",
+  "provenance": {
+    "origin": "original",
+    "creator_or_model": "Codex; deterministic SVG paths authored for this course",
+    "work_title": "Build from the open spaces",
+    "creation_date_or_period": "2026-09-30",
+    "rights_basis": "original",
+    "license_or_attribution": "Original course asset. No source-book image was used."
+  },
+  "distribution": "deployable_after_review",
+  "review_notes": "Portrait teaching diagram with short labels for phone viewing. Original plant schematic, not a target plant; review in the app before release."
+}

@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0",
+  "asset_id": "lesson-08-cup-exercise",
+  "file": "public/assets/diagrams/lesson-08-cup-exercise.svg",
+  "category": "diagram",
+  "title": "Four checks while drawing a cup",
+  "alt_text": "Four stages show fixing a viewpoint, constructing a cup around an axis, placing a separate handle loop at observed attachment points, and correcting one mismatch.",
+  "caption": "Check the cup after each construction pass; strengthen only visible edges.",
+  "created_on": "2026-09-30",
+  "provenance": {
+    "origin": "original",
+    "creator_or_model": "Codex; hand-authored deterministic SVG",
+    "work_title": "Four checks while drawing a cup",
+    "creation_date_or_period": "2026-09-30",
+    "rights_basis": "original",
+    "license_or_attribution": "Original course diagram; no source-book illustration was copied."
+  },
+  "distribution": "deployable_after_review",
+  "review_notes": "Four vertically stacked checks use large labels; guide lines are distinguished from visible contours."
+}

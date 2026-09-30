@@ -3,31 +3,50 @@
   "title": "Follow an edge",
   "durationMinutes": 45,
   "difficulty": "beginner",
-  "medium": ["graphite"],
-  "materials": ["graphite pencil", "eraser", "sketchbook"],
+  "medium": [
+    "graphite"
+  ],
+  "materials": [
+    "graphite pencil",
+    "eraser",
+    "sketchbook"
+  ],
   "lessonType": "lesson",
   "fundamentals": {
-    "primary": ["line-shape", "observation"],
+    "primary": [
+      "line-shape",
+      "observation"
+    ],
     "secondary": []
   },
   "concepts": [
-    { "id": "edges-contour", "name": "Edges and contour", "stage": "introduced" },
-    { "id": "observation-perception", "name": "Observation and perception", "stage": "practised" }
+    {
+      "id": "edges-contour",
+      "name": "Edges and contour",
+      "stage": "introduced"
+    },
+    {
+      "id": "observation-perception",
+      "name": "Observation and perception",
+      "stage": "practised"
+    }
   ],
-  "prerequisites": ["lesson-01"],
+  "prerequisites": [
+    "lesson-01"
+  ],
   "objective": "Follow the changing contour of a shoe by drawing the edges you observe rather than a remembered outline.",
   "warmup": {
     "durationMinutes": 7,
-    "instructions": "Place a shoe where you can see its outline clearly. Choose one short edge from heel to collar and one along the sole near the toe. Draw each slowly as a connected line for 2 minutes, looking back and forth between shoe and page. Mark the point where each edge changes direction most."
+    "instructions": "Place one shoe so its toe, heel, collar, and sole are visible. Spend 2 minutes drawing one connected edge from heel toward the collar, looking back at the shoe before each new section. Spend 2 minutes following the sole near the toe. Take 2 minutes to compare those edges with the shoe; mark each clearest change of direction. Use the final minute to note which turn you will check in the main drawing. Total: 7 minutes."
   },
   "explanation": [
-    "A contour records the boundary you see where the shoe meets its background, along with a few important edges between parts. Follow how that boundary turns, flattens, or changes direction instead of drawing the shoe symbol you remember.",
-    "A slow first pass helps you notice the sequence of turns. In a separate restatement, you can check the real shoe and try to improve one contour relationship without losing the first attempt."
+    "A contour is the visible boundary where the shoe meets its background. Follow it as a sequence of edges that turn, flatten, or curve; do not complete a shoe outline from memory.",
+    "Pause when the direction changes and look back at the shoe. Draw the outside edge first, compare one turn, then restate the contour in a fresh space. Add only a few interior edges that help identify this shoe."
   ],
   "visuals": [],
   "exercise": {
     "durationMinutes": 35,
-    "instructions": "1. Set one shoe at a steady viewpoint. Choose a page direction that gives the whole shoe room, and keep the shoe still. (3 min)\n2. Study the toe, heel, opening, and sole. Make a light, recognizable drawing by following the outer contour in connected sections. Pause when the edge changes direction; look back at the shoe before continuing. (12 min)\n3. Compare the drawing with the shoe. Circle one mismatch at a clear turn, such as the toe angle, heel curve, or slope of the sole. (4 min)\n4. In a new space, draw the shoe again from the same view. Follow the contour slowly and focus on the one turn you chose to correct. Keep the first drawing visible for comparison. (12 min)\n5. Add only a few interior edges that help identify the shoe, such as its opening or one seam. Compare the outline once more and stop before filling it with small details. (4 min)",
+    "instructions": "1. Set one shoe at a steady viewpoint. Choose a page direction that gives it room and keep the shoe still. (3 min)\n2. Study the toe, heel, opening, and sole. Make a light, recognizable drawing by following the outer contour in connected sections. Pause at a change of direction and look back at the shoe before continuing. (12 min)\n3. Compare the outline with the shoe. Circle one mismatch at a clear turn, such as the toe angle, heel curve, or slope of the sole. (4 min)\n4. In a fresh space, draw the shoe again from the same view. Follow the contour slowly and focus on the turn you chose to correct. Keep the first drawing visible. (12 min)\n5. Add only a few interior edges that help identify the shoe, such as its opening or one seam. Compare the outline once more and stop before adding small details. (4 min)",
     "source": "from-life",
     "subjectType": "shoe from life"
   },
@@ -35,13 +54,13 @@
   "bookReferences": [
     {
       "sourceId": "aristides-classical-atelier",
-      "pages": "EPUB, Chapter Three, “Types and Uses of Lines”",
-      "note": "Source concept: aristides-classical-atelier-concept-02, line as direction, shape, and block-in. The observed direction changes support a simple contour block-in."
+      "pages": "Printed pp. 64-68, Chapter Three, \"Types and Uses of Lines\"; pp. 78-80, \"The Block In\"",
+      "note": "Source concept: line direction, contour simplification, and selecting essential angles in a block-in. These pages support observed direction changes, not a shoe-specific contour exercise."
     },
     {
       "sourceId": "dodson-keys-to-drawing",
-      "pages": "Printed pp. 10–39, chapter 1; the first project and line examples are on pp. 10–15",
-      "note": "Source concept: dodson-keys-to-drawing-concept-01, drawing as looking, making, and critical review. Adapted source exercise: dodson-keys-to-drawing-exercise-01, repeated shoe contour attempts with comparison of one relationship (exercise locator: Printed pp. 10–15, chapter 1 opening project)."
+      "pages": "Printed pp. 12-13, Chapter One shoe-contour sequence and look-hold-draw exercise",
+      "note": "Source concept and exercise inspiration: repeated looking and restating a contour. Page 12 shows an observed shoe sequence; page 13 uses crossed feet. This lesson adapts the procedure to a shoe and a one-turn comparison."
     }
   ],
   "reflection": [
@@ -51,5 +70,107 @@
   "extension": "Repeat the contour study from another side of the same shoe, watching for one edge that changes direction in a new way.",
   "scaffoldingLevel": "high",
   "status": "published",
-  "label": ""
+  "label": "",
+  "teaching": {
+    "whyItMatters": "A shoe has a contour with turns, flats, and curves. Tracking those changes makes the drawing specific to the shoe in front of you.",
+    "connections": "Lesson 1 taught you to keep and compare an initial attempt. Here, slow that comparison down to a few observed edges; Lesson 3 will use the same attention to shapes around a subject.",
+    "conceptVisuals": [
+      {
+        "src": "assets/diagrams/lesson-02-contour-turns.svg",
+        "alt": "A simple side-view shoe outline has a highlighted outer edge and three labeled direction changes at the toe, sole, and collar.",
+        "caption": "Follow the edge in order; pause where its direction changes.",
+        "provenance": {
+          "kind": "original-diagram",
+          "creator": "Codex; deterministic SVG authored for this course",
+          "license": "original",
+          "notes": "Original shoe schematic made from scratch. No source-book image, page layout, or figure was copied."
+        }
+      }
+    ],
+    "deepDive": [
+      "Treat the contour as a route your eye follows, not as a symbol you finish in one remembered gesture. A shoe is familiar, so the mind may supply a generic toe, heel, or opening before you have checked this particular one. Instead, look for where one edge direction changes into another. A long curve can flatten near the sole; a collar can turn more sharply than the heel; a toe may rise or angle down. These changes are useful landmarks because a small shift at a turn can alter the whole shoe silhouette. Keep the view fixed while you compare the drawing and the object, so you can tell whether the mismatch is in the line you chose or in the viewpoint.",
+      "The outside contour and the shoe's interior seams do different jobs. The contour tells you how the shoe sits against its background; seams, laces, and openings help identify its parts. If you add all those details at once, the page fills before the large shape is clear. First make a connected outline in manageable sections and pause at a visible turn. After the first pass, pick one turn you can compare directly with the real shoe, then restate the outline in another space. Only after that check should you add a few interior edges. This order gives your eye a chance to notice shape before detail and leaves the first drawing available for comparison. This makes the review manageable and leaves room for more independent choices later."
+    ],
+    "warmupVisuals": [
+      {
+        "src": "assets/diagrams/lesson-02-warmup-edge-checks.svg",
+        "alt": "A shoe profile shows one short heel-to-collar edge and one sole-to-toe edge, each enlarged below with a marked turn to compare against the real shoe.",
+        "caption": "Draw two short connected edges, then find their clearest turns.",
+        "provenance": {
+          "kind": "original-diagram",
+          "creator": "Codex; deterministic SVG authored for this course",
+          "license": "original",
+          "notes": "Original shoe schematic made from scratch. No source-book image, page layout, or figure was copied."
+        }
+      }
+    ],
+    "exerciseVisuals": [
+      {
+        "src": "assets/diagrams/lesson-02-two-contour-passes.svg",
+        "alt": "Two shoe drawings show the first outline kept on the page, one toe turn circled, and a second outline with a visibly different toe angle while other parts remain a rough first pass.",
+        "caption": "Correct the turn you observe, then check the rest of the shoe.",
+        "provenance": {
+          "kind": "original-diagram",
+          "creator": "Codex; deterministic SVG authored for this course",
+          "license": "original",
+          "notes": "Original shoe schematic made from scratch. No source-book image, page layout, or figure was copied."
+        }
+      }
+    ],
+    "commonMistakes": [
+      {
+        "mistake": "Drawing a tidy shoe outline from memory before checking its turns.",
+        "lookFor": "The toe, heel, collar, and sole all look smoothly rounded and generic. Return to the shoe and mark where the direction actually changes.",
+        "visual": {
+          "src": "assets/diagrams/lesson-02-memory-outline-mistake.svg",
+          "alt": "A smooth generic shoe icon with no clear heel or toe turns is contrasted with an observed side view that has a distinct heel-to-collar turn, a long flat sole, and a sloped toe.",
+          "caption": "Check the actual heel turn, sole, and toe slope before smoothing.",
+          "provenance": {
+            "kind": "original-diagram",
+            "creator": "Codex; deterministic SVG authored for this course",
+            "license": "original",
+            "notes": "Original shoe schematic made from scratch. No source-book image, page layout, or figure was copied."
+          }
+        }
+      }
+    ],
+    "selfCheck": [
+      "Can you point to the clearest direction change in the shoe and in your drawing?",
+      "Did you keep the same viewpoint while comparing the first and second outlines?",
+      "Do a few interior edges identify the shoe without obscuring its outer contour?"
+    ],
+    "sources": [
+      {
+        "id": "aristides-classical-atelier",
+        "title": "Classical Drawing Atelier: A Contemporary Guide to Traditional Studio Practice",
+        "author": "Juliette Aristides",
+        "edition": "2011 reflowable EPUB of the work first published 2006; embedded print folios",
+        "pages": "Embedded printed pp. 64–68 and 78–80; EPUB has no stable page count",
+        "usedFor": "Line directions make contour changes easier to see; block-in selects essential angles and larger shapes. These pages do not give a shoe-specific drill.",
+        "sections": [
+          "concept",
+          "deepDive",
+          "exercise",
+          "mistakes"
+        ],
+        "visualInfluence": "The original shoe schematic highlights a few turns and does not copy a book figure or page layout."
+      },
+      {
+        "id": "dodson-keys-to-drawing",
+        "title": "Keys to Drawing",
+        "author": "Bert Dodson",
+        "edition": "Supplied scan of the 1985 work; first paperback printing 1990, later printing year unverified",
+        "pages": "Printed pp. 12-13",
+        "usedFor": "Repeated looking and restating a contour in the shoe sequence on p. 12 and look-hold-draw practice on p. 13. The lesson changes the exercise subject and adds one-turn comparison.",
+        "sections": [
+          "concept",
+          "deepDive",
+          "warmup",
+          "exercise",
+          "mistakes"
+        ],
+        "visualInfluence": "All shoe outlines in the lesson are original schematics; no source shoe image was copied."
+      }
+    ]
+  }
 }

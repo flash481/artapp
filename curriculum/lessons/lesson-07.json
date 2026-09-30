@@ -4,13 +4,7 @@
   "durationMinutes": 45,
   "difficulty": "beginner",
   "medium": ["graphite"],
-  "materials": [
-    "sketchbook",
-    "graphite pencil",
-    "eraser",
-    "one piece of fruit",
-    "desk lamp or another steady lamp"
-  ],
+  "materials": ["sketchbook", "graphite pencil", "eraser", "one piece of fruit", "desk lamp or another steady lamp"],
   "lessonType": "lesson",
   "fundamentals": {
     "primary": ["value", "composition"],
@@ -24,16 +18,16 @@
   "objective": "Group a lit fruit and its cast shadow into light, middle, and dark values while keeping the chosen crop readable.",
   "warmup": {
     "durationMinutes": 7,
-    "instructions": "Place one fruit under a steady lamp. Make a palm-sized thumbnail with three broad pencil values: light, middle, and dark. Keep the silhouette and cast shadow simple; do not blend."
+    "instructions": "Place one fruit under a steady lamp. Make a palm-sized thumbnail with three broad pencil values: light, middle, and dark. Keep the silhouette and cast shadow simple; do not blend. Squint once to check whether the three groups stay distinct."
   },
   "explanation": [
-    "Value means how light or dark an area appears. Squint to find the largest light, middle, and dark groups on the fruit and table before adding details.",
-    "Keep the three groups distinct. The lit side is not always white, and the darkest group may include both the fruit's shadow side and its cast shadow. Follow the lamp and the fruit you can see."
+    "Value means how light or dark an area looks. Squint at the fruit to simplify small changes into broad light, middle, and dark groups. Keep these groups distinct before adding small details.",
+    "A form shadow turns across the fruit. A cast shadow falls from the fruit onto the table, away from the lamp. Observe both shapes and keep the cast shadow connected to the fruit's base."
   ],
   "visuals": [],
   "exercise": {
     "durationMinutes": 31,
-    "instructions": "1. Set one fruit under a steady lamp so a clear cast shadow falls on the table. Choose a crop that includes both fruit and shadow.\n2. Draw the fruit silhouette and the shadow lightly. Check the fruit's width against its height, and note the shadow's direction.\n3. Squint at the setup. Mark only the broad light, middle, and dark shapes; group small variations into the nearest value family.\n4. Leave the light group as paper, shade the middle evenly, and make the dark group clearly deeper. Keep the marks broad and unblended.\n5. Compare your drawing with the setup. Correct one value boundary or silhouette, then stop before adding skin texture or tiny highlights.",
+    "instructions": "1. (4 min) Set one fruit under a steady lamp. Choose your viewpoint and crop so the fruit and its full cast shadow fit on the page.\n2. (5 min) Compare the fruit's height and width. Lightly place its outline, stem if visible, and the shadow's direction and outer edge.\n3. (7 min) Squint at the subject. Mark the broad light area, the turning middle, and the darker form and cast shadows. Keep the cast shadow as one connected shape.\n4. (11 min) Shade with broad, even marks. Leave the light group mostly as paper; use a middle value for the turning plane and a darker value for the shadows. Let the observed fruit decide each boundary.\n5. (4 min) Squint again and compare the page with life. Correct one unclear boundary or value group; stop before texture and tiny highlights.",
     "source": "from-life",
     "subjectType": "fruit under directional light"
   },
@@ -41,13 +35,13 @@
   "bookReferences": [
     {
       "sourceId": "dodson-keys-to-drawing",
-      "pages": "Printed pp. 102–127, chapter 4; light-source example on p. 110",
-      "note": "Source concept: dodson-keys-to-drawing-concept-04. Adapted as a short study of broad light and shadow shapes. Source exercise: dodson-keys-to-drawing-exercise-05, printed pp. 102–117, especially the light-source examples on p. 110; this lesson keeps one lamp position, with a changed-light comparison as an optional extension."
+      "pages": "Printed pp. 102, 104, 110, and 117",
+      "note": "Printed folios in the supplied scan. Pages 104 and 110 inform observing light and shadow as the lamp changes; p. 117 addresses cast-shadow drawing. The light/middle/dark key is a course simplification, not a prescribed three-step scale in the source."
     },
     {
       "sourceId": "picard-beginning-drawing",
-      "pages": "printed p. 29 (PDF p. 31)",
-      "note": "Source concept: picard-beginning-drawing-concept-03. Keep the earlier crop decision in view and judge the fruit and shadow as large shapes; no fixed composition ratio is taught."
+      "pages": "Printed pp. 81–82 (PDF pp. 83–84)",
+      "note": "Simplified value masses in thumbnails inform the small composition/value check; the fruit-and-shadow exercise and three-group key remain original course directions."
     }
   ],
   "reflection": [
@@ -58,5 +52,99 @@
   "extension": "Move the lamp slightly and make a three-minute thumbnail. Note which cast-shadow edge or value boundary changed.",
   "scaffoldingLevel": "high",
   "status": "published",
-  "label": ""
+  "label": "",
+  "teaching": {
+    "whyItMatters": "Grouping values makes the fruit turn in space while keeping its shape readable before surface detail takes over.",
+    "connections": "Lesson 6 asked you to choose a clear crop and inspect its surrounding gaps. Carry that frame forward so the fruit and full cast shadow remain one readable arrangement; use the light, middle, and dark groups to clarify form.",
+    "conceptVisuals": [
+      {
+        "src": "assets/diagrams/lesson-07-value-concept.svg",
+        "alt": "An upper-left lamp lights a fruit divided into a broad light area, a middle turning plane, and a dark form shadow. A separate cast shadow extends right across the table.",
+        "caption": "Use the three broad groups as a starting key; follow the light you observe.",
+        "provenance": {
+          "kind": "original-diagram",
+          "source": "Original deterministic SVG made for this lesson.",
+          "creator": "Codex",
+          "license": "project-created",
+          "notes": "Original course diagram. No source-book illustration was copied."
+        }
+      }
+    ],
+    "deepDive": [
+      "A value is how light or dark a shape appears. When you squint, small shifts in brightness soften and larger areas become easier to compare. For this exercise, simplify what you see into three families: light, middle, and dark. This is a temporary beginner's key, not a rule that every object has exactly three values. A lit area may be gray rather than white, and a shadow may contain quieter changes that you can leave for later.",
+      "Keep the fruit's form shadow separate in your thinking from its cast shadow. The form shadow follows the turning surface; the cast shadow lies on the table and changes shape with the lamp's direction and distance. Dodson's lamp comparisons and cast-shadow study support looking for those relationships, while the broad three-group key here is our own simplification. After grouping, compare the shadow edges and fruit silhouette with the real setup, just as you compared shapes and gaps while choosing a crop in Lesson 6. Picard's thumbnail section on printed pp. 81–82 uses simplified value masses to compare small compositions. Test the fruit and its cast shadow together at thumbnail scale before committing; then carry the same readable frame into the larger drawing and refine only the value boundaries your observation supports. At the edges between adjacent masses, keep the boundary where the light actually changes; squinting simplifies the pattern but should not erase a sharp contact edge or blend separate shadows."
+    ],
+    "warmupVisuals": [
+      {
+        "src": "assets/diagrams/lesson-07-value-warmup.svg",
+        "alt": "Three warm-up panels show fixing the fruit and lamp, making broad light, middle, and dark groups, then squinting to check that the three groups remain distinct.",
+        "caption": "A quick thumbnail prepares you to see large value areas.",
+        "provenance": {
+          "kind": "original-diagram",
+          "source": "Original deterministic SVG made for this lesson.",
+          "creator": "Codex",
+          "license": "project-created",
+          "notes": "Original course diagram. No source-book illustration was copied."
+        }
+      }
+    ],
+    "exerciseVisuals": [
+      {
+        "src": "assets/diagrams/lesson-07-value-exercise.svg",
+        "alt": "Four drawing passes fix the lamp and crop, measure the fruit and cast shadow, group three values, and correct one mismatch by comparing with life.",
+        "caption": "Keep the setup steady and check each broad shape against the subject.",
+        "provenance": {
+          "kind": "original-diagram",
+          "source": "Original deterministic SVG made for this lesson.",
+          "creator": "Codex",
+          "license": "project-created",
+          "notes": "Original course diagram. No source-book illustration was copied."
+        }
+      }
+    ],
+    "commonMistakes": [
+      {
+        "mistake": "Adding many small patches before the large value groups read clearly.",
+        "lookFor": "When you squint, the fruit's light, middle, and dark areas break apart, and the cast shadow stops reading as one shape.",
+        "visual": {
+          "src": "assets/diagrams/lesson-07-value-mistake.svg",
+          "alt": "A patchy fruit with isolated marks is compared with a fruit grouped into broad values and a separate rightward cast shadow.",
+          "caption": "If the broad pattern disappears when you squint, simplify first.",
+          "provenance": {
+            "kind": "original-diagram",
+            "source": "Original deterministic SVG made for this lesson.",
+            "creator": "Codex",
+            "license": "project-created",
+            "notes": "Original course diagram. No source-book illustration was copied."
+          }
+        }
+      }
+    ],
+    "selfCheck": [
+      "Can you identify three broad value families on the fruit without relying on texture?",
+      "Does the cast shadow sit on the table and extend away from the lamp?",
+      "Does the selected crop include the full shadow without an accidental near-touch at the page edge?"
+    ],
+    "sources": [
+      {
+        "id": "dodson-keys-to-drawing",
+        "title": "Keys to Drawing",
+        "author": "Bert Dodson",
+        "edition": "Supplied scan of the 1985 work; first paperback printing 1990, later printing year unverified",
+        "pages": "Printed pp. 102, 104, 110, and 117",
+        "usedFor": "Observation of light and shadow, lamp direction, and cast shadows. The three-family value key is an original course simplification.",
+        "sections": ["concept", "deepDive", "warmup", "exercise", "mistakes"],
+        "visualInfluence": "The original diagram uses a lamp, fruit, turning shadow, and separate cast shadow; no book illustration was copied."
+      },
+      {
+        "id": "picard-beginning-drawing",
+        "title": "Beginning Drawing: A Multidimensional Approach to Learning the Art of Basic Drawing",
+        "author": "Alain Picard",
+        "edition": "2016, Walter Foster Publishing; no edition number stated",
+        "pages": "Printed pp. 81–82 (PDF pp. 83–84)",
+        "usedFor": "Simplified value masses in thumbnails as a way to compare the small composition; the specific fruit study and three-value key are original course choices.",
+        "sections": ["concept", "deepDive", "warmup"]
+      }
+    ]
+  }
 }

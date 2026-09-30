@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0",
+  "asset_id": "lesson-01-two-pass-mug-study",
+  "file": "public/assets/diagrams/lesson-01-two-pass-mug-study.svg",
+  "category": "diagram",
+  "title": "Keep both mug drawings",
+  "alt_text": "Two side-by-side mug sketches show a first pass kept on the page, one observed mismatch circled, and a second pass that tests one changed proportion.",
+  "caption": "Choose a difference you can point to on the mug; the sketches are only examples.",
+  "created_on": "2026-09-30",
+  "provenance": {
+    "origin": "original",
+    "creator_or_model": "Codex; deterministic SVG paths authored for this course",
+    "work_title": "Keep both mug drawings",
+    "creation_date_or_period": "2026-09-30",
+    "rights_basis": "original",
+    "license_or_attribution": "Original course asset. No source-book image was used."
+  },
+  "distribution": "deployable_after_review",
+  "review_notes": "Portrait teaching diagram with large labels for phone viewing. Original example, not a target mug; review in the app before release."
+}

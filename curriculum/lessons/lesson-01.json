@@ -3,31 +3,50 @@
   "title": "Your first drawing",
   "durationMinutes": 45,
   "difficulty": "beginner",
-  "medium": ["graphite"],
-  "materials": ["graphite pencil", "eraser", "sketchbook"],
+  "medium": [
+    "graphite"
+  ],
+  "materials": [
+    "graphite pencil",
+    "eraser",
+    "sketchbook"
+  ],
   "lessonType": "lesson",
   "fundamentals": {
-    "primary": ["observation", "reflection"],
-    "secondary": ["line-shape"]
+    "primary": [
+      "observation",
+      "reflection"
+    ],
+    "secondary": [
+      "line-shape"
+    ]
   },
   "concepts": [
-    { "id": "observation-perception", "name": "Observation and perception", "stage": "introduced" },
-    { "id": "practice-reflection", "name": "Practice process and reflection", "stage": "introduced" }
+    {
+      "id": "observation-perception",
+      "name": "Observation and perception",
+      "stage": "introduced"
+    },
+    {
+      "id": "practice-reflection",
+      "name": "Practice process and reflection",
+      "stage": "introduced"
+    }
   ],
   "prerequisites": [],
   "objective": "Draw a mug from observation, keep the first attempt as a baseline, and use one visible relationship to guide a second drawing.",
   "warmup": {
     "durationMinutes": 7,
-    "instructions": "Use the same mug and viewpoint for both sketches. Look for 30 seconds, then draw a tiny mug in a small box for 2 minutes. Pause and compare its height with its width or the opening of its handle. Make a second 2-minute sketch, changing just one relationship. Circle the difference you noticed."
+    "instructions": "Keep one mug and the same viewpoint. Look for 30 seconds without drawing. Make a 2-minute thumbnail. Spend 1 minute comparing its height with its width or checking the handle opening. Make a second 2-minute thumbnail, changing only that relation. Use the final 90 seconds to circle what changed and note one thing that still looks different. Total: 7 minutes."
   },
   "explanation": [
-    "Keep your first drawing as a record of what you noticed at the start. Compare it with the mug and choose one visible relationship to improve, such as the mug's height against its width, the tilt of its rim, or the shape inside the handle.",
-    "Make the second drawing beside the first and test that one change. The aim is to look, draw, compare, and try again—not to produce a polished mug."
+    "Observation is a repeated exchange: look at the mug, make marks, and compare them with what you see. Keep the first drawing as a record of what you noticed; it does not need to be polished.",
+    "Choose one visible relationship to check, such as height against width, the tilt of the rim, or the shape inside the handle. Keep the mug and viewpoint steady, then test that one change in a second drawing. Look back at the mug as you draw."
   ],
   "visuals": [],
   "exercise": {
     "durationMinutes": 35,
-    "instructions": "1. Set one mug where you can see its rim, body, and handle. Choose a comfortable viewpoint and keep it for both drawings. (3 min)\n2. Look before drawing. Lightly make a recognizable first drawing, placing the mug on the page and describing its large outline, rim, and handle opening. Keep this attempt; do not erase it. (11 min)\n3. Compare the drawing with the mug. Choose one mismatch you can see, such as the body being too wide, the rim tilting differently, or the handle opening being too small. Write a short note beside the first drawing. (5 min)\n4. In a fresh space, draw the mug again. Keep the same viewpoint and focus on correcting only the relationship you chose; use the mug to check the rest as you go. (12 min)\n5. Look between the mug and both drawings. Mark the part that changed and note one relationship you want to watch in your next drawing. (4 min)",
+    "instructions": "1. Set one mug where you can see its rim, body, and handle. Choose a comfortable viewpoint and keep it for both drawings. (3 min)\n2. Look before drawing. Lightly place a recognizable first drawing, describing the large outline, rim, and handle opening. Keep this attempt; do not erase it. (11 min)\n3. Compare the drawing with the mug. Choose one mismatch you can point to, such as body width, rim tilt, or handle opening. Write a short note beside the first drawing. (5 min)\n4. In a fresh space, draw the mug again from the same view. Focus on the relationship you chose, and keep checking the rest of the mug against life. (12 min)\n5. Look between the mug and both drawings. Mark what changed and note one relationship you want to watch in your next drawing. (4 min)",
     "source": "from-life",
     "subjectType": "mug from life"
   },
@@ -35,8 +54,8 @@
   "bookReferences": [
     {
       "sourceId": "dodson-keys-to-drawing",
-      "pages": "Printed pp. 10–39, chapter 1; the first project and line examples are on pp. 10–15",
-      "note": "Source concept: dodson-keys-to-drawing-concept-01, drawing as looking, making, and critical review. Adapted source exercise: dodson-keys-to-drawing-exercise-02, first observed drawing followed by a separate restatement focused on one mismatch (Printed pp. 10–39, chapter 1)."
+      "pages": "Printed pp. 10-13, chapter 1 opening sequence; pp. 10-11 practical/critical dialogue and looking, p. 12 shoe-contour restatement",
+      "note": "Source concept: drawing practice as looking, making, and review. The mug, paired drawings, and one-mismatch correction are course adaptations; the book example uses repeated shoe-contour passes."
     }
   ],
   "reflection": [
@@ -46,5 +65,91 @@
   "extension": "Draw the same mug from a new viewpoint and ask the same question: which visible relationship will you check first?",
   "scaffoldingLevel": "high",
   "status": "published",
-  "label": ""
+  "label": "",
+  "teaching": {
+    "whyItMatters": "Keeping a first attempt lets you see what you noticed before correcting anything. One visible comparison gives you a practical next step for the second drawing.",
+    "connections": "The two attempts create a look-draw-check cycle that Lessons 2 and 3 will reuse with contour turns and surrounding gaps.",
+    "conceptVisuals": [
+      {
+        "src": "assets/diagrams/lesson-01-observation-cycle.svg",
+        "alt": "Three mug studies show the same observed mug, a first sketch with one visible proportion to check, and a second sketch that changes only that relation.",
+        "caption": "Use one visible comparison to decide what to try in the next drawing.",
+        "provenance": {
+          "kind": "original-diagram",
+          "creator": "Codex; deterministic SVG authored for this course",
+          "license": "original",
+          "notes": "Original schematic made from scratch. No source-book image, page layout, or figure was copied."
+        }
+      }
+    ],
+    "deepDive": [
+      "Observation has two partners: making marks while looking, and reviewing those marks after looking back at the subject. If you let a broad judgment speak too early, it can interrupt the act of noticing. Keep the first small drawing as a record, then turn the review into a question with a visible answer: Is the body taller than it is wide? Does the rim rise on the same side? Is the handle opening larger or smaller than you first drew? A useful note describes a relationship you can point to on the mug. It is not a score. The note gives your next look a job and lets you compare a change without erasing what you did first. That record makes practice concrete.",
+      "Changing one relationship at a time makes the comparison easier to read. Keep the mug in the same place and keep your chair, head, and page still; then a difference between the two sketches is easier to connect to your new observation. Choose a relation with clear endpoints, such as the body's height against its width, the angle of the rim against the page, or the handle opening against the body. Adjust that relation in the second space, then check the entire mug again. The goal is not a polished finish or a perfectly measured object. You are learning to let a visible observation guide a new mark. In another lesson you can use the same routine to compare a shoe contour or a plant's empty gaps, so the method transfers to new subjects."
+    ],
+    "warmupVisuals": [
+      {
+        "src": "assets/diagrams/lesson-01-warmup-check-one-relation.svg",
+        "alt": "A five-step timeline shows looking for 30 seconds, sketching for two minutes, comparing height and width, making a second two-minute sketch, and circling what changed.",
+        "caption": "Keep the mug and viewpoint steady for both tiny sketches.",
+        "provenance": {
+          "kind": "original-diagram",
+          "creator": "Codex; deterministic SVG authored for this course",
+          "license": "original",
+          "notes": "Original schematic made from scratch. No source-book image, page layout, or figure was copied."
+        }
+      }
+    ],
+    "exerciseVisuals": [
+      {
+        "src": "assets/diagrams/lesson-01-two-pass-mug-study.svg",
+        "alt": "Two side-by-side mug sketches show a first pass kept on the page, one observed mismatch circled, and a second pass that tests one changed proportion.",
+        "caption": "Choose a difference you can point to on the mug; the sketches are only examples.",
+        "provenance": {
+          "kind": "original-diagram",
+          "creator": "Codex; deterministic SVG authored for this course",
+          "license": "original",
+          "notes": "Original schematic made from scratch. No source-book image, page layout, or figure was copied."
+        }
+      }
+    ],
+    "commonMistakes": [
+      {
+        "mistake": "Drawing a familiar mug symbol instead of checking the mug in front of you.",
+        "lookFor": "The rim, body, or handle is made even by habit. Compare one of those features with the actual mug before changing the drawing.",
+        "visual": {
+          "src": "assets/diagrams/lesson-01-memory-symbol-mug.svg",
+          "alt": "A regular mug symbol with parallel body sides and a horizontal rim is contrasted with an observed mug whose rim tilt, body taper, and handle opening are checked against the real object.",
+          "caption": "Compare the rim, taper, and handle opening with your mug.",
+          "provenance": {
+            "kind": "original-diagram",
+            "creator": "Codex; deterministic SVG authored for this course",
+            "license": "original",
+            "notes": "Original schematic made from scratch. No source-book image, page layout, or figure was copied."
+          }
+        }
+      }
+    ],
+    "selfCheck": [
+      "Can you point to one relationship that you compared on the mug and on the page?",
+      "Did the second drawing test that relationship while keeping the same mug and viewpoint?",
+      "Can you keep the first drawing as a useful record rather than judging it as finished or failed?"
+    ],
+    "sources": [
+      {
+        "id": "dodson-keys-to-drawing",
+        "title": "Keys to Drawing",
+        "author": "Bert Dodson",
+        "edition": "Supplied scan of the 1985 work; first paperback printing 1990, later printing year unverified",
+        "pages": "Printed pp. 10-13",
+        "usedFor": "Looking at the subject, making a first drawing, and restating a contour after checking. The paired mug study and one-relationship correction are course adaptations.",
+        "sections": [
+          "concept",
+          "deepDive",
+          "exercise",
+          "mistakes"
+        ],
+        "visualInfluence": "The diagrams are original mug schematics; no shoe or foot page image was copied."
+      }
+    ]
+  }
 }

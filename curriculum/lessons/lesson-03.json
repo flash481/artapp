@@ -3,31 +3,49 @@
   "title": "Shapes around a plant",
   "durationMinutes": 45,
   "difficulty": "beginner",
-  "medium": ["graphite"],
-  "materials": ["graphite pencil", "eraser", "sketchbook"],
+  "medium": [
+    "graphite"
+  ],
+  "materials": [
+    "graphite pencil",
+    "eraser",
+    "sketchbook"
+  ],
   "lessonType": "lesson",
   "fundamentals": {
-    "primary": ["observation"],
+    "primary": [
+      "observation"
+    ],
     "secondary": []
   },
   "concepts": [
-    { "id": "negative-space", "name": "Negative space and surrounding shapes", "stage": "introduced" },
-    { "id": "observation-perception", "name": "Observation and perception", "stage": "revisited" }
+    {
+      "id": "negative-space",
+      "name": "Negative space and surrounding shapes",
+      "stage": "introduced"
+    },
+    {
+      "id": "observation-perception",
+      "name": "Observation and perception",
+      "stage": "revisited"
+    }
   ],
-  "prerequisites": ["lesson-02"],
+  "prerequisites": [
+    "lesson-02"
+  ],
   "objective": "Use the shapes of gaps around a potted plant to check and correct its organic silhouette.",
   "warmup": {
     "durationMinutes": 7,
-    "instructions": "Set a potted plant against a simple background. Before drawing any leaves, find two clear gaps between or around its leaves and pot. Sketch each gap as its own small shape, then compare their widths and angles with what you see."
+    "instructions": "Set a potted plant against a simple background and keep the view steady. Spend 2 minutes finding two clear spaces between or around its leaves and pot; trace each boundary in the air. Spend 3 minutes sketching each gap as its own small shape, before drawing leaves. Use the final 2 minutes to compare each space's width and angle with the plant. Total: 7 minutes."
   },
   "explanation": [
-    "The open spaces around and between the plant are shapes you can observe too. Each gap has its own outline, angle, and width; comparing those shapes can make an irregular silhouette easier to place than copying leaf symbols from memory.",
-    "Start with a few large gaps, then use their edges to place nearby leaves, stems, and the pot. Add small details only after the main plant shape reads clearly."
+    "The open spaces around and between the plant are shapes you can observe too. Each gap has an outline, angle, width, and position; comparing those spaces can help you place an irregular silhouette.",
+    "Begin with a few large gaps, then use their edges to place nearby leaves, stems, and the pot. Add small details only after the main plant shape reads clearly. Keep the gaps light enough that their boundaries stay easy to compare."
   ],
   "visuals": [],
   "exercise": {
     "durationMinutes": 35,
-    "instructions": "1. Place a potted plant against a simple background and choose a view that shows the pot and a few separate leaves. Keep this viewpoint steady. (3 min)\n2. Lightly mark the plant's overall top, bottom, left, and right limits so the full silhouette fits on the page. Do not draw individual leaves yet. (4 min)\n3. Find three large gaps: one or two between leaves and one around the foliage or pot. Draw each empty shape by following its edges. Lightly hatch inside the gaps so they are easy to compare with the plant. (12 min)\n4. Use the gap boundaries to place the nearby leaves and stems, then add the pot. Check whether the angles and widths of those spaces still match the plant as you draw. (11 min)\n5. Choose the one gap that looks least like the observed space. Adjust the leaf or pot edges around it, then add only a few defining details to make the plant recognizable. (5 min)",
+    "instructions": "1. Place a potted plant against a simple background and choose a view that shows the pot and a few separate leaves. Keep this viewpoint steady. (3 min)\n2. Lightly mark the plant's overall top, bottom, left, and right limits so the full silhouette fits on the page. Do not draw individual leaves yet. (4 min)\n3. Find three large gaps: one or two between leaves and one around the foliage or pot. Draw each empty shape by following its edges. Hatch inside the gaps lightly so they are easy to compare with the plant. (12 min)\n4. Use the gap boundaries to place nearby leaves and stems, then add the pot. Check whether the angles and widths of those spaces still match the plant as you draw. (11 min)\n5. Choose the one gap that looks least like the observed space. Adjust the leaf or pot edges around it, then add only a few defining details. (5 min)",
     "source": "from-life",
     "subjectType": "potted plant from life"
   },
@@ -35,13 +53,13 @@
   "bookReferences": [
     {
       "sourceId": "edwards-right-side-brain",
-      "pages": "PDF pp. 155–179",
-      "note": "Source concept: edwards-right-side-brain-concept-03, negative spaces describe positive forms. The source applies surrounding gaps to clarify a form; this lesson adapts that observation to a potted plant from life."
+      "pages": "Digital PDF pp. 155, 157-165, 170-175, 178-179; printed folios are unavailable in the local reflowed PDF",
+      "note": "Source concept and exercise: negative spaces help describe positive forms; Chapter 7 presents gap-first examples and a chair study built from a chosen space. The plant subject and shortened three-gap exercise are course adaptations."
     },
     {
       "sourceId": "dodson-keys-to-drawing",
-      "pages": "Printed pp. 10–39, chapter 1; the first project and line examples are on pp. 10–15",
-      "note": "Source concept: dodson-keys-to-drawing-concept-01, drawing as looking, making, and critical review. Compare observed spaces and plant edges, then choose one visible correction."
+      "pages": "Printed pp. 10-13, Chapter One looking and restatement examples",
+      "note": "Source concept: retain observation while drawing, then review a visible relationship. This is carried forward from earlier lessons; Dodson is not the source for the negative-space method or plant exercise."
     }
   ],
   "reflection": [
@@ -51,5 +69,104 @@
   "extension": "Repeat the gap-first study from another viewpoint, using the same plant and checking which surrounding shapes change.",
   "scaffoldingLevel": "high",
   "status": "published",
-  "label": ""
+  "label": "",
+  "teaching": {
+    "whyItMatters": "The spaces between leaves and around the pot are easier to compare than a cluster of separate details. Their shapes give you another way to check the plant's silhouette.",
+    "connections": "Lesson 2 followed the shoe's outer boundary. Now notice the spaces sharing those boundaries with a plant; this revisits contour observation while adding a second way to check it.",
+    "conceptVisuals": [
+      {
+        "src": "assets/diagrams/lesson-03-shared-edge-gap-concept.svg",
+        "alt": "A potted plant diagram marks three distinct cyan negative-space shapes between its leaves. Matching A, B, and C labels link each opening to an enlarged example that can be compared by width, angle, and position.",
+        "caption": "Three different gaps share edges with the surrounding leaves.",
+        "provenance": {
+          "kind": "original-diagram",
+          "creator": "Codex; deterministic SVG authored for this course",
+          "license": "original",
+          "notes": "Original plant schematic made from scratch. No source-book image, page layout, or figure was copied."
+        }
+      }
+    ],
+    "deepDive": [
+      "Positive form and negative space are two parts of the same observed arrangement. A leaf edge that turns inward also defines the edge of a gap; moving that line changes both shapes at once. The gap is not an undefined leftover. It has measurable features of its own: width, direction, length, and position among neighboring leaves or against the pot. Looking at the open shape can be easier than naming and drawing each leaf, especially when foliage overlaps or has irregular outlines. You can compare the gap with the corresponding space in your drawing and then adjust the shared edge. The plant and its openings must still fit together, so treat both as useful evidence rather than separate tasks. That relationship can be observed.",
+      "A gap-first study does not require drawing every empty space. Choose a few large, clear openings that can help locate nearby leaves and stems. Mark the plant's overall limits so the page has room for the full subject; then draw the selected spaces lightly and compare their angles and widths with life. Use each gap boundary to place the form beside it, and check whether the neighboring openings remain plausible as the plant takes shape. If one gap is noticeably different, adjust the leaf or pot edge that defines it. Keep small textures and leaf veins until the major spaces and silhouette read clearly. The same process works from another viewpoint, but the gaps will change with the view. These checks remain useful later."
+    ],
+    "warmupVisuals": [
+      {
+        "src": "assets/diagrams/lesson-03-warmup-two-gaps.svg",
+        "alt": "A plant sketch has two open spaces marked between leaves; separate enlarged gap studies beside it show that each opening has a distinct width and angle to compare with the plant.",
+        "caption": "Sketch each opening as its own small shape before drawing leaves.",
+        "provenance": {
+          "kind": "original-diagram",
+          "creator": "Codex; deterministic SVG authored for this course",
+          "license": "original",
+          "notes": "Original plant schematic made from scratch. No source-book image, page layout, or figure was copied."
+        }
+      }
+    ],
+    "exerciseVisuals": [
+      {
+        "src": "assets/diagrams/lesson-03-gap-first-plant-study.svg",
+        "alt": "A potted plant study shows outer page limits, three lightly highlighted gaps around and between leaves, and arrows from the gaps toward the neighboring plant edges they help locate.",
+        "caption": "Block in a few large gaps, then use their edges to place nearby forms.",
+        "provenance": {
+          "kind": "original-diagram",
+          "creator": "Codex; deterministic SVG authored for this course",
+          "license": "original",
+          "notes": "Original plant schematic made from scratch. No source-book image, page layout, or figure was copied."
+        }
+      }
+    ],
+    "commonMistakes": [
+      {
+        "mistake": "Drawing each leaf symbol separately without checking the spaces between them.",
+        "lookFor": "Gaps disappear, crowd together, or repeat as similar wedges even where the real plant has different openings. Compare one gap before moving its shared leaf edge.",
+        "visual": {
+          "src": "assets/diagrams/lesson-03-leaf-symbol-mistake.svg",
+          "alt": "Repeated leaf symbols crowd the first plant sketch and make openings vanish. A second sketch leaves distinct highlighted gaps between leaves, which can be compared with the real plant.",
+          "caption": "When gaps close or repeat, compare their shapes with the plant.",
+          "provenance": {
+            "kind": "original-diagram",
+            "creator": "Codex; deterministic SVG authored for this course",
+            "license": "original",
+            "notes": "Original plant schematic made from scratch. No source-book image, page layout, or figure was copied."
+          }
+        }
+      }
+    ],
+    "selfCheck": [
+      "Can you point to three gaps in the plant and compare each with its drawn shape?",
+      "Did a gap help place or correct a nearby leaf, stem, or pot edge?",
+      "Do the main plant form and the open shapes around it still fit together?"
+    ],
+    "sources": [
+      {
+        "id": "edwards-right-side-brain",
+        "title": "Drawing on the Right Side of the Brain: The Definitive, 4th Edition",
+        "author": "Betty Edwards",
+        "edition": "4th edition, 2012, TarcherPerigee; supplied PDF",
+        "pages": "Digital PDF pp. 155, 157-165, 170-175, 178-179",
+        "usedFor": "Chapter 7 introduces negative spaces and presents a gap-first chair exercise. The course adapts its observation method to a potted plant and a shorter three-gap study.",
+        "sections": [
+          "concept",
+          "deepDive",
+          "exercise",
+          "mistakes"
+        ],
+        "visualInfluence": "The plant and highlighted gaps are original vector schematics; no book figure or layout was copied."
+      },
+      {
+        "id": "dodson-keys-to-drawing",
+        "title": "Keys to Drawing",
+        "author": "Bert Dodson",
+        "edition": "Supplied scan of the 1985 work; first paperback printing 1990, later printing year unverified",
+        "pages": "Printed pp. 10-13",
+        "usedFor": "Supports carrying forward the look-draw-review routine from Lessons 1 and 2. The source does not present the plant or the negative-space exercise.",
+        "sections": [
+          "warmup",
+          "exercise"
+        ],
+        "visualInfluence": "No source page image was used in the plant diagrams."
+      }
+    ]
+  }
 }

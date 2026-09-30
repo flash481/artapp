@@ -1,6 +1,6 @@
 # Lesson data contract
 
-Lesson content is independent of application UI. The version 2 machine-readable contract is [`curriculum/schemas/lesson.schema.json`](../curriculum/schemas/lesson.schema.json), and the app consumes lesson JSON from the curriculum area. The contract matches `src/lib/lesson.ts` and the three development fixtures, including the current camelCase field names.
+Lesson content is independent of application UI. The version 3 machine-readable contract is [`curriculum/schemas/lesson.schema.json`](../curriculum/schemas/lesson.schema.json), and the app consumes lesson JSON from the curriculum area. The contract matches `src/lib/lesson.ts`; the three development fixtures retain the base fields.
 
 ## Phase 1 contract
 
@@ -23,9 +23,28 @@ Lesson content is independent of application UI. The version 2 machine-readable 
 | `scaffoldingLevel` | Optional future metadata for how much structure the learner receives |
 | `status`, `label` | Fixed fixture marker in Phase 1 |
 
-The version 2 schema accepts `status: "published"` with an empty label for finished content. The three Phase 1 fixtures retain `status: "development-fixture"` and the exact label `DEVELOPMENT FIXTURE — NOT FINAL CURRICULUM`. The app lists only published lessons as playable.
+Published lessons require a structured `teaching` block. The three Phase 1 fixtures retain `status: "development-fixture"` and the exact label `DEVELOPMENT FIXTURE — NOT FINAL CURRICULUM`. The app lists only published lessons as playable.
 
-Full `bookReferences` in the repository lesson JSON are internal source provenance. The Vite app import strips those records from the public bundle; the learner-facing lesson currently does not display them. Keep precise source IDs and locators in the authored JSON for review without shipping private analysis notes.
+Full `bookReferences` in the repository lesson JSON are internal source provenance. The Vite app import strips those records from the public bundle. `teaching.sources` is a deliberately public, learner-facing citation list: title, author, edition, precise page locator, section(s), and a short account of what the source informed. Do not put private working notes, source excerpts, or file paths there.
+
+## Structured teaching for published lessons
+
+| Field | Role |
+|---|---|
+| `teaching.whyItMatters` | Brief practical reason to learn the skill |
+| `teaching.connections` | Explicit link to earlier lessons and their use here |
+| `explanation` | Essential beginner concept, readable before drawing |
+| `teaching.conceptVisuals` | Annotated concept demonstrations |
+| `teaching.deepDive` | Optional richer theory, shown in a closed “Go deeper” section |
+| `warmup`, `teaching.warmupVisuals` | Short practice instructions and a visible demonstration |
+| `exercise`, `teaching.exerciseVisuals` | Main observation task and staged or analytical visual guidance |
+| `teaching.commonMistakes` | Each diagnosis pairs `mistake`, `lookFor`, and an original visual |
+| `teaching.selfCheck`, `reflection` | Observable checks followed by open reflection |
+| `teaching.sources` | Page-level citations with `sections` linking each source to concept, deep dive, warm-up, exercise, or mistakes |
+
+Each visual retains `src`, `alt`, `caption`, and inline provenance and must have a matching public asset provenance record. The essential lesson path remains concise; optional theory and sources are collapsed by default. Visual examples should clarify an observational choice, not prescribe the learner’s exact subject or finished drawing.
+
+`sourceImages` is a private editorial association for a limited source-book illustration (`id`, `sourceId`, `page`, `section`) if one is ever judged indispensable. The Vite import removes it from the public bundle. The current public app neither serves source scans nor implements authentication. Any later private image delivery needs a separate authenticated store and explicit rights review; a `sourceImages` entry alone must never cause a scan to be copied into `public/`.
 
 The spiral stages are `introduced`, `practised`, `revisited`, `combined`, and `independent`. Current records attach a stage to each concept in `concepts`. Phase 2 curriculum metadata maps concept IDs to canonical concept tags and parent fundamentals so coverage can roll lesson concept stages up to each fundamental.
 

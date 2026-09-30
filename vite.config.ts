@@ -3,9 +3,9 @@ import { loadEnv } from "vite";
 import type { Plugin } from "vite";
 import react from "@vitejs/plugin-react";
 
-function stripPrivateLessonBookReferences(): Plugin {
+function stripPrivateLessonMetadata(): Plugin {
   return {
-    name: "strip-private-lesson-book-references",
+    name: "strip-private-lesson-metadata",
     enforce: "pre",
     transform(source, id) {
       const normalizedId = id.split("?")[0].replaceAll("\\", "/");
@@ -13,7 +13,9 @@ function stripPrivateLessonBookReferences(): Plugin {
 
       const lesson = JSON.parse(source) as Record<string, unknown>;
       if (!Array.isArray(lesson.bookReferences)) return null;
-      return { code: JSON.stringify({ ...lesson, bookReferences: [] }), map: null };
+      delete lesson.bookReferences;
+      delete lesson.sourceImages;
+      return { code: JSON.stringify(lesson), map: null };
     },
   };
 }
@@ -23,7 +25,7 @@ export default defineConfig(({ mode }) => {
 
   return {
     base: env.VITE_BASE_PATH || "/",
-    plugins: [stripPrivateLessonBookReferences(), react()],
+    plugins: [stripPrivateLessonMetadata(), react()],
     test: {
       environment: "jsdom",
       setupFiles: ["./tests/setup.ts"],

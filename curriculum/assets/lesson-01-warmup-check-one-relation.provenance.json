@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0",
+  "asset_id": "lesson-01-warmup-check-one-relation",
+  "file": "public/assets/diagrams/lesson-01-warmup-check-one-relation.svg",
+  "category": "diagram",
+  "title": "Seven-minute mug warm-up",
+  "alt_text": "A five-step timeline shows looking for 30 seconds, sketching for two minutes, comparing height and width, making a second two-minute sketch, and circling what changed.",
+  "caption": "Keep the mug and viewpoint steady for both tiny sketches.",
+  "created_on": "2026-09-30",
+  "provenance": {
+    "origin": "original",
+    "creator_or_model": "Codex; deterministic SVG paths authored for this course",
+    "work_title": "Seven-minute mug warm-up",
+    "creation_date_or_period": "2026-09-30",
+    "rights_basis": "original",
+    "license_or_attribution": "Original course asset. No source-book image was used."
+  },
+  "distribution": "deployable_after_review",
+  "review_notes": "Portrait teaching diagram with large labels for phone viewing. Original example, not a target mug; review in the app before release."
+}

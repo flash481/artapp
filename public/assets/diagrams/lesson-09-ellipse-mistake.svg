@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 690" role="img" aria-labelledby="title desc">
+  <title id="title">Check view and symmetry instead of copying a rim</title>
+  <desc id="desc">One panel shows the same oval copied for low and high viewpoints. Another compares a pointed, tilted opening with an observed ellipse checked against its center axis and matching halves.</desc>
+  <rect width="480" height="690" rx="20" fill="#fbf8f0"/>
+  <text x="240" y="42" fill="#33413b" font-family="system-ui,sans-serif" font-size="23" font-weight="700" text-anchor="middle">Two rim checks before darkening</text>
+  <rect x="24" y="66" width="432" height="224" rx="15" fill="#f4f0e6"/>
+  <text x="48" y="100" fill="#a04f39" font-family="system-ui,sans-serif" font-size="19" font-weight="700">1 · COPIED OVAL</text>
+  <text x="59" y="151" fill="#53635b" font-family="system-ui,sans-serif" font-size="16">low</text>
+  <text x="59" y="245" fill="#53635b" font-family="system-ui,sans-serif" font-size="16">high</text>
+  <path d="M108 160 118 205 M276 160 266 205" stroke="#33413b" stroke-width="2"/>
+  <ellipse cx="192" cy="154" rx="61" ry="13" fill="#e9ddc5" stroke="#33413b" stroke-width="3"/>
+  <path d="M131 154 140 187 M253 154 244 187" stroke="#33413b" stroke-width="2"/>
+  <ellipse cx="192" cy="248" rx="61" ry="13" fill="#e9ddc5" stroke="#33413b" stroke-width="3"/>
+  <text x="302" y="170" fill="#33413b" font-family="system-ui,sans-serif" font-size="17">Same oval</text>
+  <text x="302" y="199" fill="#53635b" font-family="system-ui,sans-serif" font-size="17">ignores eye height.</text>
+  <rect x="24" y="306" width="432" height="314" rx="15" fill="#f4f0e6"/>
+  <text x="48" y="340" fill="#a04f39" font-family="system-ui,sans-serif" font-size="19" font-weight="700">2 · POINTED / TILTED</text>
+  <text x="96" y="374" fill="#53635b" font-family="system-ui,sans-serif" font-size="16" text-anchor="middle">mistake</text>
+  <path d="M47 436 Q96 395 145 413 Q96 470 47 436z" fill="#e9ddc5" stroke="#a04f39" stroke-width="3"/>
+  <path d="M96 395v68 M51 434 141 415" stroke="#237680" stroke-width="2" stroke-dasharray="5 5"/>
+  <text x="288" y="374" fill="#237680" font-family="system-ui,sans-serif" font-size="16" text-anchor="middle">check symmetry</text>
+  <ellipse cx="288" cy="428" rx="53" ry="26" fill="#e9ddc5" stroke="#33413b" stroke-width="3"/>
+  <path d="M288 396v64 M238 428h100" stroke="#237680" stroke-width="2" stroke-dasharray="5 5"/>
+  <path d="M243 427h-12m90 0h12" stroke="#bc6b4e" stroke-width="3"/>
+  <text x="96" y="500" fill="#a04f39" font-family="system-ui,sans-serif" font-size="16" text-anchor="middle">pointed ends</text>
+  <text x="288" y="500" fill="#33413b" font-family="system-ui,sans-serif" font-size="16" text-anchor="middle">two even halves</text>
+  <text x="96" y="524" fill="#a04f39" font-family="system-ui,sans-serif" font-size="15" text-anchor="middle">slanted axis</text>
+  <text x="240" y="549" fill="#53635b" font-family="system-ui,sans-serif" font-size="17" text-anchor="middle">Use a center axis; compare both sides.</text>
+  <text x="240" y="579" fill="#53635b" font-family="system-ui,sans-serif" font-size="17" text-anchor="middle">Let this bowl's view set the ellipse.</text>
+  <text x="240" y="659" fill="#33413b" font-family="system-ui,sans-serif" font-size="17" font-weight="700" text-anchor="middle">Observe each opening; do not copy a formula.</text>
+</svg>

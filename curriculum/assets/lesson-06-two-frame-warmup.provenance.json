@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0",
+  "asset_id": "lesson-06-two-frame-warmup",
+  "file": "public/assets/diagrams/lesson-06-two-frame-warmup.svg",
+  "category": "diagram",
+  "title": "Two frames, same still life",
+  "alt_text": "Two small frames show one fixed mug-and-book arrangement, first with generous margins and then cropped closer. The object shapes stay simple and slightly uneven.",
+  "caption": "In seven minutes, change the frame, not the arrangement.",
+  "created_on": "2026-09-30",
+  "provenance": {
+    "origin": "original",
+    "creator_or_model": "Codex; deterministic SVG paths authored for this course",
+    "work_title": "Two frames, same still life",
+    "creation_date_or_period": "2026-09-30",
+    "rights_basis": "original",
+    "license_or_attribution": "Original course asset. No source-book illustration was used."
+  },
+  "distribution": "deployable_after_review",
+  "review_notes": "Portrait SVG with labels sized for a 390 px phone viewport; review in the app before release."
+}

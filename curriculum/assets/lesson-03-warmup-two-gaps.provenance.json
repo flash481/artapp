@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0",
+  "asset_id": "lesson-03-warmup-two-gaps",
+  "file": "public/assets/diagrams/lesson-03-warmup-two-gaps.svg",
+  "category": "diagram",
+  "title": "Find two plant gaps",
+  "alt_text": "A plant sketch has two open spaces marked between leaves; separate enlarged gap studies beside it show that each opening has a distinct width and angle to compare with the plant.",
+  "caption": "Sketch each opening as its own small shape before drawing leaves.",
+  "created_on": "2026-09-30",
+  "provenance": {
+    "origin": "original",
+    "creator_or_model": "Codex; deterministic SVG paths authored for this course",
+    "work_title": "Find two plant gaps",
+    "creation_date_or_period": "2026-09-30",
+    "rights_basis": "original",
+    "license_or_attribution": "Original course asset. No source-book image was used."
+  },
+  "distribution": "deployable_after_review",
+  "review_notes": "Portrait teaching diagram with short labels for phone viewing. Original plant schematic, not a target plant; review in the app before release."
+}

@@ -40,9 +40,8 @@
     "instructions": "Choose a flower or leafy stem that fits comfortably in view. In seven minutes, sketch its main axis and largest masses; check one relative length, one angle, and one alignment against the subject."
   },
   "explanation": [
-    "Choose a visible part as a temporary unit. Compare the stem with the bloom's width, and check key angles and alignments from one steady viewpoint. If you sight with your pencil, keep your arm straight and use it only to compare.",
-    "Then compare the gaps around and between the forms. As in Lesson 3, a negative shape can reveal a contour that is too wide, narrow, or misplaced.",
-    "Flowers vary. There is no target ratio to force; draw the proportions you observe in this particular subject."
+    "Choose one visible part as a temporary unit: for example, the bloom's width or a leaf's length. Compare it with the visible stem, then check the bloom's tilt and where leaves meet the stem. If you sight with your pencil, keep your arm straight, use one steady viewpoint, and treat the pencil as a comparison tool rather than a ruler.",
+    "Block in the largest shapes before adding petals or veins. Then look at the open gaps around and between the bloom, stem, and leaves. As in Lesson 3, a negative shape can show that an edge is too wide, narrow, or misplaced. Flowers differ, so keep the ratios you actually see instead of aiming for a standard flower."
   ],
   "visuals": [],
   "exercise": {
@@ -55,13 +54,13 @@
   "bookReferences": [
     {
       "sourceId": "aristides-classical-atelier",
-      "pages": "EPUB, Chapter Three, “The Block In” and “Measuring”",
-      "note": "Source concept: aristides-classical-atelier-concept-02; informs the use of observed relative lengths and angles. The mapped aristides-classical-atelier-concept-01 and Chapter Two golden-ratio passage were reviewed but not used."
+      "pages": "EPUB, Chapter Three, “The Block In” and “Measuring” (reflowable; no stable e-book page numbers)",
+      "note": "Source concept: aristides-classical-atelier-concept-02. Informs an observed block-in, temporary units, relative lengths, and alignments. The EPUB's print-style markers point around pp. 78–80 and 83–86 but do not provide stable e-book pagination."
     },
     {
       "sourceId": "edwards-right-side-brain",
-      "pages": "PDF pp. 155–179",
-      "note": "Source concept: edwards-right-side-brain-concept-03, negative spaces as shapes for checking positive forms; applied here to gaps around and between the observed stem, bloom, and leaves."
+      "pages": "4th edition, PDF pp. 157–159 and 170–175",
+      "note": "Source concept: edwards-right-side-brain-concept-03. pp. 157–159 introduce negative spaces as shapes sharing edges with forms; pp. 170–175 demonstrate comparing angles and fitting those space-shapes together. The lesson uses the gap check, not the source exercise or images."
     }
   ],
   "reflection": [
@@ -72,5 +71,109 @@
   "extension": "From a new viewpoint, compare the same part-to-part relationship on a different flower or leafy stem. Keep the first drawing and note what changes.",
   "scaffoldingLevel": "high",
   "status": "published",
-  "label": ""
+  "label": "",
+  "teaching": {
+    "whyItMatters": "A few careful comparisons can make a small flower study feel like the particular plant in front of you, even before you draw its details.",
+    "connections": "Lesson 3 trained you to notice negative shapes around an object. Here you will compare those gaps alongside the flower's lengths, angles, and alignments; Lesson 2's slow contour looking also helps you see where a leaf actually meets the stem.",
+    "conceptVisuals": [
+      {
+        "src": "assets/diagrams/lesson-04-relative-measurement.svg",
+        "alt": "An irregular flower is blocked in with a tilted axis. A horizontal arrow marks the bloom width as one temporary unit; another checks stem length, while gaps and leaf alignments remain visible. A small bottom panel shows a fixed eye point, extended arm, pencil, and thumb-held unit mark.",
+        "caption": "Choose a temporary unit, then check this flower rather than using a fixed ratio.",
+        "provenance": {
+          "kind": "original-diagram",
+          "source": "Original deterministic SVG made for this lesson.",
+          "creator": "Codex",
+          "license": "project-created",
+          "notes": "Original course diagram. No source-book illustration was copied."
+        }
+      }
+    ],
+    "deepDive": [
+      "Comparative measurement makes an impression testable. Compare bloom width with a leaf or stem, choose one as a temporary unit, and mark the estimate lightly. Change units only if a different comparison is easier. When sighting with a pencil, bending your elbow or changing its distance changes the apparent unit. Keep the viewpoint and arm extension fixed; use the pencil to compare, not as a ruler to transfer measurements to the page.",
+      "Direction matters as much as length. A slanted bloom-stem junction can make the whole plant feel off if you straighten it from memory. Compare the main axis with the page vertical, and use a leaf tip or bloom center to check alignments. Negative shapes give you another route into the same observation: if a gap looks too thin or its angle differs from the real gap, one of the edges enclosing it needs attention. Revise the block-in before adding small petal marks.",
+      "One checked measurement can correct a surprising amount because the parts constrain one another: if the bloom is too broad, the apparent stem length and side gaps also change. Treat sighting as a relative comparison at eye level, not as a way to import perfect geometry into a living subject. Look back often; a leaf or stem may shift between glances."
+    ],
+    "warmupVisuals": [
+      {
+        "src": "assets/diagrams/lesson-04-flower-warmup.svg",
+        "alt": "Three stacked warm-up stages show a slightly crooked axis, loose bloom and leaf masses, then one measured bloom width with a stem-length and alignment check.",
+        "caption": "Mark the large direction first; spend the last minutes comparing.",
+        "provenance": {
+          "kind": "original-diagram",
+          "source": "Original deterministic SVG made for this lesson.",
+          "creator": "Codex",
+          "license": "project-created",
+          "notes": "Original course diagram. No source-book illustration was copied."
+        }
+      }
+    ],
+    "exerciseVisuals": [
+      {
+        "src": "assets/diagrams/lesson-04-observed-flower-block-in.svg",
+        "alt": "A three-stage flower study progresses from a tilted axis and endpoints to a loose asymmetrical bloom and leaves, then checks one length and the negative gap before a few details.",
+        "caption": "Large shapes first; two or three details last.",
+        "provenance": {
+          "kind": "original-diagram",
+          "source": "Original deterministic SVG made for this lesson.",
+          "creator": "Codex",
+          "license": "project-created",
+          "notes": "Original course diagram. No source-book illustration was copied."
+        }
+      }
+    ],
+    "commonMistakes": [
+      {
+        "mistake": "Drawing a remembered, perfectly regular flower instead of the flower you can see.",
+        "lookFor": "Petals repeat evenly, the stem becomes straight, or leaves mirror each other even when the subject does not.",
+        "visual": {
+          "src": "assets/diagrams/lesson-04-measurement-mistake.svg",
+          "alt": "Two flower studies contrast a memory-based flower with identical petals and a straight stem against an imperfect observed flower with a tilted axis, unequal petals, checked width, and asymmetric leaves.",
+          "caption": "Repeated symbols hide the measurements that make this flower particular.",
+          "provenance": {
+            "kind": "original-diagram",
+            "source": "Original deterministic SVG made for this lesson.",
+            "creator": "Codex",
+            "license": "project-created",
+            "notes": "Original course diagram. No source-book illustration was copied."
+          }
+        }
+      }
+    ],
+    "selfCheck": [
+      "Did you compare at least one length or width using a part of this flower as a temporary unit?",
+      "Does the bloom-stem angle and one leaf attachment match the subject from your chosen view?",
+      "Did checking an open gap help you revise an edge before adding details?"
+    ],
+    "sources": [
+      {
+        "id": "aristides-classical-atelier",
+        "title": "Classical Drawing Atelier: A Contemporary Guide to Traditional Studio Practice",
+        "author": "Juliette Aristides",
+        "edition": "2011 reflowable EPUB of the work first published 2006; embedded print folios",
+        "pages": "Chapter 3, “The Block In” and “Measuring”; no stable e-book page numbers (embedded print markers around pp. 78–80 and 83–86)",
+        "usedFor": "Observed block-in, relative lengths, a temporary measuring unit, and checking alignments before detail.",
+        "sections": [
+          "concept",
+          "deepDive",
+          "warmup",
+          "exercise"
+        ]
+      },
+      {
+        "id": "edwards-right-side-brain",
+        "title": "Drawing on the Right Side of the Brain: The Definitive, 4th Edition",
+        "author": "Betty Edwards",
+        "edition": "4th edition, 2012, TarcherPerigee; supplied PDF",
+        "pages": "PDF pp. 157–159 and 170–175",
+        "usedFor": "Seeing negative spaces as shapes and comparing their edges, proportions, and angles.",
+        "sections": [
+          "concept",
+          "deepDive",
+          "exercise",
+          "mistakes"
+        ]
+      }
+    ]
+  }
 }

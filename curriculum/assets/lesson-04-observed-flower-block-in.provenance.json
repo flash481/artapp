@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0",
+  "asset_id": "lesson-04-observed-flower-block-in",
+  "file": "public/assets/diagrams/lesson-04-observed-flower-block-in.svg",
+  "category": "diagram",
+  "title": "Block in, compare, refine",
+  "alt_text": "A three-stage flower study progresses from a tilted axis and endpoints to a loose asymmetrical bloom and leaves, then checks one length and the negative gap before a few details.",
+  "caption": "Large shapes first; two or three details last.",
+  "created_on": "2026-09-30",
+  "provenance": {
+    "origin": "original",
+    "creator_or_model": "Codex; deterministic SVG paths authored for this course",
+    "work_title": "Block in, compare, refine",
+    "creation_date_or_period": "2026-09-30",
+    "rights_basis": "original",
+    "license_or_attribution": "Original course asset. No source-book illustration was used."
+  },
+  "distribution": "deployable_after_review",
+  "review_notes": "Portrait SVG with labels sized for a 390 px phone viewport; review in the app before release."
+}

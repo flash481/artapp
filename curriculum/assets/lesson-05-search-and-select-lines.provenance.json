@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0",
+  "asset_id": "lesson-05-search-and-select-lines",
+  "file": "public/assets/diagrams/lesson-05-search-and-select-lines.svg",
+  "category": "diagram",
+  "title": "Search, check, select",
+  "alt_text": "Three hand-drawn book outlines progress from pale overlapping search strokes, to a checked contour, to three selected firmer edges while other edges remain light.",
+  "caption": "A clear line records a check; it does not have to outline everything.",
+  "created_on": "2026-09-30",
+  "provenance": {
+    "origin": "original",
+    "creator_or_model": "Codex; deterministic SVG paths authored for this course",
+    "work_title": "Search, check, select",
+    "creation_date_or_period": "2026-09-30",
+    "rights_basis": "original",
+    "license_or_attribution": "Original course asset. No source-book illustration was used."
+  },
+  "distribution": "deployable_after_review",
+  "review_notes": "Portrait SVG with labels sized for a 390 px phone viewport; review in the app before release."
+}

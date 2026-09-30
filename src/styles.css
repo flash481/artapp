@@ -193,9 +193,24 @@ button:focus-visible, a:focus-visible, input:focus-visible, summary:focus-visibl
 
 .lesson-section .eyebrow { margin: 0 0 7px; color: #758078; font-size: 10px; line-height: 1.4; }
 .prose p + p { margin-top: 13px; }
+.spiral-note { margin-top: 14px !important; padding: 11px 14px; border-left: 3px solid #92a88f; background: #eef1e8; font-size: 14px !important; }
+.teaching-details { margin-top: 18px; border: 1px solid var(--line); border-radius: 12px; background: #f5f1e9; }
+.teaching-details summary { min-height: 48px; padding: 13px 16px; color: #435049; cursor: pointer; font-weight: 650; }
+.details-body { padding: 0 16px 17px; }
+.details-body.prose p { font-size: 14px; line-height: 1.65; }
+.mistake-card { margin-top: 14px; padding: 14px; border: 1px solid #decfc2; border-radius: 13px; background: #f8f2ea; }
+.mistake-card p + p { margin-top: 6px; }
+.mistake-card p { font-size: 14px; line-height: 1.55; }
+.reflection-details .reflection-list { padding-top: 4px; }
+.sources-details { margin-top: 25px; }
+.source-entry { padding: 12px 0; border-top: 1px solid var(--line); }
+.source-entry:first-child { border-top: 0; }
+.source-entry p { font-size: 13px; line-height: 1.55; }
+.source-entry p + p { margin-top: 5px; }
+.source-sections { color: var(--ink-soft) !important; font-size: 12px !important; }
 .exercise-steps p + p { margin-top: 13px; }
 .visual-grid { display: grid; grid-template-columns: minmax(0, 1fr); gap: 13px; }
-.lesson-figure { min-width: 0; margin: 5px 0 0; }
+.lesson-figure { min-width: 0; margin: 15px 0 0; }
 .visual-button { position: relative; display: block; width: 100%; overflow: hidden; padding: 0; border: 1px solid #ded6c8; border-radius: 15px; background: #fbf8f0; cursor: zoom-in; }
 .visual-button img { display: block; width: 100%; height: auto; object-fit: contain; }
 .enlarge-hint { display: inline-block; margin: 0 0 8px; padding: 5px 9px; border-radius: 99px; background: rgba(40, 53, 48, .8); color: #fffdf7; font-size: 11px; }

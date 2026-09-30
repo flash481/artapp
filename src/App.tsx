@@ -50,7 +50,124 @@ function ImageViewer({ visual }: { visual: LessonVisual }) {
   );
 }
 
+function VisualSet({ visuals }: { visuals: LessonVisual[] }) {
+  return <div className="visual-grid">{visuals.map((visual) => <ImageViewer key={visual.src} visual={visual} />)}</div>;
+}
+
+const sourceSectionLabels: Record<string, string> = {
+  concept: "the idea",
+  deepDive: "Go deeper",
+  warmup: "warm-up",
+  exercise: "your drawing",
+  mistakes: "common mistakes",
+};
+
+function RichLessonContent({ lesson }: { lesson: Lesson }) {
+  const teaching = lesson.teaching;
+  if (!teaching) return null;
+  return (
+    <article className="lesson-content" aria-labelledby="lesson-title">
+      <header className="lesson-heading">
+        <p className="eyebrow">{lesson.lessonType.replaceAll("-", " ")} · about {lesson.durationMinutes} minutes</p>
+        <h1 id="lesson-title">{lesson.title}</h1>
+        <p className="lesson-objective">{lesson.objective}</p>
+        <div className="tag-row" aria-label="Lesson details">
+          <span>Focus: {lesson.fundamentals.primary.join(" · ")}</span>
+          {lesson.medium.map((medium) => <span key={medium}>{medium}</span>)}
+        </div>
+        <p className="heading-materials"><strong>Have ready:</strong> {lesson.materials.join(" · ")}</p>
+      </header>
+
+      <section className="lesson-section" aria-labelledby="why-heading">
+        <div className="section-marker">01</div>
+        <div>
+          <h2 id="why-heading">Why this matters</h2>
+          <p>{teaching.whyItMatters}</p>
+          <p className="spiral-note"><strong>{lesson.prerequisites.length ? "Builds on:" : "Carry forward:"}</strong> {teaching.connections}</p>
+        </div>
+      </section>
+
+      <section className="lesson-section" aria-labelledby="concept-heading">
+        <div className="section-marker">02</div>
+        <div>
+          <h2 id="concept-heading">The idea</h2>
+          <div className="prose">{lesson.explanation.map((paragraph, index) => <p key={`${index}-${paragraph}`}>{paragraph}</p>)}</div>
+          <VisualSet visuals={teaching.conceptVisuals} />
+          <details className="teaching-details">
+            <summary>Go deeper</summary>
+            <div className="details-body prose">{teaching.deepDive.map((paragraph, index) => <p key={`${index}-${paragraph}`}>{paragraph}</p>)}</div>
+          </details>
+        </div>
+      </section>
+
+      <section className="lesson-section warmup-section" aria-labelledby="warmup-heading">
+        <div className="section-marker">03</div>
+        <div>
+          <p className="eyebrow">{lesson.warmup.durationMinutes} minutes</p>
+          <h2 id="warmup-heading">Warm up</h2>
+          <p>{lesson.warmup.instructions}</p>
+          <VisualSet visuals={teaching.warmupVisuals} />
+        </div>
+      </section>
+
+      <section className="lesson-section exercise-section" aria-labelledby="exercise-heading">
+        <div className="section-marker">04</div>
+        <div>
+          <p className="eyebrow">{lesson.exercise.durationMinutes} minutes · {lesson.exercise.source.replaceAll("-", " ")}</p>
+          <h2 id="exercise-heading">Your drawing</h2>
+          <div className="exercise-steps">{lesson.exercise.instructions.split(/\n+/).map((step, index) => <p key={`${index}-${step}`}>{step}</p>)}</div>
+          <VisualSet visuals={teaching.exerciseVisuals} />
+        </div>
+      </section>
+
+      <section className="lesson-section" aria-labelledby="mistakes-heading">
+        <div className="section-marker">05</div>
+        <div>
+          <h2 id="mistakes-heading">Common mistakes</h2>
+          {teaching.commonMistakes.map((item) => (
+            <div className="mistake-card" key={item.visual.src}>
+              <p><strong>Common mistake:</strong> {item.mistake}</p>
+              <p><strong>What to check:</strong> {item.lookFor}</p>
+              <ImageViewer visual={item.visual} />
+            </div>
+          ))}
+        </div>
+      </section>
+
+      <section className="lesson-section reflection-section" aria-labelledby="self-check-heading">
+        <div className="section-marker">06</div>
+        <div>
+          <h2 id="self-check-heading">Self-check</h2>
+          <ul className="reflection-list">{teaching.selfCheck.map((check) => <li key={check}>{check}</li>)}</ul>
+          <details className="teaching-details reflection-details">
+            <summary>Reflect on your next attempt</summary>
+            <div className="details-body">
+              <ul className="reflection-list">{lesson.reflection.map((question) => <li key={question}>{question}</li>)}</ul>
+              {lesson.extension && <p className="extension"><strong>If you have a little more time:</strong> {lesson.extension}</p>}
+            </div>
+          </details>
+        </div>
+      </section>
+
+      <details className="lesson-notes sources-details">
+        <summary>Sources &amp; further reading</summary>
+        <div className="details-body">
+          {teaching.sources.map((source) => (
+            <div className="source-entry" key={source.id}>
+              <p><strong>{source.title}</strong> — {source.author}, {source.edition}, {source.pages}</p>
+              <p><strong>Used for:</strong> {source.usedFor}</p>
+              {source.visualInfluence && <p><strong>Diagram note:</strong> {source.visualInfluence}</p>}
+              <p className="source-sections">Sections: {source.sections.map((section) => sourceSectionLabels[section]).join(", ")}</p>
+            </div>
+          ))}
+        </div>
+      </details>
+    </article>
+  );
+}
+
 function LessonContent({ lesson }: { lesson: Lesson }) {
+  if (lesson.teaching) return <RichLessonContent lesson={lesson} />;
   return (
     <article className="lesson-content" aria-labelledby="lesson-title">
       <header className="lesson-heading">

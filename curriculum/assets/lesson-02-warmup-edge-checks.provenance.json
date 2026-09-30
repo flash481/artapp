@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0",
+  "asset_id": "lesson-02-warmup-edge-checks",
+  "file": "public/assets/diagrams/lesson-02-warmup-edge-checks.svg",
+  "category": "diagram",
+  "title": "Two shoe-edge warm-ups",
+  "alt_text": "A shoe profile shows one short heel-to-collar edge and one sole-to-toe edge, each enlarged below with a marked turn to compare against the real shoe.",
+  "caption": "Draw two short connected edges, then find their clearest turns.",
+  "created_on": "2026-09-30",
+  "provenance": {
+    "origin": "original",
+    "creator_or_model": "Codex; deterministic SVG paths authored for this course",
+    "work_title": "Two shoe-edge warm-ups",
+    "creation_date_or_period": "2026-09-30",
+    "rights_basis": "original",
+    "license_or_attribution": "Original course asset. No source-book image was used."
+  },
+  "distribution": "deployable_after_review",
+  "review_notes": "Portrait teaching diagram with short labels for phone viewing. Original schematic, not a target shoe; review in the app before release."
+}

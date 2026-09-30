@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 390 540" role="img" aria-labelledby="title desc">
+<title id="title">Search, check, select</title>
+<desc id="desc">Three hand-drawn book outlines progress from pale overlapping search strokes, to a checked contour, to three selected firmer edges while other edges remain light.</desc>
+<defs>
+  <marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8" fill="none" stroke="#ad6847" stroke-width="1.5"/></marker>
+  <style>
+    .ink{fill:none;stroke:#37413b;stroke-width:2.5;stroke-linecap:round;stroke-linejoin:round}
+    .light{fill:none;stroke:#9a9b8b;stroke-width:1.4;stroke-linecap:round;stroke-linejoin:round}
+    .guide{fill:none;stroke:#829185;stroke-width:1.4;stroke-dasharray:5 5;stroke-linecap:round}
+    .accent{fill:none;stroke:#ad6847;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+    .heavy{fill:none;stroke:#37413b;stroke-width:4.2;stroke-linecap:round;stroke-linejoin:round}
+    .soft{fill:#f1eee5;stroke:#d9d4c8;stroke-width:1}
+    .card{fill:#fffdf8;stroke:#d9d4c8;stroke-width:1.2}
+    .head{font:700 23px Arial,sans-serif;fill:#303a34}
+    .sub{font:15px Arial,sans-serif;fill:#59655d}
+    .label{font:700 16px Arial,sans-serif;fill:#38433c}
+    .body{font:15px Arial,sans-serif;fill:#465149}
+    .small{font:14px Arial,sans-serif;fill:#59655d}
+    .accentText{font:700 15px Arial,sans-serif;fill:#925638}
+    .number{font:700 15px Arial,sans-serif;fill:#fffdf8}
+  </style>
+</defs>
+<rect width="390" height="540" rx="18" fill="#fbf8f1"/>
+<text class="head" x="18" y="34">Search, check, select</text>
+<text class="sub" x="18" y="59">Use a few checked lines.</text>
+<rect class="card" x="15" y="83" width="360" height="110" rx="12"/>
+<text class="label" x="29" y="110">1  Search lightly</text><text class="small" x="29" y="133">Find size and direction.</text>
+<path class="light" d="M211 113 L326 107 L333 163 L219 169 Z M207 119 L321 112 L329 168 L216 174 Z M215 110 L331 116 L327 170"/>
+<path class="light" d="M225 125 L320 119 M228 135 L323 130 M220 159 L327 153"/>
+<rect class="card" x="15" y="205" width="360" height="110" rx="12"/>
+<text class="label" x="29" y="232">2  Check the contour</text>
+<text class="small" x="29" y="255">Check corners.</text><text class="small" x="29" y="277">Check a page edge.</text>
+<path class="light" d="M215 218 L324 210 L330 261 L220 269 Z"/>
+<path class="ink" d="M215 218 Q270 216 324 210 L330 261 L220 269 Z"/>
+<path class="light" d="M230 228 L320 222 M225 262 L321 255"/>
+<rect class="card" x="15" y="327" width="360" height="110" rx="12"/>
+<text class="label" x="29" y="354">3  Select what helps</text><text class="small" x="29" y="377">Choose useful lines.</text>
+<path class="light" d="M215 358 L324 350 L330 401 L220 409 Z"/>
+<path class="heavy" d="M215 358 Q270 356 324 350 M215 358 L220 409 M220 409 L330 401"/>
+<path class="light" d="M324 350 L330 401 M230 368 L320 361"/>
+<path class="accent" marker-end="url(#arrow)" d="M178 387 L211 388"/>
+<text class="small" x="27" y="474">A quieter edge can still be accurate.</text>
+<text class="small" x="27" y="496">Let line weight follow what you notice.</text>
+</svg>

@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0",
+  "asset_id": "lesson-08-cup-warmup",
+  "file": "public/assets/diagrams/lesson-08-cup-warmup.svg",
+  "category": "diagram",
+  "title": "Warm up with a cylinder, then compare a cup",
+  "alt_text": "A light cylinder guide with an axis and ellipses is compared with a real handled cup, with prompts to observe taper, handle angle, and rim opening.",
+  "caption": "Begin with a simple volume, then compare its guides with the actual cup.",
+  "created_on": "2026-09-30",
+  "provenance": {
+    "origin": "original",
+    "creator_or_model": "Codex; hand-authored deterministic SVG",
+    "work_title": "Warm up with a cylinder, then compare a cup",
+    "creation_date_or_period": "2026-09-30",
+    "rights_basis": "original",
+    "license_or_attribution": "Original course diagram; no source-book illustration was copied."
+  },
+  "distribution": "deployable_after_review",
+  "review_notes": "Phone-sized stacked panels show a guide as provisional and include a comparison to an observed taper."
+}

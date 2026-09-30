@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0",
+  "asset_id": "lesson-09-ellipse-mistake",
+  "file": "public/assets/diagrams/lesson-09-ellipse-mistake.svg",
+  "category": "diagram",
+  "title": "Check view and symmetry instead of copying a rim",
+  "alt_text": "One panel repeats the same oval for two eye heights. Another contrasts a pointed rim with a slanted axis against an ellipse whose center axis and two halves are balanced.",
+  "caption": "Check eye height, pointed ends, and symmetry around a center axis.",
+  "created_on": "2026-09-30",
+  "provenance": {
+    "origin": "original",
+    "creator_or_model": "Codex; hand-authored deterministic SVG",
+    "work_title": "Check view and symmetry instead of copying a rim",
+    "creation_date_or_period": "2026-09-30",
+    "rights_basis": "original",
+    "license_or_attribution": "Original course diagram; no source-book illustration was copied."
+  },
+  "distribution": "deployable_after_review",
+  "review_notes": "Short labels identify a repeated oval, pointed ends, and a slanted axis; the corrected ellipse includes a center axis and even halves."
+}

@@ -11,6 +11,7 @@ const expectedLabel = "DEVELOPMENT FIXTURE — NOT FINAL CURRICULUM";
 const lessonMap = JSON.parse(readFileSync(resolve(root, "curriculum", "lesson-map.json"), "utf8"));
 const mapById = new Map(lessonMap.lessons.map((entry) => [entry.id, entry]));
 const stages = new Set(["introduced", "practised", "revisited", "combined", "independent"]);
+const teachingSections = new Set(["concept", "deepDive", "warmup", "exercise", "mistakes"]);
 const problems = [];
 
 function listPublicDiagramSvgs(directory) {
@@ -80,6 +81,22 @@ function requireStringArray(value, path, file) {
   }
 }
 
+function checkVisual(visual, path, file) {
+  requireString(visual?.src, `${path}.src`, file);
+  requireString(visual?.alt, `${path}.alt`, file);
+  requireString(visual?.provenance?.kind, `${path}.provenance.kind`, file);
+  if (typeof visual?.src === "string") {
+    const relativeAsset = visual.src.replace(/^\/+/, "");
+    const assetPath = resolve(publicDir, relativeAsset);
+    if (!assetPath.startsWith(`${publicDir}${sep}`) || !existsSync(assetPath)) {
+      problems.push(`${file}: visual asset "${visual.src}" is missing from public/.`);
+    }
+    if (relativeAsset.startsWith("assets/diagrams/") && !diagramRecordsByFile.has(`public/${relativeAsset}`)) {
+      problems.push(`${file}: visual asset "${visual.src}" has no provenance record.`);
+    }
+  }
+}
+
 const ids = new Set();
 let publishedCount = 0;
 let fixtureCount = 0;
@@ -131,16 +148,7 @@ for (const file of files) {
     problems.push(`${file}: visuals must be an array.`);
   } else {
     for (const [index, visual] of lesson.visuals.entries()) {
-      requireString(visual.src, `visuals[${index}].src`, file);
-      requireString(visual.alt, `visuals[${index}].alt`, file);
-      requireString(visual.provenance?.kind, `visuals[${index}].provenance.kind`, file);
-      if (typeof visual.src === "string" && !/^https?:\/\//i.test(visual.src)) {
-        const relativeAsset = visual.src.replace(/^\/+/, "");
-        const assetPath = resolve(publicDir, relativeAsset);
-        if (!assetPath.startsWith(`${publicDir}${sep}`) || !existsSync(assetPath)) {
-          problems.push(`${file}: visual asset "${visual.src}" is missing from public/.`);
-        }
-      }
+      checkVisual(visual, `visuals[${index}]`, file);
     }
   }
   if (!Array.isArray(lesson.bookReferences)) problems.push(`${file}: bookReferences must be an array.`);
@@ -156,6 +164,33 @@ for (const file of files) {
   } else if (lesson.status === "published") {
     publishedCount += 1;
     if (lesson.label !== "") problems.push(`${file}: published lesson label must be empty.`);
+    const teaching = lesson.teaching;
+    if (!teaching || typeof teaching !== "object") {
+      problems.push(`${file}: published lesson needs structured teaching.`);
+    } else {
+      for (const field of ["whyItMatters", "connections"]) requireString(teaching[field], `teaching.${field}`, file);
+      for (const field of ["deepDive", "selfCheck"]) {
+        requireStringArray(teaching[field], `teaching.${field}`, file);
+        if (Array.isArray(teaching[field]) && teaching[field].length < 2) problems.push(`${file}: teaching.${field} needs at least two entries.`);
+      }
+      for (const field of ["conceptVisuals", "warmupVisuals", "exerciseVisuals"]) {
+        if (!Array.isArray(teaching[field]) || teaching[field].length < 1) problems.push(`${file}: teaching.${field} needs a visual.`);
+        else teaching[field].forEach((visual, index) => checkVisual(visual, `teaching.${field}[${index}]`, file));
+      }
+      if (!Array.isArray(teaching.commonMistakes) || teaching.commonMistakes.length < 1) problems.push(`${file}: teaching.commonMistakes needs a diagnostic visual.`);
+      else teaching.commonMistakes.forEach((item, index) => {
+        requireString(item.mistake, `teaching.commonMistakes[${index}].mistake`, file);
+        requireString(item.lookFor, `teaching.commonMistakes[${index}].lookFor`, file);
+        checkVisual(item.visual, `teaching.commonMistakes[${index}].visual`, file);
+      });
+      if (!Array.isArray(teaching.sources) || teaching.sources.length < 1) problems.push(`${file}: teaching.sources needs inspected page-level references.`);
+      else teaching.sources.forEach((source, index) => {
+        for (const field of ["id", "title", "author", "edition", "pages", "usedFor"]) requireString(source[field], `teaching.sources[${index}].${field}`, file);
+        if (!Array.isArray(source.sections) || source.sections.length < 1 || source.sections.some((section) => !teachingSections.has(section))) {
+          problems.push(`${file}: teaching.sources[${index}].sections is invalid.`);
+        }
+      });
+    }
     const mapped = mapById.get(lesson.id);
     if (!mapped || mapped.sequence > 9) problems.push(`${file}: published lesson must be in the approved 01–09 pilot.`);
     else {

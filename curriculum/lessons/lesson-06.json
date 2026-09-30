@@ -40,8 +40,8 @@
     "instructions": "Place a mug beside a book and choose a fixed seat. In seven minutes, sketch two small frames around the same arrangement, changing where the page edges cut it and how much margin it has."
   },
   "explanation": [
-    "Your page edges act like a frame. A closer crop or wider margin changes how the mug and book share attention, even before you add detail.",
-    "Check the spaces around and between them as shapes. The gap check from Lesson 3 can help you judge whether each object sits clearly in the frame. No single crop is correct; choose the one that emphasizes the relationship you want."
+    "The edges of your page make a frame, or format, around the mug and book. A closer crop, a shifted crop, or wider margins changes the sizes of the empty spaces as well as the space the objects occupy. There is no universally correct crop; choose the one that makes the relationship you want to show easiest to read.",
+    "Keep the arrangement and viewpoint steady while you compare frames. First draw only the large shapes, then inspect the gaps around and between them as in Lesson 3. Watch for accidental near-touches, where an object almost meets another contour or the frame and leaves a narrow, confusing sliver. Pick a crop that gives the forms clear room or cuts an edge decisively."
   ],
   "visuals": [],
   "exercise": {
@@ -54,18 +54,18 @@
   "bookReferences": [
     {
       "sourceId": "picard-beginning-drawing",
-      "pages": "printed p. 29 (PDF p. 31)",
-      "note": "Source concept: picard-beginning-drawing-concept-03, negative shapes as alternate ways to describe a subject; connects gaps with cropping and balance."
+      "pages": "Printed pp. 81–83 (PDF pp. 83–85)",
+      "note": "Source concept: picard-beginning-drawing-concept-07. Thumbnails, changing crop, and the resulting negative-space balance inform the compare-and-select process."
     },
     {
       "sourceId": "edwards-right-side-brain",
-      "pages": "PDF pp. 155–179",
-      "note": "Source concept: edwards-right-side-brain-concept-03, negative spaces as shapes for checking positive forms; applied to margins and gaps around the still life."
+      "pages": "4th edition, PDF pp. 162–165",
+      "note": "Source concept: edwards-right-side-brain-concept-03. These pages discuss format edges, how positive and negative shapes fit together, and their role in composition and balance."
     },
     {
       "sourceId": "dodson-keys-to-drawing",
-      "pages": "Printed pp. 172–197, chapter 7; examples on pp. 172–184",
-      "note": "Adapted from dodson-keys-to-drawing-exercise-08: compare small still-life framings and select the clearest shape relationships."
+      "pages": "Printed pp. 172–174, 180, and 195",
+      "note": "Adapted exercise idea: compare a small still-life crop before making a larger drawing. pp. 172–174 address positive and negative shapes, p. 180 cropping, and p. 195 tangencies. The lesson uses an original mug-and-book task and diagrams."
     }
   ],
   "reflection": [
@@ -76,5 +76,123 @@
   "extension": "Try the same thumbnail test from a new viewpoint or with a different pair of simple objects. Notice how the crop changes the surrounding shapes.",
   "scaffoldingLevel": "high",
   "status": "published",
-  "label": ""
+  "label": "",
+  "teaching": {
+    "whyItMatters": "A few quick frame choices let you solve a composition while the mug and book are still simple shapes, before detail makes revision harder.",
+    "connections": "Lesson 3 used negative shapes to check object edges. Here you compare those gaps inside a chosen frame, combining careful looking with a new composition decision; later still-life studies can revisit framing with more objects and less scaffolding.",
+    "conceptVisuals": [
+      {
+        "src": "assets/diagrams/lesson-06-crop-and-negative-shapes.svg",
+        "alt": "Three portrait frames contain the same mug and closed book arrangement at different scales and placements: generous margins, a closer crop, and a shifted crop. Pale areas around and between objects mark changing negative shapes.",
+        "caption": "A frame changes how the mug and book share the page.",
+        "provenance": {
+          "kind": "original-diagram",
+          "source": "Original deterministic SVG made for this lesson.",
+          "creator": "Codex",
+          "license": "project-created",
+          "notes": "Original course diagram. No source-book illustration was copied."
+        }
+      }
+    ],
+    "deepDive": [
+      "A frame does more than contain a drawing: its proportions and edges affect how large each object feels and where the surrounding spaces open or tighten. Thumbnail drawings make these relationships quick to compare. Keep them small and simple, and vary the crop or margins while the mug and book remain in the same arrangement. A thumbnail is a test of placement and shape balance, not a miniature finished picture.",
+      "As you compare, look at both the positive forms and the negative shapes between them, around their outlines, and beside the page edges. A narrow sliver where a book corner nearly touches the frame can create an accidental tangent, while a slightly wider crop may give that corner a clear margin. Sometimes an intentional crop can work too; the useful question is whether the edge reads clearly. Select a frame for the relationship it makes easiest to see, then carry that framing into a larger drawing and check it again.",
+      "Negative shapes are not filler: they share the same page with the objects, so a crop changes their balance even if the arrangement stays put. A tangent is a near-touch that can make two edges seem joined by accident. Widen a margin or cut more decisively only if a different frame still shows the mug-book relationship you meant to emphasize."
+    ],
+    "warmupVisuals": [
+      {
+        "src": "assets/diagrams/lesson-06-two-frame-warmup.svg",
+        "alt": "Two small frames show one fixed mug-and-book arrangement, first with generous margins and then cropped closer. The object shapes stay simple and slightly uneven.",
+        "caption": "In seven minutes, change the frame, not the arrangement.",
+        "provenance": {
+          "kind": "original-diagram",
+          "source": "Original deterministic SVG made for this lesson.",
+          "creator": "Codex",
+          "license": "project-created",
+          "notes": "Original course diagram. No source-book illustration was copied."
+        }
+      }
+    ],
+    "exerciseVisuals": [
+      {
+        "src": "assets/diagrams/lesson-06-crop-thumbnails-exercise.svg",
+        "alt": "Three rough thumbnail frames show the mug and book with different margins and a shifted crop; a larger selected frame below demonstrates carrying the chosen crop into a simple drawing.",
+        "caption": "Compare big shapes and gaps before adding identifying details.",
+        "provenance": {
+          "kind": "original-diagram",
+          "source": "Original deterministic SVG made for this lesson.",
+          "creator": "Codex",
+          "license": "project-created",
+          "notes": "Original course diagram. No source-book illustration was copied."
+        }
+      }
+    ],
+    "commonMistakes": [
+      {
+        "mistake": "Leaving a corner almost touching the frame edge by accident.",
+        "lookFor": "A very thin gap makes the book appear to merge with the frame or leaves an awkward sliver.",
+        "visual": {
+          "src": "assets/diagrams/lesson-06-tangent-mistake.svg",
+          "alt": "Two crop studies of a mug and book compare a book corner that almost touches the frame, leaving a narrow confusing sliver, with a roomier crop that gives the corner a clear margin.",
+          "caption": "A tiny accidental gap can make the frame edge compete with the object.",
+          "provenance": {
+            "kind": "original-diagram",
+            "source": "Original deterministic SVG made for this lesson.",
+            "creator": "Codex",
+            "license": "project-created",
+            "notes": "Original course diagram. No source-book illustration was copied."
+          }
+        }
+      }
+    ],
+    "selfCheck": [
+      "Can you explain what changed between your three crops: margin, scale, or placement in the frame?",
+      "Which negative shape or margin helped you choose the clearest crop?",
+      "Does the larger drawing keep the crop you selected, and are its edges still clear?"
+    ],
+    "sources": [
+      {
+        "id": "picard-beginning-drawing",
+        "title": "Beginning Drawing: A Multidimensional Approach to Learning the Art of Basic Drawing",
+        "author": "Alain Picard",
+        "edition": "2016, Walter Foster Publishing; no edition number stated",
+        "pages": "Printed pp. 81–83 (PDF pp. 83–85)",
+        "usedFor": "Thumbnail comparison, crop choices, and how crop changes the surrounding negative shapes and balance.",
+        "sections": [
+          "concept",
+          "deepDive",
+          "warmup",
+          "exercise"
+        ],
+        "visualInfluence": "The lesson uses original mug-and-book frames to demonstrate crop variation; no book illustration was copied."
+      },
+      {
+        "id": "edwards-right-side-brain",
+        "title": "Drawing on the Right Side of the Brain: The Definitive, 4th Edition",
+        "author": "Betty Edwards",
+        "edition": "4th edition, 2012, TarcherPerigee; supplied PDF",
+        "pages": "PDF pp. 162–165",
+        "usedFor": "The format as a compositional boundary and the fit of positive forms with surrounding spaces.",
+        "sections": [
+          "concept",
+          "deepDive",
+          "exercise",
+          "mistakes"
+        ]
+      },
+      {
+        "id": "dodson-keys-to-drawing",
+        "title": "Keys to Drawing",
+        "author": "Bert Dodson",
+        "edition": "Supplied scan of the 1985 work; first paperback printing 1990, later printing year unverified",
+        "pages": "Printed pp. 172–174, 180, and 195",
+        "usedFor": "Negative-space comparison, crop choices, and identifying accidental tangencies.",
+        "sections": [
+          "deepDive",
+          "exercise",
+          "mistakes"
+        ]
+      }
+    ]
+  }
 }

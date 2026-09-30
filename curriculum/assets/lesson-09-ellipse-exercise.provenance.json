@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0",
+  "asset_id": "lesson-09-ellipse-exercise",
+  "file": "public/assets/diagrams/lesson-09-ellipse-exercise.svg",
+  "category": "diagram",
+  "title": "Draw each observed rim with its bowl walls",
+  "alt_text": "Lower and higher views show shallow bowls with gently curved sides narrowing to the base. Each rim has separate width and height marks; the higher opening is more open and slightly narrower.",
+  "caption": "Measure each ellipse in its own view before comparing how open it looks.",
+  "created_on": "2026-09-30",
+  "provenance": {
+    "origin": "original",
+    "creator_or_model": "Codex; hand-authored deterministic SVG",
+    "work_title": "Draw each observed rim with its bowl walls",
+    "creation_date_or_period": "2026-09-30",
+    "rights_basis": "original",
+    "license_or_attribution": "Original course diagram; no source-book illustration was copied."
+  },
+  "distribution": "deployable_after_review",
+  "review_notes": "Both vessels have shallow curved bowl walls, not straight cup sides. The higher-view ellipse opens more while its apparent width is slightly narrower; each rim has separate measurement marks."
+}

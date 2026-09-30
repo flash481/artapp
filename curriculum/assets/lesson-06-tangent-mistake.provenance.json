@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0",
+  "asset_id": "lesson-06-tangent-mistake",
+  "file": "public/assets/diagrams/lesson-06-tangent-mistake.svg",
+  "category": "diagram",
+  "title": "Avoid a near-touch at the frame",
+  "alt_text": "Two crop studies of a mug and book compare a book corner that almost touches the frame, leaving a narrow confusing sliver, with a roomier crop that gives the corner a clear margin.",
+  "caption": "A tiny accidental gap can make the frame edge compete with the object.",
+  "created_on": "2026-09-30",
+  "provenance": {
+    "origin": "original",
+    "creator_or_model": "Codex; deterministic SVG paths authored for this course",
+    "work_title": "Avoid a near-touch at the frame",
+    "creation_date_or_period": "2026-09-30",
+    "rights_basis": "original",
+    "license_or_attribution": "Original course asset. No source-book illustration was used."
+  },
+  "distribution": "deployable_after_review",
+  "review_notes": "Portrait SVG with labels sized for a 390 px phone viewport; review in the app before release."
+}

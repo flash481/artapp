@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0",
+  "asset_id": "lesson-05-lines-exercise",
+  "file": "public/assets/diagrams/lesson-05-lines-exercise.svg",
+  "category": "diagram",
+  "title": "Three passes at one book",
+  "alt_text": "Three studies of the same book show pale searching lines, a second drawing with three firmer selected edges, and a larger imperfect drawing that keeps quieter edges light.",
+  "caption": "Hold the book still; carry useful lines forward, not every search.",
+  "created_on": "2026-09-30",
+  "provenance": {
+    "origin": "original",
+    "creator_or_model": "Codex; deterministic SVG paths authored for this course",
+    "work_title": "Three passes at one book",
+    "creation_date_or_period": "2026-09-30",
+    "rights_basis": "original",
+    "license_or_attribution": "Original course asset. No source-book illustration was used."
+  },
+  "distribution": "deployable_after_review",
+  "review_notes": "Portrait SVG with labels sized for a 390 px phone viewport; review in the app before release."
+}

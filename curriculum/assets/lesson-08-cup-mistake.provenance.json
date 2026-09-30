@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0",
+  "asset_id": "lesson-08-cup-mistake",
+  "file": "public/assets/diagrams/lesson-08-cup-mistake.svg",
+  "category": "diagram",
+  "title": "Let the observed cup change the construction",
+  "alt_text": "A forced vertical cylinder and guessed handle are compared with a checked cup whose taper, rim view, and two handle joins follow observation.",
+  "caption": "Construction should be revised to match the cup you are looking at.",
+  "created_on": "2026-09-30",
+  "provenance": {
+    "origin": "original",
+    "creator_or_model": "Codex; hand-authored deterministic SVG",
+    "work_title": "Let the observed cup change the construction",
+    "creation_date_or_period": "2026-09-30",
+    "rights_basis": "original",
+    "license_or_attribution": "Original course diagram; no source-book illustration was copied."
+  },
+  "distribution": "deployable_after_review",
+  "review_notes": "The comparison identifies taper and handle attachments as observed relationships rather than fixed templates."
+}

@@ -39,8 +39,8 @@
     "instructions": "Draw a thumbnail-sized corner or outline of your book or key from life. Follow one edge three times—light, medium, then firm—and compare how pressure changes the mark."
   },
   "explanation": [
-    "Lines can locate a shape, show its direction, or call attention to an edge. Light searching strokes are provisional; a clearer stroke records a line you have checked against the object.",
-    "Use pressure selectively. Reuse Lesson 2's close contour observation, then vary the direction or strength only when it helps the form read. Every edge does not need the same dark outline."
+    "Lines have different jobs: a light searching mark can help you locate an object's width, height, or direction, while a clearer stroke can record an edge you have checked. Start with light marks so you have room to adjust them as you look back at the book or key.",
+    "After comparing the large contour with the object, choose only a few lines to strengthen. A firmer or more direct line can clarify a corner, overlap, or turn; quieter edges can stay pale. Reuse Lesson 2's attention to observed contour, and let pressure or direction change only when it helps the familiar object read."
   ],
   "visuals": [],
   "exercise": {
@@ -53,13 +53,13 @@
   "bookReferences": [
     {
       "sourceId": "dodson-keys-to-drawing",
-      "pages": "Printed pp. 40–69, chapter 2",
-      "note": "Source concept: dodson-keys-to-drawing-concept-02, measured and expressive mark-making; adapted as light searching marks followed by selected, checked strokes."
+      "pages": "Printed pp. 40–43, 48, and 60",
+      "note": "Source concept: dodson-keys-to-drawing-concept-02. These selected pages inform the contrast between freer searching marks and more controlled, deliberate line work. The source EPUB in the library is labeled 2012; page locators refer to its printed pagination."
     },
     {
       "sourceId": "aristides-classical-atelier",
-      "pages": "EPUB, Chapter Three, “Types and Uses of Lines”",
-      "note": "Source concept: aristides-classical-atelier-concept-02, line as direction, shape, and block-in; used to clarify observed contour and the object's main directions."
+      "pages": "EPUB, Chapter Three, “Types and Uses of Lines” (reflowable; no stable e-book page numbers)",
+      "note": "Source concept: aristides-classical-atelier-concept-02. Informs line as direction, shape, and a way to clarify a checked contour. The reflowable edition does not have stable page numbers."
     }
   ],
   "reflection": [
@@ -70,5 +70,109 @@
   "extension": "Make a second small drawing of the same object from another viewpoint. Keep the searching lines light, then choose one edge to emphasize.",
   "scaffoldingLevel": "high",
   "status": "published",
-  "label": ""
+  "label": "",
+  "teaching": {
+    "whyItMatters": "Choosing where a line is quiet or firm helps a simple drawing read clearly without tracing a dark border around everything.",
+    "connections": "Lesson 2 asked you to follow observed edges instead of relying on a memorized outline. This lesson adds a choice about how strongly to record each line; the next framing lesson will use selected edges to make the relationship between objects easier to read.",
+    "conceptVisuals": [
+      {
+        "src": "assets/diagrams/lesson-05-search-and-select-lines.svg",
+        "alt": "Three hand-drawn book outlines progress from pale overlapping search strokes, to a checked contour, to three selected firmer edges while other edges remain light.",
+        "caption": "A clear line records a check; it does not have to outline everything.",
+        "provenance": {
+          "kind": "original-diagram",
+          "source": "Original deterministic SVG made for this lesson.",
+          "creator": "Codex",
+          "license": "project-created",
+          "notes": "Original course diagram. No source-book illustration was copied."
+        }
+      }
+    ],
+    "deepDive": [
+      "A searching line is useful because it keeps a decision provisional. Short, pale strokes can map the overall direction and allow small corrections while you compare the page with the object. Once a contour is checked, a longer or firmer stroke can make a useful edge easier to follow. Those marks are not separate stages for every artist, but they give a beginner a manageable way to notice the difference between looking for a shape and stating it.",
+      "Pressure is one way to organize attention, not a score for how finished a drawing is. A strong line can call out an overlap, corner, or turn; a light line can describe an edge that is uncertain or less important. If every boundary gets the same dark outline, an object may flatten into a symbol. Let what you see decide which edge needs emphasis, and leave enough light marks to revise a proportion when the drawing changes.",
+      "A darker contour works best when nearby marks give it room. Several equally heavy edges can merge corners and cover the quiet change between a cover and its page. Yet a light edge is not automatically unimportant; it can still describe an accurate change of plane. Decide from this view which few strokes need extra emphasis, then compare each study for clarity rather than neatness."
+    ],
+    "warmupVisuals": [
+      {
+        "src": "assets/diagrams/lesson-05-pressure-warmup.svg",
+        "alt": "A small book corner sits above three repeated graphite strokes labeled light, medium, and firm, showing pressure changes darkness and width without changing the line's direction.",
+        "caption": "Trace one observed edge three times in six minutes.",
+        "provenance": {
+          "kind": "original-diagram",
+          "source": "Original deterministic SVG made for this lesson.",
+          "creator": "Codex",
+          "license": "project-created",
+          "notes": "Original course diagram. No source-book illustration was copied."
+        }
+      }
+    ],
+    "exerciseVisuals": [
+      {
+        "src": "assets/diagrams/lesson-05-lines-exercise.svg",
+        "alt": "Three studies of the same book show pale searching lines, a second drawing with three firmer selected edges, and a larger imperfect drawing that keeps quieter edges light.",
+        "caption": "Hold the book still; carry useful lines forward, not every search.",
+        "provenance": {
+          "kind": "original-diagram",
+          "source": "Original deterministic SVG made for this lesson.",
+          "creator": "Codex",
+          "license": "project-created",
+          "notes": "Original course diagram. No source-book illustration was copied."
+        }
+      }
+    ],
+    "commonMistakes": [
+      {
+        "mistake": "Giving every edge the same dark, finished-looking outline.",
+        "lookFor": "All sides compete equally, search marks disappear, and the book or key reads as a flat symbol.",
+        "visual": {
+          "src": "assets/diagrams/lesson-05-uniform-outline-mistake.svg",
+          "alt": "Two small book drawings compare an equally dark outline on every edge with a more useful mix of light search marks and a few checked firm edges.",
+          "caption": "A uniform dark border can flatten a familiar object.",
+          "provenance": {
+            "kind": "original-diagram",
+            "source": "Original deterministic SVG made for this lesson.",
+            "creator": "Codex",
+            "license": "project-created",
+            "notes": "Original course diagram. No source-book illustration was copied."
+          }
+        }
+      }
+    ],
+    "selfCheck": [
+      "Can you find pale searching marks that helped you adjust the object's width, height, or direction?",
+      "Which three lines did you choose to strengthen, and what do they clarify?",
+      "Are any edges lighter because you saw that they needed less emphasis?"
+    ],
+    "sources": [
+      {
+        "id": "dodson-keys-to-drawing",
+        "title": "Keys to Drawing",
+        "author": "Bert Dodson",
+        "edition": "Supplied scan of the 1985 work; first paperback printing 1990, later printing year unverified",
+        "pages": "Printed pp. 40–43, 48, and 60",
+        "usedFor": "Warm-up line pressure and the progression from freer hand action to controlled, selected marks.",
+        "sections": [
+          "concept",
+          "deepDive",
+          "warmup",
+          "exercise",
+          "mistakes"
+        ]
+      },
+      {
+        "id": "aristides-classical-atelier",
+        "title": "Classical Drawing Atelier: A Contemporary Guide to Traditional Studio Practice",
+        "author": "Juliette Aristides",
+        "edition": "2011 reflowable EPUB of the work first published 2006; embedded print folios",
+        "pages": "Chapter 3, “Types and Uses of Lines,” embedded printed pp. 64–68; EPUB has no stable page count",
+        "usedFor": "Line as direction and shape, and the use of selected lines to clarify a checked contour.",
+        "sections": [
+          "concept",
+          "deepDive",
+          "exercise"
+        ]
+      }
+    ]
+  }
 }

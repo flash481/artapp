@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0",
+  "asset_id": "lesson-04-measurement-mistake",
+  "file": "public/assets/diagrams/lesson-04-measurement-mistake.svg",
+  "category": "diagram",
+  "title": "Let the flower vary",
+  "alt_text": "Two flower studies contrast a memory-based flower with identical petals and a straight stem against an imperfect observed flower with a tilted axis, unequal petals, checked width, and asymmetric leaves.",
+  "caption": "Repeated symbols hide the measurements that make this flower particular.",
+  "created_on": "2026-09-30",
+  "provenance": {
+    "origin": "original",
+    "creator_or_model": "Codex; deterministic SVG paths authored for this course",
+    "work_title": "Let the flower vary",
+    "creation_date_or_period": "2026-09-30",
+    "rights_basis": "original",
+    "license_or_attribution": "Original course asset. No source-book illustration was used."
+  },
+  "distribution": "deployable_after_review",
+  "review_notes": "Portrait SVG with labels sized for a 390 px phone viewport; review in the app before release."
+}
