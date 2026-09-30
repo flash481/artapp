@@ -1,20 +1,20 @@
 {
   "schema_version": "1.0",
   "asset_id": "lesson-08-cup-mistake",
-  "file": "public/assets/diagrams/lesson-08-cup-mistake.svg",
-  "category": "diagram",
-  "title": "Let the observed cup change the construction",
-  "alt_text": "A forced vertical cylinder and guessed handle are compared with a checked cup whose taper, rim view, and two handle joins follow observation.",
-  "caption": "Construction should be revised to match the cup you are looking at.",
+  "file": "public/assets/teaching/lesson-08-cup-mistake.jpg",
+  "category": "generated_example",
+  "title": "Cup Mistake",
+  "alt_text": "Two graphite cup drawings compare a forced vertical cylinder and guessed handle with a subtly tapered, asymmetric cup whose handle opening and attachment points have been checked. Light arrows point to the body side and handle joins.",
+  "caption": "Use the construction to begin; use the cup to correct it.",
   "created_on": "2026-09-30",
   "provenance": {
-    "origin": "original",
-    "creator_or_model": "Codex; hand-authored deterministic SVG",
-    "work_title": "Let the observed cup change the construction",
+    "origin": "generated",
+    "creator_or_model": "OpenAI image generation tool, directed by Codex from a lesson-specific visual brief",
+    "work_title": "ArtApp Lesson 08: Cup Mistake",
     "creation_date_or_period": "2026-09-30",
-    "rights_basis": "original",
-    "license_or_attribution": "Original course diagram; no source-book illustration was copied."
+    "rights_basis": "generated",
+    "license_or_attribution": "Original generated ArtApp instructional visual, created from an independent written brief; no source-book image was supplied or used."
   },
   "distribution": "deployable_after_review",
-  "review_notes": "The comparison identifies taper and handle attachments as observed relationships rather than fixed templates."
+  "review_notes": "Original graphite-style teaching example reviewed for lesson fit. Source-book illustration page candidates are listed in docs/VISUAL_DIRECTION_AUDIT_01_09.md but were unavailable for visual inspection; this asset is not based on a viewed book image. Check readability at phone width in the rendered app."
 }

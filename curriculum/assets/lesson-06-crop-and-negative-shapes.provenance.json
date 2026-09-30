@@ -1,20 +1,20 @@
 {
   "schema_version": "1.0",
   "asset_id": "lesson-06-crop-and-negative-shapes",
-  "file": "public/assets/diagrams/lesson-06-crop-and-negative-shapes.svg",
-  "category": "diagram",
-  "title": "Three possible crops",
-  "alt_text": "Three portrait frames contain the same mug and closed book arrangement at different scales and placements: generous margins, a closer crop, and a shifted crop. Pale areas around and between objects mark changing negative shapes.",
+  "file": "public/assets/teaching/lesson-06-crop-and-negative-shapes.jpg",
+  "category": "generated_example",
+  "title": "Crop And Negative Shapes",
+  "alt_text": "One graphite mug-and-book arrangement is drawn once beneath three overlaid crop rectangles: a roomy frame, a closer frame, and a shifted frame. The objects stay fixed; arrows point to the changing margins and negative spaces.",
   "caption": "A frame changes how the mug and book share the page.",
   "created_on": "2026-09-30",
   "provenance": {
-    "origin": "original",
-    "creator_or_model": "Codex; deterministic SVG paths authored for this course",
-    "work_title": "Three possible crops",
+    "origin": "generated",
+    "creator_or_model": "OpenAI image generation tool, directed by Codex from a lesson-specific visual brief",
+    "work_title": "ArtApp Lesson 06: Crop And Negative Shapes",
     "creation_date_or_period": "2026-09-30",
-    "rights_basis": "original",
-    "license_or_attribution": "Original course asset. No source-book illustration was used."
+    "rights_basis": "generated",
+    "license_or_attribution": "Original generated ArtApp instructional visual, created from an independent written brief; no source-book image was supplied or used."
   },
   "distribution": "deployable_after_review",
-  "review_notes": "Portrait SVG with labels sized for a 390 px phone viewport; review in the app before release."
+  "review_notes": "Original graphite-style teaching example reviewed for lesson fit. Source-book illustration page candidates are listed in docs/VISUAL_DIRECTION_AUDIT_01_09.md but were unavailable for visual inspection; this asset is not based on a viewed book image. Check readability at phone width in the rendered app."
 }

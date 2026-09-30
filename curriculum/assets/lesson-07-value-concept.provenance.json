@@ -1,20 +1,20 @@
 {
   "schema_version": "1.0",
   "asset_id": "lesson-07-value-concept",
-  "file": "public/assets/diagrams/lesson-07-value-concept.svg",
-  "category": "diagram",
-  "title": "Three broad value families on fruit",
-  "alt_text": "An upper-left lamp illuminates fruit with a broad light area, a visible middle turning plane, and a dark form shadow clipped to the fruit. A separate cast shadow rests to the right on the table.",
-  "caption": "Squint for three broad value families, then check the cast shadow against your setup.",
+  "file": "public/assets/teaching/lesson-07-value-concept.jpg",
+  "category": "generated_example",
+  "title": "Value Concept",
+  "alt_text": "An upper-left lamp lights a fruit divided into a broad light area, a middle turning plane, and a dark form shadow. A separate cast shadow extends right across the table.",
+  "caption": "Use the three broad groups as a starting key; follow the light you observe.",
   "created_on": "2026-09-30",
   "provenance": {
-    "origin": "original",
-    "creator_or_model": "Codex; hand-authored deterministic SVG",
-    "work_title": "Three broad value families on fruit",
+    "origin": "generated",
+    "creator_or_model": "OpenAI image generation tool, directed by Codex from a lesson-specific visual brief",
+    "work_title": "ArtApp Lesson 07: Value Concept",
     "creation_date_or_period": "2026-09-30",
-    "rights_basis": "original",
-    "license_or_attribution": "Original course diagram; no source-book illustration was copied."
+    "rights_basis": "generated",
+    "license_or_attribution": "Original generated ArtApp instructional visual, created from an independent written brief; no source-book image was supplied or used."
   },
   "distribution": "deployable_after_review",
-  "review_notes": "The three broad value regions are labeled in text as well as color. The dark form shadow is clipped to the fruit silhouette; a separate cast shadow touches the base and extends right, away from the lamp."
+  "review_notes": "Original graphite-style teaching example reviewed for lesson fit. Source-book illustration page candidates are listed in docs/VISUAL_DIRECTION_AUDIT_01_09.md but were unavailable for visual inspection; this asset is not based on a viewed book image. Check readability at phone width in the rendered app."
 }

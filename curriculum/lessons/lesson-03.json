@@ -75,14 +75,14 @@
     "connections": "Lesson 2 followed the shoe's outer boundary. Now notice the spaces sharing those boundaries with a plant; this revisits contour observation while adding a second way to check it.",
     "conceptVisuals": [
       {
-        "src": "assets/diagrams/lesson-03-shared-edge-gap-concept.svg",
+        "src": "assets/teaching/lesson-03-shared-edge-gap-concept.jpg",
         "alt": "A potted plant diagram marks three distinct cyan negative-space shapes between its leaves. Matching A, B, and C labels link each opening to an enlarged example that can be compared by width, angle, and position.",
         "caption": "Three different gaps share edges with the surrounding leaves.",
         "provenance": {
-          "kind": "original-diagram",
-          "creator": "Codex; deterministic SVG authored for this course",
-          "license": "original",
-          "notes": "Original plant schematic made from scratch. No source-book image, page layout, or figure was copied."
+          "kind": "generated-example",
+          "creator": "OpenAI image generation tool, directed by Codex from a lesson-specific visual brief",
+          "license": "generated",
+          "notes": "Original ArtApp teaching drawing generated from an independent written visual brief. No source-book illustration informed this original ArtApp visual: the cited page images were unavailable for inspection in this pass."
         }
       }
     ],
@@ -92,27 +92,27 @@
     ],
     "warmupVisuals": [
       {
-        "src": "assets/diagrams/lesson-03-warmup-two-gaps.svg",
+        "src": "assets/teaching/lesson-03-warmup-two-gaps.jpg",
         "alt": "A plant sketch has two open spaces marked between leaves; separate enlarged gap studies beside it show that each opening has a distinct width and angle to compare with the plant.",
         "caption": "Sketch each opening as its own small shape before drawing leaves.",
         "provenance": {
-          "kind": "original-diagram",
-          "creator": "Codex; deterministic SVG authored for this course",
-          "license": "original",
-          "notes": "Original plant schematic made from scratch. No source-book image, page layout, or figure was copied."
+          "kind": "generated-example",
+          "creator": "OpenAI image generation tool, directed by Codex from a lesson-specific visual brief",
+          "license": "generated",
+          "notes": "Original ArtApp teaching drawing generated from an independent written visual brief. No source-book illustration informed this original ArtApp visual: the cited page images were unavailable for inspection in this pass."
         }
       }
     ],
     "exerciseVisuals": [
       {
-        "src": "assets/diagrams/lesson-03-gap-first-plant-study.svg",
+        "src": "assets/teaching/lesson-03-gap-first-plant-study.jpg",
         "alt": "A potted plant study shows outer page limits, three lightly highlighted gaps around and between leaves, and arrows from the gaps toward the neighboring plant edges they help locate.",
         "caption": "Block in a few large gaps, then use their edges to place nearby forms.",
         "provenance": {
-          "kind": "original-diagram",
-          "creator": "Codex; deterministic SVG authored for this course",
-          "license": "original",
-          "notes": "Original plant schematic made from scratch. No source-book image, page layout, or figure was copied."
+          "kind": "generated-example",
+          "creator": "OpenAI image generation tool, directed by Codex from a lesson-specific visual brief",
+          "license": "generated",
+          "notes": "Original ArtApp teaching drawing generated from an independent written visual brief. No source-book illustration informed this original ArtApp visual: the cited page images were unavailable for inspection in this pass."
         }
       }
     ],
@@ -121,14 +121,14 @@
         "mistake": "Drawing each leaf symbol separately without checking the spaces between them.",
         "lookFor": "Gaps disappear, crowd together, or repeat as similar wedges even where the real plant has different openings. Compare one gap before moving its shared leaf edge.",
         "visual": {
-          "src": "assets/diagrams/lesson-03-leaf-symbol-mistake.svg",
+          "src": "assets/teaching/lesson-03-leaf-symbol-mistake.jpg",
           "alt": "Repeated leaf symbols crowd the first plant sketch and make openings vanish. A second sketch leaves distinct highlighted gaps between leaves, which can be compared with the real plant.",
           "caption": "When gaps close or repeat, compare their shapes with the plant.",
           "provenance": {
-            "kind": "original-diagram",
-            "creator": "Codex; deterministic SVG authored for this course",
-            "license": "original",
-            "notes": "Original plant schematic made from scratch. No source-book image, page layout, or figure was copied."
+            "kind": "generated-example",
+            "creator": "OpenAI image generation tool, directed by Codex from a lesson-specific visual brief",
+            "license": "generated",
+            "notes": "Original ArtApp teaching drawing generated from an independent written visual brief. No source-book illustration informed this original ArtApp visual: the cited page images were unavailable for inspection in this pass."
           }
         }
       }
@@ -152,7 +152,7 @@
           "exercise",
           "mistakes"
         ],
-        "visualInfluence": "The plant and highlighted gaps are original vector schematics; no book figure or layout was copied."
+        "visualInfluence": "No source-book illustration informed this original ArtApp visual: the cited page images were unavailable for inspection in this pass."
       },
       {
         "id": "dodson-keys-to-drawing",
@@ -165,7 +165,7 @@
           "warmup",
           "exercise"
         ],
-        "visualInfluence": "No source page image was used in the plant diagrams."
+        "visualInfluence": "No source-book illustration informed this original ArtApp visual: the cited page images were unavailable for inspection in this pass."
       }
     ]
   }

@@ -76,14 +76,14 @@
     "connections": "Lesson 1 taught you to keep and compare an initial attempt. Here, slow that comparison down to a few observed edges; Lesson 3 will use the same attention to shapes around a subject.",
     "conceptVisuals": [
       {
-        "src": "assets/diagrams/lesson-02-contour-turns.svg",
+        "src": "assets/teaching/lesson-02-contour-turns.jpg",
         "alt": "A simple side-view shoe outline has a highlighted outer edge and three labeled direction changes at the toe, sole, and collar.",
         "caption": "Follow the edge in order; pause where its direction changes.",
         "provenance": {
-          "kind": "original-diagram",
-          "creator": "Codex; deterministic SVG authored for this course",
-          "license": "original",
-          "notes": "Original shoe schematic made from scratch. No source-book image, page layout, or figure was copied."
+          "kind": "generated-example",
+          "creator": "OpenAI image generation tool, directed by Codex from a lesson-specific visual brief",
+          "license": "generated",
+          "notes": "Original ArtApp teaching drawing generated from an independent written visual brief. No source-book illustration informed this original ArtApp visual: the cited page images were unavailable for inspection in this pass."
         }
       }
     ],
@@ -93,27 +93,27 @@
     ],
     "warmupVisuals": [
       {
-        "src": "assets/diagrams/lesson-02-warmup-edge-checks.svg",
+        "src": "assets/teaching/lesson-02-warmup-edge-checks.jpg",
         "alt": "A shoe profile shows one short heel-to-collar edge and one sole-to-toe edge, each enlarged below with a marked turn to compare against the real shoe.",
         "caption": "Draw two short connected edges, then find their clearest turns.",
         "provenance": {
-          "kind": "original-diagram",
-          "creator": "Codex; deterministic SVG authored for this course",
-          "license": "original",
-          "notes": "Original shoe schematic made from scratch. No source-book image, page layout, or figure was copied."
+          "kind": "generated-example",
+          "creator": "OpenAI image generation tool, directed by Codex from a lesson-specific visual brief",
+          "license": "generated",
+          "notes": "Original ArtApp teaching drawing generated from an independent written visual brief. No source-book illustration informed this original ArtApp visual: the cited page images were unavailable for inspection in this pass."
         }
       }
     ],
     "exerciseVisuals": [
       {
-        "src": "assets/diagrams/lesson-02-two-contour-passes.svg",
+        "src": "assets/teaching/lesson-02-two-contour-passes.jpg",
         "alt": "Two shoe drawings show the first outline kept on the page, one toe turn circled, and a second outline with a visibly different toe angle while other parts remain a rough first pass.",
         "caption": "Correct the turn you observe, then check the rest of the shoe.",
         "provenance": {
-          "kind": "original-diagram",
-          "creator": "Codex; deterministic SVG authored for this course",
-          "license": "original",
-          "notes": "Original shoe schematic made from scratch. No source-book image, page layout, or figure was copied."
+          "kind": "generated-example",
+          "creator": "OpenAI image generation tool, directed by Codex from a lesson-specific visual brief",
+          "license": "generated",
+          "notes": "Original ArtApp teaching drawing generated from an independent written visual brief. No source-book illustration informed this original ArtApp visual: the cited page images were unavailable for inspection in this pass."
         }
       }
     ],
@@ -122,14 +122,14 @@
         "mistake": "Drawing a tidy shoe outline from memory before checking its turns.",
         "lookFor": "The toe, heel, collar, and sole all look smoothly rounded and generic. Return to the shoe and mark where the direction actually changes.",
         "visual": {
-          "src": "assets/diagrams/lesson-02-memory-outline-mistake.svg",
+          "src": "assets/teaching/lesson-02-memory-outline-mistake.jpg",
           "alt": "A smooth generic shoe icon with no clear heel or toe turns is contrasted with an observed side view that has a distinct heel-to-collar turn, a long flat sole, and a sloped toe.",
           "caption": "Check the actual heel turn, sole, and toe slope before smoothing.",
           "provenance": {
-            "kind": "original-diagram",
-            "creator": "Codex; deterministic SVG authored for this course",
-            "license": "original",
-            "notes": "Original shoe schematic made from scratch. No source-book image, page layout, or figure was copied."
+            "kind": "generated-example",
+            "creator": "OpenAI image generation tool, directed by Codex from a lesson-specific visual brief",
+            "license": "generated",
+            "notes": "Original ArtApp teaching drawing generated from an independent written visual brief. No source-book illustration informed this original ArtApp visual: the cited page images were unavailable for inspection in this pass."
           }
         }
       }
@@ -153,7 +153,7 @@
           "exercise",
           "mistakes"
         ],
-        "visualInfluence": "The original shoe schematic highlights a few turns and does not copy a book figure or page layout."
+        "visualInfluence": "No source-book illustration informed this original ArtApp visual: the cited page images were unavailable for inspection in this pass."
       },
       {
         "id": "dodson-keys-to-drawing",
@@ -169,7 +169,7 @@
           "exercise",
           "mistakes"
         ],
-        "visualInfluence": "All shoe outlines in the lesson are original schematics; no source shoe image was copied."
+        "visualInfluence": "No source-book illustration informed this original ArtApp visual: the cited page images were unavailable for inspection in this pass."
       }
     ]
   }

@@ -1,20 +1,20 @@
 {
   "schema_version": "1.0",
   "asset_id": "lesson-01-memory-symbol-mug",
-  "file": "public/assets/diagrams/lesson-01-memory-symbol-mug.svg",
-  "category": "diagram",
-  "title": "Draw the mug you see",
+  "file": "public/assets/teaching/lesson-01-memory-symbol-mug.jpg",
+  "category": "generated_example",
+  "title": "Memory Symbol Mug",
   "alt_text": "A regular mug symbol with parallel body sides and a horizontal rim is contrasted with an observed mug whose rim tilt, body taper, and handle opening are checked against the real object.",
   "caption": "Compare the rim, taper, and handle opening with your mug.",
   "created_on": "2026-09-30",
   "provenance": {
-    "origin": "original",
-    "creator_or_model": "Codex; deterministic SVG paths authored for this course",
-    "work_title": "Draw the mug you see",
+    "origin": "generated",
+    "creator_or_model": "OpenAI image generation tool, directed by Codex from a lesson-specific visual brief",
+    "work_title": "ArtApp Lesson 01: Memory Symbol Mug",
     "creation_date_or_period": "2026-09-30",
-    "rights_basis": "original",
-    "license_or_attribution": "Original course asset. No source-book image was used."
+    "rights_basis": "generated",
+    "license_or_attribution": "Original generated ArtApp instructional visual, created from an independent written brief; no source-book image was supplied or used."
   },
   "distribution": "deployable_after_review",
-  "review_notes": "Portrait teaching diagram with large labels for phone viewing. Original example, not a target mug; review in the app before release."
+  "review_notes": "Original graphite-style teaching example reviewed for lesson fit. Source-book illustration page candidates are listed in docs/VISUAL_DIRECTION_AUDIT_01_09.md but were unavailable for visual inspection; this asset is not based on a viewed book image. Check readability at phone width in the rendered app."
 }

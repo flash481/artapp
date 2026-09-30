@@ -1,20 +1,20 @@
 {
   "schema_version": "1.0",
   "asset_id": "lesson-04-relative-measurement",
-  "file": "public/assets/diagrams/lesson-04-relative-measurement.svg",
-  "category": "diagram",
-  "title": "Compare observed parts",
+  "file": "public/assets/teaching/lesson-04-relative-measurement.jpg",
+  "category": "generated_example",
+  "title": "Relative Measurement",
   "alt_text": "An irregular flower is blocked in with a tilted axis. A horizontal arrow marks the bloom width as one temporary unit; another checks stem length, while gaps and leaf alignments remain visible. A small bottom panel shows a fixed eye point, extended arm, pencil, and thumb-held unit mark.",
   "caption": "Choose a temporary unit, then check this flower rather than using a fixed ratio.",
   "created_on": "2026-09-30",
   "provenance": {
-    "origin": "original",
-    "creator_or_model": "Codex; deterministic SVG paths authored for this course",
-    "work_title": "Compare observed parts",
+    "origin": "generated",
+    "creator_or_model": "OpenAI image generation tool, directed by Codex from a lesson-specific visual brief",
+    "work_title": "ArtApp Lesson 04: Relative Measurement",
     "creation_date_or_period": "2026-09-30",
-    "rights_basis": "original",
-    "license_or_attribution": "Original course asset. No source-book illustration was used."
+    "rights_basis": "generated",
+    "license_or_attribution": "Original generated ArtApp instructional visual, created from an independent written brief; no source-book image was supplied or used."
   },
   "distribution": "deployable_after_review",
-  "review_notes": "Portrait SVG with labels sized for a 390 px phone viewport; review in the app before release."
+  "review_notes": "Original graphite-style teaching example reviewed for lesson fit. Source-book illustration page candidates are listed in docs/VISUAL_DIRECTION_AUDIT_01_09.md but were unavailable for visual inspection; this asset is not based on a viewed book image. Check readability at phone width in the rendered app."
 }

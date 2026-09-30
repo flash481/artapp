@@ -71,14 +71,14 @@
     "connections": "The two attempts create a look-draw-check cycle that Lessons 2 and 3 will reuse with contour turns and surrounding gaps.",
     "conceptVisuals": [
       {
-        "src": "assets/diagrams/lesson-01-observation-cycle.svg",
+        "src": "assets/teaching/lesson-01-observation-cycle.jpg",
         "alt": "Three mug studies show the same observed mug, a first sketch with one visible proportion to check, and a second sketch that changes only that relation.",
         "caption": "Use one visible comparison to decide what to try in the next drawing.",
         "provenance": {
-          "kind": "original-diagram",
-          "creator": "Codex; deterministic SVG authored for this course",
-          "license": "original",
-          "notes": "Original schematic made from scratch. No source-book image, page layout, or figure was copied."
+          "kind": "generated-example",
+          "creator": "OpenAI image generation tool, directed by Codex from a lesson-specific visual brief",
+          "license": "generated",
+          "notes": "Original ArtApp teaching drawing generated from an independent written visual brief. No source-book illustration informed this original ArtApp visual: the cited page images were unavailable for inspection in this pass."
         }
       }
     ],
@@ -88,27 +88,27 @@
     ],
     "warmupVisuals": [
       {
-        "src": "assets/diagrams/lesson-01-warmup-check-one-relation.svg",
+        "src": "assets/teaching/lesson-01-warmup-check-one-relation.jpg",
         "alt": "A five-step timeline shows looking for 30 seconds, sketching for two minutes, comparing height and width, making a second two-minute sketch, and circling what changed.",
         "caption": "Keep the mug and viewpoint steady for both tiny sketches.",
         "provenance": {
-          "kind": "original-diagram",
-          "creator": "Codex; deterministic SVG authored for this course",
-          "license": "original",
-          "notes": "Original schematic made from scratch. No source-book image, page layout, or figure was copied."
+          "kind": "generated-example",
+          "creator": "OpenAI image generation tool, directed by Codex from a lesson-specific visual brief",
+          "license": "generated",
+          "notes": "Original ArtApp teaching drawing generated from an independent written visual brief. No source-book illustration informed this original ArtApp visual: the cited page images were unavailable for inspection in this pass."
         }
       }
     ],
     "exerciseVisuals": [
       {
-        "src": "assets/diagrams/lesson-01-two-pass-mug-study.svg",
+        "src": "assets/teaching/lesson-01-two-pass-mug-study.jpg",
         "alt": "Two side-by-side mug sketches show a first pass kept on the page, one observed mismatch circled, and a second pass that tests one changed proportion.",
         "caption": "Choose a difference you can point to on the mug; the sketches are only examples.",
         "provenance": {
-          "kind": "original-diagram",
-          "creator": "Codex; deterministic SVG authored for this course",
-          "license": "original",
-          "notes": "Original schematic made from scratch. No source-book image, page layout, or figure was copied."
+          "kind": "generated-example",
+          "creator": "OpenAI image generation tool, directed by Codex from a lesson-specific visual brief",
+          "license": "generated",
+          "notes": "Original ArtApp teaching drawing generated from an independent written visual brief. No source-book illustration informed this original ArtApp visual: the cited page images were unavailable for inspection in this pass."
         }
       }
     ],
@@ -117,14 +117,14 @@
         "mistake": "Drawing a familiar mug symbol instead of checking the mug in front of you.",
         "lookFor": "The rim, body, or handle is made even by habit. Compare one of those features with the actual mug before changing the drawing.",
         "visual": {
-          "src": "assets/diagrams/lesson-01-memory-symbol-mug.svg",
+          "src": "assets/teaching/lesson-01-memory-symbol-mug.jpg",
           "alt": "A regular mug symbol with parallel body sides and a horizontal rim is contrasted with an observed mug whose rim tilt, body taper, and handle opening are checked against the real object.",
           "caption": "Compare the rim, taper, and handle opening with your mug.",
           "provenance": {
-            "kind": "original-diagram",
-            "creator": "Codex; deterministic SVG authored for this course",
-            "license": "original",
-            "notes": "Original schematic made from scratch. No source-book image, page layout, or figure was copied."
+            "kind": "generated-example",
+            "creator": "OpenAI image generation tool, directed by Codex from a lesson-specific visual brief",
+            "license": "generated",
+            "notes": "Original ArtApp teaching drawing generated from an independent written visual brief. No source-book illustration informed this original ArtApp visual: the cited page images were unavailable for inspection in this pass."
           }
         }
       }
@@ -148,7 +148,7 @@
           "exercise",
           "mistakes"
         ],
-        "visualInfluence": "The diagrams are original mug schematics; no shoe or foot page image was copied."
+        "visualInfluence": "No source-book illustration informed this original ArtApp visual: the cited page images were unavailable for inspection in this pass."
       }
     ]
   }

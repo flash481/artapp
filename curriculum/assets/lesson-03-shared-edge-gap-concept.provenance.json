@@ -1,20 +1,20 @@
 {
   "schema_version": "1.0",
   "asset_id": "lesson-03-shared-edge-gap-concept",
-  "file": "public/assets/diagrams/lesson-03-shared-edge-gap-concept.svg",
-  "category": "diagram",
-  "title": "Gaps shape the plant",
+  "file": "public/assets/teaching/lesson-03-shared-edge-gap-concept.jpg",
+  "category": "generated_example",
+  "title": "Shared Edge Gap Concept",
   "alt_text": "A potted plant diagram marks three distinct cyan negative-space shapes between its leaves. Matching A, B, and C labels link each opening to an enlarged example that can be compared by width, angle, and position.",
   "caption": "Three different gaps share edges with the surrounding leaves.",
   "created_on": "2026-09-30",
   "provenance": {
-    "origin": "original",
-    "creator_or_model": "Codex; deterministic SVG paths authored for this course",
-    "work_title": "Gaps shape the plant",
+    "origin": "generated",
+    "creator_or_model": "OpenAI image generation tool, directed by Codex from a lesson-specific visual brief",
+    "work_title": "ArtApp Lesson 03: Shared Edge Gap Concept",
     "creation_date_or_period": "2026-09-30",
-    "rights_basis": "original",
-    "license_or_attribution": "Original course asset. No source-book image was used."
+    "rights_basis": "generated",
+    "license_or_attribution": "Original generated ArtApp instructional visual, created from an independent written brief; no source-book image was supplied or used."
   },
   "distribution": "deployable_after_review",
-  "review_notes": "Portrait teaching diagram with short labels for phone viewing. Original plant schematic, not a target plant; review in the app before release."
+  "review_notes": "Original graphite-style teaching example reviewed for lesson fit. Source-book illustration page candidates are listed in docs/VISUAL_DIRECTION_AUDIT_01_09.md but were unavailable for visual inspection; this asset is not based on a viewed book image. Check readability at phone width in the rendered app."
 }

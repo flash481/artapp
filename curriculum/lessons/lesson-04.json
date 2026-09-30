@@ -77,15 +77,14 @@
     "connections": "Lesson 3 trained you to notice negative shapes around an object. Here you will compare those gaps alongside the flower's lengths, angles, and alignments; Lesson 2's slow contour looking also helps you see where a leaf actually meets the stem.",
     "conceptVisuals": [
       {
-        "src": "assets/diagrams/lesson-04-relative-measurement.svg",
+        "src": "assets/teaching/lesson-04-relative-measurement.jpg",
         "alt": "An irregular flower is blocked in with a tilted axis. A horizontal arrow marks the bloom width as one temporary unit; another checks stem length, while gaps and leaf alignments remain visible. A small bottom panel shows a fixed eye point, extended arm, pencil, and thumb-held unit mark.",
         "caption": "Choose a temporary unit, then check this flower rather than using a fixed ratio.",
         "provenance": {
-          "kind": "original-diagram",
-          "source": "Original deterministic SVG made for this lesson.",
-          "creator": "Codex",
-          "license": "project-created",
-          "notes": "Original course diagram. No source-book illustration was copied."
+          "kind": "generated-example",
+          "creator": "OpenAI image generation tool, directed by Codex from a lesson-specific visual brief",
+          "license": "generated",
+          "notes": "Original ArtApp teaching drawing generated from an independent written visual brief. No source-book illustration informed this original ArtApp visual: the cited page images were unavailable for inspection in this pass."
         }
       }
     ],
@@ -96,29 +95,27 @@
     ],
     "warmupVisuals": [
       {
-        "src": "assets/diagrams/lesson-04-flower-warmup.svg",
+        "src": "assets/teaching/lesson-04-flower-warmup.jpg",
         "alt": "Three stacked warm-up stages show a slightly crooked axis, loose bloom and leaf masses, then one measured bloom width with a stem-length and alignment check.",
         "caption": "Mark the large direction first; spend the last minutes comparing.",
         "provenance": {
-          "kind": "original-diagram",
-          "source": "Original deterministic SVG made for this lesson.",
-          "creator": "Codex",
-          "license": "project-created",
-          "notes": "Original course diagram. No source-book illustration was copied."
+          "kind": "generated-example",
+          "creator": "OpenAI image generation tool, directed by Codex from a lesson-specific visual brief",
+          "license": "generated",
+          "notes": "Original ArtApp teaching drawing generated from an independent written visual brief. No source-book illustration informed this original ArtApp visual: the cited page images were unavailable for inspection in this pass."
         }
       }
     ],
     "exerciseVisuals": [
       {
-        "src": "assets/diagrams/lesson-04-observed-flower-block-in.svg",
+        "src": "assets/teaching/lesson-04-observed-flower-block-in.jpg",
         "alt": "A three-stage flower study progresses from a tilted axis and endpoints to a loose asymmetrical bloom and leaves, then checks one length and the negative gap before a few details.",
         "caption": "Large shapes first; two or three details last.",
         "provenance": {
-          "kind": "original-diagram",
-          "source": "Original deterministic SVG made for this lesson.",
-          "creator": "Codex",
-          "license": "project-created",
-          "notes": "Original course diagram. No source-book illustration was copied."
+          "kind": "generated-example",
+          "creator": "OpenAI image generation tool, directed by Codex from a lesson-specific visual brief",
+          "license": "generated",
+          "notes": "Original ArtApp teaching drawing generated from an independent written visual brief. No source-book illustration informed this original ArtApp visual: the cited page images were unavailable for inspection in this pass."
         }
       }
     ],
@@ -127,15 +124,14 @@
         "mistake": "Drawing a remembered, perfectly regular flower instead of the flower you can see.",
         "lookFor": "Petals repeat evenly, the stem becomes straight, or leaves mirror each other even when the subject does not.",
         "visual": {
-          "src": "assets/diagrams/lesson-04-measurement-mistake.svg",
+          "src": "assets/teaching/lesson-04-measurement-mistake.jpg",
           "alt": "Two flower studies contrast a memory-based flower with identical petals and a straight stem against an imperfect observed flower with a tilted axis, unequal petals, checked width, and asymmetric leaves.",
           "caption": "Repeated symbols hide the measurements that make this flower particular.",
           "provenance": {
-            "kind": "original-diagram",
-            "source": "Original deterministic SVG made for this lesson.",
-            "creator": "Codex",
-            "license": "project-created",
-            "notes": "Original course diagram. No source-book illustration was copied."
+            "kind": "generated-example",
+            "creator": "OpenAI image generation tool, directed by Codex from a lesson-specific visual brief",
+            "license": "generated",
+            "notes": "Original ArtApp teaching drawing generated from an independent written visual brief. No source-book illustration informed this original ArtApp visual: the cited page images were unavailable for inspection in this pass."
           }
         }
       }

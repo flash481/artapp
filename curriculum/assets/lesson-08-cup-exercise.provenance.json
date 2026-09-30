@@ -1,20 +1,20 @@
 {
   "schema_version": "1.0",
   "asset_id": "lesson-08-cup-exercise",
-  "file": "public/assets/diagrams/lesson-08-cup-exercise.svg",
-  "category": "diagram",
-  "title": "Four checks while drawing a cup",
-  "alt_text": "Four stages show fixing a viewpoint, constructing a cup around an axis, placing a separate handle loop at observed attachment points, and correcting one mismatch.",
-  "caption": "Check the cup after each construction pass; strengthen only visible edges.",
+  "file": "public/assets/teaching/lesson-08-cup-exercise.jpg",
+  "category": "generated_example",
+  "title": "Cup Exercise",
+  "alt_text": "Four checks compare cup proportions, construct the tapered body lightly, place the handle loop at two joins, and revise one mismatch.",
+  "caption": "Build only as far as your observations support, then correct one relationship.",
   "created_on": "2026-09-30",
   "provenance": {
-    "origin": "original",
-    "creator_or_model": "Codex; hand-authored deterministic SVG",
-    "work_title": "Four checks while drawing a cup",
+    "origin": "generated",
+    "creator_or_model": "OpenAI image generation tool, directed by Codex from a lesson-specific visual brief",
+    "work_title": "ArtApp Lesson 08: Cup Exercise",
     "creation_date_or_period": "2026-09-30",
-    "rights_basis": "original",
-    "license_or_attribution": "Original course diagram; no source-book illustration was copied."
+    "rights_basis": "generated",
+    "license_or_attribution": "Original generated ArtApp instructional visual, created from an independent written brief; no source-book image was supplied or used."
   },
   "distribution": "deployable_after_review",
-  "review_notes": "Four vertically stacked checks use large labels; guide lines are distinguished from visible contours."
+  "review_notes": "Original graphite-style teaching example reviewed for lesson fit. Source-book illustration page candidates are listed in docs/VISUAL_DIRECTION_AUDIT_01_09.md but were unavailable for visual inspection; this asset is not based on a viewed book image. Check readability at phone width in the rendered app."
 }

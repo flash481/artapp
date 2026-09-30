@@ -82,15 +82,14 @@
     "connections": "Lesson 3 used negative shapes to check object edges. Here you compare those gaps inside a chosen frame, combining careful looking with a new composition decision; later still-life studies can revisit framing with more objects and less scaffolding.",
     "conceptVisuals": [
       {
-        "src": "assets/diagrams/lesson-06-crop-and-negative-shapes.svg",
-        "alt": "Three portrait frames contain the same mug and closed book arrangement at different scales and placements: generous margins, a closer crop, and a shifted crop. Pale areas around and between objects mark changing negative shapes.",
+        "src": "assets/teaching/lesson-06-crop-and-negative-shapes.jpg",
+        "alt": "One graphite mug-and-book arrangement is drawn once beneath three overlaid crop rectangles: a roomy frame, a closer frame, and a shifted frame. The objects stay fixed; arrows point to the changing margins and negative spaces.",
         "caption": "A frame changes how the mug and book share the page.",
         "provenance": {
-          "kind": "original-diagram",
-          "source": "Original deterministic SVG made for this lesson.",
-          "creator": "Codex",
-          "license": "project-created",
-          "notes": "Original course diagram. No source-book illustration was copied."
+          "kind": "generated-example",
+          "creator": "OpenAI image generation tool, directed by Codex from a lesson-specific visual brief",
+          "license": "generated",
+          "notes": "Original ArtApp teaching drawing generated from an independent written visual brief. No source-book illustration informed this original ArtApp visual: the cited page images were unavailable for inspection in this pass."
         }
       }
     ],
@@ -101,29 +100,27 @@
     ],
     "warmupVisuals": [
       {
-        "src": "assets/diagrams/lesson-06-two-frame-warmup.svg",
-        "alt": "Two small frames show one fixed mug-and-book arrangement, first with generous margins and then cropped closer. The object shapes stay simple and slightly uneven.",
+        "src": "assets/teaching/lesson-06-two-frame-warmup.jpg",
+        "alt": "One fixed graphite mug-and-book arrangement is shown with two overlaid crop rectangles, one roomy and one closer. The subject drawing stays in place while only the frame boundary changes.",
         "caption": "In seven minutes, change the frame, not the arrangement.",
         "provenance": {
-          "kind": "original-diagram",
-          "source": "Original deterministic SVG made for this lesson.",
-          "creator": "Codex",
-          "license": "project-created",
-          "notes": "Original course diagram. No source-book illustration was copied."
+          "kind": "generated-example",
+          "creator": "OpenAI image generation tool, directed by Codex from a lesson-specific visual brief",
+          "license": "generated",
+          "notes": "Original ArtApp teaching drawing generated from an independent written visual brief. No source-book illustration informed this original ArtApp visual: the cited page images were unavailable for inspection in this pass."
         }
       }
     ],
     "exerciseVisuals": [
       {
-        "src": "assets/diagrams/lesson-06-crop-thumbnails-exercise.svg",
-        "alt": "Three rough thumbnail frames show the mug and book with different margins and a shifted crop; a larger selected frame below demonstrates carrying the chosen crop into a simple drawing.",
+        "src": "assets/teaching/lesson-06-crop-thumbnails-exercise.jpg",
+        "alt": "A single graphite mug-and-book arrangement is overlaid by three differently styled crop rectangles. The objects keep the same scale and placement while each page boundary changes the crop.",
         "caption": "Compare big shapes and gaps before adding identifying details.",
         "provenance": {
-          "kind": "original-diagram",
-          "source": "Original deterministic SVG made for this lesson.",
-          "creator": "Codex",
-          "license": "project-created",
-          "notes": "Original course diagram. No source-book illustration was copied."
+          "kind": "generated-example",
+          "creator": "OpenAI image generation tool, directed by Codex from a lesson-specific visual brief",
+          "license": "generated",
+          "notes": "Original ArtApp teaching drawing generated from an independent written visual brief. No source-book illustration informed this original ArtApp visual: the cited page images were unavailable for inspection in this pass."
         }
       }
     ],
@@ -132,15 +129,14 @@
         "mistake": "Leaving a corner almost touching the frame edge by accident.",
         "lookFor": "A very thin gap makes the book appear to merge with the frame or leaves an awkward sliver.",
         "visual": {
-          "src": "assets/diagrams/lesson-06-tangent-mistake.svg",
-          "alt": "Two crop studies of a mug and book compare a book corner that almost touches the frame, leaving a narrow confusing sliver, with a roomier crop that gives the corner a clear margin.",
+          "src": "assets/teaching/lesson-06-tangent-mistake.jpg",
+          "alt": "One graphite book drawing sits inside two page-frame rectangles. The tighter crop leaves the upper book corner nearly touching the border; the wider frame gives it a clearer margin.",
           "caption": "A tiny accidental gap can make the frame edge compete with the object.",
           "provenance": {
-            "kind": "original-diagram",
-            "source": "Original deterministic SVG made for this lesson.",
-            "creator": "Codex",
-            "license": "project-created",
-            "notes": "Original course diagram. No source-book illustration was copied."
+            "kind": "generated-example",
+            "creator": "OpenAI image generation tool, directed by Codex from a lesson-specific visual brief",
+            "license": "generated",
+            "notes": "Original ArtApp teaching drawing generated from an independent written visual brief. No source-book illustration informed this original ArtApp visual: the cited page images were unavailable for inspection in this pass."
           }
         }
       }
@@ -164,7 +160,7 @@
           "warmup",
           "exercise"
         ],
-        "visualInfluence": "The lesson uses original mug-and-book frames to demonstrate crop variation; no book illustration was copied."
+        "visualInfluence": "No source-book illustration informed this original ArtApp visual: the cited page images were unavailable for inspection in this pass."
       },
       {
         "id": "edwards-right-side-brain",

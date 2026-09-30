@@ -3,18 +3,38 @@
   "title": "Ellipse and rim",
   "durationMinutes": 45,
   "difficulty": "beginner",
-  "medium": ["graphite"],
-  "materials": ["sketchbook", "graphite pencil", "eraser", "bowl from life"],
+  "medium": [
+    "graphite"
+  ],
+  "materials": [
+    "sketchbook",
+    "graphite pencil",
+    "eraser",
+    "bowl from life"
+  ],
   "lessonType": "lesson",
   "fundamentals": {
-    "primary": ["space", "measurement"],
+    "primary": [
+      "space",
+      "measurement"
+    ],
     "secondary": []
   },
   "concepts": [
-    { "id": "ellipse-cylinder-construction", "name": "Ellipses and cylinders in space", "stage": "practised" },
-    { "id": "proportion-measurement", "name": "Proportion and comparative measurement", "stage": "practised" }
+    {
+      "id": "ellipse-cylinder-construction",
+      "name": "Ellipses and cylinders in space",
+      "stage": "practised"
+    },
+    {
+      "id": "proportion-measurement",
+      "name": "Proportion and comparative measurement",
+      "stage": "practised"
+    }
   ],
-  "prerequisites": ["lesson-08"],
+  "prerequisites": [
+    "lesson-08"
+  ],
   "objective": "Compare how open a bowl rim looks relative to its width from two eye heights, and draw each observed opening.",
   "warmup": {
     "durationMinutes": 7,
@@ -58,6 +78,17 @@
     "connections": "Lesson 8 used the cup's rim to construct a cylinder. Here, revisit that ellipse check with a bowl and add Lesson 4's comparative measurement: compare each opening's height with its own width, then connect the rim to the vessel's side walls.",
     "conceptVisuals": [
       {
+        "src": "assets/teaching/lesson-09-eye-level-ellipse-study.jpg",
+        "alt": "Three graphite bowl studies show a flattened rim from a low view and more open ellipses from higher views, each aligned to its vessel centre axis.",
+        "caption": "The rim changes with eye level while remaining attached to the observed vessel.",
+        "provenance": {
+          "kind": "generated-example",
+          "creator": "OpenAI image generation tool, directed by Codex from a lesson-specific visual brief",
+          "license": "generated",
+          "notes": "Original ArtApp teaching drawing generated from an independent written visual brief. No source-book illustration informed this original ArtApp visual: the cited page images were unavailable for inspection in this pass."
+        }
+      },
+      {
         "src": "assets/diagrams/lesson-09-eye-level-ellipses.svg",
         "alt": "Two stacked side views show the same bowl from lower and higher eye heights. Equal-width schematic rim ellipses compare a flatter lower opening with a more open higher one.",
         "caption": "The diagram normalizes width to show openness; measure your actual bowl in each view.",
@@ -76,29 +107,27 @@
     ],
     "warmupVisuals": [
       {
-        "src": "assets/diagrams/lesson-09-ellipse-warmup.svg",
+        "src": "assets/teaching/lesson-09-ellipse-warmup.jpg",
         "alt": "Three small bowl studies compare flatter, middle, and more open rim sketches as eye height rises; the learner measures each opening independently.",
         "caption": "Sketch the same opening from three eye heights and compare your measured proportions.",
         "provenance": {
-          "kind": "original-diagram",
-          "source": "Original deterministic SVG made for this lesson.",
-          "creator": "Codex",
-          "license": "project-created",
-          "notes": "Original course diagram. No source-book illustration was copied."
+          "kind": "generated-example",
+          "creator": "OpenAI image generation tool, directed by Codex from a lesson-specific visual brief",
+          "license": "generated",
+          "notes": "Original ArtApp teaching drawing generated from an independent written visual brief. No source-book illustration informed this original ArtApp visual: the cited page images were unavailable for inspection in this pass."
         }
       }
     ],
     "exerciseVisuals": [
       {
-        "src": "assets/diagrams/lesson-09-ellipse-exercise.svg",
+        "src": "assets/teaching/lesson-09-ellipse-exercise.jpg",
         "alt": "Two bowl studies include the rim, side walls, and base. Each view has its own width and height marks, with one flatter lower opening and one more open higher opening.",
         "caption": "Draw the whole bowl in each view and measure each rim separately.",
         "provenance": {
-          "kind": "original-diagram",
-          "source": "Original deterministic SVG made for this lesson.",
-          "creator": "Codex",
-          "license": "project-created",
-          "notes": "Original course diagram. No source-book illustration was copied."
+          "kind": "generated-example",
+          "creator": "OpenAI image generation tool, directed by Codex from a lesson-specific visual brief",
+          "license": "generated",
+          "notes": "Original ArtApp teaching drawing generated from an independent written visual brief. No source-book illustration informed this original ArtApp visual: the cited page images were unavailable for inspection in this pass."
         }
       }
     ],
@@ -107,15 +136,14 @@
         "mistake": "Copying one oval into both views or drawing a pointed, tilted rim without checking it.",
         "lookFor": "The two openings stay identical as your eye height changes, or the rim ends pinch and its halves do not balance around the center axis.",
         "visual": {
-          "src": "assets/diagrams/lesson-09-ellipse-mistake.svg",
+          "src": "assets/teaching/lesson-09-ellipse-mistake.jpg",
           "alt": "The same oval copied for low and high views is contrasted with a pointed, tilted rim and a balanced ellipse checked against a center axis.",
           "caption": "Compare each half across the center axis, then check the opening against life.",
           "provenance": {
-            "kind": "original-diagram",
-            "source": "Original deterministic SVG made for this lesson.",
-            "creator": "Codex",
-            "license": "project-created",
-            "notes": "Original course diagram. No source-book illustration was copied."
+            "kind": "generated-example",
+            "creator": "OpenAI image generation tool, directed by Codex from a lesson-specific visual brief",
+            "license": "generated",
+            "notes": "Original ArtApp teaching drawing generated from an independent written visual brief. No source-book illustration informed this original ArtApp visual: the cited page images were unavailable for inspection in this pass."
           }
         }
       }
@@ -133,8 +161,13 @@
         "edition": "Supplied scan of the 1985 work; first paperback printing 1990, later printing year unverified",
         "pages": "Printed pp. 144–147",
         "usedFor": "Eye-level ellipse openness and its relation to viewing angle. Page 144 cautions that its eye-level rule applies to vertical cylinders; this lesson uses direct observation of a horizontal bowl rim.",
-        "sections": ["concept", "deepDive", "exercise", "mistakes"],
-        "visualInfluence": "The original diagrams compare bowl rim openings and retain each bowl's own measured width; no book illustration was copied."
+        "sections": [
+          "concept",
+          "deepDive",
+          "exercise",
+          "mistakes"
+        ],
+        "visualInfluence": "No source-book illustration informed this original ArtApp visual: the cited page images were unavailable for inspection in this pass."
       },
       {
         "id": "aristides-classical-atelier",
@@ -143,7 +176,11 @@
         "edition": "2011 reflowable EPUB of the work first published 2006; embedded print folios",
         "pages": "Chapter 3, “The Block In” and “Measuring,” embedded printed pp. 78–80 and 83–86; EPUB has no stable page count",
         "usedFor": "An observational block-in and comparative measurement for each viewpoint.",
-        "sections": ["concept", "deepDive", "exercise"]
+        "sections": [
+          "concept",
+          "deepDive",
+          "exercise"
+        ]
       }
     ]
   }

@@ -1,20 +1,20 @@
 {
   "schema_version": "1.0",
   "asset_id": "lesson-08-cup-warmup",
-  "file": "public/assets/diagrams/lesson-08-cup-warmup.svg",
-  "category": "diagram",
-  "title": "Warm up with a cylinder, then compare a cup",
-  "alt_text": "A light cylinder guide with an axis and ellipses is compared with a real handled cup, with prompts to observe taper, handle angle, and rim opening.",
-  "caption": "Begin with a simple volume, then compare its guides with the actual cup.",
+  "file": "public/assets/teaching/lesson-08-cup-warmup.jpg",
+  "category": "generated_example",
+  "title": "Cup Warmup",
+  "alt_text": "A light cylinder guide with an axis and ellipses is compared with a real handled cup; short prompts point to taper, handle angle, and rim opening.",
+  "caption": "Construct once, then check the real cup before drawing it.",
   "created_on": "2026-09-30",
   "provenance": {
-    "origin": "original",
-    "creator_or_model": "Codex; hand-authored deterministic SVG",
-    "work_title": "Warm up with a cylinder, then compare a cup",
+    "origin": "generated",
+    "creator_or_model": "OpenAI image generation tool, directed by Codex from a lesson-specific visual brief",
+    "work_title": "ArtApp Lesson 08: Cup Warmup",
     "creation_date_or_period": "2026-09-30",
-    "rights_basis": "original",
-    "license_or_attribution": "Original course diagram; no source-book illustration was copied."
+    "rights_basis": "generated",
+    "license_or_attribution": "Original generated ArtApp instructional visual, created from an independent written brief; no source-book image was supplied or used."
   },
   "distribution": "deployable_after_review",
-  "review_notes": "Phone-sized stacked panels show a guide as provisional and include a comparison to an observed taper."
+  "review_notes": "Original graphite-style teaching example reviewed for lesson fit. Source-book illustration page candidates are listed in docs/VISUAL_DIRECTION_AUDIT_01_09.md but were unavailable for visual inspection; this asset is not based on a viewed book image. Check readability at phone width in the rendered app."
 }

@@ -1,20 +1,20 @@
 {
   "schema_version": "1.0",
   "asset_id": "lesson-09-ellipse-exercise",
-  "file": "public/assets/diagrams/lesson-09-ellipse-exercise.svg",
-  "category": "diagram",
-  "title": "Draw each observed rim with its bowl walls",
-  "alt_text": "Lower and higher views show shallow bowls with gently curved sides narrowing to the base. Each rim has separate width and height marks; the higher opening is more open and slightly narrower.",
-  "caption": "Measure each ellipse in its own view before comparing how open it looks.",
+  "file": "public/assets/teaching/lesson-09-ellipse-exercise.jpg",
+  "category": "generated_example",
+  "title": "Ellipse Exercise",
+  "alt_text": "Two bowl studies include the rim, side walls, and base. Each view has its own width and height marks, with one flatter lower opening and one more open higher opening.",
+  "caption": "Draw the whole bowl in each view and measure each rim separately.",
   "created_on": "2026-09-30",
   "provenance": {
-    "origin": "original",
-    "creator_or_model": "Codex; hand-authored deterministic SVG",
-    "work_title": "Draw each observed rim with its bowl walls",
+    "origin": "generated",
+    "creator_or_model": "OpenAI image generation tool, directed by Codex from a lesson-specific visual brief",
+    "work_title": "ArtApp Lesson 09: Ellipse Exercise",
     "creation_date_or_period": "2026-09-30",
-    "rights_basis": "original",
-    "license_or_attribution": "Original course diagram; no source-book illustration was copied."
+    "rights_basis": "generated",
+    "license_or_attribution": "Original generated ArtApp instructional visual, created from an independent written brief; no source-book image was supplied or used."
   },
   "distribution": "deployable_after_review",
-  "review_notes": "Both vessels have shallow curved bowl walls, not straight cup sides. The higher-view ellipse opens more while its apparent width is slightly narrower; each rim has separate measurement marks."
+  "review_notes": "Original graphite-style teaching example reviewed for lesson fit. Source-book illustration page candidates are listed in docs/VISUAL_DIRECTION_AUDIT_01_09.md but were unavailable for visual inspection; this asset is not based on a viewed book image. Check readability at phone width in the rendered app."
 }

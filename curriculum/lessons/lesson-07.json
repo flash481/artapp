@@ -3,18 +3,41 @@
   "title": "Three simple values",
   "durationMinutes": 45,
   "difficulty": "beginner",
-  "medium": ["graphite"],
-  "materials": ["sketchbook", "graphite pencil", "eraser", "one piece of fruit", "desk lamp or another steady lamp"],
+  "medium": [
+    "graphite"
+  ],
+  "materials": [
+    "sketchbook",
+    "graphite pencil",
+    "eraser",
+    "one piece of fruit",
+    "desk lamp or another steady lamp"
+  ],
   "lessonType": "lesson",
   "fundamentals": {
-    "primary": ["value", "composition"],
-    "secondary": ["form"]
+    "primary": [
+      "value",
+      "composition"
+    ],
+    "secondary": [
+      "form"
+    ]
   },
   "concepts": [
-    { "id": "value-light-shadow", "name": "Value, light, and shadow", "stage": "introduced" },
-    { "id": "composition-framing", "name": "Composition and framing", "stage": "practised" }
+    {
+      "id": "value-light-shadow",
+      "name": "Value, light, and shadow",
+      "stage": "introduced"
+    },
+    {
+      "id": "composition-framing",
+      "name": "Composition and framing",
+      "stage": "practised"
+    }
   ],
-  "prerequisites": ["lesson-06"],
+  "prerequisites": [
+    "lesson-06"
+  ],
   "objective": "Group a lit fruit and its cast shadow into light, middle, and dark values while keeping the chosen crop readable.",
   "warmup": {
     "durationMinutes": 7,
@@ -58,15 +81,14 @@
     "connections": "Lesson 6 asked you to choose a clear crop and inspect its surrounding gaps. Carry that frame forward so the fruit and full cast shadow remain one readable arrangement; use the light, middle, and dark groups to clarify form.",
     "conceptVisuals": [
       {
-        "src": "assets/diagrams/lesson-07-value-concept.svg",
+        "src": "assets/teaching/lesson-07-value-concept.jpg",
         "alt": "An upper-left lamp lights a fruit divided into a broad light area, a middle turning plane, and a dark form shadow. A separate cast shadow extends right across the table.",
         "caption": "Use the three broad groups as a starting key; follow the light you observe.",
         "provenance": {
-          "kind": "original-diagram",
-          "source": "Original deterministic SVG made for this lesson.",
-          "creator": "Codex",
-          "license": "project-created",
-          "notes": "Original course diagram. No source-book illustration was copied."
+          "kind": "generated-example",
+          "creator": "OpenAI image generation tool, directed by Codex from a lesson-specific visual brief",
+          "license": "generated",
+          "notes": "Original ArtApp teaching drawing generated from an independent written visual brief. No source-book illustration informed this original ArtApp visual: the cited page images were unavailable for inspection in this pass."
         }
       }
     ],
@@ -76,29 +98,27 @@
     ],
     "warmupVisuals": [
       {
-        "src": "assets/diagrams/lesson-07-value-warmup.svg",
+        "src": "assets/teaching/lesson-07-value-warmup.jpg",
         "alt": "Three warm-up panels show fixing the fruit and lamp, making broad light, middle, and dark groups, then squinting to check that the three groups remain distinct.",
         "caption": "A quick thumbnail prepares you to see large value areas.",
         "provenance": {
-          "kind": "original-diagram",
-          "source": "Original deterministic SVG made for this lesson.",
-          "creator": "Codex",
-          "license": "project-created",
-          "notes": "Original course diagram. No source-book illustration was copied."
+          "kind": "generated-example",
+          "creator": "OpenAI image generation tool, directed by Codex from a lesson-specific visual brief",
+          "license": "generated",
+          "notes": "Original ArtApp teaching drawing generated from an independent written visual brief. No source-book illustration informed this original ArtApp visual: the cited page images were unavailable for inspection in this pass."
         }
       }
     ],
     "exerciseVisuals": [
       {
-        "src": "assets/diagrams/lesson-07-value-exercise.svg",
+        "src": "assets/teaching/lesson-07-value-exercise.jpg",
         "alt": "Four drawing passes fix the lamp and crop, measure the fruit and cast shadow, group three values, and correct one mismatch by comparing with life.",
         "caption": "Keep the setup steady and check each broad shape against the subject.",
         "provenance": {
-          "kind": "original-diagram",
-          "source": "Original deterministic SVG made for this lesson.",
-          "creator": "Codex",
-          "license": "project-created",
-          "notes": "Original course diagram. No source-book illustration was copied."
+          "kind": "generated-example",
+          "creator": "OpenAI image generation tool, directed by Codex from a lesson-specific visual brief",
+          "license": "generated",
+          "notes": "Original ArtApp teaching drawing generated from an independent written visual brief. No source-book illustration informed this original ArtApp visual: the cited page images were unavailable for inspection in this pass."
         }
       }
     ],
@@ -107,15 +127,14 @@
         "mistake": "Adding many small patches before the large value groups read clearly.",
         "lookFor": "When you squint, the fruit's light, middle, and dark areas break apart, and the cast shadow stops reading as one shape.",
         "visual": {
-          "src": "assets/diagrams/lesson-07-value-mistake.svg",
+          "src": "assets/teaching/lesson-07-value-mistake.jpg",
           "alt": "A patchy fruit with isolated marks is compared with a fruit grouped into broad values and a separate rightward cast shadow.",
           "caption": "If the broad pattern disappears when you squint, simplify first.",
           "provenance": {
-            "kind": "original-diagram",
-            "source": "Original deterministic SVG made for this lesson.",
-            "creator": "Codex",
-            "license": "project-created",
-            "notes": "Original course diagram. No source-book illustration was copied."
+            "kind": "generated-example",
+            "creator": "OpenAI image generation tool, directed by Codex from a lesson-specific visual brief",
+            "license": "generated",
+            "notes": "Original ArtApp teaching drawing generated from an independent written visual brief. No source-book illustration informed this original ArtApp visual: the cited page images were unavailable for inspection in this pass."
           }
         }
       }
@@ -133,8 +152,14 @@
         "edition": "Supplied scan of the 1985 work; first paperback printing 1990, later printing year unverified",
         "pages": "Printed pp. 102, 104, 110, and 117",
         "usedFor": "Observation of light and shadow, lamp direction, and cast shadows. The three-family value key is an original course simplification.",
-        "sections": ["concept", "deepDive", "warmup", "exercise", "mistakes"],
-        "visualInfluence": "The original diagram uses a lamp, fruit, turning shadow, and separate cast shadow; no book illustration was copied."
+        "sections": [
+          "concept",
+          "deepDive",
+          "warmup",
+          "exercise",
+          "mistakes"
+        ],
+        "visualInfluence": "No source-book illustration informed this original ArtApp visual: the cited page images were unavailable for inspection in this pass."
       },
       {
         "id": "picard-beginning-drawing",
@@ -143,7 +168,11 @@
         "edition": "2016, Walter Foster Publishing; no edition number stated",
         "pages": "Printed pp. 81–82 (PDF pp. 83–84)",
         "usedFor": "Simplified value masses in thumbnails as a way to compare the small composition; the specific fruit study and three-value key are original course choices.",
-        "sections": ["concept", "deepDive", "warmup"]
+        "sections": [
+          "concept",
+          "deepDive",
+          "warmup"
+        ]
       }
     ]
   }

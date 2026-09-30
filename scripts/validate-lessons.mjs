@@ -7,6 +7,7 @@ const lessonsDir = resolve(root, "curriculum", "lessons");
 const assetRecordsDir = resolve(root, "curriculum", "assets");
 const publicDir = resolve(root, "public");
 const diagramsDir = resolve(publicDir, "assets", "diagrams");
+const teachingDir = resolve(publicDir, "assets", "teaching");
 const expectedLabel = "DEVELOPMENT FIXTURE — NOT FINAL CURRICULUM";
 const lessonMap = JSON.parse(readFileSync(resolve(root, "curriculum", "lesson-map.json"), "utf8"));
 const mapById = new Map(lessonMap.lessons.map((entry) => [entry.id, entry]));
@@ -14,23 +15,26 @@ const stages = new Set(["introduced", "practised", "revisited", "combined", "ind
 const teachingSections = new Set(["concept", "deepDive", "warmup", "exercise", "mistakes"]);
 const problems = [];
 
-function listPublicDiagramSvgs(directory) {
+function listPublicAssets(directory, extension) {
   if (!existsSync(directory)) return [];
   return readdirSync(directory).flatMap((name) => {
     const filePath = resolve(directory, name);
-    if (statSync(filePath).isDirectory()) return listPublicDiagramSvgs(filePath);
-    return name.toLowerCase().endsWith(".svg") ? [filePath] : [];
+    if (statSync(filePath).isDirectory()) return listPublicAssets(filePath, extension);
+    return name.toLowerCase().endsWith(extension) ? [filePath] : [];
   });
 }
 
-const publicDiagramFiles = listPublicDiagramSvgs(diagramsDir);
+const publicDiagramFiles = listPublicAssets(diagramsDir, ".svg");
+const publicTeachingFiles = listPublicAssets(teachingDir, ".jpg");
 const publicDiagramPaths = new Set(publicDiagramFiles.map((filePath) => relative(root, filePath).split(sep).join("/")));
-const diagramRecordsByFile = new Map();
-const diagramAssetIds = new Set();
+const publicTeachingPaths = new Set(publicTeachingFiles.map((filePath) => relative(root, filePath).split(sep).join("/")));
+const assetRecordsByFile = new Map();
+const publicAssetIds = new Set();
 let diagramRecordCount = 0;
+let teachingExampleRecordCount = 0;
 
-if (publicDiagramFiles.length > 0 && !existsSync(assetRecordsDir)) {
-  problems.push("Public diagram SVGs exist, but curriculum/assets/ has no provenance records.");
+if ((publicDiagramFiles.length > 0 || publicTeachingFiles.length > 0) && !existsSync(assetRecordsDir)) {
+  problems.push("Public lesson visuals exist, but curriculum/assets/ has no provenance records.");
 }
 if (existsSync(assetRecordsDir)) {
   for (const file of readdirSync(assetRecordsDir).filter((name) => name.endsWith(".json"))) {
@@ -42,30 +46,40 @@ if (existsSync(assetRecordsDir)) {
       continue;
     }
 
-    if (typeof record.file !== "string" || !record.file.startsWith("public/assets/diagrams/")) continue;
-    if (diagramRecordsByFile.has(record.file)) problems.push(`${file}: duplicate provenance record for "${record.file}".`);
-    diagramRecordsByFile.set(record.file, { ...record, recordFile: file });
+    if (typeof record.file !== "string") continue;
+    const isDiagram = record.file.startsWith("public/assets/diagrams/");
+    const isTeachingExample = record.file.startsWith("public/assets/teaching/");
+    if (!isDiagram && !isTeachingExample) continue;
+    if (assetRecordsByFile.has(record.file)) problems.push(`${file}: duplicate provenance record for "${record.file}".`);
+    assetRecordsByFile.set(record.file, { ...record, recordFile: file });
 
     if (typeof record.asset_id !== "string" || !/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(record.asset_id)) {
       problems.push(`${file}: asset_id must be a stable lowercase hyphenated ID.`);
-    } else if (diagramAssetIds.has(record.asset_id)) {
-      problems.push(`${file}: duplicate public diagram asset_id "${record.asset_id}".`);
-    } else diagramAssetIds.add(record.asset_id);
+    } else if (publicAssetIds.has(record.asset_id)) {
+      problems.push(`${file}: duplicate public lesson visual asset_id "${record.asset_id}".`);
+    } else publicAssetIds.add(record.asset_id);
 
-    if (record.category !== "diagram") problems.push(`${file}: public diagram category must be "diagram".`);
-    if (record.provenance?.origin !== "original" || record.provenance?.rights_basis !== "original") {
-      problems.push(`${file}: public diagram provenance must state original origin and rights basis.`);
+    const expectedCategory = isDiagram ? "diagram" : "generated_example";
+    const expectedOrigin = isDiagram ? "original" : "generated";
+    if (record.category !== expectedCategory) problems.push(`${file}: ${isDiagram ? "public diagram" : "public teaching example"} category must be "${expectedCategory}".`);
+    if (record.provenance?.origin !== expectedOrigin || record.provenance?.rights_basis !== expectedOrigin) {
+      problems.push(`${file}: ${isDiagram ? "public diagram" : "public teaching example"} provenance must state ${expectedOrigin} origin and rights basis.`);
     }
     if (record.distribution !== "deployable_after_review") {
-      problems.push(`${file}: public diagram distribution must be "deployable_after_review".`);
+      problems.push(`${file}: public lesson visual distribution must be "deployable_after_review".`);
     }
-    if (!publicDiagramPaths.has(record.file)) problems.push(`${file}: provenance file "${record.file}" does not match a public diagram SVG.`);
-    diagramRecordCount += 1;
+    const publicPaths = isDiagram ? publicDiagramPaths : publicTeachingPaths;
+    if (!publicPaths.has(record.file)) problems.push(`${file}: provenance file "${record.file}" does not match a public ${isDiagram ? "diagram SVG" : "teaching JPG"}.`);
+    if (isDiagram) diagramRecordCount += 1;
+    else teachingExampleRecordCount += 1;
   }
 }
 
 for (const file of publicDiagramPaths) {
-  if (!diagramRecordsByFile.has(file)) problems.push(`${file}: missing curriculum/assets provenance record.`);
+  if (!assetRecordsByFile.has(file)) problems.push(`${file}: missing curriculum/assets provenance record.`);
+}
+for (const file of publicTeachingPaths) {
+  if (!assetRecordsByFile.has(file)) problems.push(`${file}: missing curriculum/assets provenance record.`);
 }
 
 const files = readdirSync(lessonsDir).filter((name) => name.endsWith(".json")).sort();
@@ -91,7 +105,7 @@ function checkVisual(visual, path, file) {
     if (!assetPath.startsWith(`${publicDir}${sep}`) || !existsSync(assetPath)) {
       problems.push(`${file}: visual asset "${visual.src}" is missing from public/.`);
     }
-    if (relativeAsset.startsWith("assets/diagrams/") && !diagramRecordsByFile.has(`public/${relativeAsset}`)) {
+    if ((relativeAsset.startsWith("assets/diagrams/") || relativeAsset.startsWith("assets/teaching/")) && !assetRecordsByFile.has(`public/${relativeAsset}`)) {
       problems.push(`${file}: visual asset "${visual.src}" has no provenance record.`);
     }
   }
@@ -213,5 +227,5 @@ if (problems.length > 0) {
   console.error(`Lesson validation failed with ${problems.length} issue(s):\n- ${problems.join("\n- ")}`);
   process.exitCode = 1;
 } else {
-  console.log(`Validated ${publishedCount} published pilot lessons, ${fixtureCount} preserved fixtures, ${diagramRecordCount} public diagram SVG provenance records, and their visual assets.`);
+  console.log(`Validated ${publishedCount} published pilot lessons, ${fixtureCount} preserved fixtures, ${diagramRecordCount} public diagram SVG provenance records, ${teachingExampleRecordCount} generated teaching example records, and their visual assets.`);
 }

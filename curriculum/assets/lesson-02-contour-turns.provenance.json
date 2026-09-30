@@ -1,20 +1,20 @@
 {
   "schema_version": "1.0",
   "asset_id": "lesson-02-contour-turns",
-  "file": "public/assets/diagrams/lesson-02-contour-turns.svg",
-  "category": "diagram",
-  "title": "Follow the contour",
+  "file": "public/assets/teaching/lesson-02-contour-turns.jpg",
+  "category": "generated_example",
+  "title": "Contour Turns",
   "alt_text": "A simple side-view shoe outline has a highlighted outer edge and three labeled direction changes at the toe, sole, and collar.",
   "caption": "Follow the edge in order; pause where its direction changes.",
   "created_on": "2026-09-30",
   "provenance": {
-    "origin": "original",
-    "creator_or_model": "Codex; deterministic SVG paths authored for this course",
-    "work_title": "Follow the contour",
+    "origin": "generated",
+    "creator_or_model": "OpenAI image generation tool, directed by Codex from a lesson-specific visual brief",
+    "work_title": "ArtApp Lesson 02: Contour Turns",
     "creation_date_or_period": "2026-09-30",
-    "rights_basis": "original",
-    "license_or_attribution": "Original course asset. No source-book image was used."
+    "rights_basis": "generated",
+    "license_or_attribution": "Original generated ArtApp instructional visual, created from an independent written brief; no source-book image was supplied or used."
   },
   "distribution": "deployable_after_review",
-  "review_notes": "Portrait teaching diagram with short labels for phone viewing. Original schematic, not a target shoe; review in the app before release."
+  "review_notes": "Original graphite-style teaching example reviewed for lesson fit. Source-book illustration page candidates are listed in docs/VISUAL_DIRECTION_AUDIT_01_09.md but were unavailable for visual inspection; this asset is not based on a viewed book image. Check readability at phone width in the rendered app."
 }

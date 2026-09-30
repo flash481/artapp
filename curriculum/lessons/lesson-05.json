@@ -76,15 +76,14 @@
     "connections": "Lesson 2 asked you to follow observed edges instead of relying on a memorized outline. This lesson adds a choice about how strongly to record each line; the next framing lesson will use selected edges to make the relationship between objects easier to read.",
     "conceptVisuals": [
       {
-        "src": "assets/diagrams/lesson-05-search-and-select-lines.svg",
+        "src": "assets/teaching/lesson-05-search-and-select-lines.jpg",
         "alt": "Three hand-drawn book outlines progress from pale overlapping search strokes, to a checked contour, to three selected firmer edges while other edges remain light.",
         "caption": "A clear line records a check; it does not have to outline everything.",
         "provenance": {
-          "kind": "original-diagram",
-          "source": "Original deterministic SVG made for this lesson.",
-          "creator": "Codex",
-          "license": "project-created",
-          "notes": "Original course diagram. No source-book illustration was copied."
+          "kind": "generated-example",
+          "creator": "OpenAI image generation tool, directed by Codex from a lesson-specific visual brief",
+          "license": "generated",
+          "notes": "Original ArtApp teaching drawing generated from an independent written visual brief. No source-book illustration informed this original ArtApp visual: the cited page images were unavailable for inspection in this pass."
         }
       }
     ],
@@ -95,29 +94,27 @@
     ],
     "warmupVisuals": [
       {
-        "src": "assets/diagrams/lesson-05-pressure-warmup.svg",
+        "src": "assets/teaching/lesson-05-pressure-warmup.jpg",
         "alt": "A small book corner sits above three repeated graphite strokes labeled light, medium, and firm, showing pressure changes darkness and width without changing the line's direction.",
         "caption": "Trace one observed edge three times in six minutes.",
         "provenance": {
-          "kind": "original-diagram",
-          "source": "Original deterministic SVG made for this lesson.",
-          "creator": "Codex",
-          "license": "project-created",
-          "notes": "Original course diagram. No source-book illustration was copied."
+          "kind": "generated-example",
+          "creator": "OpenAI image generation tool, directed by Codex from a lesson-specific visual brief",
+          "license": "generated",
+          "notes": "Original ArtApp teaching drawing generated from an independent written visual brief. No source-book illustration informed this original ArtApp visual: the cited page images were unavailable for inspection in this pass."
         }
       }
     ],
     "exerciseVisuals": [
       {
-        "src": "assets/diagrams/lesson-05-lines-exercise.svg",
+        "src": "assets/teaching/lesson-05-lines-exercise.jpg",
         "alt": "Three studies of the same book show pale searching lines, a second drawing with three firmer selected edges, and a larger imperfect drawing that keeps quieter edges light.",
         "caption": "Hold the book still; carry useful lines forward, not every search.",
         "provenance": {
-          "kind": "original-diagram",
-          "source": "Original deterministic SVG made for this lesson.",
-          "creator": "Codex",
-          "license": "project-created",
-          "notes": "Original course diagram. No source-book illustration was copied."
+          "kind": "generated-example",
+          "creator": "OpenAI image generation tool, directed by Codex from a lesson-specific visual brief",
+          "license": "generated",
+          "notes": "Original ArtApp teaching drawing generated from an independent written visual brief. No source-book illustration informed this original ArtApp visual: the cited page images were unavailable for inspection in this pass."
         }
       }
     ],
@@ -126,15 +123,14 @@
         "mistake": "Giving every edge the same dark, finished-looking outline.",
         "lookFor": "All sides compete equally, search marks disappear, and the book or key reads as a flat symbol.",
         "visual": {
-          "src": "assets/diagrams/lesson-05-uniform-outline-mistake.svg",
+          "src": "assets/teaching/lesson-05-uniform-outline-mistake.jpg",
           "alt": "Two small book drawings compare an equally dark outline on every edge with a more useful mix of light search marks and a few checked firm edges.",
           "caption": "A uniform dark border can flatten a familiar object.",
           "provenance": {
-            "kind": "original-diagram",
-            "source": "Original deterministic SVG made for this lesson.",
-            "creator": "Codex",
-            "license": "project-created",
-            "notes": "Original course diagram. No source-book illustration was copied."
+            "kind": "generated-example",
+            "creator": "OpenAI image generation tool, directed by Codex from a lesson-specific visual brief",
+            "license": "generated",
+            "notes": "Original ArtApp teaching drawing generated from an independent written visual brief. No source-book illustration informed this original ArtApp visual: the cited page images were unavailable for inspection in this pass."
           }
         }
       }

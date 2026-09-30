@@ -1,20 +1,20 @@
 {
   "schema_version": "1.0",
   "asset_id": "lesson-09-ellipse-mistake",
-  "file": "public/assets/diagrams/lesson-09-ellipse-mistake.svg",
-  "category": "diagram",
-  "title": "Check view and symmetry instead of copying a rim",
-  "alt_text": "One panel repeats the same oval for two eye heights. Another contrasts a pointed rim with a slanted axis against an ellipse whose center axis and two halves are balanced.",
-  "caption": "Check eye height, pointed ends, and symmetry around a center axis.",
+  "file": "public/assets/teaching/lesson-09-ellipse-mistake.jpg",
+  "category": "generated_example",
+  "title": "Ellipse Mistake",
+  "alt_text": "The same oval copied for low and high views is contrasted with a pointed, tilted rim and a balanced ellipse checked against a center axis.",
+  "caption": "Compare each half across the center axis, then check the opening against life.",
   "created_on": "2026-09-30",
   "provenance": {
-    "origin": "original",
-    "creator_or_model": "Codex; hand-authored deterministic SVG",
-    "work_title": "Check view and symmetry instead of copying a rim",
+    "origin": "generated",
+    "creator_or_model": "OpenAI image generation tool, directed by Codex from a lesson-specific visual brief",
+    "work_title": "ArtApp Lesson 09: Ellipse Mistake",
     "creation_date_or_period": "2026-09-30",
-    "rights_basis": "original",
-    "license_or_attribution": "Original course diagram; no source-book illustration was copied."
+    "rights_basis": "generated",
+    "license_or_attribution": "Original generated ArtApp instructional visual, created from an independent written brief; no source-book image was supplied or used."
   },
   "distribution": "deployable_after_review",
-  "review_notes": "Short labels identify a repeated oval, pointed ends, and a slanted axis; the corrected ellipse includes a center axis and even halves."
+  "review_notes": "Original graphite-style teaching example reviewed for lesson fit. Source-book illustration page candidates are listed in docs/VISUAL_DIRECTION_AUDIT_01_09.md but were unavailable for visual inspection; this asset is not based on a viewed book image. Check readability at phone width in the rendered app."
 }

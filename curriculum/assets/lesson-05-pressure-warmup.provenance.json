@@ -1,20 +1,20 @@
 {
   "schema_version": "1.0",
   "asset_id": "lesson-05-pressure-warmup",
-  "file": "public/assets/diagrams/lesson-05-pressure-warmup.svg",
-  "category": "diagram",
-  "title": "One edge, three pressures",
+  "file": "public/assets/teaching/lesson-05-pressure-warmup.jpg",
+  "category": "generated_example",
+  "title": "Pressure Warmup",
   "alt_text": "A small book corner sits above three repeated graphite strokes labeled light, medium, and firm, showing pressure changes darkness and width without changing the line's direction.",
   "caption": "Trace one observed edge three times in six minutes.",
   "created_on": "2026-09-30",
   "provenance": {
-    "origin": "original",
-    "creator_or_model": "Codex; deterministic SVG paths authored for this course",
-    "work_title": "One edge, three pressures",
+    "origin": "generated",
+    "creator_or_model": "OpenAI image generation tool, directed by Codex from a lesson-specific visual brief",
+    "work_title": "ArtApp Lesson 05: Pressure Warmup",
     "creation_date_or_period": "2026-09-30",
-    "rights_basis": "original",
-    "license_or_attribution": "Original course asset. No source-book illustration was used."
+    "rights_basis": "generated",
+    "license_or_attribution": "Original generated ArtApp instructional visual, created from an independent written brief; no source-book image was supplied or used."
   },
   "distribution": "deployable_after_review",
-  "review_notes": "Portrait SVG with labels sized for a 390 px phone viewport; review in the app before release."
+  "review_notes": "Original graphite-style teaching example reviewed for lesson fit. Source-book illustration page candidates are listed in docs/VISUAL_DIRECTION_AUDIT_01_09.md but were unavailable for visual inspection; this asset is not based on a viewed book image. Check readability at phone width in the rendered app."
 }

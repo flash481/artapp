@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0",
+  "asset_id": "lesson-09-eye-level-ellipse-study",
+  "file": "public/assets/teaching/lesson-09-eye-level-ellipse-study.jpg",
+  "category": "generated_example",
+  "title": "Eye Level Ellipse Study",
+  "alt_text": "Three graphite bowl studies show a flattened rim from a low view and more open ellipses from higher views, each aligned to its vessel centre axis.",
+  "caption": "The rim changes with eye level while remaining attached to the observed vessel.",
+  "created_on": "2026-09-30",
+  "provenance": {
+    "origin": "generated",
+    "creator_or_model": "OpenAI image generation tool, directed by Codex from a lesson-specific visual brief",
+    "work_title": "ArtApp Lesson 09: Eye Level Ellipse Study",
+    "creation_date_or_period": "2026-09-30",
+    "rights_basis": "generated",
+    "license_or_attribution": "Original generated ArtApp instructional visual, created from an independent written brief; no source-book image was supplied or used."
+  },
+  "distribution": "deployable_after_review",
+  "review_notes": "Original graphite-style teaching example reviewed for lesson fit. Source-book illustration page candidates are listed in docs/VISUAL_DIRECTION_AUDIT_01_09.md but were unavailable for visual inspection; this asset is not based on a viewed book image. Check readability at phone width in the rendered app."
+}

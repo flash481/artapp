@@ -3,18 +3,40 @@
   "title": "Build a cup from volumes",
   "durationMinutes": 45,
   "difficulty": "beginner",
-  "medium": ["graphite"],
-  "materials": ["sketchbook", "graphite pencil", "eraser", "cup from life"],
+  "medium": [
+    "graphite"
+  ],
+  "materials": [
+    "sketchbook",
+    "graphite pencil",
+    "eraser",
+    "cup from life"
+  ],
   "lessonType": "lesson",
   "fundamentals": {
-    "primary": ["form", "space"],
-    "secondary": ["observation"]
+    "primary": [
+      "form",
+      "space"
+    ],
+    "secondary": [
+      "observation"
+    ]
   },
   "concepts": [
-    { "id": "form-volume", "name": "Shape, form, and volume", "stage": "introduced" },
-    { "id": "ellipse-cylinder-construction", "name": "Ellipses and cylinders in space", "stage": "introduced" }
+    {
+      "id": "form-volume",
+      "name": "Shape, form, and volume",
+      "stage": "introduced"
+    },
+    {
+      "id": "ellipse-cylinder-construction",
+      "name": "Ellipses and cylinders in space",
+      "stage": "introduced"
+    }
   ],
-  "prerequisites": ["lesson-04"],
+  "prerequisites": [
+    "lesson-04"
+  ],
   "objective": "Organize a cup as a cylindrical body and a looped handle, then revise the construction to match what you observe.",
   "warmup": {
     "durationMinutes": 7,
@@ -58,6 +80,17 @@
     "connections": "Return to Lesson 4's comparative measurement: check the cup's total height against its width before detailing. The axis and ellipse guide add depth to those proportion checks, and this construction prepares you to compare bowl rims by eye height in Lesson 9.",
     "conceptVisuals": [
       {
+        "src": "assets/teaching/lesson-08-cup-volumes-study.jpg",
+        "alt": "Three graphite stages show a cup envelope, a faint cylinder and handle proposal, and a revised drawing with the observed taper and handle opening corrected.",
+        "caption": "Construction suggests a volume; compare it with the cup and revise the contour.",
+        "provenance": {
+          "kind": "generated-example",
+          "creator": "OpenAI image generation tool, directed by Codex from a lesson-specific visual brief",
+          "license": "generated",
+          "notes": "Original ArtApp teaching drawing generated from an independent written visual brief. No source-book illustration informed this original ArtApp visual: the cited page images were unavailable for inspection in this pass."
+        }
+      },
+      {
         "src": "assets/diagrams/lesson-08-cup-volumes.svg",
         "alt": "A cup is lightly organized as a cylinder with a top rim ellipse, center axis, base guide, and separate loop handle.",
         "caption": "Use the volume as a first guess; let the observed cup set its shape.",
@@ -76,29 +109,27 @@
     ],
     "warmupVisuals": [
       {
-        "src": "assets/diagrams/lesson-08-cup-warmup.svg",
+        "src": "assets/teaching/lesson-08-cup-warmup.jpg",
         "alt": "A light cylinder guide with an axis and ellipses is compared with a real handled cup; short prompts point to taper, handle angle, and rim opening.",
         "caption": "Construct once, then check the real cup before drawing it.",
         "provenance": {
-          "kind": "original-diagram",
-          "source": "Original deterministic SVG made for this lesson.",
-          "creator": "Codex",
-          "license": "project-created",
-          "notes": "Original course diagram. No source-book illustration was copied."
+          "kind": "generated-example",
+          "creator": "OpenAI image generation tool, directed by Codex from a lesson-specific visual brief",
+          "license": "generated",
+          "notes": "Original ArtApp teaching drawing generated from an independent written visual brief. No source-book illustration informed this original ArtApp visual: the cited page images were unavailable for inspection in this pass."
         }
       }
     ],
     "exerciseVisuals": [
       {
-        "src": "assets/diagrams/lesson-08-cup-exercise.svg",
+        "src": "assets/teaching/lesson-08-cup-exercise.jpg",
         "alt": "Four checks compare cup proportions, construct the tapered body lightly, place the handle loop at two joins, and revise one mismatch.",
         "caption": "Build only as far as your observations support, then correct one relationship.",
         "provenance": {
-          "kind": "original-diagram",
-          "source": "Original deterministic SVG made for this lesson.",
-          "creator": "Codex",
-          "license": "project-created",
-          "notes": "Original course diagram. No source-book illustration was copied."
+          "kind": "generated-example",
+          "creator": "OpenAI image generation tool, directed by Codex from a lesson-specific visual brief",
+          "license": "generated",
+          "notes": "Original ArtApp teaching drawing generated from an independent written visual brief. No source-book illustration informed this original ArtApp visual: the cited page images were unavailable for inspection in this pass."
         }
       }
     ],
@@ -107,15 +138,14 @@
         "mistake": "Keeping a perfect cylinder and guessed handle even when the cup looks different.",
         "lookFor": "The body sides ignore a visible taper, or the handle's opening and attachment points do not match the observed view.",
         "visual": {
-          "src": "assets/diagrams/lesson-08-cup-mistake.svg",
-          "alt": "A forced vertical cylinder and guessed handle are contrasted with a checked, tapered cup and two observed handle joins.",
+          "src": "assets/teaching/lesson-08-cup-mistake.jpg",
+          "alt": "Two graphite cup drawings compare a forced vertical cylinder and guessed handle with a subtly tapered, asymmetric cup whose handle opening and attachment points have been checked. Light arrows point to the body side and handle joins.",
           "caption": "Use the construction to begin; use the cup to correct it.",
           "provenance": {
-            "kind": "original-diagram",
-            "source": "Original deterministic SVG made for this lesson.",
-            "creator": "Codex",
-            "license": "project-created",
-            "notes": "Original course diagram. No source-book illustration was copied."
+            "kind": "generated-example",
+            "creator": "OpenAI image generation tool, directed by Codex from a lesson-specific visual brief",
+            "license": "generated",
+            "notes": "Original ArtApp teaching drawing generated from an independent written visual brief. No source-book illustration informed this original ArtApp visual: the cited page images were unavailable for inspection in this pass."
           }
         }
       }
@@ -133,7 +163,12 @@
         "edition": "2016, Walter Foster Publishing; no edition number stated",
         "pages": "Printed pp. 57–63 (PDF pp. 59–65)",
         "usedFor": "The progression from flat shapes to volumes, basic cylinder construction, and drawing through simple forms.",
-        "sections": ["concept", "deepDive", "warmup", "exercise"]
+        "sections": [
+          "concept",
+          "deepDive",
+          "warmup",
+          "exercise"
+        ]
       },
       {
         "id": "dodson-keys-to-drawing",
@@ -142,8 +177,12 @@
         "edition": "Supplied scan of the 1985 work; first paperback printing 1990, later printing year unverified",
         "pages": "Printed p. 135 and pp. 144–147",
         "usedFor": "Draw-through construction on p. 135 and eye-level ellipse openness on pp. 144–147; no specific source exercise is assigned.",
-        "sections": ["concept", "deepDive", "exercise"],
-        "visualInfluence": "The cup, cylinder, and loop are original schematic shapes; no book illustration was copied."
+        "sections": [
+          "concept",
+          "deepDive",
+          "exercise"
+        ],
+        "visualInfluence": "No source-book illustration informed this original ArtApp visual: the cited page images were unavailable for inspection in this pass."
       }
     ]
   }
