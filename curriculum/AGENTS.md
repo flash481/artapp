@@ -2,11 +2,11 @@
 
 ## Canonical plan and status
 
-- The single current course sequence is [`CORE_DRAWING_MAP.md`](CORE_DRAWING_MAP.md): the 93-lesson Core Drawing plan, currently awaiting human review.
+- The single current course sequence is [`CORE_DRAWING_MAP.md`](CORE_DRAWING_MAP.md): the 130-lesson Core Drawing plan, rebuilt conceptually from a blank Lesson 01 and awaiting human review. Lesson count is not a quota.
 - Use [`CORE_DRAWING_REDESIGN.md`](CORE_DRAWING_REDESIGN.md) for research, source synthesis, dependencies, recurrence and audits; use [`CORE_DRAWING_VISUAL_MANIFEST.md`](CORE_DRAWING_VISUAL_MANIFEST.md) for visual requirements and prompts.
 - Treat `archive/` as historical only. Do not read old JSON maps, audits or generators as current curriculum authority.
-- The published enriched pilot lesson JSON/assets retain legacy IDs 01–09 and were not changed during architecture review. Do not infer current sequence from their filenames.
-- Do not produce Lesson 10 onward or generate planned images before architecture/production-specification approval.
+- The published enriched pilot lesson JSON/assets retain legacy IDs 01–09 as prototype/reference material and were not changed during architecture review. They do not constrain lesson order or content; do not infer the proposed sequence from their filenames.
+- Do not author any lesson in the proposed sequence or generate planned images before architecture/production-specification approval.
 
 ## Teaching and scope
 

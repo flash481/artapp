@@ -6,9 +6,9 @@ ArtApp is a personal, self-paced drawing course for an adult learning beside a s
 
 ## Current phase
 
-The Phase 1 static app and enriched pilot Lessons 01–09 exist. Source books have been analyzed, and the current research synthesis and 93-lesson Core Drawing architecture are ready for human review. The single canonical plan is [`../curriculum/CORE_DRAWING_MAP.md`](../curriculum/CORE_DRAWING_MAP.md); its companion research and visual plans are linked from [`CURRICULUM.md`](CURRICULUM.md).
+The Phase 1 static app and enriched pilot Lessons 01–09 exist. Source books have been analyzed, and the current research synthesis and rebuilt 130-lesson Core Drawing architecture are ready for human review. The single canonical plan is [`../curriculum/CORE_DRAWING_MAP.md`](../curriculum/CORE_DRAWING_MAP.md); its companion research and visual plans are linked from [`CURRICULUM.md`](CURRICULUM.md).
 
-The published pilot lesson JSON and assets still use their original IDs/order. They were intentionally left untouched during this curriculum-planning reconciliation. Lessons 10 onward and planned images have not been produced. Wait for approval of the architecture and production specification before continuing into lesson authoring.
+The published pilot lesson JSON and assets still use their original IDs/order as prototype/reference material. They were intentionally left untouched and do not constrain the proposed sequence. No lessons in the new sequence or planned images have been produced. Wait for approval of the architecture and production specification before lesson authoring.
 
 ## Course identity and learning experience
 

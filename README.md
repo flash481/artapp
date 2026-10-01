@@ -4,9 +4,9 @@ A personal, self-paced drawing course for an adult learner working beside a sket
 
 ## Course planning status
 
-The canonical proposed Core Drawing course is the 93-lesson architecture in [`curriculum/CORE_DRAWING_MAP.md`](curriculum/CORE_DRAWING_MAP.md). It is planning only and awaits human review. Research and course-level audits are in [`curriculum/CORE_DRAWING_REDESIGN.md`](curriculum/CORE_DRAWING_REDESIGN.md); visual requirements and prompts are in [`curriculum/CORE_DRAWING_VISUAL_MANIFEST.md`](curriculum/CORE_DRAWING_VISUAL_MANIFEST.md).
+The canonical proposed Core Drawing course is the 130-lesson architecture in [`curriculum/CORE_DRAWING_MAP.md`](curriculum/CORE_DRAWING_MAP.md). It is planning only and awaits human review. Research and course-level audits are in [`curriculum/CORE_DRAWING_REDESIGN.md`](curriculum/CORE_DRAWING_REDESIGN.md); visual requirements and original prompts are in [`curriculum/CORE_DRAWING_VISUAL_MANIFEST.md`](curriculum/CORE_DRAWING_VISUAL_MANIFEST.md).
 
-The app currently contains the enriched pilot Lessons 01–09, whose JSON/assets retain their historic pilot IDs and original order. The curriculum plan repositions or combines some of those concepts; no pilot JSON/assets were rewritten here. Lessons 10+ and planned images have not been produced. Do not treat archived 72-lesson plans or maps as current, and do not begin lesson production until the learner approves the architecture and specification.
+The app currently contains enriched pilot Lessons 01–09 as prototype/reference material; their JSON/assets retain historic pilot IDs and order, and were not rewritten here. They do not constrain the new sequence. No lesson in the proposed sequence or planned image has been produced. Do not treat archived 72-lesson plans or the superseded 93-lesson architecture as current, and do not begin production until the learner approves the architecture and specification.
 
 ## Run locally
 

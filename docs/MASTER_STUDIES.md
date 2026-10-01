@@ -1,6 +1,6 @@
 # Master studies
 
-This is a general standard for any future artist-led lesson that receives curriculum approval. The current 93-lesson Core Drawing plan does not require a standalone master-study lesson; art history is not a detached chronology strand.
+This is a general standard for any future artist-led lesson that receives curriculum approval. The current 130-lesson Core Drawing proposal does not require a standalone master-study lesson; art history is not a detached chronology strand.
 
 Master studies are practical drawing lessons built around genuine works of art. Integrate them where an artist's work makes a drawing concept visible—such as line, value, composition, atmosphere, form, portraiture, simplification, or expressive mark-making. Art history supports drawing instruction; it is not a detached chronology course.
 

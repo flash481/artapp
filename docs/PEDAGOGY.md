@@ -8,7 +8,7 @@ Use a practical cycle: **draw → observe → compare → diagnose → correct �
 
 Teach a new concept in a short connected cluster, then apply it to a different subject and revisit it later. Do not let concepts disappear after their module. Composition and self-correction remain active across the course. Prerequisites identify useful prior capabilities, not mastery gates; do not require every earlier extended study.
 
-The current sequence and per-lesson practice are in [`../curriculum/CORE_DRAWING_MAP.md`](../curriculum/CORE_DRAWING_MAP.md). It is a 93-lesson proposal awaiting approval. The enriched pilot JSON/assets keep legacy IDs and were not rewritten during curriculum reconciliation.
+The current sequence and per-lesson practice are in [`../curriculum/CORE_DRAWING_MAP.md`](../curriculum/CORE_DRAWING_MAP.md). It is a rebuilt 130-lesson proposal awaiting approval. The enriched pilot JSON/assets keep legacy IDs as prototype/reference material and were not rewritten during curriculum planning.
 
 ## Graphite craft
 

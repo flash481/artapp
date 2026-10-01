@@ -4,10 +4,10 @@ This is a personal, self-paced drawing course for an adult learner working besid
 
 ## Current curriculum status
 
-- [`curriculum/CORE_DRAWING_MAP.md`](curriculum/CORE_DRAWING_MAP.md) is the single canonical proposed course sequence: 93 lessons, planning only, awaiting human review.
+- [`curriculum/CORE_DRAWING_MAP.md`](curriculum/CORE_DRAWING_MAP.md) is the single canonical proposed course sequence: 130 lessons, planning only, awaiting human review. It was rebuilt conceptually from a blank Lesson 01; count is not a quota.
 - [`curriculum/CORE_DRAWING_REDESIGN.md`](curriculum/CORE_DRAWING_REDESIGN.md) records research, source analysis, synthesis and audits. [`curriculum/CORE_DRAWING_VISUAL_MANIFEST.md`](curriculum/CORE_DRAWING_VISUAL_MANIFEST.md) specifies instructional visuals and prompts.
-- Enriched pilot JSON/assets for lessons 01–09 remain unchanged and keep historic IDs/order. Do not infer the new curriculum order from those files.
-- Do not author Lessons 10+ or generate planned images until the learner approves the architecture and production specification.
+- Enriched pilot JSON/assets for lessons 01–09 remain unchanged prototype/reference material with historic IDs/order. They do not constrain the proposed sequence; do not infer new lesson content or order from those files.
+- Do not author any lesson in the proposed sequence or generate planned images until the learner approves the architecture and production specification.
 - All old 72-lesson plans and machine-readable maps are archived under `curriculum/archive/`; historical files are never the current source of truth.
 
 ## Model routing
