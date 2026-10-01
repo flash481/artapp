@@ -54,4 +54,4 @@ The usual lesson path is objective → purposeful warm-up → concise concept �
 
 Normal lessons are usually about 30–60 minutes. The schema allows longer project durations. The app's current `lessonType` and `difficulty` are open strings; use consistent values and document the Phase 2 vocabulary in curriculum metadata rather than adding unsupported app routing or content machinery.
 
-The 130-lesson architecture is currently a planning proposal, not schema-ready production content. After human approval, use the canonical map for placement and prerequisites and this contract for lesson data. Refer to [CURRICULUM.md](CURRICULUM.md), [PEDAGOGY.md](PEDAGOGY.md), and [CONTENT_PIPELINE.md](CONTENT_PIPELINE.md).
+The final 150-lesson architecture is approved in broad structure and content-complete, but remains planning data rather than schema-ready production content. After approval of the production specification, use the canonical map for placement and prerequisites and this contract for lesson data. Refer to [CURRICULUM.md](CURRICULUM.md), [PEDAGOGY.md](PEDAGOGY.md), and [CONTENT_PIPELINE.md](CONTENT_PIPELINE.md).

@@ -4,9 +4,9 @@ A personal, self-paced drawing course for an adult learner working beside a sket
 
 ## Course planning status
 
-The canonical proposed Core Drawing course is the 130-lesson architecture in [`curriculum/CORE_DRAWING_MAP.md`](curriculum/CORE_DRAWING_MAP.md). It is planning only and awaits human review. Research and course-level audits are in [`curriculum/CORE_DRAWING_REDESIGN.md`](curriculum/CORE_DRAWING_REDESIGN.md); visual requirements and original prompts are in [`curriculum/CORE_DRAWING_VISUAL_MANIFEST.md`](curriculum/CORE_DRAWING_VISUAL_MANIFEST.md).
+The canonical Core Drawing course is the final 150-lesson architecture in [`curriculum/CORE_DRAWING_MAP.md`](curriculum/CORE_DRAWING_MAP.md). Its broad structure is approved and the Landscape & Nature foundation has passed final review; it remains planning data, not production lesson content. Research and course-level audits are in [`curriculum/CORE_DRAWING_REDESIGN.md`](curriculum/CORE_DRAWING_REDESIGN.md); visual requirements and original prompts are in [`curriculum/CORE_DRAWING_VISUAL_MANIFEST.md`](curriculum/CORE_DRAWING_VISUAL_MANIFEST.md).
 
-The app currently contains enriched pilot Lessons 01–09 as prototype/reference material; their JSON/assets retain historic pilot IDs and order, and were not rewritten here. They do not constrain the new sequence. No lesson in the proposed sequence or planned image has been produced. Do not treat archived 72-lesson plans or the superseded 93-lesson architecture as current, and do not begin production until the learner approves the architecture and specification.
+The app currently contains enriched pilot Lessons 01–09 as prototype/reference material; their JSON/assets retain historic pilot IDs and order, and were not rewritten here. They do not constrain the final sequence. No lesson in the new sequence or planned image has been produced. Do not treat archived 72-lesson plans or the superseded 93-lesson architecture as current. The next step is production-specification and reference/provenance approval, followed by lesson authoring.
 
 ## Run locally
 

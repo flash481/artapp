@@ -6,9 +6,9 @@ ArtApp is a personal, self-paced drawing course for an adult learning beside a s
 
 ## Current phase
 
-The Phase 1 static app and enriched pilot Lessons 01–09 exist. Source books have been analyzed, and the current research synthesis and rebuilt 130-lesson Core Drawing architecture are ready for human review. The single canonical plan is [`../curriculum/CORE_DRAWING_MAP.md`](../curriculum/CORE_DRAWING_MAP.md); its companion research and visual plans are linked from [`CURRICULUM.md`](CURRICULUM.md).
+The Phase 1 static app and enriched pilot Lessons 01–09 exist. The canonical 150-lesson Core Drawing architecture is approved in broad structure and content-complete after final Landscape & Nature review. The single canonical plan is [`../curriculum/CORE_DRAWING_MAP.md`](../curriculum/CORE_DRAWING_MAP.md); its companion research and visual plans are linked from [`CURRICULUM.md`](CURRICULUM.md).
 
-The published pilot lesson JSON and assets still use their original IDs/order as prototype/reference material. They were intentionally left untouched and do not constrain the proposed sequence. No lessons in the new sequence or planned images have been produced. Wait for approval of the architecture and production specification before lesson authoring.
+Published pilot lesson JSON/assets still use their original IDs/order as prototype/reference material. They were intentionally left untouched and do not constrain the approved sequence. No lessons in the new sequence or planned images have been produced. The next phase is production-specification and reference/provenance approval, followed by bounded lesson authoring.
 
 ## Course identity and learning experience
 
@@ -18,8 +18,9 @@ The published pilot lesson JSON and assets still use their original IDs/order as
 - Teach pencil handling and tool effects before a drawing task requires them.
 - Support life drawing with easy setup and supplied photo fallback. Human-subject practice never requires a second person.
 - Keep composition and self-correction active across modules while scaffolding decreases.
-- Use focused studies of about 20–30 minutes, standard lessons of about 40–60 minutes and extended studies of about 60–120 minutes.
-- Keep the course broad enough to support later specialization without teaching detailed anatomy, botanical drawing, or advanced landscape work.
+- Use focused studies of 30 minutes, standard lessons of 45 minutes and extended studies of 75–90 minutes in this map.
+- Teach foundational outdoor drawing: trees, foliage, terrain, rocks, landscape depth/value, sky/clouds, ordinary still/moving water, quick field studies, and simple built/natural integration. Outdoor access is optional; every outdoor lesson has an ArtApp-owned fixed-reference fallback.
+- Keep flowers proportionate. Detailed anatomy, specialist botany, advanced landscape rendering, and other media remain specialist-course work.
 
 ## App and privacy boundaries
 

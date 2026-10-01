@@ -8,7 +8,7 @@ Use a practical cycle: **draw → observe → compare → diagnose → correct �
 
 Teach a new concept in a short connected cluster, then apply it to a different subject and revisit it later. Do not let concepts disappear after their module. Composition and self-correction remain active across the course. Prerequisites identify useful prior capabilities, not mastery gates; do not require every earlier extended study.
 
-The current sequence and per-lesson practice are in [`../curriculum/CORE_DRAWING_MAP.md`](../curriculum/CORE_DRAWING_MAP.md). It is a rebuilt 130-lesson proposal awaiting approval. The enriched pilot JSON/assets keep legacy IDs as prototype/reference material and were not rewritten during curriculum planning.
+The current sequence and per-lesson practice are in [`../curriculum/CORE_DRAWING_MAP.md`](../curriculum/CORE_DRAWING_MAP.md). It is the final 150-lesson architecture, approved in broad structure and content-complete after review. The enriched pilot JSON/assets keep legacy IDs as prototype/reference material and were not rewritten during curriculum planning.
 
 ## Graphite craft
 
@@ -18,7 +18,7 @@ Core Drawing uses graphite/pencil, eraser and sketchbook. Teach physical mark-ma
 
 Choose life drawing when three-dimensional viewpoint, measurement, gaps, ellipses, construction or spatial relations add learning value. Use suitable references for timed poses, controlled lighting, portraits or difficult setups. Life lessons have a supplied fallback; human lessons do not require another person and support supplied references or self/mirror routes where useful. Photographs are chosen projections and records of a moment; inspect viewpoint, crop, exposure, value, light and movement.
 
-Plants, flowers, people, cloth, interiors and nature are subjects within a broad course, not specialist strands. Detailed anatomy, botanical structure, advanced landscape, charcoal, color media and dedicated illustration/stylization are deferred to later courses.
+Trees, foliage, terrain, rocks, ordinary water, and landscape are foundational subjects within Core, alongside plants, flowers, people, cloth, and interiors. Core stops before detailed anatomy, specialist botanical structure, advanced landscape rendering, charcoal, color media, and dedicated illustration/stylization.
 
 ## Practice and visuals
 

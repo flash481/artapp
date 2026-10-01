@@ -1,4 +1,4 @@
-> **Historical pilot audit.** This describes the original pilot order and finished lesson work. Its earlier conclusion that the pilot order remained approved is superseded by the proposed 130-lesson architecture. The current proposed sequence is in [CORE_DRAWING_MAP.md](../curriculum/CORE_DRAWING_MAP.md); pilot JSON/assets remain unchanged as prototype/reference material and do not constrain it.
+> **Historical pilot audit.** This describes the original pilot order and finished lesson work. Its earlier conclusion that the pilot order remained approved is superseded by the final 150-lesson architecture. The current canonical sequence is in [CORE_DRAWING_MAP.md](../curriculum/CORE_DRAWING_MAP.md); pilot JSON/assets remain unchanged as prototype/reference material and do not constrain it.
 
 # Lessons 1–9 illustrated pilot: review record
 
