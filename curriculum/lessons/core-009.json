@@ -1,0 +1,109 @@
+{
+  "id": "core-009",
+  "title": "Compare slants and alignments",
+  "durationMinutes": 45,
+  "difficulty": "Beginner",
+  "medium": ["Graphite"],
+  "materials": ["HB pencil usable for drawing and as a sighting guide", "Sketchbook or drawing paper", "Scissors, a simple tool, or a chair with three clear directions"],
+  "lessonType": "lesson",
+  "fundamentals": {
+    "primary": ["Observation", "Proportion", "Self-correction"],
+    "secondary": ["Line"]
+  },
+  "concepts": [
+    { "id": "major-directions", "name": "Compare three visible edge directions", "stage": "introduced" },
+    { "id": "plumb-alignment", "name": "Check two landmarks against one plumb line", "stage": "introduced" }
+  ],
+  "prerequisites": ["core-005", "core-006", "core-007", "core-008"],
+  "objective": "Find and compare three clear edge directions, then use one pencil-held plumb line to check whether two visible landmarks align vertically; redraw the largest slant error from the same view.",
+  "haveReady": {
+    "subject": "A pair of scissors or a front-view chair with three clear edge directions and a visible pair of landmarks for one vertical alignment check.",
+    "setup": "Keep the view fixed. For the top-down scissors reference, use the pivot as the first landmark and one selected blade tip as the second. For a front-view chair, use one seat corner and the foot of its leg. Hold the pencil upright in front of your eye, between you and the subject or screen. Sight through the first landmark, then check whether the second lies on that same line or to its left or right.",
+    "referenceRoute": "For life drawing, choose a front-view chair and compare one seat corner with the foot of its leg. Otherwise display the supplied top-down scissors photo upright on a screen at eye level and compare the pivot with one selected blade tip.",
+    "fallbackVisual": {
+      "src": "assets/references/core-009-reference.png",
+      "alt": "A complete pair of open scissors lies flat in a fixed top-down view, with both handles, both blade tips, and the pivot visible. In the upright image, the upper-left blade tip is left of the vertical through the pivot.",
+      "caption": "Display this view upright on a screen at eye level for the pivot-to-tip plumb check.",
+      "provenance": {
+        "kind": "generated_reference",
+        "notes": "Original ArtApp-owned generated top-down scissors reference; model/version not exposed. Group C independent image review dated 2026-10-01: PASS. The upper-left blade tip is visibly left of the vertical through the pivot in the upright view."
+      }
+    }
+  },
+  "explanation": [
+    "First compare the slant of three long edges. These are direction checks. A plumb alignment asks a different question: do two chosen landmarks line up vertically in this view?",
+    "The plumb check compares position, not an edge's slope: if the second landmark sits to one side of the line, the pair does not align vertically from this view. One sight line is enough; no ruler or numbered measurement is needed."
+  ],
+  "visuals": [],
+  "exercise": {
+    "durationMinutes": 31,
+    "instructions": "1. Keep scissors or a front-view chair in one steady view. With HB, draw a simple recognizable outline and leave its long edges light.\n2. Choose three clear edge directions, such as two blade edges and a handle direction. Compare each slant with the object or fixed reference before revising anything.\n3. Check the named landmark pair in Have ready: pivot to selected blade tip, or seat corner to that leg's foot. Record whether the second point is on, left, or right of the plumb line. Prop the top-down photo upright at eye level.\n4. Use Compare and Correct below to revise the largest slant difference among the three directions on the same drawing. Check it again from the same view, then stop.",
+    "source": "A front-view chair from life, or the supplied top-down scissors photo displayed upright on a screen; a simple tool is also suitable when a clear landmark pair is visible.",
+    "subjectType": "Three directions and one landmark alignment"
+  },
+  "artistReferences": [],
+  "bookReferences": [],
+  "reflection": ["Which direction did you change, and what comparison showed that it needed the largest adjustment?"],
+  "teaching": {
+    "whyItMatters": "Comparing three long directions checks their slants. A separate plumb line compares the positions of two landmarks, so you can notice whether they line up vertically in this view.",
+    "connections": "Lessons 05–08 built careful edge, outside-shape, and gap comparisons. This study adds three major directions and one pencil-sighted upright check; later lessons reuse direction and alignment as the subjects become more complex.",
+    "exerciseVisuals": [
+      {
+        "src": "assets/diagrams/cd-core-l009-angle-alignment.svg",
+        "alt": "An original diagram shows two stacked views of one top-down scissors photo. Three teal guides mark edge directions; a separate dashed upright guide crosses the pivot. The upper-left tip lies left of that line. Only a gray estimated left-blade slant shifts to the photographed edge below.",
+        "caption": "Compare three edge directions, then check the upper-left tip against the pivot’s upright guide. Only one learner-estimate line changes.",
+        "provenance": {
+          "kind": "original_diagram",
+          "notes": "Original deterministic SVG overlay with the ArtApp-generated Core 009 scissors reference embedded. Group C independent image review dated 2026-10-01: PASS WITH MINOR FIX; the alt describes a dashed upright guide because no pencil is shown. The photo and guides stay fixed while only the estimated left-blade line changes."
+        }
+      }
+    ],
+    "compare": [
+      "Compare the three long-edge slants with the subject or fixed image. Separately compare the named landmark pair: does the second point fall on the same plumb line, or to its left or right? This checks two-point position, not another edge angle."
+    ],
+    "correct": [
+      "Choose the one direction that differs most from the subject. Redraw that slant on the same outline with a light line, then compare it again from the same view. Leave the other two directions alone unless the new line makes one clearly harder to read."
+    ],
+    "selfCheck": [
+      "Can you point to the three edge directions you compared for slant?",
+      "Which two landmarks did you check, and did the second fall on the plumb line or to one side?",
+      "Did you revise only the largest slant difference among the three directions?"
+    ],
+    "deepDive": [
+      "An edge's slant and a pair of landmarks' alignment are related but different observations. The first compares a line's direction; the second asks whether two positions fall on one upright sight line. A change of viewpoint can change both, so hold the subject or reference steady.\n\nAfter recording the alignment, return to the three edge directions and use their largest visible slant difference to choose one correction."
+    ],
+    "sources": [
+      {
+        "id": "picard-beginning-drawing",
+        "title": "Portfolio: Beginning Drawing: A Multidimensional Approach",
+        "author": "Alain Picard",
+        "edition": "2016",
+        "pages": "Printed pp. 26–29, ‘Level and Plumb,’ especially p. 28 (PDF pp. 28–31)",
+        "usedFor": "The checked page uses a vertical pencil line to check the positions of locations to its left and right. This lesson adapts that positional alignment check to one named pair of landmarks, separate from the three edge-angle comparisons; it adds no measurement units or formal perspective procedure.",
+        "sections": ["concept", "exercise", "compare"]
+      }
+    ]
+  },
+  "authoring": {
+    "canonicalNumber": 9,
+    "prerequisiteCapabilities": [
+      "Can keep a subject or reference view steady while drawing a recognizable outline.",
+      "Can compare a few visible edges and make one same-drawing correction."
+    ],
+    "laterReturns": [
+      "Direction and alignment comparisons return in Lessons 17–19, 38–48, 51–64, and 81–87.",
+      "This lesson combines contour, whole-shape, and gap observation from Lessons 05–08 without adding formal perspective."
+    ],
+    "timingBudget": {
+      "setupAndReading": 3,
+      "looking": 5,
+      "warmup": 0,
+      "drawing": 25,
+      "compareAndCorrect": 6,
+      "review": 1,
+      "reserve": 5
+    }
+  },
+  "status": "published",
+  "label": ""
+}

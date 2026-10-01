@@ -1,0 +1,158 @@
+{
+  "id": "core-004",
+  "title": "Search then select — line and correction",
+  "durationMinutes": 45,
+  "difficulty": "Beginner",
+  "medium": [
+    "Graphite"
+  ],
+  "materials": [
+    "HB pencil",
+    "Sketchbook or drawing paper",
+    "Scrap paper",
+    "Ordinary eraser",
+    "Optional putty or kneaded eraser",
+    "One spoon or simple tool"
+  ],
+  "lessonType": "lesson",
+  "fundamentals": {
+    "primary": [
+      "Observation",
+      "Line",
+      "Self-correction"
+    ],
+    "secondary": [
+      "Graphite handling"
+    ]
+  },
+  "concepts": [
+    {
+      "id": "searching-lines",
+      "name": "Search before selecting",
+      "stage": "introduced"
+    },
+    {
+      "id": "line-selection",
+      "name": "Select a clearer contour",
+      "stage": "introduced"
+    }
+  ],
+  "prerequisites": [
+    "core-002",
+    "core-003"
+  ],
+  "objective": "Use a few faint searching lines to place a recognizable spoon or tool, compare them with the same fixed view, select the line that best follows one observed edge, and correct that area on the same drawing using an eraser method tested on scrap.",
+  "haveReady": {
+    "subject": "A spoon or simple hand tool with a clear outside edge.",
+    "setup": "Set the object where its whole shape is visible from one steady position. Keep HB, paper, an ordinary eraser, and scrap within reach. A putty or kneaded eraser is optional; a single ordinary eraser is enough.",
+    "referenceRoute": "Draw from the object when convenient. If using a photo, use the supplied fixed-view spoon/tool reference and keep its crop and viewpoint unchanged while searching, selecting, and correcting.",
+    "fallbackVisual": {
+      "src": "assets/references/core-004-reference.png",
+      "alt": "A plain metal spoon lies horizontally on a pale tabletop in a fixed low-oblique view from slightly above. Its full bowl, narrow neck, and long handle are visible.",
+      "caption": "Fallback reference. Keep this view fixed throughout the drawing.",
+      "provenance": {
+        "kind": "generated_reference",
+        "notes": "Original ArtApp-owned generated subject reference; model/version not exposed. Group B independent image review dated 2026-10-01: PASS WITH MINOR FIX; alt updated to describe the low-oblique view from slightly above."
+      }
+    }
+  },
+  "warmup": {
+    "durationMinutes": 4,
+    "instructions": "On scrap, make one faint graphite mark. Test the ordinary eraser with a few short, light passes. If you have a putty or kneaded eraser, press it gently onto a second faint mark and lift; do not rub. Compare how each available method changes the paper. If you have only one eraser, test only that one."
+  },
+  "explanation": [
+    "A few light lines can hold your first guesses while you look again. They are searches, not mistakes. Keep them faint enough to compare with the object before you choose which edge to make clearer.",
+    "Before correcting, test the eraser you plan to use on scrap. An ordinary eraser uses short, light passes; a putty or kneaded eraser can be pressed and lifted. Either route is optional to compare—the object decides which line fits, and you do not need to erase every guide."
+  ],
+  "visuals": [],
+  "exercise": {
+    "durationMinutes": 30,
+    "instructions": "1. Keep the spoon or tool and your drawing view steady. With HB, make a light outline and allow only a few faint alternatives near the edge you are unsure about.\n2. Look back at the object before making any line darker. Find one short section where your alternatives differ.\n3. Use Compare and Correct below to choose the line that follows the visible edge and revise that section on this same drawing. Leave a light guide if it remains useful; stop after this one correction.",
+    "source": "A spoon or simple hand tool from life, or the supplied fixed-view spoon reference.",
+    "subjectType": "Spoon or hand tool"
+  },
+  "artistReferences": [],
+  "bookReferences": [],
+  "reflection": [
+    "Which faint line did you keep, and what did the object show you?"
+  ],
+  "teaching": {
+    "whyItMatters": "Searching lightly gives you room to inspect an edge before committing to it. Selecting from the object keeps correction tied to visible evidence rather than guesswork.",
+    "connections": "Lessons 02–03 prepared light, adjustable pencil marks and deliberate point/side contact. This lesson uses those marks to search and select; Lesson 05 follows changing edge directions and turns.",
+    "exerciseVisuals": [
+      {
+        "src": "assets/diagrams/cd-core-l004-search-select.svg",
+        "alt": "Two matching unshaded spoon line drawings are stacked. A close crop of the same fixed-view photo points to the bowl-to-neck edge. The upper drawing shows two light candidate curves there; the lower keeps one curve clearer and the other faint, with the rest of the spoon outline unchanged.",
+        "caption": "Compare the two short bowl-to-neck curves with the same-view photo, then follow the curve that continues smoothly into the handle.",
+        "provenance": {
+          "kind": "original_diagram",
+          "notes": "Original deterministic SVG diagram with an inset cropped from the ArtApp-owned generated Core 004 reference; no external images or source materials. Group B independent image review dated 2026-10-01: PASS WITH MINOR FIX; the shared outer-bowl join was smoothed. The diagram shows a visible contour choice, not an eraser action."
+        }
+      }
+    ],
+    "compare": [
+      "Choose one short edge section where two faint lines differ. Compare each with the spoon or tool from the same view. Select the line that follows the visible edge more closely; do not choose it just because it is darker."
+    ],
+    "correct": [
+      "If the unselected line distracts from the clearer edge, use the eraser method you tested on scrap: short, light passes with an ordinary eraser, or a gentle press-and-lift with putty/kneaded eraser. Then make one light correction to that same edge section. You may leave a faint guide that still helps; do not scrub or redraw the whole object."
+    ],
+    "selfCheck": [
+      "Can you point to the visible edge that helped you choose a line?",
+      "Is the selected contour clearer without making the whole drawing darker?",
+      "Did you keep the same view and correct only the original drawing?"
+    ],
+    "deepDive": [
+      "Searching is a way to hold a question lightly: which of these lines best describes the edge I see? A small set of faint alternatives gives you something to compare without hiding the object under repeated strokes.",
+      "Erasing, lifting, and leaving a guide are different choices. You do not need to compare erasers; test whichever method you plan to use on scrap. A short eraser pass removes some graphite, while pressing and lifting can lighten a mark without rubbing. Leaving a pale guide also keeps a useful record. Choose only what helps this edge, and keep the view steady so the comparison stays meaningful."
+    ],
+    "sources": [
+      {
+        "id": "dodson-keys-to-drawing",
+        "title": "Keys to Drawing",
+        "author": "Bert Dodson",
+        "edition": "Work copyright 1985; first paperback printing 1990; supplied scan's number line includes 2012",
+        "pages": "Printed pp. 10–15, Chapter 1, ‘The Drawing Process,’ especially p. 14, ‘Restating’",
+        "usedFor": "The practical-and-critical exchange and return to a drawing inform a review followed by a next action. The searching-line sequence and same-view correction are ArtApp adaptations.",
+        "sections": [
+          "concept",
+          "exercise",
+          "compare",
+          "correct"
+        ]
+      },
+      {
+        "id": "picard-beginning-drawing",
+        "title": "Portfolio: Beginning Drawing: A Multidimensional Approach",
+        "author": "Alain Picard",
+        "edition": "2016",
+        "pages": "Printed pp. 8–9",
+        "usedFor": "These pages show gum and kneaded erasers and discuss their differing uses, informing an optional eraser choice. The scrap test and correction steps are ArtApp instructions.",
+        "sections": [
+          "warmup",
+          "correct"
+        ]
+      }
+    ]
+  },
+  "authoring": {
+    "canonicalNumber": 4,
+    "prerequisiteCapabilities": [
+      "Can make adjustable light marks with HB and can deliberately use pencil point or side contact."
+    ],
+    "laterReturns": [
+      "Lesson 05 follows changing edge directions and turns.",
+      "Searching and correction return in Lessons 47, 89, 97, and 150."
+    ],
+    "timingBudget": {
+      "setupAndReading": 2,
+      "looking": 3,
+      "warmup": 4,
+      "drawing": 24,
+      "compareAndCorrect": 6,
+      "review": 1,
+      "reserve": 5
+    }
+  },
+  "status": "published",
+  "label": ""
+}

@@ -1,0 +1,110 @@
+{
+  "id": "core-010",
+  "title": "Show which form overlaps",
+  "durationMinutes": 45,
+  "difficulty": "Beginner",
+  "medium": ["Graphite"],
+  "materials": ["HB pencil", "Sketchbook or drawing paper", "Eraser", "A jar and a carton"],
+  "lessonType": "lesson",
+  "fundamentals": {
+    "primary": ["Observation", "Shape", "Self-correction"],
+    "secondary": ["Line", "Depth"]
+  },
+  "concepts": [
+    { "id": "overlap-interruption", "name": "Read a visible contour interruption", "stage": "introduced" },
+    { "id": "near-tangency", "name": "Notice when two contours almost touch", "stage": "introduced" }
+  ],
+  "prerequisites": ["core-005", "core-006", "core-007", "core-008", "core-009"],
+  "objective": "Draw a jar behind a carton, locate the jar's interrupted visible contour, use only useful faint through-lines, and correct one overlap and one near-tangency from the same view.",
+  "haveReady": {
+    "subject": "One jar placed behind a carton, with a clear overlap and one separate place where their visible contours nearly touch.",
+    "setup": "Arrange the jar behind the carton in a steady three-quarter view. Keep the full relationship visible and choose a position where one jar edge disappears behind the carton and one other pair of edges comes close without hiding the gap.",
+    "referenceRoute": "Draw from life when convenient. Otherwise use the supplied matched three-quarter photo with the jar behind the carton; keep its crop and viewpoint fixed while comparing.",
+    "fallbackVisual": {
+      "src": "assets/references/core-010-reference.png",
+      "alt": "A plain kraft carton stands in front of a clear glass jar on a pale tabletop in a fixed three-quarter view. The carton hides part of the jar’s left contour; a separate narrow background gap remains between the carton’s right edge and the jar’s lower-right contour.",
+      "caption": "Fallback reference. Keep this arrangement and view fixed while you check the overlap and separate near-gap.",
+      "provenance": {
+        "kind": "generated_reference",
+        "notes": "ArtApp-owned generated and edited fixed-view reference. Group C independent image review dated 2026-10-01: PASS after full-size and 360 px inspection. The fine carton texture stays quiet at phone size; model/version is not exposed by the generation tool, and the private prompt/edit record is retained under sources/."
+      }
+    }
+  },
+  "explanation": [
+    "When one object sits behind another, part of its visible edge stops where the front object covers it. Use the jar and carton in front of you to decide which contour continues and which is hidden.",
+    "A very faint continuation behind the carton can help you locate where a jar edge might resume, but use it only if it answers that question. Keep visible contours clear. Also notice one near-touch: two edges almost meet, but the view may show a small gap."
+  ],
+  "visuals": [],
+  "exercise": {
+    "durationMinutes": 32,
+    "instructions": "1. Keep the jar behind the carton in one steady three-quarter view. With light HB lines, draw their recognizable outside shapes and the visible overlap.\n2. Find where one jar edge disappears behind the carton. If it helps you understand where that edge resumes, add one very faint through-line behind the carton; keep it lighter than the visible edges and leave it out if it does not help.\n3. Find one separate place where the jar and carton edges nearly touch. Compare the size of that gap with the actual arrangement.\n4. Use Compare and Correct below to clarify the overlap and adjust that one near-touch on the same drawing. Do not add shading or build the objects as geometric forms.",
+    "source": "A jar behind a carton from life, or the supplied matched three-quarter reference photo.",
+    "subjectType": "Jar and carton overlap"
+  },
+  "artistReferences": [],
+  "bookReferences": [],
+  "reflection": ["What visible edge showed you that the carton was in front of the jar?"],
+  "teaching": {
+    "whyItMatters": "A visible interruption can help show which object is in front. Checking one near-touch as well helps keep separate forms from accidentally merging in the drawing.",
+    "connections": "Lessons 05–09 built contour, whole-shape, gap, and direction checks. This study combines those observations to clarify one overlap and one near-touch; later lessons return to overlap as one depth cue among others.",
+    "exerciseVisuals": [
+      {
+        "src": "assets/diagrams/cd-core-l010-overlap.svg",
+        "alt": "A photo of a jar behind a carton is followed by two unshaded line studies from the same view. In the first, a jar line wrongly continues across the carton and a short carton edge meets the jar. In the second, the jar line stops at the carton boundary and the lower carton contour leaves the small reference gap. The T-like meeting is contextual to this arrangement.",
+        "caption": "Compare the jar’s interrupted contour and the separate lower gap with the photo. Here the T-like meeting is one piece of evidence, not a universal rule.",
+        "provenance": {
+          "kind": "original_diagram",
+          "notes": "Original controlled native SVG with the separately recorded ArtApp-owned core-010-reference photo embedded. Group C independent image review dated 2026-10-01: PASS after reducing only the first-state hidden-continuation stroke weight/contrast; full-size and 360 px renders confirm the locator is faint but visible. The stacked states differ only at the named interruption and near-touch. The T-like meeting is contextual evidence, not a universal rule."
+        }
+      }
+    ],
+    "compare": [
+      "At the overlap, compare the jar and carton with the same fixed view: which visible jar contour stops at the carton, and which carton edge continues in front? A T-shaped meeting can be evidence of this overlap here, but interpret it with the objects rather than applying it as a rule to every drawing. At the separate near-touch, compare whether a small gap remains in the reference and in your drawing."
+    ],
+    "correct": [
+      "Clarify only the selected interrupted contour so the visible carton edge reads in front of the jar. If you drew a faint through-line, keep it very light or erase it after it has helped. Then adjust one short edge at the near-touch so its gap matches the arrangement; leave the other contours alone."
+    ],
+    "selfCheck": [
+      "Can you point to the jar edge that disappears behind the carton?",
+      "Did the visible contour make the carton read in front at that overlap?",
+      "Does the separate near-touch show the same small gap as the arrangement?"
+    ],
+    "deepDive": [
+      "A T-shaped meeting can be a useful clue: one visible contour may stop against another that belongs to the form in front. It is evidence to check against the jar-and-carton arrangement, not a universal rule. A seam, crossing mark, or unrelated edge can make a similar meeting without showing the same overlap.",
+      "A near-tangency is a place where two contours almost touch without a clear overlap or open separation. It can make two forms seem to merge. Compare that exact spot with the subject, then adjust one edge only if the view gives you evidence for a gap or overlap."
+    ],
+    "sources": [
+      {
+        "id": "dodson-keys-to-drawing",
+        "title": "Keys to Drawing",
+        "author": "Bert Dodson",
+        "edition": "Original work ©1985; first paperback printing 1990; supplied scan's number line includes 2012",
+        "pages": "Printed pp. 128–130 and p. 135, Chapter 5, ‘The Illusion of Depth’",
+        "usedFor": "Printed p. 130 explains how overlap can make one shape appear behind another; p. 135 demonstrates drawing through a chair. The lesson uses these only to inform front/back observation and an optional faint locator. The qualified T-junction wording is the map's interpretation, not a claim attributed to this source.",
+        "sections": ["concept", "exercise", "compare", "correct"]
+      }
+    ]
+  },
+  "authoring": {
+    "canonicalNumber": 10,
+    "prerequisiteCapabilities": [
+      "Can follow visible contours and compare shape, gaps, and directions from one steady view.",
+      "Can make light adjustable graphite lines and correct one selected relationship on the same drawing."
+    ],
+    "laterReturns": [
+      "Overlap and contour interruptions return in Lessons 28, 44–45, and 51–61.",
+      "Object contact and spatial ordering return in Lessons 108–113."
+    ],
+    "timingBudget": {
+      "setupAndReading": 3,
+      "looking": 4,
+      "warmup": 0,
+      "drawing": 25,
+      "compareAndCorrect": 7,
+      "review": 1,
+      "reserve": 5
+    }
+  },
+  "status": "published",
+  "label": ""
+}

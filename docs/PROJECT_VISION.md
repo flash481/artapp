@@ -8,7 +8,7 @@ ArtApp is a personal, self-paced drawing course for an adult learning beside a s
 
 The Phase 1 static app and enriched pilot Lessons 01–09 exist. The canonical 150-lesson Core Drawing architecture is approved in broad structure and content-complete after final Landscape & Nature review. The single canonical plan is [`../curriculum/CORE_DRAWING_MAP.md`](../curriculum/CORE_DRAWING_MAP.md); its companion research and visual plans are linked from [`CURRICULUM.md`](CURRICULUM.md).
 
-Published pilot lesson JSON/assets still use their original IDs/order as prototype/reference material. They were intentionally left untouched and do not constrain the approved sequence. No lessons in the new sequence or planned images have been produced. The next phase is production-specification and reference/provenance approval, followed by bounded lesson authoring.
+Published MVP lesson JSON/assets retain their original IDs/order as prototype/reference material. They do not constrain the approved sequence and remain unchanged. The production specification and reference/provenance workflow are approved for the bounded canonical pilot Lessons 01–10. Follow [`LESSON_PRODUCTION.md`](LESSON_PRODUCTION.md); do not infer that any production review or learner outcome has passed unless it is recorded in [`PRODUCTION_PILOT_01_10_REVIEW.md`](PRODUCTION_PILOT_01_10_REVIEW.md). Stop at Lesson 10 pending learner review and authorization for another batch.
 
 ## Course identity and learning experience
 

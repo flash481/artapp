@@ -1,0 +1,140 @@
+{
+  "id": "core-006",
+  "title": "See the outside shape first",
+  "durationMinutes": 30,
+  "difficulty": "Beginner",
+  "medium": [
+    "Graphite"
+  ],
+  "materials": [
+    "HB pencil",
+    "Sketchbook or drawing paper",
+    "Eraser",
+    "A small plain parcel, toy, or fruit with two broad visible divisions"
+  ],
+  "lessonType": "focused-study",
+  "fundamentals": {
+    "primary": [
+      "Observation",
+      "Shape",
+      "Self-correction"
+    ],
+    "secondary": [
+      "Line"
+    ]
+  },
+  "concepts": [
+    {
+      "id": "outside-envelope",
+      "name": "One observed outside shape",
+      "stage": "introduced"
+    },
+    {
+      "id": "large-divisions",
+      "name": "Two broad visible divisions",
+      "stage": "introduced"
+    }
+  ],
+  "prerequisites": [
+    "core-005"
+  ],
+  "objective": "Draw a parcel, toy, or fruit first as one observed outside shape, add two large visible divisions, compare its height, width, and lean with the subject, and correct the outside before adding smaller parts.",
+  "haveReady": {
+    "subject": "A small plain parcel, toy, or fruit whose whole outside shape and two broad divisions are easy to see.",
+    "setup": "Place the object where you can see its whole shape from one steady position. Use HB and paper; keep a clear edge and any two large surface divisions visible without needing to turn the object.",
+    "referenceRoute": "Draw from life when convenient. Otherwise use the supplied neutral single-view parcel reference, keeping its crop and viewpoint fixed while you compare.",
+    "fallbackVisual": {
+      "src": "assets/references/core-006-reference.png",
+      "alt": "One closed kraft-paper parcel is shown whole on a pale surface from slightly above, with a broad flap edge and a wide plain wrap band visible.",
+      "caption": "Fallback reference. Keep this view fixed while you compare the whole shape.",
+      "provenance": {
+        "kind": "generated_reference",
+        "notes": "Original ArtApp-owned generated subject reference; model/version not exposed. Group B independent image review dated 2026-10-01: PASS."
+      }
+    }
+  },
+  "explanation": [
+    "Begin with one light outside line around the whole object. Here, the envelope simply means the object's observed outer shape; it is a first summary, not a construction formula.",
+    "After that boundary is in place, add only two broad divisions that you can see on the object. Compare the overall height, width, and lean before smaller parts, so a change to the outside can still guide what follows."
+  ],
+  "visuals": [],
+  "exercise": {
+    "durationMinutes": 18,
+    "instructions": "1. Keep the parcel, toy, or fruit in one steady view. Look at its whole outside edge before drawing.\n2. Use a few light HB marks to make one simple outside shape. Treat it as a first outline of the whole object; do not fit small parts yet.\n3. Add just two broad divisions that are clearly visible on the subject, such as the parcel's flap edge and wide band. Leave small seams, labels, and shading out.\n4. Use Compare and Correct below to check the whole outside shape and make one correction to it before adding or changing any smaller part.",
+    "source": "A plain parcel, toy, or fruit from life, or the supplied neutral single-view parcel reference.",
+    "subjectType": "Parcel, toy, or fruit outside shape"
+  },
+  "artistReferences": [],
+  "bookReferences": [],
+  "reflection": [
+    "What did the whole outside shape show you before you added the two divisions?"
+  ],
+  "teaching": {
+    "whyItMatters": "Starting with the whole outside shape makes its proportions visible before small parts take over. Two broad divisions can then sit inside a shape you have already checked against the object.",
+    "connections": "Lesson 05 followed changing directions along an edge. This study gathers those edges into one outside shape, then adds two large divisions; Lesson 07 applies whole-shape looking to a tree and previews selected branch gaps.",
+    "exerciseVisuals": [
+      {
+        "src": "assets/diagrams/cd-core-l006-silhouette.svg",
+        "alt": "Two large stacked unshaded line studies show the same parcel view. The upper shows one outside envelope; the lower changes one short upper-right contour, then adds a broad flap edge and two boundaries of a wide wrap band.",
+        "caption": "Check the whole parcel shape first; keep its two large divisions simple.",
+        "provenance": {
+          "kind": "original_diagram",
+          "notes": "Original deterministic SVG line diagram with an embedded ArtApp-owned generated Lesson 006 parcel reference; no external images or source materials were used. Group B independent image review dated 2026-10-01: PASS WITH MINOR FIX; alt updated to say unshaded line studies."
+        }
+      }
+    ],
+    "compare": [
+      "Compare your outside shape with the object or fixed reference as a whole. Does your drawing look taller or shorter, wider or narrower, or lean in a different direction? Then check that the two broad divisions begin and end at the visible edges shown by the subject."
+    ],
+    "correct": [
+      "Before adding or changing smaller parts, adjust one short section of the outside line where its height, width, or lean differs most from the observed shape. Keep the other edges in place. Then leave the two broad divisions as they are unless one clearly misses its visible boundary."
+    ],
+    "selfCheck": [
+      "Can you see one outside shape before you look at its parts?",
+      "Are the two divisions broad and visible on the object, rather than invented from memory?",
+      "Did you check and correct the outside shape before adding smaller parts?"
+    ],
+    "deepDive": [
+      "The outside shape shows the overall width, height, and lean of the object from this view. It cannot tell you everything about how the object is organized inside or what lies behind the visible edge. That is why this study adds only two divisions that the subject clearly shows.",
+      "When the outside is still changing, small details can pull attention away from the comparison that matters most. Check the whole outline first, then keep the divisions broad. In a later study, the drawing can use gaps, overlap, and other evidence to describe more of the arrangement."
+    ],
+    "sources": [
+      {
+        "id": "picard-beginning-drawing",
+        "title": "Portfolio: Beginning Drawing: A Multidimensional Approach",
+        "author": "Alain Picard",
+        "edition": "2016",
+        "pages": "Printed pp. 57–63, ‘Shape and Volume: Basic Shapes,’ especially p. 59",
+        "usedFor": "These checked pages relate familiar objects to broad shape families. They support beginning with a broad whole-object view; the observed parcel outline and two divisions are ArtApp's task, not a required geometric construction.",
+        "sections": [
+          "concept",
+          "exercise",
+          "compare",
+          "correct"
+        ]
+      }
+    ]
+  },
+  "authoring": {
+    "canonicalNumber": 6,
+    "prerequisiteCapabilities": [
+      "Can follow and compare a visible edge direction on a subject or fixed reference.",
+      "Can keep a view steady and make a light correction to the same drawing."
+    ],
+    "laterReturns": [
+      "Lessons 11–14 revisit the outside shape while dividing familiar objects into a few larger parts.",
+      "Lessons 36–50 and 143 return to whole shape and observed proportions in more developed drawing tasks."
+    ],
+    "timingBudget": {
+      "setupAndReading": 2,
+      "looking": 3,
+      "warmup": 0,
+      "drawing": 13,
+      "compareAndCorrect": 5,
+      "review": 2,
+      "reserve": 5
+    }
+  },
+  "status": "published",
+  "label": ""
+}

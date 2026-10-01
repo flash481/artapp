@@ -1,0 +1,117 @@
+{
+  "id": "core-001",
+  "title": "Draw one real thing — look, mark, compare, change",
+  "durationMinutes": 45,
+  "difficulty": "Beginner",
+  "medium": ["Graphite"],
+  "materials": ["HB pencil", "Sketchbook or drawing paper", "Eraser", "One simple object or the supplied ArtApp reference"],
+  "lessonType": "lesson",
+  "fundamentals": {
+    "primary": ["Observation", "Self-correction"],
+    "secondary": ["Graphite handling"]
+  },
+  "concepts": [
+    { "id": "observation-cycle", "name": "Observe and correct", "stage": "introduced" },
+    { "id": "light-first-marks", "name": "Light, reversible marks", "stage": "introduced" }
+  ],
+  "prerequisites": [],
+  "objective": "Make a first HB drawing of one familiar object, notice one visible difference between the drawing and the view, and make a gentle correction on that same drawing.",
+  "haveReady": {
+    "subject": "Choose one simple object you can see clearly, such as a spoon, fruit, cup, or small package.",
+    "setup": "Place the object where its whole outline and contact with the surface are visible. Keep the HB pencil, paper, and eraser within reach; use steady light.",
+    "referenceRoute": "Draw from the object when convenient. If using a photograph, choose a view with the whole object and its contact in frame, note its framing, viewpoint, and light, and keep that view fixed. If no object is available, use the supplied fixed-view ArtApp reference.",
+    "fallbackVisual": {
+      "src": "assets/references/core-001-reference.png",
+      "alt": "A plain cup in a fixed three-quarter view, fully in frame with its base resting on a visible tabletop.",
+      "caption": "Fallback reference. Keep this view unchanged while drawing.",
+      "provenance": {
+        "kind": "generated_reference",
+        "notes": "ArtApp-owned original generated subject reference; model/version not exposed. Group A independent image review accepted this asset on 2026-10-01; its matching record is deployable_after_review."
+      }
+    }
+  },
+  "explanation": [
+    "Start with a simple object you can see clearly. This first drawing records what you notice today; it is not a test of talent or accuracy.",
+    "Hold the HB pencil comfortably, as you would for writing. Begin with light, changeable marks. If you need to erase, test on a scrap strip and lift with short, light passes. Avoid pressing grooves into the paper.",
+    "Look back and forth between the object and the page. Draw first, then choose one visible relationship to inspect. A correction is a small change to this drawing, not a reason to start over."
+  ],
+  "visuals": [],
+  "exercise": {
+    "durationMinutes": 33,
+    "instructions": "1. Begin straight away with HB; there is no separate warm-up. Lightly place the object's overall outline on the page, keeping the whole form in view.\n2. Look back at the object often and add only the few lines needed for its main shape. Leave small details for later.\n3. Use Compare and Correct below to choose one visible relationship and adjust that area on this same drawing.\n4. At the top of the page, write ‘Lesson 01,’ the date, the subject, and the view. Keep this page. If drawing from life, record the object's placement and light or take a quick setup photo if convenient; if using the fallback, note its name.",
+    "source": "A simple object from life, or the supplied fixed-view ArtApp reference.",
+    "subjectType": "Still-life object"
+  },
+  "artistReferences": [],
+  "bookReferences": [],
+  "reflection": ["What did you notice only after comparing your page with the object or reference?"],
+  "teaching": {
+    "whyItMatters": "A first drawing gives you evidence about what you noticed. Comparing one visible relationship with the object gives you a specific place to adjust.",
+    "connections": "Keep this page and the same object or view. Lesson 139 returns to the baseline, and Lesson 150 revisits the independent observe-and-correct cycle.",
+    "exerciseVisuals": [
+      {
+        "src": "assets/teaching/cd-core-l001-observation-cycle.png",
+        "alt": "Two vertically stacked light graphite cup drawings, with a small fixed-view photo inset and a leader pointing toward the upper opening. The upper opening is flatter than the photo; the lower is more open and closer to it. Body and handle outlines vary slightly between drawings.",
+        "caption": "Compare how flat the upper opening looks with the fixed-view photo; the lower opening is more open. Body and handle contours vary slightly between drawings. No shading or finish is expected.",
+        "provenance": {
+          "kind": "generated_example",
+          "notes": "Original example created with Codex built-in image_gen on 2026-10-01; model/version was not exposed, and no external images or source materials were used. Group A independent review: PASS WITH MINOR FIX; opening-shape wording was corrected during integration."
+        }
+      }
+    ],
+    "compare": [
+      "Look at the object and your drawing side by side. For a cup, compare how flat or open its opening looks; in the supplied example, the upper opening is flatter and the lower opening is more open. You could instead compare the body's width with its height. Name one difference you can point to; do not measure or hunt for every error."
+    ],
+    "correct": [
+      "On the same drawing, adjust that one area with a light line. Erase gently only if needed. Look back at the object again and decide whether the change brings the relationship closer; then leave the rest of the page alone."
+    ],
+    "selfCheck": [
+      "Can you still recognize the object?",
+      "Can you name the one relationship you compared?",
+      "Did your correction stay on the same drawing without pressing grooves into the paper?"
+    ],
+    "deepDive": [
+      "A useful first drawing does not have to be accurate all at once. It holds your first observations still long enough for you to inspect them. When you revisit it later, you can compare what you notice now with what you noticed before.",
+      "Choose one difference instead of judging the whole page; that turns comparison into one doable next mark. A baseline is useful when you can return to the same view, so keep the page and note the object's placement and light, or take a quick setup photo when convenient."
+    ],
+    "sources": [
+      {
+        "id": "watson-garcia-absolute-beginner",
+        "title": "Drawing for the Absolute and Utter Beginner, Revised: 15th Anniversary Edition",
+        "author": "Claire Watson Garcia",
+        "edition": "Revised: 15th Anniversary Edition (2018)",
+        "pages": "Printed pp. 15–23, Chapter 1, ‘Seeing to Draw’",
+        "usedFor": "The chapter's close-looking and step-back review sequence informs the lesson's brief pause to inspect a drawing and choose a next action.",
+        "sections": ["concept", "exercise", "compare", "correct"]
+      },
+      {
+        "id": "dodson-keys-to-drawing",
+        "title": "Keys to Drawing",
+        "author": "Bert Dodson",
+        "edition": "Work copyright 1985; first paperback printing 1990; supplied scan's number line includes 2012",
+        "pages": "Printed pp. 10–15, Chapter 1, ‘The Drawing Process,’ especially p. 14, ‘Restating’",
+        "usedFor": "The practical-and-critical exchange and return to a drawing inform the lesson's review-and-adjust rhythm. The single-relation checkpoint and saved baseline are ArtApp adaptations.",
+        "sections": ["concept", "exercise", "compare", "correct"]
+      }
+    ]
+  },
+  "authoring": {
+    "canonicalNumber": 1,
+    "prerequisiteCapabilities": [],
+    "laterReturns": [
+      "Lesson 139 returns to this same drawing and view as a baseline.",
+      "Lesson 150 revisits the independent observe–compare–correct cycle."
+    ],
+    "timingBudget": {
+      "setupAndReading": 3,
+      "looking": 2,
+      "warmup": 0,
+      "drawing": 25,
+      "compareAndCorrect": 8,
+      "review": 2,
+      "reserve": 5
+    }
+  },
+  "status": "published",
+  "label": ""
+}

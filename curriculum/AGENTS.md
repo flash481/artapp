@@ -6,7 +6,7 @@
 - Use [`CORE_DRAWING_REDESIGN.md`](CORE_DRAWING_REDESIGN.md) for research, source synthesis, dependencies, recurrence and audits; use [`CORE_DRAWING_VISUAL_MANIFEST.md`](CORE_DRAWING_VISUAL_MANIFEST.md) for visual requirements and prompts.
 - Treat `archive/` as historical only. Do not read old JSON maps, audits or generators as current curriculum authority.
 - The published enriched pilot lesson JSON/assets retain legacy IDs 01–09 as prototype/reference material and were not changed during architecture review. They do not constrain lesson order or content; do not infer the proposed sequence from their filenames.
-- Do not author lessons or generate planned images until the production specification and reference/provenance plan are approved. The architecture is approved and content-complete; the final architecture pass did not authorize production.
+- Production is authorized for canonical Lessons 01–10 under [`../docs/LESSON_PRODUCTION.md`](../docs/LESSON_PRODUCTION.md). Follow its template, skills, evidence workflow and visual/provenance checks; use IDs `core-001`–`core-010`. Keep the architecture frozen and preserve legacy MVP JSON/assets as prototypes. Do not begin Lessons 11–30 until the learner reviews the pilot and authorizes that batch.
 
 ## Teaching and scope
 

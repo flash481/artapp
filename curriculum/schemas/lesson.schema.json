@@ -1,8 +1,8 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://art-course.local/schemas/lesson.v3.schema.json",
+  "$id": "https://art-course.local/schemas/lesson.v4.schema.json",
   "title": "Art course lesson record",
-  "description": "Version 3 lesson data contract. Published pilot lessons add structured teaching while development fixtures retain the base fields.",
+  "description": "Version 4 production contract for core-NNN canonical lessons, including unpublished text-stage drafts. Historical lesson-NN MVP prototypes and development fixtures remain legacy reference records.",
   "type": "object",
   "additionalProperties": false,
   "required": [
@@ -17,7 +17,6 @@
     "concepts",
     "prerequisites",
     "objective",
-    "warmup",
     "explanation",
     "visuals",
     "exercise",
@@ -39,18 +38,44 @@
     "concepts": { "type": "array", "items": { "$ref": "#/$defs/concept" } },
     "prerequisites": { "type": "array", "uniqueItems": true, "items": { "$ref": "#/$defs/id" } },
     "objective": { "type": "string", "minLength": 1 },
+    "haveReady": { "$ref": "#/$defs/haveReady" },
     "warmup": { "$ref": "#/$defs/warmup" },
     "explanation": { "type": "array", "minItems": 1, "items": { "type": "string", "minLength": 1 } },
     "visuals": { "type": "array", "items": { "$ref": "#/$defs/visual" } },
     "exercise": { "$ref": "#/$defs/exercise" },
     "artistReferences": { "type": "array", "items": { "type": "string" } },
     "bookReferences": { "type": "array", "items": { "$ref": "#/$defs/bookReference" } },
-    "reflection": { "type": "array", "minItems": 1, "items": { "type": "string", "minLength": 1 } },
+    "reflection": { "type": "array", "items": { "type": "string", "minLength": 1 } },
     "teaching": { "$ref": "#/$defs/teaching" },
+    "authoring": {
+      "type": "object",
+      "description": "Non-source lesson-production metadata, stripped by the application build. Private evidence and working briefs stay under sources/production/.",
+      "additionalProperties": false,
+      "required": ["canonicalNumber", "prerequisiteCapabilities", "laterReturns", "timingBudget"],
+      "properties": {
+        "canonicalNumber": { "type": "integer", "minimum": 1, "maximum": 150 },
+        "prerequisiteCapabilities": { "type": "array", "items": { "type": "string", "minLength": 1 } },
+        "laterReturns": { "type": "array", "items": { "type": "string", "minLength": 1 } },
+        "timingBudget": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["setupAndReading", "looking", "warmup", "drawing", "compareAndCorrect", "review", "reserve"],
+          "properties": {
+            "setupAndReading": { "type": "integer", "minimum": 1 },
+            "looking": { "type": "integer", "minimum": 1 },
+            "warmup": { "type": "integer", "minimum": 0 },
+            "drawing": { "type": "integer", "minimum": 1 },
+            "compareAndCorrect": { "type": "integer", "minimum": 1 },
+            "review": { "type": "integer", "minimum": 1 },
+            "reserve": { "type": "integer", "minimum": 5 }
+          }
+        }
+      }
+    },
     "sourceImages": { "type": "array", "items": { "$ref": "#/$defs/privateSourceImage" } },
     "extension": { "type": "string" },
     "scaffoldingLevel": { "type": "string" },
-    "status": { "enum": ["development-fixture", "published"] },
+    "status": { "enum": ["development-fixture", "draft", "published"] },
     "label": { "type": "string" }
   },
   "allOf": [
@@ -59,8 +84,41 @@
       "then": { "properties": { "label": { "const": "DEVELOPMENT FIXTURE — NOT FINAL CURRICULUM" } } }
     },
     {
-      "if": { "properties": { "status": { "const": "published" } }, "required": ["status"] },
-      "then": { "required": ["teaching"], "properties": { "label": { "const": "" } } }
+      "if": {
+        "properties": {
+          "status": { "enum": ["draft", "published"] },
+          "id": { "pattern": "^core-[0-9]{3}$" }
+        },
+        "required": ["status", "id"]
+      },
+      "then": {
+        "required": ["teaching", "haveReady", "authoring"],
+        "not": { "required": ["sourceImages"] },
+        "properties": {
+          "bookReferences": { "maxItems": 0 },
+          "teaching": { "required": ["compare", "correct"] }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "status": { "const": "published" },
+          "id": { "pattern": "^core-[0-9]{3}$" }
+        },
+        "required": ["status", "id"]
+      },
+      "then": { "properties": { "label": { "const": "" } } }
+    },
+    {
+      "if": {
+        "properties": {
+          "status": { "const": "draft" },
+          "id": { "pattern": "^core-[0-9]{3}$" }
+        },
+        "required": ["status", "id"]
+      },
+      "then": { "properties": { "label": { "const": "DRAFT — NOT FOR LEARNERS" } } }
     }
   ],
   "$defs": {
@@ -99,6 +157,17 @@
       "properties": {
         "durationMinutes": { "type": "integer", "minimum": 1, "maximum": 60 },
         "instructions": { "type": "string", "minLength": 1 }
+      }
+    },
+    "haveReady": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["subject", "setup", "referenceRoute", "fallbackVisual"],
+      "properties": {
+        "subject": { "type": "string", "minLength": 1 },
+        "setup": { "type": "string", "minLength": 1 },
+        "referenceRoute": { "type": "string", "minLength": 1 },
+        "fallbackVisual": { "$ref": "#/$defs/visual" }
       }
     },
     "visual": {
@@ -148,23 +217,25 @@
     "teaching": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["whyItMatters", "connections", "conceptVisuals", "deepDive", "warmupVisuals", "exerciseVisuals", "commonMistakes", "selfCheck", "sources"],
+      "required": ["whyItMatters", "connections", "selfCheck"],
       "properties": {
         "whyItMatters": { "type": "string", "minLength": 1 },
         "connections": { "type": "string", "minLength": 1 },
-        "conceptVisuals": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/visual" } },
-        "deepDive": { "type": "array", "minItems": 2, "items": { "type": "string", "minLength": 1 } },
-        "warmupVisuals": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/visual" } },
-        "exerciseVisuals": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/visual" } },
-        "commonMistakes": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/mistake" } },
-        "selfCheck": { "type": "array", "minItems": 2, "items": { "type": "string", "minLength": 1 } },
-        "sources": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/lessonSource" } }
+        "conceptVisuals": { "type": "array", "items": { "$ref": "#/$defs/visual" } },
+        "deepDive": { "type": "array", "items": { "type": "string", "minLength": 1 } },
+        "warmupVisuals": { "type": "array", "items": { "$ref": "#/$defs/visual" } },
+        "exerciseVisuals": { "type": "array", "items": { "$ref": "#/$defs/visual" } },
+        "commonMistakes": { "type": "array", "items": { "$ref": "#/$defs/mistake" } },
+        "compare": { "type": "array", "minItems": 1, "items": { "type": "string", "minLength": 1 } },
+        "correct": { "type": "array", "minItems": 1, "items": { "type": "string", "minLength": 1 } },
+        "selfCheck": { "type": "array", "minItems": 1, "items": { "type": "string", "minLength": 1 } },
+        "sources": { "type": "array", "items": { "$ref": "#/$defs/lessonSource" } }
       }
     },
     "mistake": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["mistake", "lookFor", "visual"],
+      "required": ["mistake", "lookFor"],
       "properties": {
         "mistake": { "type": "string", "minLength": 1 },
         "lookFor": { "type": "string", "minLength": 1 },
@@ -182,7 +253,7 @@
         "edition": { "type": "string", "minLength": 1 },
         "pages": { "type": "string", "minLength": 1 },
         "usedFor": { "type": "string", "minLength": 1 },
-        "sections": { "type": "array", "minItems": 1, "uniqueItems": true, "items": { "enum": ["concept", "deepDive", "warmup", "exercise", "mistakes"] } },
+        "sections": { "type": "array", "minItems": 1, "uniqueItems": true, "items": { "enum": ["concept", "deepDive", "warmup", "exercise", "compare", "correct", "mistakes"] } },
         "visualInfluence": { "type": "string" }
       }
     },
@@ -194,7 +265,7 @@
         "id": { "$ref": "#/$defs/id" },
         "sourceId": { "$ref": "#/$defs/id" },
         "page": { "type": "string", "minLength": 1 },
-        "section": { "enum": ["concept", "deepDive", "warmup", "exercise", "mistakes"] }
+        "section": { "enum": ["concept", "deepDive", "warmup", "exercise", "compare", "correct", "mistakes"] }
       }
     }
   }

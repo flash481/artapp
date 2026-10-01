@@ -54,17 +54,47 @@ function VisualSet({ visuals }: { visuals: LessonVisual[] }) {
   return <div className="visual-grid">{visuals.map((visual) => <ImageViewer key={visual.src} visual={visual} />)}</div>;
 }
 
+function HaveReady({ lesson }: { lesson: Lesson }) {
+  const ready = lesson.haveReady;
+  if (!ready) return null;
+  return (
+    <aside className="have-ready" aria-labelledby="have-ready-heading">
+      <div className="have-ready-copy">
+        <p className="eyebrow" id="have-ready-heading">Have ready</p>
+        <p><strong>Subject:</strong> {ready.subject}</p>
+        <p><strong>Set up:</strong> {ready.setup}</p>
+        <p><strong>Use this route:</strong> {ready.referenceRoute}</p>
+        <p className="heading-materials"><strong>Materials:</strong> {lesson.materials.join(" · ")}</p>
+      </div>
+      <div className="have-ready-reference">
+        <ImageViewer visual={ready.fallbackVisual} />
+        <p className="reference-caption">Supplied reference</p>
+      </div>
+    </aside>
+  );
+}
+
 const sourceSectionLabels: Record<string, string> = {
   concept: "the idea",
   deepDive: "Go deeper",
   warmup: "warm-up",
   exercise: "your drawing",
+  compare: "comparison",
+  correct: "correction",
   mistakes: "common mistakes",
 };
 
 function RichLessonContent({ lesson }: { lesson: Lesson }) {
   const teaching = lesson.teaching;
   if (!teaching) return null;
+  const conceptVisuals = teaching.conceptVisuals ?? [];
+  const warmupVisuals = teaching.warmupVisuals ?? [];
+  const exerciseVisuals = teaching.exerciseVisuals ?? [];
+  const commonMistakes = teaching.commonMistakes ?? [];
+  const deepDive = teaching.deepDive ?? [];
+  const sources = teaching.sources ?? [];
+  let sectionNumber = 0;
+  const nextSectionNumber = () => String(++sectionNumber).padStart(2, "0");
   return (
     <article className="lesson-content" aria-labelledby="lesson-title">
       <header className="lesson-heading">
@@ -75,67 +105,75 @@ function RichLessonContent({ lesson }: { lesson: Lesson }) {
           <span>Focus: {lesson.fundamentals.primary.join(" · ")}</span>
           {lesson.medium.map((medium) => <span key={medium}>{medium}</span>)}
         </div>
-        <p className="heading-materials"><strong>Have ready:</strong> {lesson.materials.join(" · ")}</p>
       </header>
 
+      <HaveReady lesson={lesson} />
+
       <section className="lesson-section" aria-labelledby="why-heading">
-        <div className="section-marker">01</div>
+        <div className="section-marker">{nextSectionNumber()}</div>
         <div>
-          <h2 id="why-heading">Why this matters</h2>
+          <h2 id="why-heading">Purpose</h2>
           <p>{teaching.whyItMatters}</p>
           <p className="spiral-note"><strong>{lesson.prerequisites.length ? "Builds on:" : "Carry forward:"}</strong> {teaching.connections}</p>
         </div>
       </section>
 
       <section className="lesson-section" aria-labelledby="concept-heading">
-        <div className="section-marker">02</div>
+        <div className="section-marker">{nextSectionNumber()}</div>
         <div>
           <h2 id="concept-heading">The idea</h2>
           <div className="prose">{lesson.explanation.map((paragraph, index) => <p key={`${index}-${paragraph}`}>{paragraph}</p>)}</div>
-          <VisualSet visuals={teaching.conceptVisuals} />
-          <details className="teaching-details">
-            <summary>Go deeper</summary>
-            <div className="details-body prose">{teaching.deepDive.map((paragraph, index) => <p key={`${index}-${paragraph}`}>{paragraph}</p>)}</div>
-          </details>
+          {conceptVisuals.length > 0 && <VisualSet visuals={conceptVisuals} />}
+          {deepDive.length > 0 && (
+            <details className="teaching-details">
+              <summary>Go deeper</summary>
+              <div className="details-body prose">{deepDive.map((paragraph, index) => <p key={`${index}-${paragraph}`}>{paragraph}</p>)}</div>
+            </details>
+          )}
         </div>
       </section>
 
-      <section className="lesson-section warmup-section" aria-labelledby="warmup-heading">
-        <div className="section-marker">03</div>
-        <div>
-          <p className="eyebrow">{lesson.warmup.durationMinutes} minutes</p>
-          <h2 id="warmup-heading">Warm up</h2>
-          <p>{lesson.warmup.instructions}</p>
-          <VisualSet visuals={teaching.warmupVisuals} />
-        </div>
-      </section>
+      {lesson.warmup && (
+        <section className="lesson-section warmup-section" aria-labelledby="warmup-heading">
+          <div className="section-marker">{nextSectionNumber()}</div>
+          <div>
+            <p className="eyebrow">{lesson.warmup.durationMinutes} minutes</p>
+            <h2 id="warmup-heading">Warm up</h2>
+            <p>{lesson.warmup.instructions}</p>
+            {warmupVisuals.length > 0 && <VisualSet visuals={warmupVisuals} />}
+          </div>
+        </section>
+      )}
 
       <section className="lesson-section exercise-section" aria-labelledby="exercise-heading">
-        <div className="section-marker">04</div>
+        <div className="section-marker">{nextSectionNumber()}</div>
         <div>
           <p className="eyebrow">{lesson.exercise.durationMinutes} minutes · {lesson.exercise.source.replaceAll("-", " ")}</p>
           <h2 id="exercise-heading">Your drawing</h2>
           <div className="exercise-steps">{lesson.exercise.instructions.split(/\n+/).map((step, index) => <p key={`${index}-${step}`}>{step}</p>)}</div>
-          <VisualSet visuals={teaching.exerciseVisuals} />
+          {exerciseVisuals.length > 0 && <VisualSet visuals={exerciseVisuals} />}
         </div>
       </section>
 
-      <section className="lesson-section" aria-labelledby="mistakes-heading">
-        <div className="section-marker">05</div>
+      <section className="lesson-section compare-section" aria-labelledby="compare-heading">
+        <div className="section-marker">{nextSectionNumber()}</div>
         <div>
-          <h2 id="mistakes-heading">Common mistakes</h2>
-          {teaching.commonMistakes.map((item) => (
-            <div className="mistake-card" key={item.visual.src}>
-              <p><strong>Common mistake:</strong> {item.mistake}</p>
-              <p><strong>What to check:</strong> {item.lookFor}</p>
-              <ImageViewer visual={item.visual} />
+          <h2 id="compare-heading">Compare</h2>
+          <ul className="reflection-list compare-list">{teaching.compare.map((item) => <li key={item}>{item}</li>)}</ul>
+          {commonMistakes.map((item, index) => (
+            <div className="mistake-card" key={`${index}-${item.mistake}`}>
+              <p><strong>Check for:</strong> {item.mistake}</p>
+              <p><strong>Look at:</strong> {item.lookFor}</p>
+              {item.visual && <ImageViewer visual={item.visual} />}
             </div>
           ))}
+          <h3 className="correction-heading">Correct and redraw</h3>
+          <ul className="reflection-list">{teaching.correct.map((item) => <li key={item}>{item}</li>)}</ul>
         </div>
       </section>
 
       <section className="lesson-section reflection-section" aria-labelledby="self-check-heading">
-        <div className="section-marker">06</div>
+        <div className="section-marker">{nextSectionNumber()}</div>
         <div>
           <h2 id="self-check-heading">Self-check</h2>
           <ul className="reflection-list">{teaching.selfCheck.map((check) => <li key={check}>{check}</li>)}</ul>
@@ -149,25 +187,28 @@ function RichLessonContent({ lesson }: { lesson: Lesson }) {
         </div>
       </section>
 
-      <details className="lesson-notes sources-details">
-        <summary>Sources &amp; further reading</summary>
-        <div className="details-body">
-          {teaching.sources.map((source) => (
-            <div className="source-entry" key={source.id}>
-              <p><strong>{source.title}</strong> — {source.author}, {source.edition}, {source.pages}</p>
-              <p><strong>Used for:</strong> {source.usedFor}</p>
-              {source.visualInfluence && <p><strong>Diagram note:</strong> {source.visualInfluence}</p>}
-              <p className="source-sections">Sections: {source.sections.map((section) => sourceSectionLabels[section]).join(", ")}</p>
-            </div>
-          ))}
-        </div>
-      </details>
+      {sources.length > 0 && (
+        <details className="lesson-notes sources-details">
+          <summary>Sources &amp; further reading</summary>
+          <div className="details-body">
+            {sources.map((source) => (
+              <div className="source-entry" key={source.id}>
+                <p><strong>{source.title}</strong> — {source.author}, {source.edition}, {source.pages}</p>
+                <p><strong>Used for:</strong> {source.usedFor}</p>
+                {source.visualInfluence && <p><strong>Visual note:</strong> {source.visualInfluence}</p>}
+                <p className="source-sections">Sections: {source.sections.map((section) => sourceSectionLabels[section]).join(", ")}</p>
+              </div>
+            ))}
+          </div>
+        </details>
+      )}
     </article>
   );
 }
 
 function LessonContent({ lesson }: { lesson: Lesson }) {
   if (lesson.teaching) return <RichLessonContent lesson={lesson} />;
+  if (!lesson.warmup) return null;
   return (
     <article className="lesson-content" aria-labelledby="lesson-title">
       <header className="lesson-heading">
@@ -303,7 +344,16 @@ function Navigation({
 }
 
 export default function App() {
-  const [progress, setProgress] = useState<CourseProgress>(() => loadProgress());
+  const [progress, setProgress] = useState<CourseProgress>(() => {
+    const saved = loadProgress();
+    const knownLessonIds = new Set(lessons.map((lesson) => lesson.id));
+    return {
+      ...saved,
+      currentLessonId: saved.currentLessonId && knownLessonIds.has(saved.currentLessonId)
+        ? saved.currentLessonId
+        : lessons[0]?.id ?? null,
+    };
+  });
   const [expandedNotes, setExpandedNotes] = useState("");
   const [importMessage, setImportMessage] = useState("");
   const currentLesson = useMemo(
@@ -385,10 +435,6 @@ export default function App() {
       imported.currentLessonId = imported.currentLessonId && knownLessonIds.has(imported.currentLessonId)
         ? imported.currentLessonId
         : lessons[0]?.id ?? null;
-      imported.completedLessonIds = imported.completedLessonIds.filter((id) => knownLessonIds.has(id));
-      imported.revisitCounts = Object.fromEntries(
-        Object.entries(imported.revisitCounts).filter(([id]) => knownLessonIds.has(id)),
-      );
       setProgress(imported);
       setImportMessage("Progress restored.");
     } catch {
@@ -406,7 +452,8 @@ export default function App() {
     );
   }
 
-  const completedCount = progress.completedLessonIds.length;
+  const availableLessonIds = new Set(lessons.map((lesson) => lesson.id));
+  const completedCount = progress.completedLessonIds.filter((id) => availableLessonIds.has(id)).length;
   const isCurrentComplete = progress.completedLessonIds.includes(currentLesson.id);
 
   return (
@@ -425,7 +472,7 @@ export default function App() {
           <p className="progress-copy">Lesson {currentIndex + 1} of {lessons.length} available<span aria-hidden="true"> · </span>{completedCount} completed</p>
           <p className="planned-copy">Lessons {lessons.length + 1}–{plannedLessonCount} planned</p>
         </div>
-        <progress value={completedCount} max={lessons.length} aria-label={`${completedCount} of ${lessons.length} lessons completed`} />
+        <progress value={completedCount} max={plannedLessonCount} aria-label={`${completedCount} of ${plannedLessonCount} lessons completed`} />
       </section>
 
       <Navigation currentIndex={currentIndex} completed={progress.completedLessonIds} onSelect={chooseLesson} />

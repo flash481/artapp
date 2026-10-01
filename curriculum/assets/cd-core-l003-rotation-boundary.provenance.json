@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0",
+  "asset_id": "cd-core-l003-rotation-boundary",
+  "file": "public/assets/teaching/cd-core-l003-rotation-boundary.png",
+  "category": "generated_example",
+  "title": "Core 003 rounded-point rotation and pear-boundary application",
+  "alt_text": "A two-state pencil diagram shows a rounded point and a hexagonal barrel with different facet orientations, connected by a curved turn arrow. Below, one short broad mark follows the right outer curve of an unshaded pear outline.",
+  "caption": "Roll a rounded point to present a new edge, then let one broad mark follow a visible pear curve.",
+  "created_on": "2026-10-01",
+  "provenance": {
+    "origin": "generated",
+    "creator_or_model": "OpenAI built-in image_gen; model/version not exposed by the tool",
+    "creation_date_or_period": "2026-10-01",
+    "rights_basis": "generated",
+    "license_or_attribution": "Original AI-generated graphite teaching example; no external image or source material used."
+  },
+  "distribution": "deployable_after_review",
+  "review_notes": "Group A independent image review dated 2026-10-01: PASS. At 360 px, two rounded-point states, changed hexagonal facet orientations, and the curved arrow clearly show axial turning; the shaft poses are mirrored but similarly inclined. Below, one localized broad mark follows the right outer curve of a blank, unshaded pear outline."
+}

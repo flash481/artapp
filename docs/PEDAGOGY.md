@@ -28,4 +28,4 @@ Use a hand-drawn teaching demonstration for pencil behavior, process and correct
 
 ## Production boundary
 
-No Lesson 10+ production or image generation begins until the learner approves the architecture and production specification. Keep lesson copy separate from UI code. Keep all books, extracts, research and private notes under `sources/`, outside GitHub Pages output.
+The approved production specification supports canonical Lessons 01–10; the 150-lesson architecture remains frozen. Follow [`LESSON_PRODUCTION.md`](LESSON_PRODUCTION.md) for the lesson and asset lifecycle, template, skills, source checks, and handoffs. Keep lesson copy separate from UI code. Keep all books, extracts, research, private evidence packets, completed authoring briefs, and scratch work under `sources/`, outside GitHub Pages output. Stop after Lesson 10 pending learner review and authorization for a later batch.

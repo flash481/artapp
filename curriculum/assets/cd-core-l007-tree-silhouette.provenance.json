@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0",
+  "asset_id": "cd-core-l007-tree-silhouette",
+  "file": "public/assets/diagrams/cd-core-l007-tree-silhouette.svg",
+  "category": "diagram",
+  "title": "Core 007 tree silhouette and branch-gap comparison",
+  "alt_text": "A controlled diagram uses one tree photo in tall and wide crops. The tall crop shows the outside contour; the wide line study has broad branch lines, two short open marks along observed branch edges, and one canopy correction beside its earlier guide.",
+  "caption": "Use the tall crop to simplify the outside shape. In the wide crop, let two open branch gaps check the contour.",
+  "created_on": "2026-10-01",
+  "provenance": {
+    "origin": "original",
+    "creator_or_model": "OpenAI Codex agent; controlled native SVG authored for this ArtApp project.",
+    "creation_date_or_period": "2026-10-01",
+    "rights_basis": "original",
+    "license_or_attribution": "Original SVG diagram with the separately recorded ArtApp-generated Core 007 tree reference embedded once; no source-book image or prose is used."
+  },
+  "distribution": "deployable_after_review",
+  "review_notes": "Group C independent image review dated 2026-10-01: PASS after minor-fix confirmation. The two open branch-edge cues follow the observed tree and remain visible in the 360 px preview; the diagram uses the same generated view for both crops."
+}

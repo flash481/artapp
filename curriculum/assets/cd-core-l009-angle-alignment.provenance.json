@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0",
+  "asset_id": "cd-core-l009-angle-alignment",
+  "file": "public/assets/diagrams/cd-core-l009-angle-alignment.svg",
+  "category": "diagram",
+  "title": "Lesson 09 scissors direction comparison and plumb alignment correction",
+  "alt_text": "An original diagram shows two stacked views of one top-down scissors photo. Three teal guides mark edge directions; a separate dashed upright guide crosses the pivot. The upper-left tip lies left of that line. Only a gray estimated left-blade slant shifts to the photographed edge below.",
+  "caption": "Compare three edge directions, then check the upper-left tip against the pivot’s upright guide. Only one learner-estimate line changes.",
+  "created_on": "2026-10-01",
+  "provenance": {
+    "origin": "original",
+    "creator_or_model": "Deterministic native SVG constructed from the original ArtApp-generated Lesson 09 scissors reference.",
+    "work_title": "Original ArtApp Lesson 09 direction and alignment diagram",
+    "creation_date_or_period": "2026-10-01",
+    "rights_basis": "original",
+    "license_or_attribution": "Original ArtApp SVG overlay; the embedded generated scissors photo is separately documented as core-009-reference."
+  },
+  "distribution": "deployable_after_review",
+  "review_notes": "Group C independent image review dated 2026-10-01: PASS WITH MINOR FIX. The lesson alt now describes the separate dashed upright guide shown in the diagram; no pencil is pictured. Full-size and 360 px previews show the supported pivot-to-tip relation and one isolated correction while retaining the same photo and other guides."
+}

@@ -1,0 +1,165 @@
+{
+  "id": "core-005",
+  "title": "Follow an edge — contour direction and turns",
+  "durationMinutes": 45,
+  "difficulty": "Beginner",
+  "medium": [
+    "Graphite"
+  ],
+  "materials": [
+    "HB pencil",
+    "Sketchbook or drawing paper",
+    "Eraser",
+    "A shoe, shell, or simple tool with a readable outside edge",
+    "A second small object for a brief transfer, if drawing from life"
+  ],
+  "lessonType": "lesson",
+  "fundamentals": {
+    "primary": [
+      "Observation",
+      "Line",
+      "Self-correction"
+    ],
+    "secondary": [
+      "Shape"
+    ]
+  },
+  "concepts": [
+    {
+      "id": "contour-direction",
+      "name": "Follow changing boundary directions",
+      "stage": "introduced"
+    },
+    {
+      "id": "contour-turns",
+      "name": "Notice where an edge changes direction",
+      "stage": "introduced"
+    }
+  ],
+  "prerequisites": [
+    "core-001",
+    "core-002",
+    "core-003",
+    "core-004"
+  ],
+  "objective": "Draw a shoe, shell, or tool while following several changes in its visible edge direction; compare and correct two turns on the same drawing, then transfer one turn to a second object.",
+  "haveReady": {
+    "subject": "A shoe, shell, or simple tool with several readable changes in its outside edge, plus a second object for one short transfer if drawing from life.",
+    "setup": "Place the first object so its full useful edge is visible from one steady side view. Keep HB and an eraser nearby. Choose a second object only for the short transfer at the end; it does not need a full drawing.",
+    "referenceRoute": "Draw from life when convenient. Otherwise use the supplied fixed side-view shoe reference. For the transfer, use a second object at hand or reuse the fixed spoon reference from Lesson 04; keep each view steady while drawing.",
+    "fallbackVisual": {
+      "src": "assets/references/core-005-reference.png",
+      "alt": "A plain low-top shoe in a complete, fixed side view, with its toe, heel, upper edge, and sole visible against a quiet background.",
+      "caption": "Fallback view for the first contour study. Keep the shoe in this side view while you compare.",
+      "provenance": {
+        "kind": "generated_reference",
+        "notes": "ArtApp-owned original generated subject reference; model/version not exposed. Group B independent image review accepted this asset on 2026-10-01; its matching record is deployable_after_review."
+      }
+    }
+  },
+  "explanation": [
+    "A contour follows the visible boundary where an object meets its surroundings. Look along a short stretch of that edge; its direction changes at turns. Record those changes from the object instead of drawing a remembered symbol.",
+    "A visible edge can stop behind another part or become hard to see where the tones meet. For this study, follow the outer edge you can actually see. Two small corrections on the same drawing are enough; the line does not need to be dark or perfectly smooth."
+  ],
+  "visuals": [],
+  "exercise": {
+    "durationMinutes": 31,
+    "instructions": "1. Keep the shoe, shell, or tool in one steady view. With HB, draw a light, recognizable outline, looking back at the object as you go.\n2. Choose one short stretch of the outline that changes direction several times. Follow that same edge slowly, noticing where it bends and which way it turns.\n3. Compare two turns in that stretch with the visible edge. Revise those two short bends on this same drawing; keep the rest of the outline as it is.\n4. Choose one clear turn on a second object and draw a short contour through it. If using supplied references, the Lesson 04 spoon view is a ready second object. Compare the turn with its object or fixed view, make one small adjustment if useful, then stop.",
+    "source": "A shoe, shell, or simple tool from life, or the supplied fixed side-view shoe reference; transfer one turn to a second object at hand or the fixed Lesson 04 spoon reference.",
+    "subjectType": "Shoe, shell, or tool contour"
+  },
+  "artistReferences": [],
+  "bookReferences": [],
+  "reflection": [
+    "Where did the edge change direction, and what did you notice when you followed one turn on a second object?"
+  ],
+  "teaching": {
+    "whyItMatters": "Following a visible edge through its turns helps a contour describe the particular object in front of you. Comparing two turns gives you evidence for a small correction before you try the same attention on another object.",
+    "connections": "Lessons 01–04 established light, adjustable marks, pencil contact, and same-drawing correction. This lesson follows an edge through several direction changes; Lesson 06 shifts attention to the whole outside shape before its parts.",
+    "exerciseVisuals": [
+      {
+        "src": "assets/diagrams/cd-core-l005-contour-turns.svg",
+        "alt": "An unshaded side-view shoe outline is paired with three enlarged photo-and-contour views of its outside turns at the toe and heel. Two matching close-ups of the outer toe, each with the same reference crop, show two candidate bends above and a selected contour with pale earlier guides below.",
+        "caption": "Follow the shoe’s outside edge through the toe and heel. In the repeated toe view, compare the two bends with the same photo and keep the curve that follows the visible edge.",
+        "provenance": {
+          "kind": "original_diagram",
+          "notes": "Original deterministic SVG diagram with photo crops from the ArtApp-owned generated Core 005 shoe reference; no external images or source materials. Group B independent image review dated 2026-10-01: PASS WITH MINOR FIX; reviewer confirmed the heel/sole boundary remains inside the photo frame and the two selected toe turns remain distinguishable at phone size."
+        }
+      },
+      {
+        "src": "assets/references/core-004-reference.png",
+        "alt": "A plain metal spoon lies horizontally on a pale tabletop in a fixed low-oblique view from slightly above. Its full bowl, narrow neck, and long handle are visible for a short contour transfer.",
+        "caption": "Second-object transfer: follow one turn on the Lesson 04 spoon reference.",
+        "provenance": {
+          "kind": "generated_reference",
+          "notes": "Reuses the ArtApp-owned core-004-reference asset; no second file or provenance record is planned. Original generated subject reference; model/version not exposed. Group B independent image review dated 2026-10-01: PASS WITH MINOR FIX; alt describes its low-oblique view from slightly above."
+        }
+      }
+    ],
+    "compare": [
+      "Follow the same short edge on the shoe, shell, or tool in your drawing and in the object or fixed reference. At two turns, compare where the edge bends and which way it changes direction. On the second object, compare your single turn with that object's visible boundary; keep each comparison in its own fixed view."
+    ],
+    "correct": [
+      "On the first drawing, change only the short segment around the two turns that differ from the observed edge. Keep the other contour as it is; if an old line distracts, use the scrap-tested eraser method from Lesson 04 or leave the faint guide. On the second object, adjust only the short contour around its one selected turn, then stop."
+    ],
+    "selfCheck": [
+      "Can you point to several places where the subject's outside edge changes direction?",
+      "Did you revise two turns on the original drawing while leaving the rest of its outline alone?",
+      "Could you follow one turn on a second object without drawing it all over again?"
+    ],
+    "deepDive": [
+      "A contour is a choice about which visible edge to follow. It may end where one part passes behind another, and it may become difficult to see when the neighboring areas have similar tone. Do not extend an unseen edge just to complete an outline; record the parts the subject actually shows you.",
+      "A turn is useful because it marks a change in the path, not because it needs a special line style. Look for where the edge begins to bend and where it changes direction again. On the second object, following only one turn lets you test whether that looking habit transfers without repeating the whole study."
+    ],
+    "sources": [
+      {
+        "id": "watson-garcia-absolute-beginner",
+        "title": "Drawing for the Absolute and Utter Beginner, Revised: 15th Anniversary Edition",
+        "author": "Claire Watson Garcia",
+        "edition": "Revised: 15th Anniversary Edition (2018)",
+        "pages": "Printed pp. 24–37, Chapter 2, ‘Contour Drawing,’ including ‘Look Before You Leap’ (p. 26)",
+        "usedFor": "The checked chapter supports attending carefully to an object's edges before drawing them. Following and correcting two turns on the same subject, then transferring one turn, are ArtApp's lesson design.",
+        "sections": [
+          "concept",
+          "exercise",
+          "compare",
+          "correct"
+        ]
+      },
+      {
+        "id": "picard-beginning-drawing",
+        "title": "Portfolio: Beginning Drawing: A Multidimensional Approach",
+        "author": "Alain Picard",
+        "edition": "2016",
+        "pages": "Printed pp. 31–41, ‘Drawing Habits,’ including contour practice on p. 37",
+        "usedFor": "These checked pages provide complementary line and contour examples. They inform the focus on following an observed boundary; ArtApp does not import a blind-contour exercise.",
+        "sections": [
+          "concept",
+          "exercise"
+        ]
+      }
+    ]
+  },
+  "authoring": {
+    "canonicalNumber": 5,
+    "prerequisiteCapabilities": [
+      "Can keep a subject or supplied reference in a steady view while making a light, recognizable outline.",
+      "Can compare a short edge section with the subject and make a small correction on the same drawing."
+    ],
+    "laterReturns": [
+      "The outside-shape lessons 06–14 build on selected contours and compare them with broad shape relationships.",
+      "Lessons 36–50 and 89–91 revisit contour choices in construction and edge decisions."
+    ],
+    "timingBudget": {
+      "setupAndReading": 2,
+      "looking": 5,
+      "warmup": 0,
+      "drawing": 24,
+      "compareAndCorrect": 7,
+      "review": 2,
+      "reserve": 5
+    }
+  },
+  "status": "published",
+  "label": ""
+}

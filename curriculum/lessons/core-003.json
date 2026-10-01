@@ -1,0 +1,122 @@
+{
+  "id": "core-003",
+  "title": "Choose point or side — angle, rotation, sharpening",
+  "durationMinutes": 45,
+  "difficulty": "Beginner",
+  "medium": ["Graphite"],
+  "materials": ["HB pencil", "Sketchbook or drawing paper", "Scrap paper", "Eraser", "Fruit or another smooth object", "Ordinary sharpener available if needed"],
+  "lessonType": "lesson",
+  "fundamentals": {
+    "primary": ["Graphite handling", "Observation"],
+    "secondary": ["Self-correction"]
+  },
+  "concepts": [
+    { "id": "pencil-contact", "name": "Point and side contact", "stage": "introduced" },
+    { "id": "pressure-control", "name": "Adjustable pencil pressure", "stage": "practised" }
+  ],
+  "prerequisites": ["core-002"],
+  "objective": "Compare narrow lines made with the HB point against broad side marks at two pencil angles, rotate a rounded point, and choose a pencil contact deliberately while drawing a fruit or smooth object.",
+  "haveReady": {
+    "subject": "Choose a piece of fruit or another smooth object with a clear outside edge.",
+    "setup": "Place the subject where its whole outline is easy to see. Put scrap paper beside the drawing page for pencil-contact tests. Keep HB and an eraser nearby; use a sharpener only if a finer point is actually needed.",
+    "referenceRoute": "Draw from the object when convenient. If it is unavailable, use the supplied fixed-view close-up reference; keep that view steady and use scrap for contact tests.",
+    "fallbackVisual": {
+      "src": "assets/references/core-003-reference.png",
+      "alt": "A single pear with a short stem rests upright on a tabletop in a fixed close three-quarter view, with its full outside boundary and base contact visible against a plain background.",
+      "caption": "Fallback reference. Use the same view throughout the drawing.",
+      "provenance": {
+        "kind": "generated_reference",
+        "notes": "Original AI-generated reference made with OpenAI built-in image_gen on 2026-10-01; model/version not exposed. No external image or illustration used. Group A independent image review: PASS."
+      }
+    }
+  },
+  "warmup": {
+    "durationMinutes": 6,
+    "instructions": "On scrap, make a narrow line with the HB point. To make a broad mark, lower the pencil toward the page until the exposed graphite side—not the wood—touches. If it helps, slide your fingers a little farther back along the pencil for control. Make one short side mark, then raise the pencil slightly and make another. Compare them. If the point has rounded, rotate the pencil slightly as you draw a short line; sharpen only when a finer point is needed for detail."
+  },
+  "explanation": [
+    "The point and side of one HB pencil meet the paper differently. A pointed contact makes a narrow line. Lowering the pencil lets more of the exposed graphite side touch; check that the graphite, not the wood, meets the page. A small angle change changes that contact again.",
+    "There is no single correct grip. Shift the pencil to suit the mark, and look at the result. Keep this an outline study: leave the rest of the fruit unshaded."
+  ],
+  "visuals": [],
+  "exercise": {
+    "durationMinutes": 27,
+    "instructions": "1. Choose one fruit or smooth object and look at its outside edge before marking.\n2. Use the pencil point to make a light, recognizable outline, returning your eyes to the subject often.\n3. On scrap, compare the two side-contact angles from the warm-up. Then lower the pencil toward the page and follow one short, clearly visible curve on the fruit's boundary with a broad side mark. Keep this an outline study and leave the rest of the fruit unshaded.\n4. Use Compare and Correct below to check whether the mark follows that curve and to make one small adjustment if needed.",
+    "source": "A fruit or smooth object from life, or the supplied fixed-view close-up; contact tests are made on scrap first.",
+    "subjectType": "Fruit or smooth object"
+  },
+  "artistReferences": [],
+  "bookReferences": [],
+  "reflection": ["Which pencil contact helped with the mark you wanted to make?"],
+  "teaching": {
+    "whyItMatters": "Choosing the pencil point or side changes the mark before you begin. A short test helps you make that choice on purpose instead of expecting one grip to do every job.",
+    "connections": "Lesson 02 made pressure adjustable. This lesson adds point and side contact; later lessons introduce their own graphite methods before asking you to use them.",
+    "conceptVisuals": [
+      {
+        "src": "assets/teaching/cd-core-l003-point-side.png",
+        "alt": "Three close views show a sharpened HB point making a narrow line, then the exposed graphite side touching paper at two different pencil angles to make two broad marks. The wood stays lifted from the page in both side-contact views.",
+        "caption": "One HB pencil makes different marks as its point and exposed graphite side meet the paper at different angles.",
+        "provenance": {
+          "kind": "generated_example",
+          "notes": "Original AI-generated teaching example made with OpenAI built-in image_gen on 2026-10-01; model/version not exposed. No external image or source material used. Group A independent image review: PASS."
+        }
+      }
+    ],
+    "exerciseVisuals": [
+      {
+        "src": "assets/teaching/cd-core-l003-rotation-boundary.png",
+        "alt": "A two-state pencil diagram shows a rounded point and a hexagonal barrel with different facet orientations, connected by a curved turn arrow. Below, one short broad mark follows the right outer curve of an unshaded pear outline.",
+        "caption": "Roll a rounded point to present a new edge, then let one broad mark follow a visible pear curve.",
+        "provenance": {
+          "kind": "generated_example",
+          "notes": "Original AI-generated teaching example made with OpenAI built-in image_gen on 2026-10-01; model/version not exposed. No external image or source material used. Group A independent image review: PASS."
+        }
+      }
+    ],
+    "compare": [
+      "Compare the narrow line with the two broad marks on scrap. Notice which pencil position made each contact and how a small angle change altered the mark. On the fruit, compare the broad line with the actual curve: does it travel along the boundary, or cut across it?"
+    ],
+    "correct": [
+      "If the broad line does not follow the curve, adjust the pencil angle or rotate the pencil and make one short correction on the same drawing. If the point is too blunt for a detail, sharpen it; otherwise keep working with the point you have."
+    ],
+    "selfCheck": [
+      "Can you distinguish a narrow line from a broad side contact on scrap?",
+      "Did you deliberately change the pencil angle for the two side marks?",
+      "Does the broad mark follow the observed boundary curve, with the rest of the fruit left unshaded?"
+    ],
+    "deepDive": [
+      "Angle changes the pencil's contact gradually. Lowering the pencil exposes more of the graphite side; raising it reduces how much side meets the paper. Try a small change and notice whether the mark follows the curve you are drawing.",
+      "As the point rounds, rotate the pencil to find a sharper edge. Sharpen only when an observed detail needs a finer line. The hand position serves the line you want; it is not a rule to hold one way all the time."
+    ],
+    "sources": [
+      {
+        "id": "picard-beginning-drawing",
+        "title": "Portfolio: Beginning Drawing: A Multidimensional Approach",
+        "author": "Alain Picard",
+        "edition": "2016",
+        "pages": "Printed pp. 21–23, ‘Holding the Pencil,’ and p. 35",
+        "usedFor": "The holding discussion shows functional pencil positions for different tasks; p. 35 demonstrates side-of-pencil marks alongside lines. ArtApp's short contact tests and simple fruit application adapt those observations without assigning tonal rendering.",
+        "sections": ["concept", "warmup", "exercise"]
+      }
+    ]
+  },
+  "authoring": {
+    "canonicalNumber": 3,
+    "prerequisiteCapabilities": ["Can vary HB pressure while keeping marks adjustable and check paper for grooves."],
+    "laterReturns": [
+      "Lessons 32–34 and 66–70 develop applied graphite marks and value methods.",
+      "Lessons 89–96 revisit line, edge, material, and repair choices."
+    ],
+    "timingBudget": {
+      "setupAndReading": 3,
+      "looking": 3,
+      "warmup": 6,
+      "drawing": 21,
+      "compareAndCorrect": 6,
+      "review": 1,
+      "reserve": 5
+    }
+  },
+  "status": "published",
+  "label": ""
+}

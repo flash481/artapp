@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0",
+  "asset_id": "cd-core-l005-contour-turns",
+  "file": "public/assets/diagrams/cd-core-l005-contour-turns.svg",
+  "category": "diagram",
+  "title": "Core Drawing 005 — shoe contour direction and turns",
+  "alt_text": "An unshaded side-view shoe outline is paired with three enlarged photo-and-contour views of its outside turns at the toe and heel. Two matching close-ups of the outer toe, each with the same reference crop, show two candidate bends above and a selected contour with pale earlier guides below.",
+  "caption": "Follow the shoe’s outside edge through the toe and heel. In the repeated toe view, compare the two bends with the same photo and keep the curve that follows the visible edge.",
+  "created_on": "2026-10-01",
+  "provenance": {
+    "origin": "original",
+    "creator_or_model": "Original deterministic SVG authored for ArtApp; its photo crops come from the separate ArtApp-generated Core 005 shoe reference made with Codex built-in image_gen (model/version not exposed).",
+    "creation_date_or_period": "2026-10-01",
+    "rights_basis": "original",
+    "license_or_attribution": "Original vector diagram using only crops of ArtApp's own generated shoe reference. No external images, source materials, or book illustrations were used. Independent review is pending."
+  },
+  "distribution": "deployable_after_review",
+  "review_notes": "Group B independent image review dated 2026-10-01: PASS WITH MINOR FIX. Three outside-edge studies show the toe, forefoot, and rear heel/sole turn; the two repeated toe states use the same crop and differ only at the two selected turns. The heel and sole edge remain inside the photo crop, with a narrow lower margin. The full shoe, three detail studies, and repeated comparison remain readable at 360×928."
+}

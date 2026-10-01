@@ -1,0 +1,111 @@
+{
+  "id": "core-002",
+  "title": "Keep the first marks light — pressure and paper",
+  "durationMinutes": 30,
+  "difficulty": "Beginner",
+  "medium": ["Graphite"],
+  "materials": ["HB pencil", "Sketchbook or drawing paper", "Scrap paper", "Eraser", "A spare sheet to place under the drawing hand", "One book or simple box"],
+  "lessonType": "focused-study",
+  "fundamentals": {
+    "primary": ["Graphite handling"],
+    "secondary": ["Observation", "Self-correction"]
+  },
+  "concepts": [
+    { "id": "pressure-control", "name": "Adjustable pencil pressure", "stage": "introduced" },
+    { "id": "light-first-marks", "name": "Light, reversible marks", "stage": "practised" }
+  ],
+  "prerequisites": ["core-001"],
+  "objective": "Use one HB pencil to make visibly different light, medium, and firm marks on scrap, then carry a light, changeable pressure into a simple book or box outline and check the reverse for raised tracks.",
+  "haveReady": {
+    "subject": "A closed book or simple box resting on a surface, viewed from a comfortable, steady position.",
+    "setup": "Keep the whole object and its contact with the surface visible. Put scrap beside the drawing page and slide a clean spare sheet under the drawing hand. Use HB only; no extra grades or tools are needed.",
+    "referenceRoute": "Draw from the object when convenient. If it is unavailable, use the supplied fixed-view book reference; pressure tests still use your own paper.",
+    "fallbackVisual": {
+      "src": "assets/references/core-002-reference.png",
+      "alt": "A closed, unbranded book rests on a tabletop in a fixed three-quarter view, fully visible with clear corners, spine, page block, and base contact.",
+      "caption": "Fallback reference. Keep this view fixed for the outline.",
+      "provenance": {
+        "kind": "generated_reference",
+        "notes": "Original AI-generated reference made with OpenAI built-in image_gen on 2026-10-01; model/version not exposed. No external image or book illustration used. Group A independent image review: PASS."
+      }
+    }
+  },
+  "warmup": {
+    "durationMinutes": 5,
+    "instructions": "On scrap, use the same HB pencil to make three short marks: light, medium, and firm. Keep each mark short and compare how it looks and feels. Stop before the firm mark cuts or grooves the paper; do not turn the strip into a shading exercise."
+  },
+  "explanation": [
+    "Use the same HB pencil for every mark. Let your hand stay relaxed and adjust pressure by small amounts; the goal is a mark you can still change, not a dark line.",
+    "The front of the paper does not tell the whole story. A pale line can still press into the front of the sheet. Turn the page over and hold it at an angle to the light; pressure may show as a raised track. Feel lightly, and keep the spare sheet under your hand while you work."
+  ],
+  "visuals": [],
+  "exercise": {
+    "durationMinutes": 16,
+    "instructions": "1. Choose the book or box and lightly draw its visible outside shape with HB; look back at the object as you place each edge. Keep to the shape you can see and do not shade it.\n2. Keep the first outline adjustable. Use light pressure for any change, and leave the spare sheet under your hand.\n3. Use Compare and Correct below to inspect one part of the outline and the reverse of the paper. Make one small correction if it helps.",
+    "source": "A book or simple box from life, or the supplied fixed-view book reference; pressure marks are tested on the learner's own paper.",
+    "subjectType": "Book or simple box"
+  },
+  "artistReferences": [],
+  "bookReferences": [],
+  "reflection": ["Which pressure gave you a mark that was easy to see and still easy to change?"],
+  "teaching": {
+    "whyItMatters": "Light marks leave room to adjust a drawing. Checking the back of the page helps you notice pressure that the front alone can hide.",
+    "connections": "Lesson 01 introduced light, changeable marks. This study makes pressure something you can test before using it; later lessons revisit pressure and graphite methods when those effects are taught.",
+    "exerciseVisuals": [
+      {
+        "src": "assets/teaching/cd-core-l002-pressure-paper.png",
+        "alt": "Three separate HB strokes increase from light to medium to firm. Below, a light unshaded book outline is drawn with a spare sheet under the drawing hand; the reverse of a page is held to angled daylight while fingertips check for possible raised tracks. The image shows the check, not its result.",
+        "caption": "Compare the three HB marks, keep the book outline light, and check the back of your own page at an angle to the light.",
+        "provenance": {
+          "kind": "generated_example",
+          "notes": "Original AI-generated teaching example made with OpenAI built-in image_gen on 2026-10-01; model/version not exposed. No external image or book illustration used. Group A independent image review: PASS."
+        }
+      }
+    ],
+    "compare": [
+      "Compare your three scrap marks. Can you see and feel a difference without turning them into tone? Then look at one edge of the book or box in your drawing and its matching edge on the subject. Turn the page over, hold it at an angle to the light, and look or feel lightly for a raised track."
+    ],
+    "correct": [
+      "If one edge needs adjusting, use a light HB line on the same outline. Test a short, light eraser pass on scrap before using it on the drawing; do not scrub. Turn the page over again and check at an angle to the light for a raised track."
+    ],
+    "selfCheck": [
+      "Can you make three pressure levels with the same HB pencil?",
+      "Does the outline stay visible without being pressed into the sheet?",
+      "Is there a noticeable raised track on the reverse after your correction?"
+    ],
+    "deepDive": [
+      "Pressure is a control you can adjust, not a score for drawing well. A visible front-side line and a pressure indentation are different things: the front shows the mark, while the reverse, held to the light, may show a raised track from harder pressure.",
+      "Use the lightest pressure that lets you see the outline and make a change. Keep the firm sample on scrap; this lesson is about noticing pressure, not using dark marks to describe form."
+    ],
+    "sources": [
+      {
+        "id": "watson-garcia-absolute-beginner",
+        "title": "Drawing for the Absolute and Utter Beginner, Revised: 15th Anniversary Edition",
+        "author": "Claire Watson Garcia",
+        "edition": "Revised: 15th Anniversary Edition (2018)",
+        "pages": "Printed p. 75, ‘Lost and Found Edges: Abbreviated Contour Lines’",
+        "usedFor": "Garcia recommends a relaxed grip and familiar writing pressure that can vary. This informs relaxed, adjustable handling; the three-level calibration, reverse-side check, and spare sheet are ArtApp instructions, not claims from this page.",
+        "sections": ["concept", "exercise"]
+      }
+    ]
+  },
+  "authoring": {
+    "canonicalNumber": 2,
+    "prerequisiteCapabilities": ["Can hold HB comfortably and make a first object drawing with light, changeable marks."],
+    "laterReturns": [
+      "Lessons 31–34 introduce early graphite methods that use controlled pressure.",
+      "Lessons 47–49 reuse light construction marks; Lessons 66–76 develop value practice; Lesson 89 revisits line choices."
+    ],
+    "timingBudget": {
+      "setupAndReading": 2,
+      "looking": 1,
+      "warmup": 5,
+      "drawing": 11,
+      "compareAndCorrect": 5,
+      "review": 1,
+      "reserve": 5
+    }
+  },
+  "status": "published",
+  "label": ""
+}

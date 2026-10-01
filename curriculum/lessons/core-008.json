@@ -1,0 +1,152 @@
+{
+  "id": "core-008",
+  "title": "Draw the spaces around it",
+  "durationMinutes": 45,
+  "difficulty": "Beginner",
+  "medium": [
+    "Graphite"
+  ],
+  "materials": [
+    "HB pencil",
+    "Sketchbook or drawing paper",
+    "A chair or simple plant with two clear surrounding gaps"
+  ],
+  "lessonType": "lesson",
+  "fundamentals": {
+    "primary": [
+      "Observation",
+      "Shape",
+      "Self-correction"
+    ],
+    "secondary": [
+      "Line"
+    ]
+  },
+  "concepts": [
+    {
+      "id": "positive-and-negative-shapes",
+      "name": "Subject and surrounding shapes share edges",
+      "stage": "introduced"
+    },
+    {
+      "id": "gap-comparison",
+      "name": "Compare the angle and width of surrounding gaps",
+      "stage": "introduced"
+    }
+  ],
+  "prerequisites": [
+    "core-005",
+    "core-006"
+  ],
+  "objective": "Draw a chair or plant from one steady view, compare two surrounding gaps by their angles and widths, and use one gap to correct the adjoining contour without shading the spaces.",
+  "haveReady": {
+    "subject": "A chair or simple plant with two large gaps that have clear boundaries in the chosen view.",
+    "setup": "Place the subject so its whole relevant outline and both gaps are visible from one steady position. Use HB lightly and keep the surrounding background simple enough to see the open shapes.",
+    "referenceRoute": "Draw from life when convenient. Otherwise use the supplied fixed-view chair reference, keeping its crop and viewpoint unchanged during comparison.",
+    "fallbackVisual": {
+      "src": "assets/references/core-008-reference.png",
+      "alt": "A plain wooden chair in a fixed three-quarter view, with its full outline, the open back, and broad spaces below the seat between its legs visible against a quiet background.",
+      "caption": "Fallback reference. Keep this view fixed while you compare the two gaps.",
+      "provenance": {
+        "kind": "generated_reference",
+        "notes": "Original ArtApp-owned generated fixed-view chair reference; model/version not exposed. Group C independent image review dated 2026-10-01: PASS."
+      }
+    }
+  },
+  "explanation": [
+    "The chair or plant is one shape, and the open spaces around it are shapes too. They share edges: when the subject's boundary changes, the shape of a nearby gap changes with it.",
+    "Choose two large gaps that are easy to see. Compare their angles and widths with the subject, then use one to check a short part of the outline. Look at the gaps without shading or filling them."
+  ],
+  "visuals": [],
+  "exercise": {
+    "durationMinutes": 33,
+    "instructions": "1. Keep the chair or plant in one steady view. With HB, make a light, recognizable outline of the subject.\n2. Find two large open gaps around or between its parts. Look at each gap as a whole shape, noticing which edges slope and where each gap is wider. Do not shade the spaces.\n3. Compare those gaps with the same spaces in the subject or fixed reference. Choose one gap whose shared edge can help you check the drawing.\n4. Use Compare and Correct below to adjust one short section of the surrounding contour on the same drawing, then look again at the gap. Leave the other contours as they are.",
+    "source": "A chair or simple plant from life, or the supplied fixed-view chair reference.",
+    "subjectType": "Chair or plant with surrounding gaps"
+  },
+  "artistReferences": [],
+  "bookReferences": [],
+  "reflection": [
+    "Which gap gave you the clearest check on the subject's outline?"
+  ],
+  "teaching": {
+    "whyItMatters": "Looking at a gap as a shape gives you another way to check the subject's outline. The same edge belongs to both the object and the space beside it.",
+    "connections": "Lesson 07 used a few tree-branch openings as a short silhouette check. Here, surrounding spaces become the direct focus: compare two gaps and use one to correct a chair or plant contour.",
+    "exerciseVisuals": [
+      {
+        "src": "assets/diagrams/cd-core-l008-negative-shapes.svg",
+        "alt": "Two stacked views of the same fixed chair photo outline the back opening and one lower gap between the legs without filling them. In the first, a faint dashed estimate sits inside the lower gap; in the second, only that line moves to the visible edge of the front leg.",
+        "caption": "The lower gap checks the edge: a faint first estimate moves to the contour you see.",
+        "provenance": {
+          "kind": "original_diagram",
+          "notes": "Original deterministic SVG overlay with the ArtApp-owned generated Core 008 chair reference embedded; no external images or source materials. Group C independent image review dated 2026-10-01: PASS WITH MINOR FIX; alt identifies the contour overlay as a faint dashed estimate."
+        }
+      }
+    ],
+    "compare": [
+      "Compare two large gaps around the chair or plant with the same gaps in your drawing. Notice their widths and the directions of their edges. Because each gap shares an edge with the subject, check whether that adjoining contour gives the gap a similar shape in both views."
+    ],
+    "correct": [
+      "If one gap is wider, narrower, or angled differently because of the subject's outline, adjust only the adjoining contour segment that best explains the difference. Look back at the gap after the change; keep both spaces unshaded."
+    ],
+    "selfCheck": [
+      "Can you identify two surrounding gaps as shapes without filling them in?",
+      "Did you compare both their widths and the directions of their edges?",
+      "Did one gap help you make a small correction to the adjoining outline?"
+    ],
+    "deepDive": [
+      "Artists often call the subject the positive shape and the open areas around or between it negative shapes. The names describe a relationship, not two separate drawing methods: every shared boundary changes both shapes at once.",
+      "A gap can reveal that an outline is too wide or slants in the wrong direction even when the object itself feels familiar. Choose large, clear spaces first. You do not need to shade them; simply compare their edges and proportions with the view in front of you."
+    ],
+    "sources": [
+      {
+        "id": "edwards-right-side-brain",
+        "title": "Drawing on the Right Side of the Brain",
+        "author": "Betty Edwards",
+        "edition": "Fourth Edition (2012)",
+        "pages": "PDF pp. 155–179, Chapter 7, ‘Perceiving Spaces,’ especially pp. 155, 160, and 170",
+        "usedFor": "The checked chapter treats spaces around and between objects as shapes that can test the positive form. Its examples use tone; this lesson uses comparison alone and does not ask the learner to shade gaps.",
+        "sections": [
+          "concept",
+          "exercise",
+          "compare"
+        ]
+      },
+      {
+        "id": "picard-beginning-drawing",
+        "title": "Portfolio: Beginning Drawing: A Multidimensional Approach",
+        "author": "Alain Picard",
+        "edition": "2016",
+        "pages": "Printed p. 29 (PDF p. 31) and printed p. 41 (PDF p. 43)",
+        "usedFor": "These checked pages name or show negative shapes, including the gap between forms. The lesson adapts the relational check but does not copy the source's toned examples or ask for shading.",
+        "sections": [
+          "concept",
+          "exercise",
+          "compare"
+        ]
+      }
+    ]
+  },
+  "authoring": {
+    "canonicalNumber": 8,
+    "prerequisiteCapabilities": [
+      "Can draw a recognizable outline from a steady view and compare it with a subject.",
+      "Can keep a light drawing adjustable while making one local correction."
+    ],
+    "laterReturns": [
+      "Surrounding-gap checks return in Lessons 12, 16, 26, 140, and 143.",
+      "This study follows Lesson 07's narrow tree-gap preview with direct comparison around a chair or plant."
+    ],
+    "timingBudget": {
+      "setupAndReading": 2,
+      "looking": 4,
+      "warmup": 0,
+      "drawing": 26,
+      "compareAndCorrect": 7,
+      "review": 1,
+      "reserve": 5
+    }
+  },
+  "status": "published",
+  "label": ""
+}

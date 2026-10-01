@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0",
+  "asset_id": "cd-core-l004-search-select",
+  "file": "public/assets/diagrams/cd-core-l004-search-select.svg",
+  "category": "diagram",
+  "title": "Core Drawing 004 — compare and select a spoon contour",
+  "alt_text": "Two matching unshaded spoon line drawings are stacked. A close crop of the same fixed-view photo points to the bowl-to-neck edge. The upper drawing shows two light candidate curves there; the lower keeps one curve clearer and the other faint, with the rest of the spoon outline unchanged.",
+  "caption": "Compare the two short bowl-to-neck curves with the same-view photo, then follow the curve that continues smoothly into the handle.",
+  "created_on": "2026-10-01",
+  "provenance": {
+    "origin": "original",
+    "creator_or_model": "Original deterministic SVG construction by Codex; the embedded crop is from the ArtApp-generated Core 004 reference (model/version not exposed).",
+    "creation_date_or_period": "2026-10-01",
+    "rights_basis": "original",
+    "license_or_attribution": "Original SVG line diagram with a crop of the ArtApp-owned generated Core 004 reference; no external images or source materials were used."
+  },
+  "distribution": "deployable_after_review",
+  "review_notes": "Group B independent image review dated 2026-10-01: PASS WITH MINOR FIX. The final shared left outer-bowl join is smooth; the same outside contour remains in both stages. The alternatives stay localized to the bowl-to-neck transition and remain legible in the 360×540 preview. The inset matches the ArtApp-owned reference; the diagram makes no eraser claim."
+}

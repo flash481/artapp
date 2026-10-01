@@ -18,6 +18,7 @@ sources/inventories/**
 sources/research/**
 sources/notes/**
 sources/scratch/**
+sources/production/**
 !sources/books/.gitkeep
 !sources/extracted/.gitkeep
 !sources/analyses/.gitkeep

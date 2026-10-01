@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0",
+  "asset_id": "cd-core-l008-negative-shapes",
+  "file": "public/assets/diagrams/cd-core-l008-negative-shapes.svg",
+  "category": "diagram",
+  "title": "Lesson 08 chair-gap comparison and shared-edge correction",
+  "alt_text": "Two stacked views of the same fixed chair photo outline the back opening and one lower gap between the legs without filling them. In the first, a faint dashed estimate sits inside the lower gap; in the second, only that line moves to the visible edge of the front leg.",
+  "caption": "The lower gap checks the edge: a faint first estimate moves to the contour you see.",
+  "created_on": "2026-10-01",
+  "provenance": {
+    "origin": "original",
+    "creator_or_model": "Deterministic native SVG constructed from the original ArtApp-generated Lesson 08 chair reference.",
+    "work_title": "Original ArtApp Lesson 08 gap comparison diagram",
+    "creation_date_or_period": "2026-10-01",
+    "rights_basis": "original",
+    "license_or_attribution": "Original ArtApp SVG overlay; the embedded chair photo is separately documented as core-008-reference."
+  },
+  "distribution": "deployable_after_review",
+  "review_notes": "Group C independent image review dated 2026-10-01: PASS WITH MINOR FIX. The two chair views, gap outlines, crop, and viewpoint remain identical; only the short dashed estimate moves to the observed front-leg edge. Both complete chairs and gap cues are readable at 360×1216. The integrated alt calls the overlay a faint dashed estimate, not graphite."
+}

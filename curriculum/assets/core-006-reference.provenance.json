@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0",
+  "asset_id": "core-006-reference",
+  "file": "public/assets/references/core-006-reference.png",
+  "category": "generated_reference",
+  "title": "Core Drawing 006 — fixed-view parcel reference",
+  "alt_text": "One closed kraft-paper parcel photographed whole on a pale surface from slightly above, with a broad flap edge and a wide plain wrap band visible.",
+  "caption": "Fallback reference. Keep this view fixed while you compare the parcel's outside shape and two broad divisions.",
+  "created_on": "2026-10-01",
+  "provenance": {
+    "origin": "generated",
+    "creator_or_model": "Codex built-in image_gen; model/version not exposed in the tool result",
+    "creation_date_or_period": "2026-10-01",
+    "rights_basis": "generated",
+    "license_or_attribution": "Original AI-generated image; no external images or source materials were used."
+  },
+  "distribution": "deployable_after_review",
+  "review_notes": "Group B independent image review dated 2026-10-01: PASS. The whole parcel, broad flap edge, wide wrap band, and soft contact shadow are distinct in the fixed view; the complete shape and divisions remain clear at 360 pixels wide."
+}

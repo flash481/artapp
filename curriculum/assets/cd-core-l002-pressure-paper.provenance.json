@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0",
+  "asset_id": "cd-core-l002-pressure-paper",
+  "file": "public/assets/teaching/cd-core-l002-pressure-paper.png",
+  "category": "generated_example",
+  "title": "Core 002 pressure and paper check",
+  "alt_text": "Three separate HB strokes increase from light to medium to firm. Below, a light unshaded book outline is drawn with a spare sheet under the drawing hand; the reverse of a page is held to angled daylight while fingertips check for possible raised tracks. The image shows the check, not its result.",
+  "caption": "Compare the three HB marks, keep the book outline light, and check the back of your own page at an angle to the light.",
+  "created_on": "2026-10-01",
+  "provenance": {
+    "origin": "generated",
+    "creator_or_model": "OpenAI built-in image_gen; model/version not exposed by the tool",
+    "creation_date_or_period": "2026-10-01",
+    "rights_basis": "generated",
+    "license_or_attribution": "Original AI-generated graphite teaching example; no external image or book illustration used."
+  },
+  "distribution": "deployable_after_review",
+  "review_notes": "Group A independent image review dated 2026-10-01: PASS. The 360 px preview keeps three single HB strokes (light, medium, firm) legible, the book outline light and unshaded, the spare sheet under the drawing hand, and the reverse-page check visible. The fingers check for possible raised tracks; the image does not assert a result."
+}

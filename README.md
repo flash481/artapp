@@ -4,11 +4,13 @@ A personal, self-paced drawing course for an adult learner working beside a sket
 
 ## Course planning status
 
-The canonical Core Drawing course is the final 150-lesson architecture in [`curriculum/CORE_DRAWING_MAP.md`](curriculum/CORE_DRAWING_MAP.md). Its broad structure is approved and the Landscape & Nature foundation has passed final review; it remains planning data, not production lesson content. Research and course-level audits are in [`curriculum/CORE_DRAWING_REDESIGN.md`](curriculum/CORE_DRAWING_REDESIGN.md); visual requirements and original prompts are in [`curriculum/CORE_DRAWING_VISUAL_MANIFEST.md`](curriculum/CORE_DRAWING_VISUAL_MANIFEST.md).
+The canonical Core Drawing course is the frozen 150-lesson architecture in [`curriculum/CORE_DRAWING_MAP.md`](curriculum/CORE_DRAWING_MAP.md). Production is authorized for canonical Lessons 01–10 as `core-001`–`core-010`, in three independently reviewed groups. The enriched `lesson-01`–`lesson-09` JSON and assets remain historical MVP prototypes; preserve them and do not use their IDs or order for canonical lessons. Research and course-level audits are in [`curriculum/CORE_DRAWING_REDESIGN.md`](curriculum/CORE_DRAWING_REDESIGN.md); visual requirements and original prompts are in [`curriculum/CORE_DRAWING_VISUAL_MANIFEST.md`](curriculum/CORE_DRAWING_VISUAL_MANIFEST.md). See the [lesson production entrypoint](docs/LESSON_PRODUCTION.md) for the workflow and status rules.
 
-The app currently contains enriched pilot Lessons 01–09 as prototype/reference material; their JSON/assets retain historic pilot IDs and order, and were not rewritten here. They do not constrain the final sequence. No lesson in the new sequence or planned image has been produced. Do not treat archived 72-lesson plans or the superseded 93-lesson architecture as current. The next step is production-specification and reference/provenance approval, followed by lesson authoring.
+Archived 72-lesson plans and the superseded 93-lesson architecture are historical only. Canonical production JSON uses stable `core-NNN` IDs; the app loads only records with `status: "published"`. Draft text-stage records can be checked without claiming asset or release readiness.
 
 ## Run locally
+
+The ten-lesson production pilot and 21 new visuals have passed independent content/image review, senior acceptance and app/mobile/privacy checks. See the [pilot review record](docs/PRODUCTION_PILOT_01_10_REVIEW.md). Lessons 11–30 await learner review and authorization.
 
 Use Node.js 22.12 or newer.
 
@@ -21,7 +23,7 @@ The app currently opens without a password. For GitHub Pages, set **Pages → Bu
 
 ## Content and assets
 
-- Add lesson JSON to `curriculum/lessons/` only from the approved map and validate it with `npm run validate:lessons`.
+- Add canonical lesson JSON to `curriculum/lessons/` only from the approved map. Use `npm run validate:lessons -- --draft` for structural checks while drafting; missing visual files and provenance remain pending. The default `npm run validate:lessons` is the strict release gate and requires the configured canonical set to be published with checked citations, complete assets, provenance, and timing. For later staged batches, use `npm run validate:lessons -- --through 30`.
 - Put approved deployable teaching visuals in `public/assets/` and reference them by path relative to that folder.
 - Keep books, extracted text, analyses, inventories, notes, and private research in `sources/`; these files stay private and outside the Vite public directory.
 - Check the production build with `npm run verify:dist` before release.

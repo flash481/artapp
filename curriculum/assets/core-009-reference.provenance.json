@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0",
+  "asset_id": "core-009-reference",
+  "file": "public/assets/references/core-009-reference.png",
+  "category": "generated_reference",
+  "title": "Lesson 09 fixed-view scissors reference",
+  "alt_text": "A complete pair of open scissors lies flat in a fixed top-down view, with both handles, both blade tips, and the pivot visible. In the upright image, the upper-left blade tip is left of the vertical through the pivot.",
+  "caption": "Display this view upright on a screen at eye level for the pivot-to-tip plumb check.",
+  "created_on": "2026-10-01",
+  "provenance": {
+    "origin": "generated",
+    "creator_or_model": "OpenAI built-in image_gen tool; specific model metadata was not exposed.",
+    "work_title": "Original ArtApp Lesson 09 scissors reference",
+    "creation_date_or_period": "2026-10-01",
+    "rights_basis": "generated",
+    "license_or_attribution": "Original AI-generated ArtApp study reference. No source-book art, source photograph, or other visual was supplied to the generator."
+  },
+  "distribution": "deployable_after_review",
+  "review_notes": "Group C independent image review dated 2026-10-01: PASS. Both handles, both blade tips, and the pivot are clear at full size and 360 px. In the upright view, the selected upper-left blade tip is visibly left of the vertical through the pivot. The exact submitted prompt was unavailable after a context resume and was not reconstructed; the text-only contract input and output location are recorded in the private handoff."
+}

@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0",
+  "asset_id": "cd-core-l001-observation-cycle",
+  "file": "public/assets/teaching/cd-core-l001-observation-cycle.png",
+  "category": "generated_example",
+  "title": "Core Drawing 001 — observe and compare a cup opening",
+  "alt_text": "Two vertically stacked light graphite cup drawings, with a small fixed-view photo inset and a leader pointing toward the upper opening. The upper opening is flatter than the photo; the lower is more open and closer to it. Body and handle outlines vary slightly between drawings.",
+  "caption": "Compare how flat the upper opening looks with the fixed-view photo; the lower opening is more open. Body and handle contours vary slightly between drawings. No shading or finish is expected.",
+  "created_on": "2026-10-01",
+  "provenance": {
+    "origin": "generated",
+    "creator_or_model": "Codex built-in image_gen; model/version not exposed in the tool result",
+    "creation_date_or_period": "2026-10-01",
+    "rights_basis": "generated",
+    "license_or_attribution": "Original AI-generated graphite example based on the ArtApp prompt and generated Core 001 cup reference; no external images or source materials were used."
+  },
+  "distribution": "deployable_after_review",
+  "review_notes": "Group A independent image review dated 2026-10-01: PASS WITH MINOR FIX; the requested opening-shape wording was corrected in the lesson, alt text, and caption. The photo inset, leader, and flatter-to-more-open change are legible in the 360×540 px phone preview. Body and handle contours vary slightly between panels, and the former-rim trace is subtle; the drawings are not pixel-identical and that trace is not required to read the correction."
+}

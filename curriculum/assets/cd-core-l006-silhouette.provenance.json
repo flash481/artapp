@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0",
+  "asset_id": "cd-core-l006-silhouette",
+  "file": "public/assets/diagrams/cd-core-l006-silhouette.svg",
+  "category": "diagram",
+  "title": "Core Drawing 006 — parcel envelope, flap edge, and wrap band",
+  "alt_text": "Two large stacked unshaded line studies show the same parcel view. The upper shows one outside envelope; the lower changes one short upper-right contour, then adds a broad flap edge and two boundaries of a wide wrap band.",
+  "caption": "Compare the marked upper-right edge with the fixed photo. The lower study keeps the same outline except for that short correction, then adds the flap edge and wide band.",
+  "created_on": "2026-10-01",
+  "provenance": {
+    "origin": "original",
+    "creator_or_model": "Luna / Codex; deterministic native SVG authorship",
+    "creation_date_or_period": "2026-10-01",
+    "rights_basis": "original",
+    "license_or_attribution": "Original SVG line diagram with an embedded ArtApp-owned generated Lesson 006 parcel reference; no external images or source materials were used."
+  },
+  "distribution": "deployable_after_review",
+  "review_notes": "Group B independent image review dated 2026-10-01: PASS WITH MINOR FIX. The upper and lower unshaded studies retain the same envelope except for one short upper-right correction; the lower adds the visible flap edge and two boundaries of the broad wrap band. The parcel photo inset is embedded once, with no external references; both full-size and 360-pixel renders were inspected. The lesson alt was corrected to say unshaded line studies."
+}

@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0",
+  "asset_id": "cd-core-l003-point-side",
+  "file": "public/assets/teaching/cd-core-l003-point-side.png",
+  "category": "generated_example",
+  "title": "Core 003 pencil point and side contacts",
+  "alt_text": "Three close views show a sharpened HB point making a narrow line, then the exposed graphite side touching paper at two different pencil angles to make two broad marks. The wood stays lifted from the page in both side-contact views.",
+  "caption": "One HB pencil makes different marks as its point and exposed graphite side meet the paper at different angles.",
+  "created_on": "2026-10-01",
+  "provenance": {
+    "origin": "generated",
+    "creator_or_model": "OpenAI built-in image_gen; model/version not exposed by the tool",
+    "creation_date_or_period": "2026-10-01",
+    "rights_basis": "generated",
+    "license_or_attribution": "Original AI-generated graphite teaching example; no external image or source material used."
+  },
+  "distribution": "deployable_after_review",
+  "review_notes": "Group A independent image review dated 2026-10-01: PASS. In the 360 px preview, the narrow point line and two broad side-contact strokes at different shaft angles are visible. Exposed graphite touches the page while the wooden cone remains lifted in both side-contact views."
+}

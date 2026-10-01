@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0",
+  "asset_id": "core-001-reference",
+  "file": "public/assets/references/core-001-reference.png",
+  "category": "generated_reference",
+  "title": "Core Drawing 001 — fixed-view ceramic cup reference",
+  "alt_text": "A plain cup in a fixed three-quarter view, fully in frame with its base resting on a visible tabletop.",
+  "caption": "Fallback reference. Keep this view unchanged while drawing.",
+  "created_on": "2026-10-01",
+  "provenance": {
+    "origin": "generated",
+    "creator_or_model": "Codex built-in image_gen; model/version not exposed in the tool result",
+    "creation_date_or_period": "2026-10-01",
+    "rights_basis": "generated",
+    "license_or_attribution": "Original AI-generated image; no external images or source materials were used."
+  },
+  "distribution": "deployable_after_review",
+  "review_notes": "Group A independent image review dated 2026-10-01: PASS for visual suitability and provenance handoff. The fixed-view subject reference shows the whole cup, handle opening, base contact, and tabletop; these remain legible at 320 px wide."
+}

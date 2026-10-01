@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0",
+  "asset_id": "cd-core-l010-overlap",
+  "file": "public/assets/diagrams/cd-core-l010-overlap.svg",
+  "category": "diagram",
+  "title": "Core 010 jar-carton overlap and near-gap comparison",
+  "alt_text": "A photo of a jar behind a carton is followed by two unshaded line studies from the same view. In the first, a jar line wrongly continues across the carton and a short carton edge meets the jar. In the second, the jar line stops at the carton boundary and the lower carton contour leaves the small reference gap. The T-like meeting is contextual to this arrangement.",
+  "caption": "Compare the jar’s interrupted contour and the separate lower gap with the photo. Here the T-like meeting is one piece of evidence, not a universal rule.",
+  "created_on": "2026-10-01",
+  "provenance": {
+    "origin": "original",
+    "creator_or_model": "Deterministic native SVG authored for this ArtApp project; the embedded generated photograph is separately recorded as core-010-reference.",
+    "work_title": "Original ArtApp Lesson 010 jar-carton overlap diagram",
+    "creation_date_or_period": "2026-10-01",
+    "rights_basis": "original",
+    "license_or_attribution": "Original SVG geometry authored for this ArtApp project; the embedded generated photograph is separately recorded as core-010-reference."
+  },
+  "distribution": "deployable_after_review",
+  "review_notes": "Group C independent image review dated 2026-10-01: PASS after a single opacity/weight adjustment to the first-state hidden-continuation locator. Full-size and 360 px renders show the locator faint but visible; geometry and all other contours remain unchanged. Both unshaded states share the same photo/view and differ only at the named overlap and near-touch corrections. The T-like meeting is contextual evidence, not a universal rule."
+}

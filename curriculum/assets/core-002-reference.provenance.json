@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0",
+  "asset_id": "core-002-reference",
+  "file": "public/assets/references/core-002-reference.png",
+  "category": "generated_reference",
+  "title": "Core 002 closed-book fixed-view reference",
+  "alt_text": "A closed, unbranded book rests on a tabletop in a fixed three-quarter view, fully visible with clear corners, spine, page block, and base contact.",
+  "caption": "Fallback reference. Keep this view fixed for the outline.",
+  "created_on": "2026-10-01",
+  "provenance": {
+    "origin": "generated",
+    "creator_or_model": "OpenAI built-in image_gen; model/version not exposed by the tool",
+    "creation_date_or_period": "2026-10-01",
+    "rights_basis": "generated",
+    "license_or_attribution": "Original AI-generated reference; no external image or book illustration used."
+  },
+  "distribution": "deployable_after_review",
+  "review_notes": "Group A independent image review dated 2026-10-01: PASS. At 360 px wide, the closed book remains fully visible in a steady three-quarter view, with corners, spine, page block, and tabletop contact clear."
+}

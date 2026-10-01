@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0",
+  "asset_id": "core-010-reference",
+  "file": "public/assets/references/core-010-reference.png",
+  "category": "generated_reference",
+  "title": "Core 010 fixed-view jar and carton reference",
+  "alt_text": "A plain kraft carton stands in front of a clear glass jar on a pale tabletop in a fixed three-quarter view. The carton hides part of the jar’s left contour; a separate narrow background gap remains between the carton’s right edge and the jar’s lower-right contour.",
+  "caption": "Fallback reference. Keep this arrangement and view fixed while you check the overlap and separate near-gap.",
+  "created_on": "2026-10-01",
+  "provenance": {
+    "origin": "generated",
+    "creator_or_model": "Built-in Codex image_gen.imagegen; model/version not exposed by the tool.",
+    "creation_date_or_period": "2026-10-01",
+    "rights_basis": "generated",
+    "license_or_attribution": "Original image generated and edited for this ArtApp project; see the private prompt record."
+  },
+  "distribution": "deployable_after_review",
+  "review_notes": "Group C independent image review dated 2026-10-01: PASS. Full-size and 360 px views show the jar-behind-carton arrangement, visible contour interruption, and separate open near-gap. The fine repeated carton texture does not obscure the relevant edges at phone size. Prompt/edit history is retained privately; the tool did not expose a model/version identifier."
+}

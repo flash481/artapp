@@ -7,7 +7,7 @@ This is a personal, self-paced drawing course for an adult learner working besid
 - [`curriculum/CORE_DRAWING_MAP.md`](curriculum/CORE_DRAWING_MAP.md) is the canonical 150-lesson Core Drawing architecture, rebuilt from a blank Lesson 01 and approved in broad structure. The final Landscape & Nature expansion has passed course-level review; the course is content-complete. Count is not a quota.
 - [`curriculum/CORE_DRAWING_REDESIGN.md`](curriculum/CORE_DRAWING_REDESIGN.md) records research, source analysis, synthesis and audits. [`curriculum/CORE_DRAWING_VISUAL_MANIFEST.md`](curriculum/CORE_DRAWING_VISUAL_MANIFEST.md) specifies instructional visuals and prompts.
 - Enriched pilot JSON/assets for lessons 01–09 remain unchanged prototype/reference material with historic IDs/order. They do not constrain the proposed sequence; do not infer new lesson content or order from those files.
-- Do not author lessons or generate planned images until the learner has approved the production specification and reference/provenance plan. The 150-lesson architecture is approved in broad structure and content-complete; this task did not authorize lesson or asset production.
+- The 01–10 production pilot is complete and validated as canonical IDs `core-001`–`core-010`, preserving legacy MVP prototypes. Use [`docs/LESSON_PRODUCTION.md`](docs/LESSON_PRODUCTION.md), its canonical template and production skills for subsequent authorized batches; see [`docs/PRODUCTION_PILOT_01_10_REVIEW.md`](docs/PRODUCTION_PILOT_01_10_REVIEW.md) for outcomes. Keep the 150-lesson architecture frozen. Stop after Lesson 10 until the learner reviews the pilot and authorizes the next batch.
 - All old 72-lesson plans and machine-readable maps are archived under `curriculum/archive/`; historical files are never the current source of truth.
 
 ## Model routing
@@ -18,6 +18,8 @@ Use a lead/worker split when available:
 - **Worker: Luna Max** for high-volume reading, source checks, research, drafting, assets, implementation, metadata and routine QA.
 
 These identifiers guide agent choice only; do not invent repository routing configuration. Give each worker only the project context needed and send page-referenced evidence to the lead.
+
+For authorized lesson production under [`docs/LESSON_PRODUCTION.md`](docs/LESSON_PRODUCTION.md), route the production lead/editor role to Sol 6.1 at medium reasoning and use Luna Max for most bounded authoring, asset, integration, and routine QA work. This is the production-specific override; keep Sol for senior decisions and independent review.
 
 ## Learning and privacy
 

@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0",
+  "asset_id": "core-008-reference",
+  "file": "public/assets/references/core-008-reference.png",
+  "category": "generated_reference",
+  "title": "Lesson 08 fixed-view chair reference",
+  "alt_text": "A plain wooden chair in a fixed three-quarter view, with its full outline, the open back, and broad spaces below the seat between its legs visible against a quiet background.",
+  "caption": "Fallback reference. Keep this view fixed while you compare the two gaps.",
+  "created_on": "2026-10-01",
+  "provenance": {
+    "origin": "generated",
+    "creator_or_model": "OpenAI built-in image_gen tool; specific model metadata was not exposed.",
+    "work_title": "Original ArtApp Lesson 08 chair reference",
+    "creation_date_or_period": "2026-10-01",
+    "rights_basis": "generated",
+    "license_or_attribution": "Original AI-generated reference created for ArtApp; no third-party artwork, photograph, or source image was supplied."
+  },
+  "distribution": "deployable_after_review",
+  "review_notes": "Group C independent image review dated 2026-10-01: PASS. The full fixed three-quarter chair view, back opening, lower opening between the center rear leg and right front leg, and floor contact are clear at 360 px. The narrow seat rail remains but does not divide or obscure the selected lower gap."
+}

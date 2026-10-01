@@ -26,20 +26,44 @@ export interface LessonSource {
   edition: string;
   pages: string;
   usedFor: string;
-  sections: Array<"concept" | "deepDive" | "warmup" | "exercise" | "mistakes">;
+  sections: Array<"concept" | "deepDive" | "warmup" | "exercise" | "compare" | "correct" | "mistakes">;
   visualInfluence?: string;
+}
+
+export interface LessonHaveReady {
+  subject: string;
+  setup: string;
+  referenceRoute: string;
+  fallbackVisual: LessonVisual;
+}
+
+export interface LessonAuthoring {
+  canonicalNumber: number;
+  prerequisiteCapabilities: string[];
+  laterReturns: string[];
+  timingBudget: {
+    setupAndReading: number;
+    looking: number;
+    warmup: number;
+    drawing: number;
+    compareAndCorrect: number;
+    review: number;
+    reserve: number;
+  };
 }
 
 export interface LessonTeaching {
   whyItMatters: string;
   connections: string;
-  conceptVisuals: LessonVisual[];
-  deepDive: string[];
-  warmupVisuals: LessonVisual[];
-  exerciseVisuals: LessonVisual[];
-  commonMistakes: Array<{ mistake: string; lookFor: string; visual: LessonVisual }>;
+  conceptVisuals?: LessonVisual[];
+  deepDive?: string[];
+  warmupVisuals?: LessonVisual[];
+  exerciseVisuals?: LessonVisual[];
+  commonMistakes?: Array<{ mistake: string; lookFor: string; visual?: LessonVisual }>;
+  compare: string[];
+  correct: string[];
   selfCheck: string[];
-  sources: LessonSource[];
+  sources?: LessonSource[];
 }
 
 export interface Lesson {
@@ -54,7 +78,9 @@ export interface Lesson {
   concepts: LessonConcept[];
   prerequisites: string[];
   objective: string;
-  warmup: { durationMinutes: number; instructions: string };
+  haveReady?: LessonHaveReady;
+  authoring?: LessonAuthoring;
+  warmup?: { durationMinutes: number; instructions: string };
   explanation: string[];
   visuals: LessonVisual[];
   exercise: {
@@ -70,20 +96,20 @@ export interface Lesson {
   sourceImages?: Array<{ id: string; sourceId: string; page: string; section: string }>;
   extension?: string;
   scaffoldingLevel?: string;
-  status: "development-fixture" | "published";
+  status: "development-fixture" | "draft" | "published";
   label: string;
 }
 
-const lessonModules = import.meta.glob<Lesson>("/curriculum/lessons/lesson-*.json", {
+const lessonModules = import.meta.glob<Lesson>("/curriculum/lessons/core-*.json", {
   eager: true,
   import: "default",
 });
 
 export const lessons = Object.values(lessonModules)
-  .filter((lesson) => lesson.status === "published")
-  .sort((a, b) => a.id.localeCompare(b.id));
+  .filter((lesson) => lesson.status === "published" && /^core-\d{3}$/.test(lesson.id))
+  .sort((a, b) => Number(a.id.slice(5)) - Number(b.id.slice(5)));
 
-export const plannedLessonCount = 72;
+export const plannedLessonCount = 150;
 
 export function lessonAssetUrl(src: string): string {
   if (/^https?:\/\//i.test(src)) return src;

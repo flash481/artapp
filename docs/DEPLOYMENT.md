@@ -14,6 +14,8 @@ Do not publish source books, scans, EPUBs, raw extracts, OCR output, private ana
 
 The `Build and deploy course` workflow runs lesson validation, type checks, lint, tests, the production build, and deployment-output verification before publishing. If one check fails, deployment does not run. Run the same checks locally with the commands in the [README](../README.md).
 
+For local Pages-path browser review, set the same `VITE_BASE_PATH` for both build and preview (for example `/artapp/`), then open that prefixed URL. A build made with a repository prefix cannot be checked reliably with a preview configured for `/`.
+
 The deployment-output check should keep confirming:
 
 - The Pages base path and static build output are correct.

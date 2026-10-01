@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0",
+  "asset_id": "core-007-reference",
+  "file": "public/assets/references/core-007-reference.png",
+  "category": "generated_reference",
+  "title": "Core 007 whole-tree fixed-view reference",
+  "alt_text": "One full asymmetrical deciduous tree in a quiet grassy field under a pale sky, with clear sky openings between several main branches and the trunk touching the ground.",
+  "caption": "Fallback reference. Keep this tree and viewpoint fixed while you compare tall and wide crops.",
+  "created_on": "2026-10-01",
+  "provenance": {
+    "origin": "generated",
+    "creator_or_model": "Built-in Codex image_gen.imagegen; model/version not exposed by the tool.",
+    "creation_date_or_period": "2026-10-01",
+    "rights_basis": "generated",
+    "license_or_attribution": "Original image generated for this ArtApp project."
+  },
+  "distribution": "deployable_after_review",
+  "review_notes": "Group C independent image review dated 2026-10-01: PASS. The whole asymmetrical tree, trunk-to-canopy structure, and several branch openings are visible in the fixed view. At 360 px the full reference and crop choices remain legible; the portrait crop intentionally excludes the canopy right side while the wide crop makes the same-subject comparison clear."
+}

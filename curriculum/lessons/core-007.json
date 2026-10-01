@@ -1,0 +1,138 @@
+{
+  "id": "core-007",
+  "title": "Read a tree as a silhouette and a set of gaps",
+  "durationMinutes": 30,
+  "difficulty": "Beginner",
+  "medium": [
+    "Graphite"
+  ],
+  "materials": [
+    "HB pencil",
+    "Sketchbook or drawing paper",
+    "One tree or tree group from life or the supplied reference"
+  ],
+  "lessonType": "focused-study",
+  "fundamentals": {
+    "primary": [
+      "Observation",
+      "Shape",
+      "Self-correction"
+    ],
+    "secondary": [
+      "Composition"
+    ]
+  },
+  "concepts": [
+    {
+      "id": "tree-silhouette",
+      "name": "One observed outer tree shape",
+      "stage": "introduced"
+    },
+    {
+      "id": "branch-gap-check",
+      "name": "Use a few branch gaps to check the outer shape",
+      "stage": "introduced"
+    }
+  ],
+  "prerequisites": [
+    "core-006"
+  ],
+  "objective": "From one fixed tree or tree-group view, make a small vertical outer-shape drawing, then use two or three branch gaps in a small wide crop to check the silhouette; leave out leaves and individual twigs.",
+  "haveReady": {
+    "subject": "One tree or a small tree group with a readable outer shape and two or three visible branch gaps.",
+    "setup": "Choose a steady view from outdoors, a window, or the supplied reference. Keep the subject and viewpoint fixed for both small drawings. Use HB lightly; no travel, special weather, or outdoor equipment is needed.",
+    "referenceRoute": "Draw from life when convenient. Otherwise use the supplied ArtApp-owned fixed-view tree reference, which supports both the vertical and wide crop.",
+    "fallbackVisual": {
+      "src": "assets/references/core-007-reference.png",
+      "alt": "One full asymmetrical deciduous tree in a quiet grassy field under a pale sky, with clear sky openings between several main branches and the trunk touching the ground.",
+      "caption": "Fallback reference. Keep this tree and viewpoint fixed while you compare tall and wide crops.",
+      "provenance": {
+        "kind": "generated_reference",
+        "notes": "Original ArtApp-owned generated fixed-view tree reference; model/version not exposed by the tool. Group C independent image review dated 2026-10-01: PASS."
+      }
+    }
+  },
+  "explanation": [
+    "Start by treating the tree or group as one outer shape. Follow the large visible edge instead of filling it with leaf marks or separate twigs.",
+    "Then look at two or three openings between major branches. Their shapes can help you check where the outer edge bends. For this short preview, use only the gaps that are easy to see; Lesson 08 will focus on surrounding spaces directly."
+  ],
+  "visuals": [],
+  "exercise": {
+    "durationMinutes": 19,
+    "instructions": "1. Keep one tree or tree group in a steady view. On the page, make two small frames: one tall and one wide.\n2. In the tall frame, draw the tree or group as one light outside shape. Leave out leaves and individual twigs.\n3. In the wide frame, draw the same view with the same simple outside shape. Find two or three clear openings between major branches and use their angles and widths to check the outline. Leave the openings unshaded.\n4. If one opening shows that a nearby part of the outside shape needs a change, make one small correction to that edge in the wide study, then stop.",
+    "source": "One tree or tree group from a steady outdoor/window view, or the supplied fixed-view tree reference; both small crops use that same view.",
+    "subjectType": "Tree or small tree group"
+  },
+  "artistReferences": [],
+  "bookReferences": [],
+  "reflection": [
+    "Which branch opening helped you check the tree's outside shape?"
+  ],
+  "teaching": {
+    "whyItMatters": "A tree silhouette records the large shape you actually see, while a few branch openings can test whether that outline follows the tree rather than a familiar tree symbol.",
+    "connections": "Lesson 06 began with an object's whole outside shape. This focused study applies that habit to a tree and previews a few branch gaps; Lesson 08 teaches gap comparison directly.",
+    "exerciseVisuals": [
+      {
+        "src": "assets/diagrams/cd-core-l007-tree-silhouette.svg",
+          "alt": "A controlled diagram uses one tree photo in tall and wide crops. The tall crop shows the outside contour; the wide line study has broad branch lines, two short open marks along observed branch edges, and one canopy correction beside its earlier guide.",
+          "caption": "Use the tall crop to simplify the outside shape. In the wide crop, let two open branch gaps check the contour.",
+        "provenance": {
+          "kind": "original_diagram",
+            "notes": "Original controlled SVG with the ArtApp-generated Core 007 tree reference embedded once. Group C independent image review dated 2026-10-01: PASS after minor-fix confirmation; the wide study uses two open branch-edge cues rather than closed gap shapes."
+        }
+      }
+    ],
+    "compare": [
+      "Compare the two small drawings with the same tree view. Which frame leaves more room above or beside the tree, and does the wide crop keep the same major outer shape as the tall crop? Check two or three visible branch openings against the tree; notice their angles and widths without filling them in."
+    ],
+    "correct": [
+      "If a clear branch opening shows that a nearby edge is misplaced, adjust just that short part of the outer shape in the wide drawing. Keep both studies simple and leave out leaves, twigs, and shading."
+    ],
+    "selfCheck": [
+      "Did you use one fixed tree view for both crops?",
+      "Can you point to the outer shape before looking at the branch openings?",
+      "Did two or three visible gaps help you check one part of the outline without drawing leaves or twigs?"
+    ],
+    "deepDive": [
+      "A tree symbol from memory can make every crown round or every branch spread in a familiar way. The outer edge you see may be taller, flatter, sparse on one side, or broken by open sky. Keeping the drawing to a simple silhouette gives you room to notice those differences.",
+      "An opening between branches is another shape made by the tree and the space around it. A couple of clear gaps can test the outline, but this brief preview is not a full negative-space study. In Lesson 08, you will use surrounding gaps as the direct subject of comparison."
+    ],
+    "sources": [
+      {
+        "id": "getty-framing-landscape",
+        "title": "Framing the Landscape",
+        "author": "Getty Museum Education",
+        "edition": "Online education lesson, accessed 2026-10-01",
+        "pages": "Unpaginated; Learning Objectives and Lesson Steps 3–7",
+        "usedFor": "The lesson asks learners to observe a tree's shape, check branch openings, and compare horizontal and vertical framing of the same subject. ArtApp adapts those observation and crop ideas for two short graphite studies; it does not use the source artwork or require its classroom procedures.",
+        "sections": [
+          "concept",
+          "exercise",
+          "compare"
+        ]
+      }
+    ]
+  },
+  "authoring": {
+    "canonicalNumber": 7,
+    "prerequisiteCapabilities": [
+      "Can make a light outside-shape drawing from a steady view.",
+      "Can compare one visible edge in a drawing with the same subject or fixed reference."
+    ],
+    "laterReturns": [
+      "Lesson 08 develops direct comparison of surrounding gaps.",
+      "Tree silhouettes return in Lessons 128–130 and landscape/integration work in 138–150."
+    ],
+    "timingBudget": {
+      "setupAndReading": 2,
+      "looking": 3,
+      "warmup": 0,
+      "drawing": 15,
+      "compareAndCorrect": 4,
+      "review": 1,
+      "reserve": 5
+    }
+  },
+  "status": "published",
+  "label": ""
+}
