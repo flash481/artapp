@@ -2,7 +2,7 @@
 
 ## Current status
 
-The single canonical proposed sequence is [`../curriculum/CORE_DRAWING_MAP.md`](../curriculum/CORE_DRAWING_MAP.md): 93 lessons, planning only, awaiting human review. It supersedes the older 72-lesson Phase 2B plan and all earlier map/audit JSON. The current app still contains the enriched pilot JSON/assets with their historic lesson IDs 01–09; this planning task does not rewrite those files or start Lesson 10 production.
+The single canonical proposed sequence is [`../curriculum/CORE_DRAWING_MAP.md`](../curriculum/CORE_DRAWING_MAP.md): 130 lessons, planning only, rebuilt from a blank Lesson 01 and awaiting human review. Its count emerged from the teaching needs and is not a quota. It supersedes the former 93-lesson architecture, the older 72-lesson Phase 2B plan, and all earlier map/audit JSON. The app still contains enriched pilot JSON/assets with historic IDs 01–09 as prototype/reference material; no proposed-sequence lessons or images have been produced.
 
 The course remains pencil/graphite only. It begins with a real object and observation/correction, builds focused skill clusters with later recurrence, and keeps setup practical for independent home learning. See [`../curriculum/CORE_DRAWING_REDESIGN.md`](../curriculum/CORE_DRAWING_REDESIGN.md) for research synthesis and course-level audits, and [`../curriculum/CORE_DRAWING_VISUAL_MANIFEST.md`](../curriculum/CORE_DRAWING_VISUAL_MANIFEST.md) for visual plans and original-asset prompts.
 

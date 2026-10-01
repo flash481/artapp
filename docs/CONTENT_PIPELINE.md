@@ -4,7 +4,7 @@
 
 Research and source-book analysis for Core Drawing are complete enough to support the current architecture. The single proposed course sequence is [`../curriculum/CORE_DRAWING_MAP.md`](../curriculum/CORE_DRAWING_MAP.md). Its companion [`CORE_DRAWING_REDESIGN.md`](../curriculum/CORE_DRAWING_REDESIGN.md) records synthesis and audits; [`CORE_DRAWING_VISUAL_MANIFEST.md`](../curriculum/CORE_DRAWING_VISUAL_MANIFEST.md) records instructional assets and prompts. Superseded plans are in `curriculum/archive/` and are historical only.
 
-**Do not author Lesson 10 onward or generate planned images until the learner approves the map and production specification.** Existing enriched pilot JSON/assets remain unchanged and retain their legacy IDs. The current map is planning data, not lesson prose or application content.
+**Do not author any lesson in the proposed sequence or generate planned images until the learner approves the map and production specification.** Existing enriched pilot JSON/assets remain unchanged as prototype/reference material and retain legacy IDs. The current map is planning data, not lesson prose or application content.
 
 ## After approval
 
