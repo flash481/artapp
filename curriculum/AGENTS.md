@@ -2,17 +2,17 @@
 
 ## Canonical plan and status
 
-- The single current course sequence is [`CORE_DRAWING_MAP.md`](CORE_DRAWING_MAP.md): the 130-lesson Core Drawing plan, rebuilt conceptually from a blank Lesson 01 and awaiting human review. Lesson count is not a quota.
+- The single current course sequence is [`CORE_DRAWING_MAP.md`](CORE_DRAWING_MAP.md): the final 150-lesson Core Drawing architecture, rebuilt from a blank Lesson 01, approved in broad structure, reviewed, and content-complete. Lesson count is not a quota.
 - Use [`CORE_DRAWING_REDESIGN.md`](CORE_DRAWING_REDESIGN.md) for research, source synthesis, dependencies, recurrence and audits; use [`CORE_DRAWING_VISUAL_MANIFEST.md`](CORE_DRAWING_VISUAL_MANIFEST.md) for visual requirements and prompts.
 - Treat `archive/` as historical only. Do not read old JSON maps, audits or generators as current curriculum authority.
 - The published enriched pilot lesson JSON/assets retain legacy IDs 01–09 as prototype/reference material and were not changed during architecture review. They do not constrain lesson order or content; do not infer the proposed sequence from their filenames.
-- Do not author any lesson in the proposed sequence or generate planned images before architecture/production-specification approval.
+- Do not author lessons or generate planned images until the production specification and reference/provenance plan are approved. The architecture is approved and content-complete; the final architecture pass did not authorize production.
 
 ## Teaching and scope
 
 Build a graphite-only observational course for an adult beginner at home. Start with recognizable real subjects; use short connected concept clusters followed by varied application and later retrieval. Teach physical pencil/tool behavior before requiring an effect. Construction proposes; observation corrects. Keep composition and self-correction active throughout. Use optional concept-specific reinforcement and periodic extended studies, not long abstract drill blocks or multi-day finished-art projects.
 
-Life lessons need quick setups and supplied reference fallbacks. Human lessons never require another person. Keep flowers proportionate; detailed anatomy, botanical drawing, advanced landscape and other media are specialist-course material.
+Life lessons need quick setups and supplied reference fallbacks. Human lessons never require another person. Every outdoor lesson needs an ArtApp-owned fixed-reference fallback. Core includes foundational landscape/nature drawing, including ordinary water; keep flowers proportionate and defer advanced landscape, detailed anatomy, specialist botany, and other media.
 
 ## Evidence and privacy
 

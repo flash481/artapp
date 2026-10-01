@@ -4,7 +4,7 @@
 
 ## Scope and source-image inspection status
 
-This historical pass documented the original pilot order, objectives, exercises, and teaching schema. It changed the drawing language of those prototype visuals: pencil-on-paper demonstrations became the default; technical diagrams remained as precise companions where they clarified construction or eye level. It does not set visual direction or asset requirements for the proposed 130-lesson sequence; see the current visual manifest.
+This historical pass documented the original pilot order, objectives, exercises, and teaching schema. It changed the drawing language of those prototype visuals: pencil-on-paper demonstrations became the default; technical diagrams remained as precise companions where they clarified construction or eye level. It does not set visual direction or asset requirements for the final 150-lesson sequence; see the current visual manifest.
 
 Implementation is complete for the visual pass: 36 original graphite-style examples are integrated across Lessons 1–9; 34 older lesson SVGs were retired; the precise cup-volume and eye-level ellipse diagrams remain alongside new drawn examples. The three generic SVG diagrams remain development fixtures. Every generated image has a matching provenance record under `curriculum/assets/`.
 
