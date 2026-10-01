@@ -9,8 +9,7 @@ const publicDir = resolve(root, "public");
 const diagramsDir = resolve(publicDir, "assets", "diagrams");
 const teachingDir = resolve(publicDir, "assets", "teaching");
 const expectedLabel = "DEVELOPMENT FIXTURE — NOT FINAL CURRICULUM";
-const lessonMap = JSON.parse(readFileSync(resolve(root, "curriculum", "lesson-map.json"), "utf8"));
-const mapById = new Map(lessonMap.lessons.map((entry) => [entry.id, entry]));
+const expectedPilotIds = new Set(Array.from({ length: 9 }, (_, index) => `lesson-${String(index + 1).padStart(2, "0")}`));
 const stages = new Set(["introduced", "practised", "revisited", "combined", "independent"]);
 const teachingSections = new Set(["concept", "deepDive", "warmup", "exercise", "mistakes"]);
 const problems = [];
@@ -112,6 +111,7 @@ function checkVisual(visual, path, file) {
 }
 
 const ids = new Set();
+const publishedIds = new Set();
 let publishedCount = 0;
 let fixtureCount = 0;
 for (const file of files) {
@@ -177,6 +177,7 @@ for (const file of files) {
     if (!file.startsWith("fixture-")) problems.push(`${file}: only named Phase 1 fixtures may have fixture status.`);
   } else if (lesson.status === "published") {
     publishedCount += 1;
+    publishedIds.add(lesson.id);
     if (lesson.label !== "") problems.push(`${file}: published lesson label must be empty.`);
     const teaching = lesson.teaching;
     if (!teaching || typeof teaching !== "object") {
@@ -205,22 +206,15 @@ for (const file of files) {
         }
       });
     }
-    const mapped = mapById.get(lesson.id);
-    if (!mapped || mapped.sequence > 9) problems.push(`${file}: published lesson must be in the approved 01–09 pilot.`);
-    else {
-      for (const field of ["title", "durationMinutes", "difficulty", "lessonType", "scaffoldingLevel"]) {
-        if (lesson[field] !== mapped[field]) problems.push(`${file}: ${field} differs from the approved lesson map.`);
-      }
-      if (JSON.stringify(lesson.prerequisites) !== JSON.stringify(mapped.prerequisites)) problems.push(`${file}: prerequisites differ from the approved lesson map.`);
-      if (JSON.stringify(lesson.fundamentals) !== JSON.stringify(mapped.fundamentals)) problems.push(`${file}: fundamentals differ from the approved lesson map.`);
-      if (JSON.stringify(lesson.concepts) !== JSON.stringify(mapped.concepts)) problems.push(`${file}: concepts differ from the approved lesson map.`);
-      if (lesson.warmup.durationMinutes + lesson.exercise.durationMinutes > lesson.durationMinutes - 2) problems.push(`${file}: allow time for concept and reflection.`);
-      if (lesson.exercise.durationMinutes <= lesson.durationMinutes / 2) problems.push(`${file}: drawing must take most lesson time.`);
-    }
+    if (!expectedPilotIds.has(lesson.id)) problems.push(`${file}: published pilot IDs must remain lesson-01 through lesson-09.`);
+    if (lesson.warmup.durationMinutes + lesson.exercise.durationMinutes > lesson.durationMinutes - 2) problems.push(`${file}: allow time for concept and reflection.`);
+    if (lesson.exercise.durationMinutes <= lesson.durationMinutes / 2) problems.push(`${file}: drawing must take most lesson time.`);
   } else problems.push(`${file}: unsupported lesson status.`);
 }
 
 if (publishedCount !== 9) problems.push(`Expected nine published pilot lessons; found ${publishedCount}.`);
+for (const id of expectedPilotIds) if (!publishedIds.has(id)) problems.push(`Expected published pilot lesson ID "${id}".`);
+for (const id of publishedIds) if (!expectedPilotIds.has(id)) problems.push(`Unexpected published lesson ID "${id}"; the 93-lesson plan is not production content.`);
 if (fixtureCount !== 3) problems.push(`Expected three preserved development fixtures; found ${fixtureCount}.`);
 
 if (problems.length > 0) {

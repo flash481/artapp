@@ -13,7 +13,7 @@ Place lawfully possessed source books in **`sources/books/`**. Planned supported
 | `sources/research/` | Private domain research and synthesis working notes |
 | `sources/notes/` | Personal notes and agent scratch material |
 
-Use stable book IDs in filenames and records; capture title, author, edition, year, format, and relevant page/section locators. The source agent should inventory the holdings first, then process each book separately. See [the Phase 2 content pipeline](CONTENT_PIPELINE.md).
+Use stable book IDs in filenames and records; capture title, author, edition, year, format, and relevant page/section locators. The current Core Drawing map was built from the analyzed learner-provided books. Use targeted page checks for future production rather than reopening broad inventory work. See the [current content pipeline](CONTENT_PIPELINE.md).
 
 ## Private handling rules
 

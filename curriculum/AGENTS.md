@@ -1,14 +1,19 @@
 # Curriculum work
 
-## Model handoff
+## Canonical plan and status
 
-**Sol High** (`gpt-6-sol` at high reasoning when selectable) owns cross-book synthesis, curriculum architecture, sequence, prerequisite reasoning, concept coverage, and spiral-learning decisions. It decides what the course teaches and when concepts recur.
+- The single current course sequence is [`CORE_DRAWING_MAP.md`](CORE_DRAWING_MAP.md): the 93-lesson Core Drawing plan, currently awaiting human review.
+- Use [`CORE_DRAWING_REDESIGN.md`](CORE_DRAWING_REDESIGN.md) for research, source synthesis, dependencies, recurrence and audits; use [`CORE_DRAWING_VISUAL_MANIFEST.md`](CORE_DRAWING_VISUAL_MANIFEST.md) for visual requirements and prompts.
+- Treat `archive/` as historical only. Do not read old JSON maps, audits or generators as current curriculum authority.
+- The published enriched pilot lesson JSON/assets retain legacy IDs 01–09 and were not changed during architecture review. Do not infer current sequence from their filenames.
+- Do not produce Lesson 10 onward or generate planned images before architecture/production-specification approval.
 
-**Luna Max** (`gpt-6-luna` at max reasoning when selectable) owns first-draft lessons, lesson metadata, and bulk content edits or integration, working from Sol-approved objectives and the repository schema. These identifiers guide task/agent choice only; they are not repository routing configuration.
+## Teaching and scope
 
-## Phase and content boundaries
+Build a graphite-only observational course for an adult beginner at home. Start with recognizable real subjects; use short connected concept clusters followed by varied application and later retrieval. Teach physical pencil/tool behavior before requiring an effect. Construction proposes; observation corrects. Keep composition and self-correction active throughout. Use optional concept-specific reinforcement and periodic extended studies, not long abstract drill blocks or multi-day finished-art projects.
 
-- Do not produce the real course in Phase 1. Begin the complete, integrated spiral curriculum only in Phase 2, after the learner has added books and the source analyses are ready.
-- Build one curriculum from the combined evidence, not a sequence of book-by-book lesson blocks. Track concepts as introduced, practised, revisited, combined, and independently applied; vary subjects and gradually reduce scaffolding.
-- Give Luna clear objectives, prerequisites, fundamentals, exercise intent, and source references. Keep lesson prose and repetitive metadata production with Luna. Bring unresolved source disagreements or structural gaps back to Sol rather than silently changing the architecture.
-- Keep provenance with every borrowed or adapted exercise, idea, and visual. Use `docs/CURRICULUM.md`, `docs/CONTENT_PIPELINE.md`, and `docs/LESSON_SCHEMA.md` as the shared design references.
+Life lessons need quick setups and supplied reference fallbacks. Human lessons never require another person. Keep flowers proportionate; detailed anatomy, botanical drawing, advanced landscape and other media are specialist-course material.
+
+## Evidence and privacy
+
+Use actual learner-provided source material under private `sources/` for targeted page checks; cite author, title, edition and page/chapter in the map. Read More teaches in original ArtApp wording; Sources & Further Reading records what informed it. Keep books, extracts, analyses, notes and source images private and out of deployment.

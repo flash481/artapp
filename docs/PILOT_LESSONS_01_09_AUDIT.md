@@ -1,3 +1,5 @@
+> **Historical pilot audit.** This describes the original pilot order and its finished lesson work. Its earlier conclusion that the order remained approved is superseded by the 93-lesson curriculum review. The current concept placements are in [CORE_DRAWING_MAP.md](../curriculum/CORE_DRAWING_MAP.md); pilot JSON and assets were not rewritten in that planning pass.
+
 # Lessons 1–9 illustrated pilot: review record
 
 This is the quality record for the nine published pilot lessons. Their approved order, titles, objectives, prerequisites, ordinary from-life subjects, timed drawing exercises, and approximately 45-minute sessions remain in place. Each lesson now has a concise core path, optional deeper reading, four original role-specific diagrams, diagnostic checks, and section-linked source citations. No book scan is used in the public app.

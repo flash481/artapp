@@ -2,32 +2,29 @@
 
 ## Purpose
 
-This repository is the foundation for a personal, self-paced drawing course for one learner. Its central prompt is: “I have some free time. Tell me what I should learn and draw next.” The intended routine is to read a short lesson on an iPhone, draw beside it in a sketchbook, and glance back at the phone as needed.
+ArtApp is a personal, self-paced drawing course for an adult learning beside a sketchbook, especially on an iPhone. The app answers: “I have some free time. What should I learn and draw next?” Short instruction should get the learner drawing recognizable subjects quickly and help them build independent observation and correction skills.
 
-The finished course should be a researched drawing education, not a list of prompts. It will connect observation, construction, form, perspective, value, composition, subjects, media, art history, and increasing independence through practical drawing.
+## Current phase
 
-## Phase boundary
+The Phase 1 static app and enriched pilot Lessons 01–09 exist. Source books have been analyzed, and the current research synthesis and 93-lesson Core Drawing architecture are ready for human review. The single canonical plan is [`../curriculum/CORE_DRAWING_MAP.md`](../curriculum/CORE_DRAWING_MAP.md); its companion research and visual plans are linked from [`CURRICULUM.md`](CURRICULUM.md).
 
-Phase 1 establishes the static application, repository conventions, source workflow, schemas, agent instructions, and quality checks. The app may contain exactly three development fixtures to exercise navigation and rendering. They must remain clearly labelled **DEVELOPMENT FIXTURE — NOT FINAL CURRICULUM**.
+The published pilot lesson JSON and assets still use their original IDs/order. They were intentionally left untouched during this curriculum-planning reconciliation. Lessons 10 onward and planned images have not been produced. Wait for approval of the architecture and production specification before continuing into lesson authoring.
 
-Do not write the real course during Phase 1. Do not make major sequencing decisions before the learner's source books have been added and analysed. Phase 2 begins after books are added. Its target is roughly 60–80 integrated lessons, with 50–100 acceptable when the evidence and pedagogy support that size.
+## Course identity and learning experience
 
-## Learning experience
+- Core Drawing is pencil/graphite, practical and observational. Charcoal, color, gouache and painting belong to specialist courses.
+- Start with real objects; focus on a concept in a short cluster, then revisit it across varied subjects.
+- Observation gathers evidence; construction is provisional and must be checked against what is visible.
+- Teach pencil handling and tool effects before a drawing task requires them.
+- Support life drawing with easy setup and supplied photo fallback. Human-subject practice never requires a second person.
+- Keep composition and self-correction active across modules while scaffolding decreases.
+- Use focused studies of about 20–30 minutes, standard lessons of about 40–60 minutes and extended studies of about 60–120 minutes.
+- Keep the course broad enough to support later specialization without teaching detailed anatomy, botanical drawing, or advanced landscape work.
 
-- Mobile-first, especially for iPhone portrait use; desktop remains usable.
-- Calm sketchbook and personal-tutor character: clear typography, useful whitespace, legible diagrams, large touch targets, simple scrolling, safe-area support, and little visual clutter.
-- Lessons are independent of UI code and normally take about 30–60 minutes, with a short, relevant 5–10 minute warm-up and most time spent drawing.
-- The curriculum spirals: concepts return in new subjects and combinations while scaffolding gradually decreases.
-- Begin primarily with graphite. Introduce charcoal when its broad values, edges, gesture, portraits, or atmosphere serve a learning goal. Colour painting is out of scope.
-- Integrate art history and master studies where an artist's work illuminates a drawing idea. Let personal style emerge from exposure, study, experiments, media, and choice; do not prescribe one.
-- Use stylised subjects such as Pokémon occasionally to apply fundamentals. They must not displace early observational and structural drawing.
+## App and privacy boundaries
 
-## System boundaries
+The app is a lightweight, data-driven static site suitable for GitHub Pages. Lesson content stays independent of UI code. Progress is stored locally. Public deployment must contain approved lesson content and assets only; original books, extracted pages, private analyses, research and scratch work stay under `sources/` and out of Git/deployment. A static password gate is not source protection.
 
-The planned app is a lightweight, data-driven static site suitable for GitHub Pages. It has no backend or account system. Progress and settings are stored locally; JSON export/import may be added if straightforward. A small password gate may discourage casual viewing, but static client-side protection is not real security. Source books and private research must never depend on that gate for protection.
+## Model routing
 
-Keep original books, raw extraction, analyses, inventories, research notes, and scratch work private and out of deployment. Prefer new diagrams, generated teaching references, and public-domain artwork where they meet the same need. Record provenance for every visual asset.
-
-## Working principle
-
-**Sol thinks about the system. Luna does most of the work. Sol reviews important results.** Route high-volume reading, implementation, drafting, metadata, and routine QA to worker agents when the current Codex tools permit it. Reserve the lead for orchestration, synthesis, pedagogy, curriculum architecture, and difficult or structural review. See [MODEL_STRATEGY.md](MODEL_STRATEGY.md).
+**Sol leads architecture, synthesis and senior review; Luna handles high-volume reading, drafting, implementation and routine QA when available.** See [`MODEL_STRATEGY.md`](MODEL_STRATEGY.md).

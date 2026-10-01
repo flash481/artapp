@@ -1,24 +1,35 @@
 # Repository guidance
 
-This is a personal, self-paced drawing course for use beside a sketchbook, especially on iPhone. Phase 1 establishes the app and workflow; do not create the full course until books have been added and analyzed in Phase 2.
+This is a personal, self-paced drawing course for an adult learner working beside a sketchbook, especially on iPhone. The app is lightweight and data-driven; lesson content stays independent of UI code.
+
+## Current curriculum status
+
+- [`curriculum/CORE_DRAWING_MAP.md`](curriculum/CORE_DRAWING_MAP.md) is the single canonical proposed course sequence: 93 lessons, planning only, awaiting human review.
+- [`curriculum/CORE_DRAWING_REDESIGN.md`](curriculum/CORE_DRAWING_REDESIGN.md) records research, source analysis, synthesis and audits. [`curriculum/CORE_DRAWING_VISUAL_MANIFEST.md`](curriculum/CORE_DRAWING_VISUAL_MANIFEST.md) specifies instructional visuals and prompts.
+- Enriched pilot JSON/assets for lessons 01–09 remain unchanged and keep historic IDs/order. Do not infer the new curriculum order from those files.
+- Do not author Lessons 10+ or generate planned images until the learner approves the architecture and production specification.
+- All old 72-lesson plans and machine-readable maps are archived under `curriculum/archive/`; historical files are never the current source of truth.
 
 ## Model routing
 
-Use a lead/worker split whenever model choice is available:
+Use a lead/worker split when available:
 
-- **Lead: Sol High** (`gpt-6-sol` at high reasoning in the current environment) for orchestration, pedagogy, cross-book synthesis, course architecture and sequence, prerequisite decisions, systemic issues, and senior review.
-- **Worker: Luna Max** (`gpt-6-luna` at max reasoning in the current environment) for most reading, extraction, research, implementation, lesson drafts, metadata, assets, tests, and repetitive integration.
+- **Lead: Sol High** for orchestration, pedagogy, cross-book synthesis, course architecture, prerequisites and senior review.
+- **Worker: Luna Max** for high-volume reading, source checks, research, drafting, assets, implementation, metadata and routine QA.
 
-These identifiers describe task or agent choices only; do not invent repository-level routing configuration. The project's routing objective is to use capable Luna workers for high-volume work to lower aggregate token/compute cost, reserving Sol for high-leverage reasoning; this is an objective, not a measured price claim. Prefer **Sol plans → Luna executes → Sol reviews important results**. Send Sol compact, structured evidence with page references; use targeted Luna source checks instead of loading whole books into Sol context.
+These identifiers guide agent choice only; do not invent repository routing configuration. Give each worker only the project context needed and send page-referenced evidence to the lead.
 
 ## Learning and privacy
 
-- Design a spiral: introduce, practise, revisit, combine, and independently apply concepts across varied subjects. Do not impose month-long blocks by topic. Teach observational and structural drawing early; stylized subjects can reinforce, not replace, those foundations. Let personal style emerge through exposure and experimentation.
-- Keep original books, extracts, analyses, research, private notes, and scratch work under `sources/`; never put them in the public app or deployment. Use only books the learner may lawfully study, preserve provenance, and avoid reproducing books or illustration collections. The site currently opens publicly, so never rely on app access controls for source protection.
-- Keep the app lightweight, data-driven, mobile-first, and comfortable to use while drawing. Lesson content stays independent of UI code; use deterministic diagrams where visual accuracy matters.
+- Teach graphite/pencil drawing through real, recognizable subjects from the beginning. Use short focused clusters, then apply and revisit concepts across varied subjects. Composition and self-correction remain active strands.
+- Observation gathers evidence; construction is provisional and observation corrects it. Teach graphite/tool handling before requiring a mark or effect.
+- Keep flowers proportionate. Charcoal, detailed anatomy, botanical drawing, advanced landscape, color media and stylization are specialist-course material.
+- Life lessons need low-friction setup and supplied-reference fallback. Figure/portrait tasks do not require another person; use supplied references or self/mirror routes where useful.
+- Keep books, extracts, source images, analyses, private research, personal notes and scratch work under `sources/`; never put them in public app assets or deployment. Do not reproduce source prose or illustration collections.
+- Prefer deterministic diagrams where geometry requires accuracy. Every deployable visual needs provenance and useful alt text.
 
 ## Project map and engineering
 
-Read `docs/PROJECT_VISION.md` for scope; `docs/MODEL_STRATEGY.md` for delegation; `docs/PEDAGOGY.md` and `docs/CURRICULUM.md` for learning design; `docs/CONTENT_PIPELINE.md`, `docs/SOURCE_BOOKS.md`, and `docs/LESSON_SCHEMA.md` for content; `docs/ASSET_STANDARDS.md` and `docs/MASTER_STUDIES.md` for visuals; and `docs/DEPLOYMENT.md` for release steps. Workflow skills live in `.agents/skills/`: book processing/analysis, domain research, curriculum synthesis/authoring/review, visual creation, app implementation, and testing. Folder-specific handoffs are in `sources/AGENTS.md`, `curriculum/AGENTS.md`, and `src/AGENTS.md`.
+Read `docs/PROJECT_VISION.md`, `docs/MODEL_STRATEGY.md`, `docs/PEDAGOGY.md`, `docs/CURRICULUM.md`, `docs/CONTENT_PIPELINE.md`, `docs/SOURCE_BOOKS.md`, `docs/LESSON_SCHEMA.md`, `docs/ASSET_STANDARDS.md`, `docs/MASTER_STUDIES.md` and `docs/DEPLOYMENT.md` as relevant. Folder handoffs live in `curriculum/AGENTS.md`, `sources/AGENTS.md` and `src/AGENTS.md`. Skills are in `.agents/skills/`.
 
-For app changes, use the repository's available checks (tests, lint, type checks, production build) and inspect mobile layouts and GitHub Pages paths as relevant. Before release, inspect build output to confirm no private source material is included.
+For app changes, use the repository's configured checks, inspect mobile layouts and GitHub Pages paths, and inspect build output to confirm private material is excluded.

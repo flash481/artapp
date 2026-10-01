@@ -1,3 +1,5 @@
+> **Historical visual audit.** The statements below describe the original pilot sequence and asset work, not the canonical curriculum order. The current placement of pilot concepts is in [CORE_DRAWING_MAP.md](../curriculum/CORE_DRAWING_MAP.md); current asset IDs remain in their historic pilot records.
+
 # Lessons 1–9 visual direction audit
 
 ## Scope and source-image inspection status

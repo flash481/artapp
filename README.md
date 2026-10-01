@@ -1,8 +1,12 @@
-# Sketchbook lessons
+# ArtApp Sketchbook lessons
 
-A small, personal drawing course for a learner working beside a sketchbook. The app is a static React + TypeScript site built with Vite; lesson content lives in JSON under `curriculum/lessons/`, separate from the interface.
+A personal, self-paced drawing course for an adult learner working beside a sketchbook. The app is a static React + TypeScript site built with Vite; lesson content lives in JSON under `curriculum/lessons/`, separate from the interface.
 
-Lessons 1–9 are the finished Phase 2C pilot. Lessons 10–72 remain planned. Three labelled development fixtures are retained in the repository but are not shown in the app.
+## Course planning status
+
+The canonical proposed Core Drawing course is the 93-lesson architecture in [`curriculum/CORE_DRAWING_MAP.md`](curriculum/CORE_DRAWING_MAP.md). It is planning only and awaits human review. Research and course-level audits are in [`curriculum/CORE_DRAWING_REDESIGN.md`](curriculum/CORE_DRAWING_REDESIGN.md); visual requirements and prompts are in [`curriculum/CORE_DRAWING_VISUAL_MANIFEST.md`](curriculum/CORE_DRAWING_VISUAL_MANIFEST.md).
+
+The app currently contains the enriched pilot Lessons 01–09, whose JSON/assets retain their historic pilot IDs and original order. The curriculum plan repositions or combines some of those concepts; no pilot JSON/assets were rewritten here. Lessons 10+ and planned images have not been produced. Do not treat archived 72-lesson plans or maps as current, and do not begin lesson production until the learner approves the architecture and specification.
 
 ## Run locally
 
@@ -17,12 +21,12 @@ The app currently opens without a password. For GitHub Pages, set **Pages → Bu
 
 ## Content and assets
 
-- Add lesson JSON to `curriculum/lessons/` and validate it with `npm run validate:lessons`.
-- Put deployable teaching visuals in `public/assets/` and reference them by path relative to that folder, for example `assets/diagrams/example.svg`.
-- Keep books, extracted text, analyses, inventories, notes, and research in the corresponding private `sources/` directories. Those areas are ignored by Git where appropriate and are outside Vite's public directory.
-- The production build contains only Vite's `dist/` output. Check it with `npm run verify:dist`.
+- Add lesson JSON to `curriculum/lessons/` only from the approved map and validate it with `npm run validate:lessons`.
+- Put approved deployable teaching visuals in `public/assets/` and reference them by path relative to that folder.
+- Keep books, extracted text, analyses, inventories, notes, and private research in `sources/`; these files stay private and outside the Vite public directory.
+- Check the production build with `npm run verify:dist` before release.
 
-Lesson completion, revisits, current lesson, and concept practice counts are stored locally in the current browser. Use **Progress and settings** to export or restore a JSON progress file. The data does not sync between devices.
+Lesson completion and practice data are stored locally in the current browser. Use **Progress and settings** to export or restore a JSON progress file. The data does not sync between devices.
 
 ## Engineering checks
 
@@ -34,5 +38,3 @@ npm test
 npm run build
 npm run verify:dist
 ```
-
-Vitest covers direct lesson access, rendering and navigation, and progress persistence. The deployment workflow runs the same checks before publishing.

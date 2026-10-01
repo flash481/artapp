@@ -1,29 +1,31 @@
-# Teaching approach — Phase 2B
+# Core Drawing teaching approach
 
-## Draw, notice, revise
+## Draw real things from the beginning
 
-A normal lesson is a 30–60 minute sketchbook session, usually planned for 45 minutes. A relevant 5–10 minute warm-up prepares the same visual question as the main drawing. Explanation should fit the task, usually within 5–10 minutes. Most lesson time belongs to a recognisable drawing. Self-review asks for visible evidence: which angle, interval, value mass, edge, or focal relationship changed, and what to try next. A second attempt can be a better learning record than prolonged erasing. The plan includes longer projects and two focused master studies where the format serves a clear objective.
+Use a practical cycle: **draw → observe → compare → diagnose → correct → redraw**. Observation gathers evidence. Construction proposes a way to understand form; observation and comparison decide whether that proposal fits. Prefer a short explanation, focused practice and immediate use on a recognizable subject.
 
-## Spiral and independence
+## Focused clusters and a long spiral
 
-Teach concepts as an expanding spiral: **introduce → practise → revisit in another subject → combine → apply independently**. The stages are recorded per concept in [lesson-map.json](../curriculum/lesson-map.json), using the existing British-spelled `practised` value. A revisit should change subject, complexity, material, viewpoint, or learner choice. Do not make arbitrary mastery gates. Prerequisites indicate useful prior experience and support repair when a learner feels stuck.
+Teach a new concept in a short connected cluster, then apply it to a different subject and revisit it later. Do not let concepts disappear after their module. Composition and self-correction remain active across the course. Prerequisites identify useful prior capabilities, not mastery gates; do not require every earlier extended study.
 
-The broad developmental arc is imitation, understanding, application, choice, and expression. Early instructions name a subject and a narrow question. Middle lessons require thumbnail, crop, lighting, and focus choices. Late lessons specify a drawing problem while leaving major decisions to the learner. Difficulty increases partly through reduced scaffolding, not just harder reference images.
+The current sequence and per-lesson practice are in [`../curriculum/CORE_DRAWING_MAP.md`](../curriculum/CORE_DRAWING_MAP.md). It is a 93-lesson proposal awaiting approval. The enriched pilot JSON/assets keep legacy IDs and were not rewritten during curriculum reconciliation.
 
-## Observation and construction
+## Graphite craft
 
-Observation means actively comparing visible shape, angle, interval, negative space, alignment, and value. Measurement checks an observed relationship. Construction groups those observations into useful forms and spatial axes, then returns to the particular subject for correction. Contour, gesture, sighting, simple volumes, and perspective answer different drawing questions; none is treated as a universal method. A head template or facial ratio is a starting hypothesis, never a standard that overrides a sitter. Anatomy is taught only to the depth needed for a convincing pose and connected forms.
+Core Drawing uses graphite/pencil, eraser and sketchbook. Teach physical mark-making shortly before it is needed: grip and pressure; point/side and point maintenance; graphite grades; layered tone; value scales and gradation; parallel, cross and form-following hatch; optional blending; lifting/erasing; edges, texture, material marks and page care. HB remains sufficient to complete every lesson; extra grades and tools are options. No charcoal instruction belongs in Core.
 
-## Subjects and visuals
+## Subjects and home access
 
-Draw from life regularly, especially readily available objects, plants, occasional flowers, hands, rooms, windows, and outdoor views. Use a provided reference when a controlled light, timed pose, portrait, distant landscape, or difficult angle adds value. Flowers are a small set of applications of general drawing principles; the source corpus does not contain a dedicated botanical method. Landscapes draw on a small number of direct source studies plus general depth and composition methods. Stylised characters, including Pokémon, provide occasional playful transfer from observation and construction. They do not replace those foundations.
+Choose life drawing when three-dimensional viewpoint, measurement, gaps, ellipses, construction or spatial relations add learning value. Use suitable references for timed poses, controlled lighting, portraits or difficult setups. Life lessons have a supplied fallback; human lessons do not require another person and support supplied references or self/mirror routes where useful. Photographs are chosen projections and records of a moment; inspect viewpoint, crop, exposure, value, light and movement.
 
-Use deterministic SVGs for precise geometry and construction; original or generated references for controlled subject and lighting; and verified public-domain artwork for genuine master studies. The two planned master studies must show an artist's actual work and transfer a specific line or value decision into a new observed subject. Source-book illustrations listed as candidates are **private review leads only** until rights and distribution are reviewed. Prefer an original diagram if it teaches the idea as well. Do not turn art history into a detached chronology.
+Plants, flowers, people, cloth, interiors and nature are subjects within a broad course, not specialist strands. Detailed anatomy, botanical structure, advanced landscape, charcoal, color media and dedicated illustration/stylization are deferred to later courses.
 
-## Materials and learner choice
+## Practice and visuals
 
-Begin with a graphite pencil, eraser, and sketchbook. Introduce charcoal for broad value grouping in lesson 30, then reuse it for atmosphere, gesture, portrait, and edges. Later the learner chooses graphite or charcoal to fit the intended mark and value structure. Colour painting and exhaustive media sampling are outside this course. Personal style emerges through observed choices, focused studies, experimentation, and interpretation rather than a prescribed look.
+A normal lesson targets 40–60 minutes; a Focused Study is about 20–30 minutes; an Extended Study is about 60–120 minutes. Setup, drawing, comparison and review fit within the stated time. Optional lesson-specific reinforcement builds the current concept; extended studies add little or no major theory and require no multi-day finished artwork.
 
-## Boundaries for Phase 2C
+Use a hand-drawn teaching demonstration for pencil behavior, process and correction; a technical diagram only where geometric accuracy helps; and references/setup examples when they help the learner begin quickly. Visuals must explain a drawing decision, not decorate it. See the [visual manifest](../curriculum/CORE_DRAWING_VISUAL_MANIFEST.md).
 
-The architecture provides concise intents, not final learner-facing explanations. Authors should make warm-ups specific, keep theory short, write a substantial drawing task and a few concrete review prompts, and preserve source locators. The three Phase 1 app fixtures remain development fixtures. Before real lessons are authored or shown in the app, version the fixture-only lifecycle fields in the lesson schema. Private books, analyses, notes, and research stay under `sources/` and outside the public build.
+## Production boundary
+
+No Lesson 10+ production or image generation begins until the learner approves the architecture and production specification. Keep lesson copy separate from UI code. Keep all books, extracts, research and private notes under `sources/`, outside GitHub Pages output.
